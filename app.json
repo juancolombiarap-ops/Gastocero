@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Gasto Cero",
+    "slug": "GastoCero2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0E12"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0B0E12"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.gastocero.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db111fd7-b834-41f3-837c-60e9c3954a09"
+      }
+    }
+  }
+}
