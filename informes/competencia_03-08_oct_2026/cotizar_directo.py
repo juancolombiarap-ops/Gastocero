@@ -11,6 +11,7 @@ import datetime as dt
 import json
 import sys
 
+import categorias
 import dchile
 
 POR_DEFECTO = ['DECAMERON CARTAGENA', 'DECAMERON GALEON', 'ROYAL DECAMERON PUNTA SAL']
@@ -28,12 +29,16 @@ def main():
         if not slug:
             print(f'{h}: sin slug en dchile.SLUGS, se omite')
             continue
-        r = dchile.cotizar_modalidades(slug, ini, fin)
+        # categorias.cotizar declara la habitación: una cifra sin categoría
+        # no es comparable con el resto del informe.
+        r = categorias.cotizar(slug, ini, fin)
         # Por noche, que es como se lee un estimado suelto fuera de la tabla.
         r['NR_noche'] = round(r['NR'] / NOCHES) if isinstance(r['NR'], int) else 'NA'
         r['FLEX_noche'] = round(r['FLEX'] / NOCHES) if isinstance(r['FLEX'], int) else 'NA'
         out['hoteles'][h] = r
-        print(f'{h}: No Reemb. {r["NR"]} ({r["NR_noche"]}/noche) | Flex {r["FLEX"]}')
+        hab = r['habitacion'] or 'sin disponibilidad'
+        aviso = '' if r['es_standard'] in (True, None) else '  <-- NO es Standard, declararlo'
+        print(f'{h}: {hab} | {r["NR"]} ({r["NR_noche"]}/noche) | Flex {r["FLEX"]}{aviso}')
     destino = f'estimado_{ini}_a_{fin}.json'
     with open(destino, 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

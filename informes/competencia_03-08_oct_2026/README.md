@@ -58,28 +58,41 @@ Y para emitir el informe una vez cargada:
 
 Cartagena, Santa Marta y Punta Sal salen NA en el informe del 10–15 de octubre.
 Para que ese NA no quede como un vacío, el estimado del 3 al 8 se deja como nota al
-pie de cada tabla. Canal directo, 2 adultos, 5 noches, total de la estadía en USD,
-cotizado el 29/08/2026 21:49:
+pie de las seis tablas: las tres de alojamiento y las tres de paquetería.
 
-| Hotel | No Reemb. | Flex | Por noche (No Reemb.) |
-|---|---|---|---|
-| Decameron Cartagena | $1,063 | $1,179 | $213 |
-| Decameron Galeón | $1,245 | $1,381 | $249 |
-| Royal Decameron Punta Sal | $1,567 | no publicada | $313 |
+Misma base que el resto del informe: 2 adultos, habitación Standard, tarifa más
+económica de esa categoría, total de la estadía en USD. Canal directo, cotizado el
+29/08/2026 21:56:
+
+| Hotel | Habitación | No Reemb. | Flex | Por noche |
+|---|---|---|---|---|
+| Decameron Cartagena | Estándar | $1,063 | $1,179 | $213 |
+| Decameron Galeón | Estándar | $1,245 | $1,381 | $249 |
+| Royal Decameron Punta Sal | Estándar vista al mar Plus | $1,567 (sin rótulo) | — | $313 |
+
+Dos cosas de Punta Sal, que son justamente el caso de la regla: **no ofrece Standard
+a secas** en esas fechas, así que la cifra es de la categoría siguiente disponible
+—Estándar vista al mar Plus— y queda declarado en la nota; la de más arriba,
+Superior Plus, sale $1,615. Y su ficha no rotula modalidad, así que el monto no se
+puede presentar como No Reembolsable ni como Flex. En Galeón la categoría siguiente
+es Villa, $1,428, pero ahí Standard sí está disponible.
+
+`categorias.py` es lo que resuelve esto: `dchile.cotizar_modalidades()` devuelve la
+tarifa más barata pero no dice de qué habitación es, y una cifra sin categoría no es
+comparable con el resto de la tabla. Devuelve la categoría elegida, si es la básica
+o no, y las demás que ofrece el hotel.
 
 `notas_estimado_03-08_oct.py` trae las seis notas listas para pegar dentro de
-`NOTAS_DESTINO_POR_PERIODO` en `informe.py`: las tres tablas de alojamiento y las
-tres de paquetería. Ojo con un detalle: `leer()` hace `NOTAS_DESTINO.update(...)`,
-así que la clave del periodo **reemplaza** a la de `NOTAS_DESTINO_BASE` en vez de
-sumarse — por eso las dos entradas de TBP repiten la nota estructural de la zona.
-Si no se repite, se pierde del PDF.
+`NOTAS_DESTINO_POR_PERIODO` en `informe.py`. Ojo con un detalle: `leer()` hace
+`NOTAS_DESTINO.update(...)`, así que la clave del periodo **reemplaza** a la de
+`NOTAS_DESTINO_BASE` en vez de sumarse — por eso las dos entradas de TBP repiten la
+nota estructural de la zona. Si no se repite, se pierde del PDF.
 
 En paquetería la nota no lleva cifra, y es a propósito. El canal directo no vende
 hotel más aéreo — `informe.py` mismo le pone NA a esa columna — y las cuatro OTA no
 se pudieron cotizar. Sumar alojamiento más aéreo por separado tampoco sirve: la
 columna de paquetería es el paquete que arma el operador, otro producto, y el número
-no sería comparable con el resto de la tabla. La nota dice qué se sabe (el hotel sí
-se vende del 3 al 8, y a cuánto en alojamiento) y qué queda pendiente.
+no sería comparable con el resto de la tabla.
 
 Un matiz de Santa Marta: en paquetería el Galeón **no** está NA en el 10–15, tiene
 $3,357 en Cocha. Solo está sin cupo en alojamiento. La nota de paquetería está

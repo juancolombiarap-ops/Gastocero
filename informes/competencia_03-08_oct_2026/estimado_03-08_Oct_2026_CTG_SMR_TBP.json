@@ -1,25 +1,45 @@
 {
- "cotizado": "29/08/2026 21:49",
+ "cotizado": "29/08/2026 21:56",
  "periodo": "2026-10-03 a 2026-10-08",
  "noches": 5,
  "pax": 2,
  "fuente": "decameronchile.cl (canal directo)",
  "hoteles": {
   "DECAMERON CARTAGENA": {
+   "habitacion": "Estándar",
    "NR": 1063,
    "FLEX": 1179,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar"
+   ],
    "NR_noche": 213,
    "FLEX_noche": 236
   },
   "DECAMERON GALEON": {
+   "habitacion": "Estándar",
    "NR": 1245,
    "FLEX": 1381,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar",
+    "Villa"
+   ],
    "NR_noche": 249,
    "FLEX_noche": 276
   },
   "ROYAL DECAMERON PUNTA SAL": {
+   "habitacion": "Estándar vista al mar Plus",
    "NR": 1567,
    "FLEX": "NA",
+   "modalidad_rotulada": false,
+   "es_standard": false,
+   "categorias_ofrecidas": [
+    "Estándar vista al mar Plus",
+    "Superior Plus"
+   ],
    "NR_noche": 313,
    "FLEX_noche": "NA"
   }
