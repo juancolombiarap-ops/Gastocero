@@ -67,15 +67,27 @@ cotizado el 29/08/2026 21:49:
 | Decameron Galeón | $1,245 | $1,381 | $249 |
 | Royal Decameron Punta Sal | $1,567 | no publicada | $313 |
 
-`notas_estimado_03-08_oct.py` trae las tres notas listas para pegar dentro de
-`NOTAS_DESTINO_POR_PERIODO` en `informe.py`. Ojo con un detalle: `leer()` hace
-`NOTAS_DESTINO.update(...)`, así que la clave del periodo **reemplaza** a la de
-`NOTAS_DESTINO_BASE` en vez de sumarse — por eso la entrada de TBP repite la nota
-estructural de la zona. Si no se repite, se pierde.
+`notas_estimado_03-08_oct.py` trae las seis notas listas para pegar dentro de
+`NOTAS_DESTINO_POR_PERIODO` en `informe.py`: las tres tablas de alojamiento y las
+tres de paquetería. Ojo con un detalle: `leer()` hace `NOTAS_DESTINO.update(...)`,
+así que la clave del periodo **reemplaza** a la de `NOTAS_DESTINO_BASE` en vez de
+sumarse — por eso las dos entradas de TBP repiten la nota estructural de la zona.
+Si no se repite, se pierde del PDF.
+
+En paquetería la nota no lleva cifra, y es a propósito. El canal directo no vende
+hotel más aéreo — `informe.py` mismo le pone NA a esa columna — y las cuatro OTA no
+se pudieron cotizar. Sumar alojamiento más aéreo por separado tampoco sirve: la
+columna de paquetería es el paquete que arma el operador, otro producto, y el número
+no sería comparable con el resto de la tabla. La nota dice qué se sabe (el hotel sí
+se vende del 3 al 8, y a cuánto en alojamiento) y qué queda pendiente.
+
+Un matiz de Santa Marta: en paquetería el Galeón **no** está NA en el 10–15, tiene
+$3,357 en Cocha. Solo está sin cupo en alojamiento. La nota de paquetería está
+redactada para ese caso y no repite que esté sin disponibilidad.
 
 El estimado es de otro periodo y de un canal distinto de los cuatro operadores: va
 solo al pie, no entra en las tablas ni en el cálculo de MEJOR, y no se compara
-contra las tarifas OTA del 10–15.
+contra las tarifas del 10–15.
 
 Para rehacerlo o extenderlo a otros hoteles:
 
