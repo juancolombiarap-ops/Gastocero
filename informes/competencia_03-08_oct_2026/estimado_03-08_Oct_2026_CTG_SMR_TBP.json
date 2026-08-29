@@ -1,0 +1,27 @@
+{
+ "cotizado": "29/08/2026 21:49",
+ "periodo": "2026-10-03 a 2026-10-08",
+ "noches": 5,
+ "pax": 2,
+ "fuente": "decameronchile.cl (canal directo)",
+ "hoteles": {
+  "DECAMERON CARTAGENA": {
+   "NR": 1063,
+   "FLEX": 1179,
+   "NR_noche": 213,
+   "FLEX_noche": 236
+  },
+  "DECAMERON GALEON": {
+   "NR": 1245,
+   "FLEX": 1381,
+   "NR_noche": 249,
+   "FLEX_noche": 276
+  },
+  "ROYAL DECAMERON PUNTA SAL": {
+   "NR": 1567,
+   "FLEX": "NA",
+   "NR_noche": 313,
+   "FLEX_noche": "NA"
+  }
+ }
+}

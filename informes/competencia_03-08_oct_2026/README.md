@@ -54,6 +54,35 @@ Y para emitir el informe una vez cargada:
     py -3 informe.py "Reporte_Competencia_03-08_Oct_2026_PLANTILLA.xlsx" --version interna \
           --dchile-json dchile_03-08_Oct_2026.json --dchile-fecha "29/08/2026 17:00"
 
+## Estimado del 3–8 para las tablas del 10–15
+
+Cartagena, Santa Marta y Punta Sal salen NA en el informe del 10–15 de octubre.
+Para que ese NA no quede como un vacío, el estimado del 3 al 8 se deja como nota al
+pie de cada tabla. Canal directo, 2 adultos, 5 noches, total de la estadía en USD,
+cotizado el 29/08/2026 21:49:
+
+| Hotel | No Reemb. | Flex | Por noche (No Reemb.) |
+|---|---|---|---|
+| Decameron Cartagena | $1,063 | $1,179 | $213 |
+| Decameron Galeón | $1,245 | $1,381 | $249 |
+| Royal Decameron Punta Sal | $1,567 | no publicada | $313 |
+
+`notas_estimado_03-08_oct.py` trae las tres notas listas para pegar dentro de
+`NOTAS_DESTINO_POR_PERIODO` en `informe.py`. Ojo con un detalle: `leer()` hace
+`NOTAS_DESTINO.update(...)`, así que la clave del periodo **reemplaza** a la de
+`NOTAS_DESTINO_BASE` en vez de sumarse — por eso la entrada de TBP repite la nota
+estructural de la zona. Si no se repite, se pierde.
+
+El estimado es de otro periodo y de un canal distinto de los cuatro operadores: va
+solo al pie, no entra en las tablas ni en el cálculo de MEJOR, y no se compara
+contra las tarifas OTA del 10–15.
+
+Para rehacerlo o extenderlo a otros hoteles:
+
+    py -3 cotizar_directo.py 2026-10-03 2026-10-08 [HOTEL ...]
+
+Datos crudos en `estimado_03-08_Oct_2026_CTG_SMR_TBP.json`.
+
 ## Punto a revisar antes de emitir
 
 En el V.2, Decameron Barú aparece solo en el benchmark y no en la tabla de Cartagena.
