@@ -157,6 +157,7 @@ en MEJOR.
 | CTG | Decameron Cartagena | Paquetería | V. Falabella | NA | cotizado, sin cupo |
 | SMR | Decameron Galeón | Alojamiento | V. Falabella | $1,682 | «Solo queda 1» |
 | SMR | Decameron Galeón | Alojamiento | Despegar | $1,660 | «Solo queda 1» |
+| SMR | Decameron Galeón | Paquetería | Despegar | $2,651 | vuelo con escalas SCL↔SMR |
 | TBP | Royal Decameron Punta Sal | Alojamiento | V. Falabella | NA | cotizado, sin cupo |
 | TBP | Royal Decameron Punta Sal | Paquetería | V. Falabella | NA | cotizado, sin cupo |
 
@@ -170,9 +171,20 @@ queda 1»**: es precio de última habitación, no la tarifa corriente del hotel.
 depende de una tarjeta no compara con el resto de las celdas. Queda solo como
 mención, mismo criterio que se aplicó a Punta Sal.
 
-Lo que todavía falta de referencias: Santa Marta paquetería en Falabella, y todo
-Despegar, Cocha y Expedia para Cartagena, Santa Marta y Punta Sal. Detalle crudo en
-`ota_03-08_oct_2026.json`.
+**El paquete del Galeón en Despegar** son $2.499.506 CLP por las dos personas
+—el sitio publica $1.249.753 por persona— o sea **$2,651**, con vuelo con escalas
+SCL↔SMR e impuestos, tasas y cargos incluidos. Sirve de referencia porque la celda de
+Despegar en paquetería de Santa Marta **también está NA** en el 10–15: lo único que
+tiene esa fila es el $3,357 de Cocha.
+
+Y da una lectura de paso: entre el paquete ($2,651) y el alojamiento solo ($1,660)
+del mismo canal y las mismas fechas quedan unos $991 por las dos personas, que es lo
+que Despegar le está poniendo al aéreo. Es una cifra creíble para un SCL↔SMR con
+escalas, así que las dos cotizaciones se sostienen entre sí.
+
+Lo que todavía falta de referencias: Santa Marta paquetería en Falabella, y Despegar,
+Cocha y Expedia para Cartagena y Punta Sal, más Cocha y Expedia en Santa Marta.
+Detalle crudo en `ota_03-08_oct_2026.json`.
 
 ## Moneda: todo en dólares
 
@@ -189,6 +201,7 @@ Conversiones hechas hasta ahora:
 | Barú, paquetería | $2.855.740 | $3.028 |
 | Galeón, alojamiento 3–8, Despegar | $1.565.022 | $1,660 |
 | Galeón, alojamiento 3–8, Despegar «Con Cencosud» | $1.535.022 | $1,628 |
+| Galeón, paquetería 3–8, Despegar | $2.499.506 | $2,651 |
 | ~~Punta Sal, alojamiento, Despegar~~ | ~~$1.501.980~~ | ~~$1,593~~ |
 
 La última fila queda **descartada**: esa búsqueda salió con fechas de septiembre, así

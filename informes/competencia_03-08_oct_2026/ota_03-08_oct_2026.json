@@ -107,6 +107,26 @@
    "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
   },
   {
+   "destino": "SMR",
+   "hotel": "DECAMERON GALEON",
+   "seccion": "PAQUETERIA",
+   "canal": "DESPEGAR",
+   "monto": 2651,
+   "monto_original_clp": 2499506,
+   "clp_por_persona": 1249753,
+   "regimen": "All Inclusive, vuelo + alojamiento",
+   "vuelo": "con escalas, SCL <-> SMR",
+   "incluye": "impuestos, tasas y cargos",
+   "habitacion": null,
+   "estrellas": 3,
+   "puntaje_sitio": 8.2,
+   "resenas": 16,
+   "cargado": "31/08/2026",
+   "alerta_inventario": "la tarjeta dice \"Solo queda 1\": es tarifa de ultima habitacion, no la tarifa normal del hotel",
+   "nota": "el sitio publica 1.249.753 CLP por persona y el informe usa el total de 2 pax: 2.499.506 CLP convertidos a 943 CLP por USD",
+   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
+  },
+  {
    "destino": "TBP",
    "hotel": "ROYAL DECAMERON PUNTA SAL",
    "canal": "VIAJES FALABELLA",
