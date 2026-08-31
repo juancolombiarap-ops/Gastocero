@@ -22,7 +22,8 @@ BASE DE COMPARACIÓN. Igual que el resto del informe: 2 adultos, habitación
 Standard, tarifa más económica de esa categoría, total de la estadía en USD.
 Cuando el hotel no tiene Standard en esas fechas se toma la categoría siguiente
 y se declara en la nota, que es lo que pasa con Punta Sal. Cifras del canal
-directo (decameronchile.cl), cotizadas el 29/08/2026 21:56 con categorias.py.
+directo (decameronchile.cl), cotizadas el 31/08/2026 con categorias.py y
+verificadas con tres muestras idénticas.
 
   Cartagena   Estándar                      979 No Reemb. / 1.085 Flex  (196/noche)
   Galeón      Estándar                    1.245 No Reemb. / 1.381 Flex  (249/noche)
@@ -50,6 +51,9 @@ Así que la nota de paquetería dice qué se sabe y qué falta, sin inventar la 
 
 _ZONA_TBP = ('Sin oferta All Inclusive comparable en la zona; el contraste se realiza '
              'entre operadores sobre el mismo producto Decameron.')
+_SIN_OTA = ('Esa referencia es solo del canal directo: para el 3 al 8 los cuatro '
+            'operadores no se pudieron cotizar, así que no hay comparativo de '
+            'mercado para esas fechas.')
 _SIN_PAQUETE = ('Para esas fechas no se cotizó paquete: el canal directo no vende '
                 'hotel más aéreo y los cuatro operadores no se pudieron consultar. '
                 'La referencia de arriba es solo alojamiento y no es comparable con '
@@ -75,7 +79,7 @@ NOTAS_10_15_OCT = {
             'DECAMERON CARTAGENA figura NA porque está sin cupo para estas fechas en '
             'los cuatro operadores y también en la venta web directa. Como VALOR REFERENCIAL —otro periodo, otro canal—, '
             f'del 3 al 8 de octubre sí hay tarifa en el canal directo: {_CTG}. '
-            'Cotizado el 31/08/2026.',
+            'Cotizado el 31/08/2026. ' + _SIN_OTA,
         ],
         ('PAQUETERÍA', 'CTG'): [
             'DECAMERON CARTAGENA figura sin disponibilidad en los cuatro operadores '
@@ -85,7 +89,8 @@ NOTAS_10_15_OCT = {
         ('ALOJAMIENTO', 'SMR'): [
             'DECAMERON GALEÓN figura NA porque está sin cupo para estas fechas en los '
             'cuatro operadores y también en la venta web directa. Como VALOR REFERENCIAL —otro periodo, otro canal—, del '
-            f'3 al 8 de octubre sí hay tarifa en el canal directo: {_SMR}. Cotizado el 31/08/2026.',
+            f'3 al 8 de octubre sí hay tarifa en el canal directo: {_SMR}. Cotizado el '
+            '31/08/2026. ' + _SIN_OTA,
         ],
         ('PAQUETERÍA', 'SMR'): [
             'DECAMERON GALEÓN sí tiene paquete para estas fechas (Cocha), aunque en '
@@ -98,7 +103,7 @@ NOTAS_10_15_OCT = {
             'Cocha y Expedia para estas fechas; queda pendiente reconfirmarla en el '
             'motor de Cocha antes de emitir. Como VALOR REFERENCIAL —otro periodo, '
             f'otro canal—, del 3 al 8 de octubre el canal directo lo cotiza en {_PTY}. '
-            'Cotizado el 31/08/2026.',
+            'Cotizado el 31/08/2026. ' + _SIN_OTA,
         ],
         ('PAQUETERÍA', 'PTY'): [
             'GRAND DECAMERON PANAMÁ: del 3 al 8 de octubre el canal directo cotiza el '
@@ -112,7 +117,7 @@ NOTAS_10_15_OCT = {
             'en los cuatro operadores y también en la venta web directa. Como VALOR '
             f'REFERENCIAL —otro periodo, otro canal—, del 3 al 8 de octubre el canal '
             f'directo sí lo vende: {_TBP}. '
-            'Cotizado el 31/08/2026.',
+            'Cotizado el 31/08/2026. ' + _SIN_OTA,
         ],
         ('PAQUETERÍA', 'TBP'): [
             _ZONA_TBP,
