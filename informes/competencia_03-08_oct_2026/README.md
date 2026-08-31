@@ -177,9 +177,15 @@ Lo que se pierde con eso: gerencia deja de ver que el mismo hotel está cargado 
 caro por otra vía. Por eso la nota al pie de la tabla dice cuánto quedaba la carga que
 no se publica.
 
+**Y no se afirma de quién es cada carga.** `marcar_fuentes()` lo deduce comparando
+precios: asume que la más barata es la que suple Decameron Chile y la otra un banco de
+camas. Es una regla de dedo, no un dato verificado con el operador — si la suposición
+falla, el informe estaría rotulando mal el origen. Mientras nadie lo confirme, las
+filas van descritas como «segunda carga del hotel», sin nombrar proveedor.
+
 Único caso hoy, Grand Decameron Panamá:
 
-| Sección | Nuestra tarifa (se publica) | Banco de camas (no se publica) |
+| Sección | Carga más baja (se publica) | Carga más alta (no se publica) |
 |---|---|---|
 | Alojamiento | $956 | $1,177 |
 | Paquetería | $2,273 | $2,756 |
