@@ -36,6 +36,23 @@
    "resenas": 1655,
    "cargado": "31/08/2026",
    "nota": "convertido a 943 CLP por USD; el sitio publica por persona y el informe usa el total de 2 pax"
+  },
+  {
+   "destino": "CTG",
+   "hotel": "DECAMERON CARTAGENA",
+   "seccion": "ALOJAMIENTO",
+   "canal": "FALABELLA",
+   "monto": 1136,
+   "precio_lista": 1748,
+   "descuento": "-35%",
+   "regimen": "All Inclusive",
+   "incluye": "impuestos incluidos",
+   "habitacion": null,
+   "puntaje_sitio": 7.2,
+   "resenas": 36,
+   "cargado": "31/08/2026",
+   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra",
+   "nota": "precio promocional; el canal directo cotiza el mismo hotel y fechas en 979 USD"
   }
  ],
  "tipo_cambio": {
