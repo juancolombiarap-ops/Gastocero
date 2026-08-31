@@ -206,7 +206,7 @@ def notas(version):
            'US$ 1,085 Flex. Cotizado el 31/08/2026.' if interna else '')),
      'nota_tbp_aloj': ('ROYAL DECAMERON PUNTA SAL figura NA porque está sin cupo para estas '
         'fechas en los cuatro operadores; del 3 al 8 de octubre también aparece sin '
-        'disponibilidad en V. Falabella y Despegar.'
+        'disponibilidad en V. Falabella.'
         + (' En la venta web directa está igualmente sin cupo; del 3 al 8 el canal directo '
            'lo vende en US$ 1,524 (Superior Plus, única categoría publicada, sin rótulo de '
            'modalidad). Cotizado el 31/08/2026.' if interna else '')),
