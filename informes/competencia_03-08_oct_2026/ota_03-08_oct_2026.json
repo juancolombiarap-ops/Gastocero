@@ -53,6 +53,15 @@
    "cargado": "31/08/2026",
    "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra",
    "nota": "precio promocional; el canal directo cotiza el mismo hotel y fechas en 979 USD"
+  },
+  {
+   "destino": "CTG",
+   "hotel": "DECAMERON CARTAGENA",
+   "seccion": "PAQUETERIA",
+   "canal": "FALABELLA",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "cotizado sin disponibilidad ni tarifa. NA, no N/D: el canal si se consulto"
   }
  ],
  "tipo_cambio": {
