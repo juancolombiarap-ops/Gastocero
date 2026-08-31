@@ -58,7 +58,7 @@ Y para emitir el informe una vez cargada:
 
 Cartagena, Santa Marta y Punta Sal salen NA en el informe del 10–15 de octubre.
 Para que ese NA no quede como un vacío, el estimado del 3 al 8 se deja como nota al
-pie de las seis tablas: las tres de alojamiento y las tres de paquetería.
+pie de las seis tablas: las cuatro de alojamiento y las cuatro de paquetería.
 
 Misma base que el resto del informe: 2 adultos, habitación Standard, tarifa más
 económica de esa categoría, total de la estadía en USD. Canal directo, cotizado el
@@ -69,6 +69,11 @@ económica de esa categoría, total de la estadía en USD. Canal directo, cotiza
 | Decameron Cartagena | Estándar | $1,063 | $1,179 | $213 |
 | Decameron Galeón | Estándar | $1,245 | $1,381 | $249 |
 | Royal Decameron Punta Sal | Estándar vista al mar Plus | $1,567 (sin rótulo) | — | $313 |
+| Grand Decameron Panamá | Garden View | $875 (sin rótulo) | — | $175 |
+
+Todo esto va rotulado en las notas como **valor referencial**: es de otro periodo y
+de un canal distinto de los cuatro operadores, así que no reemplaza la cotización de
+las tablas ni entra en el cálculo de MEJOR.
 
 Dos cosas de Punta Sal, que son justamente el caso de la regla: **no ofrece Standard
 a secas** en esas fechas, así que la cifra es de la categoría siguiente disponible
@@ -77,12 +82,18 @@ Superior Plus, sale $1,615. Y su ficha no rotula modalidad, así que el monto no
 puede presentar como No Reembolsable ni como Flex. En Galeón la categoría siguiente
 es Villa, $1,428, pero ahí Standard sí está disponible.
 
+Panamá está en el mismo caso: el canal directo no publica Standard a secas del 3 al
+8, la más económica es Garden View ($875) y la siguiente Ocean View Plus. Aparte, la
+carga de banco de camas de Panamá figura sin tarifa en Cocha y Expedia en el 10–15:
+**queda pendiente reconfirmarla en el motor de Cocha antes de emitir** — desde este
+entorno Cocha no responde a ninguna consulta con fechas.
+
 `categorias.py` es lo que resuelve esto: `dchile.cotizar_modalidades()` devuelve la
 tarifa más barata pero no dice de qué habitación es, y una cifra sin categoría no es
 comparable con el resto de la tabla. Devuelve la categoría elegida, si es la básica
 o no, y las demás que ofrece el hotel.
 
-`notas_estimado_03-08_oct.py` trae las seis notas listas para pegar dentro de
+`notas_estimado_03-08_oct.py` trae las ocho notas listas para pegar dentro de
 `NOTAS_DESTINO_POR_PERIODO` en `informe.py`. Ojo con un detalle: `leer()` hace
 `NOTAS_DESTINO.update(...)`, así que la clave del periodo **reemplaza** a la de
 `NOTAS_DESTINO_BASE` en vez de sumarse — por eso las dos entradas de TBP repiten la

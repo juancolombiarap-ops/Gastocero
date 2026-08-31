@@ -1,9 +1,10 @@
 {
- "cotizado": "29/08/2026 21:56",
+ "cotizado": "31/08/2026 11:33",
  "periodo": "2026-10-03 a 2026-10-08",
  "noches": 5,
  "pax": 2,
  "fuente": "decameronchile.cl (canal directo)",
+ "nota": "valor referencial",
  "hoteles": {
   "DECAMERON CARTAGENA": {
    "habitacion": "Estándar",
@@ -41,6 +42,19 @@
     "Superior Plus"
    ],
    "NR_noche": 313,
+   "FLEX_noche": "NA"
+  },
+  "GRAND DECAMERON PANAMÁ (7.2)": {
+   "habitacion": "Garden View",
+   "NR": 875,
+   "FLEX": "NA",
+   "modalidad_rotulada": false,
+   "es_standard": false,
+   "categorias_ofrecidas": [
+    "Garden View",
+    "Ocean View Plus"
+   ],
+   "NR_noche": 175,
    "FLEX_noche": "NA"
   }
  }
