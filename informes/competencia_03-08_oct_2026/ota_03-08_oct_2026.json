@@ -1,5 +1,10 @@
 {
- "periodo": {"check_in": "2026-10-03", "check_out": "2026-10-08", "noches": 5, "pax": 2},
+ "periodo": {
+  "check_in": "2026-10-03",
+  "check_out": "2026-10-08",
+  "noches": 5,
+  "pax": 2
+ },
  "moneda": "USD",
  "base": "total de la estadia, impuestos incluidos",
  "origen": "cotizaciones que carga Juan a mano desde cada operador",
@@ -16,6 +21,25 @@
    "resenas": 1655,
    "cargado": "31/08/2026",
    "pendiente": "confirmar categoria de habitacion: la captura no la muestra"
+  },
+  {
+   "destino": "PTY",
+   "hotel": "GRAND DECAMERON PANAMA (7.5)",
+   "seccion": "PAQUETERIA",
+   "canal": "FALABELLA",
+   "monto": 2555,
+   "monto_original_clp": 2409546,
+   "clp_por_persona": 1204773,
+   "regimen": "All Inclusive, vuelo + alojamiento",
+   "incluye": "impuestos, tasas y cargos",
+   "puntaje_sitio": 7.5,
+   "resenas": 1655,
+   "cargado": "31/08/2026",
+   "nota": "convertido a 943 CLP por USD; el sitio publica por persona y el informe usa el total de 2 pax"
   }
- ]
+ ],
+ "tipo_cambio": {
+  "CLP_por_USD": 943,
+  "fuente": "el mismo del informe V.2"
+ }
 }
