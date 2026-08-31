@@ -1,7 +1,29 @@
-# Reporte de Competencia — 3 al 8 de octubre 2026
+# Reporte de Competencia — 10 al 15 de octubre 2026
 
-Corrida nueva, pedida porque en el periodo 10–15 de octubre los hoteles propios de
-Cartagena, Santa Marta (Galeón) y Punta Sal salían NA en los cuatro operadores.
+**El informe es uno solo y su periodo es el 10 al 15 de octubre.** No hay una
+segunda corrida ni un informe paralelo del 3 al 8.
+
+La regla es esta: cuando una celda queda **NA** —el hotel cotizado y sin cupo ni
+tarifa en esas fechas— se busca una tarifa similar en fechas cercanas y se deja
+como **referencia al pie de la tabla**, para que el NA no quede como un vacío. Esa
+referencia:
+
+- no reemplaza la celda, que sigue diciendo NA;
+- no entra en el cálculo de MEJOR;
+- va rotulada como valor referencial, con su fecha y su canal;
+- se usa **solo** donde hay NA, no como comparativo general.
+
+Las fechas cercanas que se usaron son el 3 al 8 de octubre, mismo largo de estadía
+(5 noches, 2 adultos).
+
+## Celdas NA del 10–15 que necesitan referencia
+
+| Destino | Hotel | Sección | Estado |
+|---|---|---|---|
+| CTG | Decameron Cartagena | Alojamiento y paquetería | NA en los cuatro operadores |
+| SMR | Decameron Galeón | Alojamiento | NA en los cuatro; en paquetería sí tiene Cocha |
+| TBP | Royal Decameron Punta Sal | Alojamiento y paquetería | NA en los cuatro |
+| PTY | Grand Decameron Panamá | Banco de camas, Cocha y Expedia | sin tarifa; pendiente reconfirmar en Cocha |
 
 ## Qué se verificó
 
@@ -119,6 +141,30 @@ Para rehacerlo o extenderlo a otros hoteles:
     py -3 cotizar_directo.py 2026-10-03 2026-10-08 [HOTEL ...]
 
 Datos crudos en `estimado_03-08_Oct_2026_CTG_SMR_TBP.json`.
+
+## Moneda: todo en dólares
+
+Todas las cifras del informe van en **USD**, sin excepción. Cuando el operador
+publica en pesos chilenos se convierte al tipo de cambio del informe, **$943 por
+dólar**, y se guarda también el monto original en pesos para poder rehacer la
+conversión si el cambio se actualiza.
+
+Conversiones hechas hasta ahora:
+
+| Origen | CLP | USD |
+|---|---|---|
+| Panamá, paquetería, V. Falabella | $2.855.740 … ver detalle | |
+| Panamá, paquetería | $2.409.546 | $2.555 |
+| Barú, paquetería | $2.855.740 | $3.028 |
+| Punta Sal, alojamiento, Despegar | $1.501.980 | $1.593 |
+
+## Sobre la planilla del 3–8
+
+`Reporte_Competencia_03-08_Oct_2026_PLANTILLA.xlsx` se armó antes de que quedara
+clara la regla de arriba, pensando en una corrida completa del 3 al 8. **No es eso
+lo que se necesita.** Sirve igual como insumo para cotizar las referencias, pero el
+informe que se emite es el del 10–15; esa planilla no se convierte en un segundo
+reporte.
 
 ## Dos juegos de notas: interna y Colombia
 
