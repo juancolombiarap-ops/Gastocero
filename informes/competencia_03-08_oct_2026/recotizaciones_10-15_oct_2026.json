@@ -64,8 +64,31 @@
    "cargado": "31/08/2026",
    "publicado_en_el_informe": 1928,
    "diferencia": 214,
-   "periodo_asumido": "10-15 oct, por continuidad con la paqueteria; la captura no muestra fechas",
-   "alerta": "confirmar el periodo antes de cargarlo. Si es 10-15, la celda publicada de Falabella (1.928) sube a 2.142; el MEJOR de la fila no cambia, sigue siendo Cocha con 1.712"
+   "alerta": "corregir la celda de V. Falabella en la fila de DECAMERON BARU del benchmark de alojamiento: 1.928 -> 2.142",
+   "periodo": "10-15 oct, CONFIRMADO",
+   "moneda_publicada": "USD",
+   "sin_conversion": true,
+   "evidencia": "captura del 31/08: US$ 2.142 sobre lista US$ 3.150, -32%, 5 noches 2 personas, impuestos incluidos, cancelacion gratis y reserva sin pagar ahora. Sello \"Mejor en Viajes Falabella\". El periodo lo respalda una segunda captura del calendario de Falabella: Santiago -> Isla de Baru, ida sab 10 oct 2026, vuelta jue 15 oct 2026, 2 personas",
+   "estrellas": 4,
+   "ojo_paridad": "la celda de Despegar (1.928) es de la cotizacion del 27/08 y esta de Falabella es del 31/08: la fila queda con dos fechas distintas y por eso rompe la paridad Falabella=Despegar que se observa en el resto del informe. No prueba que los canales difieran, solo que la tarifa se movio entre esas dos fechas",
+   "efecto_en_el_informe": {
+    "tabla": "BENCHMARK alojamiento, fila DECAMERON BARU (CTG)",
+    "fila_publicada": {
+     "falabella": 1928,
+     "despegar": 1928,
+     "cocha": 1712,
+     "expedia": 2440,
+     "mejor": 1712
+    },
+    "fila_corregida": {
+     "falabella": 2142,
+     "despegar": 1928,
+     "cocha": 1712,
+     "expedia": 2440,
+     "mejor": 1712
+    },
+    "cambia": "el MEJOR no cambia, sigue siendo Cocha con 1.712"
+   }
   },
   {
    "destino": "TBP",
@@ -102,7 +125,21 @@
    "periodo": "10-15 oct, confirmado por Juan",
    "publicado_en_el_informe": "NA",
    "monto_descartado": 1593,
-   "estado": "DESCARTADA: la busqueda quedo con fechas de septiembre, no del 10 al 15 de octubre"
+   "estado": "DESCARTADA: la busqueda quedo con fechas de septiembre, no del 10 al 15 de octubre",
+   "nueva_captura_31_08": {
+    "monto_general": 1593,
+    "monto_general_clp": 1501980,
+    "monto_con_cencosud": 1561,
+    "monto_con_cencosud_clp": 1471980,
+    "puntaje_sitio": 7.8,
+    "resenas": 243,
+    "estrellas": 3,
+    "sello": "Mejor precio en Despegar",
+    "regimen": "All Inclusive",
+    "ubicacion": "Tumbes, a 1,60 km de Punta Sal",
+    "ALERTA": "el monto general de esta captura (1.501.980 CLP = US$ 1.593) es EXACTAMENTE el mismo que Juan invalido el 31/08 porque la busqueda le quedo con fechas de septiembre. La captura no muestra fechas. NO se carga hasta que se confirme que el buscador estaba en 10-15 de octubre. Si se confirma, la fila de Punta Sal deja de ser NA en los cuatro operadores.",
+    "criterio_si_se_confirma": "cargar el general US$ 1.593; el \"Con Cencosud\" US$ 1.561 queda como mencion, igual que en el Galeon: atado a un medio de pago no compara con las demas celdas"
+   }
   },
   {
    "destino": "TBP",
@@ -195,7 +232,8 @@
     },
     "cambia": "el Galeon deja de ser NA y pasa a ser el mas economico de la tabla de Santa Marta, por debajo del Porto Horizonte (1.756). La marca de mas barato pasa al Galeon y la de mas caro al Porto Horizonte."
    },
-   "consecuencia": "todos los NA de Cocha del informe quedan en duda: dos de dos se cayeron al buscar por hotel. Faltan por rehacer Cartagena alojamiento y Punta Sal en las dos secciones."
+   "consecuencia": "todos los NA de Cocha del informe quedan en duda: dos de dos se cayeron al buscar por hotel. Faltan por rehacer Cartagena alojamiento y Punta Sal en las dos secciones.",
+   "confirmado_por_juan": "«el cocha santa marta excluye villas»: se toma la Estandar y la Villa (US$ 1.578) no entra, que es lo que ya se habia aplicado"
   }
  ]
 }

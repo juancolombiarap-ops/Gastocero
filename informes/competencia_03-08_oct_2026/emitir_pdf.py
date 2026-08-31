@@ -117,7 +117,7 @@ PAQ = [
 # benchmark: (categoria, hotel, dest, [fal,des,coc,exp], vs_texto)
 BENCH_ALOJ = [
  ('DECAMERON','DECAMERON ISLEÑO','ADZ',[1642,1642,1467,2687],'REF'),
- ('DECAMERON','DECAMERON BARÚ','CTG',[1928,1928,1712,2440],'—'),
+ ('DECAMERON','DECAMERON BARÚ','CTG',[2142,1928,1712,2440],'—'),
  ('PUNTA CANA','BARCELO BAVARO PALACE','PUJ',[1126,1126,1102,1143],'Isleño +33%'),
  ('PUNTA CANA','SERENADE CARIBE CLUB FAMILY','PUJ',[1222,1222,1002,1221],'Isleño +46%'),
  ('PUNTA CANA','GRAND SIRENIS PUNTA CANA','PUJ',[1304,1304,891,1304],'Isleño +65%'),
@@ -334,6 +334,7 @@ def tabla_bench(filas, ref_precio, titulo):
     <tbody>{filas_html}</tbody>
   </table>
   <p class="leyenda">★ REF = referencia del benchmark (Isleño {usd(ref_precio)}, mejor tarifa OTA)&nbsp;&nbsp;|&nbsp;&nbsp;▼ Competidor más económico&nbsp;&nbsp;|&nbsp;&nbsp;Última columna, base precio del competidor: Isleño +X% = el Isleño está X% más caro que ese hotel; Isleño −X% = está X% más barato. MEJOR considera solo canales OTA.</p>
+  <p class="nota">DECAMERON BARÚ, alojamiento: celda de V. Falabella corregida el 31/08/2026 de $1,928 a <b>$2,142</b> (US$ 2,142 publicados en dólares sobre lista de US$ 3,150, −32%, impuestos incluidos y cancelación gratis; periodo confirmado con el calendario del operador: 10 al 15 de octubre). El MEJOR de la fila no cambia, sigue siendo Cocha con $1,712. <b>Ojo al leer esta fila:</b> la celda de Despegar es de la cotización del 27/08 y la de V. Falabella del 31/08, así que la fila mezcla dos fechas. Esa es la razón de que aquí no coincidan, no una diferencia entre los dos canales.</p>
 </div>'''
 
 def tabla_aereos():
