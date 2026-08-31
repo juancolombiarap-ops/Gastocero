@@ -86,6 +86,54 @@
    "nota": "cotizado sin disponibilidad ni tarifa; coincide con lo publicado en el informe, que ya trae NA en los cuatro operadores",
    "seccion": "PAQUETERIA",
    "publicado_en_el_informe": "NA"
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "seccion": "ALOJAMIENTO",
+   "canal": "DESPEGAR",
+   "monto": 1593,
+   "monto_con_tarjeta": 1561,
+   "monto_original_clp": 1501980,
+   "clp_con_cencosud": 1471980,
+   "regimen": "All Inclusive",
+   "incluye": "impuestos incluidos",
+   "puntaje_sitio": 7.8,
+   "resenas": 243,
+   "cargado": "31/08/2026",
+   "nota": "se carga la tarifa general (1.501.980 CLP). El sitio muestra 1.471.980 \"Con Cencosud\": es precio atado a una tarjeta y no es comparable con las demas celdas, asi que queda como referencia, no como la cifra de la tabla",
+   "contradice": "en Viajes Falabella este hotel figura NA; en Despegar si se vende",
+   "periodo": "10-15 oct, confirmado por Juan",
+   "publicado_en_el_informe": "NA",
+   "efecto_en_el_informe": {
+    "tabla": "PUNTA SAL (TBP) alojamiento",
+    "fila_publicada": {
+     "falabella": "NA",
+     "despegar": "NA",
+     "cocha": "NA",
+     "expedia": "NA",
+     "mejor": "—"
+    },
+    "fila_corregida": {
+     "falabella": "NA",
+     "despegar": 1593,
+     "cocha": "NA",
+     "expedia": "NA",
+     "mejor": 1593
+    },
+    "cambia": "la fila deja de estar vacia: Despegar si vende el hotel y pasa a ser el MEJOR con 1.593"
+   }
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "seccion": "PAQUETERIA",
+   "canal": "DESPEGAR",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "Despegar tampoco ofrece paquete: la fila de paqueteria sigue en NA",
+   "periodo": "10-15 oct, confirmado por Juan",
+   "publicado_en_el_informe": "NA"
   }
  ]
 }
