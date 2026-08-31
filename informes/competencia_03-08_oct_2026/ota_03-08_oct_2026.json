@@ -1,0 +1,21 @@
+{
+ "periodo": {"check_in": "2026-10-03", "check_out": "2026-10-08", "noches": 5, "pax": 2},
+ "moneda": "USD",
+ "base": "total de la estadia, impuestos incluidos",
+ "origen": "cotizaciones que carga Juan a mano desde cada operador",
+ "cotizaciones": [
+  {
+   "destino": "PTY",
+   "hotel": "GRAND DECAMERON PANAMA (7.5)",
+   "seccion": "ALOJAMIENTO",
+   "canal": "FALABELLA",
+   "monto": 1480,
+   "regimen": "All Inclusive",
+   "habitacion": null,
+   "puntaje_sitio": 7.5,
+   "resenas": 1655,
+   "cargado": "31/08/2026",
+   "pendiente": "confirmar categoria de habitacion: la captura no la muestra"
+  }
+ ]
+}
