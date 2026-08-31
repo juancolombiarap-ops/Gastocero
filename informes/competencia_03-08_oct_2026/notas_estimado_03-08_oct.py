@@ -73,7 +73,7 @@ _TBP = ('US$ 1.524 por la estadía (US$ 305 por noche) en Superior Plus, única 
         'ficha no rotula la modalidad, de modo que el monto no se declara como No '
         'Reembolsable ni como Flex')
 
-NOTAS_10_15_OCT = {
+NOTAS_10_15_OCT_INTERNA = {
     ('2026-10-10', '2026-10-15'): {
         ('ALOJAMIENTO', 'CTG'): [
             'DECAMERON CARTAGENA figura NA porque está sin cupo para estas fechas en '
@@ -131,3 +131,67 @@ NOTAS_10_15_OCT = {
 # El estimado es del canal directo y de OTRAS fechas: no entra en las tablas ni en
 # los cálculos de MEJOR, y no se compara contra las tarifas del 10-15, que son de
 # otro periodo. Va solo como nota al pie.
+
+
+# ---------------------------------------------------------------------------
+# VERSIÓN COLOMBIA
+#
+# El informe que se manda a Colombia no puede mostrar decameron.com ni
+# decameronchile.cl: informe.py ya les saca la columna en VERSIONES['colombia'],
+# pero las notas al pie no las filtra nadie. Y todo el estimado del 3 al 8 sale
+# justamente del canal directo, así que en esa versión NO puede ir: ni la cifra
+# ni la mención de la venta web directa.
+#
+# Estas notas dejan lo que sí es de los operadores —que el hotel está sin cupo,
+# y la contradicción del Galeón— y omiten la referencia.
+# ---------------------------------------------------------------------------
+
+_SIN_REF_COL = ('Del 3 al 8 de octubre el hotel sí tiene disponibilidad; esa '
+                'cotización se maneja aparte y no se incluye en este informe.')
+
+NOTAS_10_15_OCT_COLOMBIA = {
+    ('2026-10-10', '2026-10-15'): {
+        ('ALOJAMIENTO', 'CTG'): [
+            'DECAMERON CARTAGENA figura NA porque está sin cupo para estas fechas en '
+            'los cuatro operadores. ' + _SIN_REF_COL,
+        ],
+        ('PAQUETERÍA', 'CTG'): [
+            'DECAMERON CARTAGENA figura sin disponibilidad en los cuatro operadores '
+            'para estas fechas. ' + _SIN_REF_COL,
+        ],
+        ('ALOJAMIENTO', 'SMR'): [
+            'DECAMERON GALEÓN figura NA porque está sin cupo para estas fechas en los '
+            'cuatro operadores. ' + _SIN_REF_COL,
+        ],
+        ('PAQUETERÍA', 'SMR'): [
+            'DECAMERON GALEÓN sí tiene paquete para estas fechas (Cocha), aunque en '
+            'alojamiento puro figure sin cupo en los cuatro operadores.',
+        ],
+        ('ALOJAMIENTO', 'PTY'): [
+            'GRAND DECAMERON PANAMÁ: la carga de banco de camas figura sin tarifa en '
+            'Cocha y Expedia para estas fechas; queda pendiente reconfirmarla en el '
+            'motor de Cocha antes de emitir.',
+        ],
+        ('ALOJAMIENTO', 'TBP'): [
+            _ZONA_TBP,
+            'ROYAL DECAMERON PUNTA SAL figura NA porque está sin cupo para estas fechas '
+            'en los cuatro operadores. ' + _SIN_REF_COL,
+        ],
+        ('PAQUETERÍA', 'TBP'): [
+            _ZONA_TBP,
+            'ROYAL DECAMERON PUNTA SAL figura sin disponibilidad en los cuatro '
+            'operadores para estas fechas. ' + _SIN_REF_COL,
+        ],
+    },
+}
+
+# Cómo enchufarlas en informe.py, dentro de leer(), donde hoy dice
+#   NOTAS_DESTINO.update(NOTAS_DESTINO_POR_PERIODO.get(clave, {}))
+# hay que elegir el juego según la versión que se está emitiendo:
+#
+#   fuente = (NOTAS_10_15_OCT_COLOMBIA if version == 'colombia'
+#             else NOTAS_10_15_OCT_INTERNA)
+#   NOTAS_DESTINO.update(fuente.get(clave, {}))
+#
+# leer() hoy no recibe la versión, solo el set de canales a excluir; la forma
+# más corta es pasarle args.version desde main().

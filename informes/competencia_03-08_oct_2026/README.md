@@ -120,6 +120,29 @@ Para rehacerlo o extenderlo a otros hoteles:
 
 Datos crudos en `estimado_03-08_Oct_2026_CTG_SMR_TBP.json`.
 
+## Dos juegos de notas: interna y Colombia
+
+El informe que se manda a Colombia **no puede mostrar decameron.com ni
+decameronchile.cl**. `informe.py` ya les quita la columna en `VERSIONES['colombia']`,
+pero las notas al pie no las filtra nadie — y todo el estimado del 3 al 8 sale
+justamente del canal directo. Tal cual estaba, la cifra se habría ido igual en la
+versión Colombia, por la puerta de atrás.
+
+Por eso `notas_estimado_03-08_oct.py` trae dos diccionarios:
+
+- `NOTAS_10_15_OCT_INTERNA` — con la referencia del canal directo, para uso interno.
+- `NOTAS_10_15_OCT_COLOMBIA` — sin la cifra y sin mencionar la venta web directa.
+  Deja lo que sí es de los operadores: que el hotel está sin cupo en los cuatro, la
+  contradicción del Galeón y el pendiente de Cocha en Panamá. Donde antes iba la
+  cifra, dice que el hotel sí tiene disponibilidad del 3 al 8 y que esa cotización
+  se maneja aparte.
+
+En `leer()`, donde hoy dice `NOTAS_DESTINO.update(NOTAS_DESTINO_POR_PERIODO...)`,
+hay que elegir el juego según la versión que se emite; el archivo trae el snippet.
+`leer()` hoy recibe solo el set de canales a excluir, así que lo más corto es
+pasarle también `args.version` desde `main()`.
+
+
 ## Punto a revisar antes de emitir
 
 En el V.2, Decameron Barú aparece solo en el benchmark y no en la tabla de Cartagena.
