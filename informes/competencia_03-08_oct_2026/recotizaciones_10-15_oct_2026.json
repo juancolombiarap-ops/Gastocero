@@ -1,0 +1,26 @@
+{
+ "periodo": {"check_in": "2026-10-10", "check_out": "2026-10-15", "noches": 5, "pax": 2},
+ "moneda": "USD",
+ "tipo_cambio": {"CLP_por_USD": 943, "fuente": "el mismo del informe"},
+ "proposito": "recotizaciones sobre el periodo del informe, para contrastar contra lo publicado",
+ "cotizaciones": [
+  {
+   "destino": "CTG",
+   "hotel": "DECAMERON BARU",
+   "seccion": "PAQUETERIA",
+   "canal": "FALABELLA",
+   "monto": 3028,
+   "monto_original_clp": 2855740,
+   "clp_por_persona": 1427870,
+   "precio_lista_clp_por_persona": 1526271,
+   "regimen": "All Inclusive, vuelo + alojamiento",
+   "incluye": "impuestos, tasas y cargos",
+   "puntaje_sitio": 7.5,
+   "resenas": 91,
+   "cargado": "31/08/2026",
+   "publicado_en_el_informe": 2559,
+   "diferencia": 469,
+   "alerta": "la celda publicada dice 2.559 y hoy el mismo canal y fechas dan 3.028. O la tarifa subio desde el 27/08, o la cifra publicada salio de otra habitacion o regimen. Revisar antes de emitir."
+  }
+ ]
+}
