@@ -13,7 +13,7 @@
    "destino": "PTY",
    "hotel": "GRAND DECAMERON PANAMA (7.5)",
    "seccion": "ALOJAMIENTO",
-   "canal": "FALABELLA",
+   "canal": "VIAJES FALABELLA",
    "monto": 1480,
    "regimen": "All Inclusive",
    "habitacion": null,
@@ -26,7 +26,7 @@
    "destino": "PTY",
    "hotel": "GRAND DECAMERON PANAMA (7.5)",
    "seccion": "PAQUETERIA",
-   "canal": "FALABELLA",
+   "canal": "VIAJES FALABELLA",
    "monto": 2555,
    "monto_original_clp": 2409546,
    "clp_por_persona": 1204773,
@@ -41,7 +41,7 @@
    "destino": "CTG",
    "hotel": "DECAMERON CARTAGENA",
    "seccion": "ALOJAMIENTO",
-   "canal": "FALABELLA",
+   "canal": "VIAJES FALABELLA",
    "monto": 1136,
    "precio_lista": 1748,
    "descuento": "-35%",
@@ -58,7 +58,7 @@
    "destino": "CTG",
    "hotel": "DECAMERON CARTAGENA",
    "seccion": "PAQUETERIA",
-   "canal": "FALABELLA",
+   "canal": "VIAJES FALABELLA",
    "monto": "NA",
    "cargado": "31/08/2026",
    "nota": "cotizado sin disponibilidad ni tarifa. NA, no N/D: el canal si se consulto"
@@ -67,5 +67,6 @@
  "tipo_cambio": {
   "CLP_por_USD": 943,
   "fuente": "el mismo del informe V.2"
- }
+ },
+ "canal_confirmado": "Viajes Falabella (la tarjeta muestra el sello \"Mejor en Viajes Falabella\")"
 }

@@ -16,7 +16,7 @@
    "destino": "CTG",
    "hotel": "DECAMERON BARU",
    "seccion": "PAQUETERIA",
-   "canal": "FALABELLA",
+   "canal": "VIAJES FALABELLA",
    "monto": 3028,
    "monto_original_clp": 2855740,
    "clp_por_persona": 1427870,
@@ -48,6 +48,24 @@
     },
     "cambia": "el MEJOR pasa de 2.559 (Falabella) a 2.605 (Cocha)"
    }
+  },
+  {
+   "destino": "CTG",
+   "hotel": "DECAMERON BARU",
+   "seccion": "ALOJAMIENTO",
+   "canal": "VIAJES FALABELLA",
+   "monto": 2142,
+   "precio_lista": 3150,
+   "descuento": "-32%",
+   "regimen": "All Inclusive",
+   "incluye": "impuestos incluidos",
+   "puntaje_sitio": 7.5,
+   "resenas": 91,
+   "cargado": "31/08/2026",
+   "publicado_en_el_informe": 1928,
+   "diferencia": 214,
+   "periodo_asumido": "10-15 oct, por continuidad con la paqueteria; la captura no muestra fechas",
+   "alerta": "confirmar el periodo antes de cargarlo. Si es 10-15, la celda publicada de Falabella (1.928) sube a 2.142; el MEJOR de la fila no cambia, sigue siendo Cocha con 1.712"
   }
  ]
 }
