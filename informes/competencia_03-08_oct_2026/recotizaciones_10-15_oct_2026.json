@@ -66,6 +66,26 @@
    "diferencia": 214,
    "periodo_asumido": "10-15 oct, por continuidad con la paqueteria; la captura no muestra fechas",
    "alerta": "confirmar el periodo antes de cargarlo. Si es 10-15, la celda publicada de Falabella (1.928) sube a 2.142; el MEJOR de la fila no cambia, sigue siendo Cocha con 1.712"
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "canal": "VIAJES FALABELLA",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "cotizado sin disponibilidad ni tarifa; coincide con lo publicado en el informe, que ya trae NA en los cuatro operadores",
+   "seccion": "ALOJAMIENTO",
+   "publicado_en_el_informe": "NA"
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "canal": "VIAJES FALABELLA",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "cotizado sin disponibilidad ni tarifa; coincide con lo publicado en el informe, que ya trae NA en los cuatro operadores",
+   "seccion": "PAQUETERIA",
+   "publicado_en_el_informe": "NA"
   }
  ]
 }

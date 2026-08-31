@@ -80,6 +80,24 @@
    "alerta_inventario": "la tarjeta dice \"Solo queda 1\": es tarifa de ultima habitacion, no la tarifa normal del hotel",
    "nota": "el canal directo cotiza el mismo hotel y fechas en 1.245 USD, 437 mas barato",
    "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "canal": "VIAJES FALABELLA",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "cotizado sin disponibilidad ni tarifa. NA, no N/D: el canal si se consulto",
+   "seccion": "ALOJAMIENTO"
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "canal": "VIAJES FALABELLA",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "cotizado sin disponibilidad ni tarifa. NA, no N/D: el canal si se consulto",
+   "seccion": "PAQUETERIA"
   }
  ],
  "tipo_cambio": {
