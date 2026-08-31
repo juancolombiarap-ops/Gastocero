@@ -166,6 +166,31 @@ lo que se necesita.** Sirve igual como insumo para cotizar las referencias, pero
 informe que se emite es el del 10–15; esa planilla no se convierte en un segundo
 reporte.
 
+## Cargas dobles: se muestra solo la más barata
+
+Cuando un operador carga el mismo hotel por dos vías —la tarifa que suple Decameron
+Chile y la de un banco de camas— el informe mostraba **las dos filas**, rotuladas, con
+una nota explicando la diferencia. Desde el 31/08 se muestra **solo la más baja**, que
+es la que la representación mantiene en el mercado.
+
+Lo que se pierde con eso: gerencia deja de ver que el mismo hotel está cargado más
+caro por otra vía. Por eso la nota al pie de la tabla dice cuánto quedaba la carga que
+no se publica.
+
+Único caso hoy, Grand Decameron Panamá:
+
+| Sección | Nuestra tarifa (se publica) | Banco de camas (no se publica) |
+|---|---|---|
+| Alojamiento | $956 | $1,177 |
+| Paquetería | $2,273 | $2,756 |
+
+Al sacar la carga de banco de camas de paquetería, el más caro de esa tabla pasa a ser
+Dreams Playa Bonita con $2,496.
+
+En `informe.py` esto vive en `marcar_fuentes()` y en `tabla_destino()`: hoy conservan
+las dos filas y las rotulan con `ETIQUETA_FUENTE`. Para dejar solo la más barata hay
+que descartar la fila `bedbank` cuando existe una `propia` con precio.
+
 ## Dos juegos de notas: interna y Colombia
 
 El informe que se manda a Colombia **no puede mostrar decameron.com ni
