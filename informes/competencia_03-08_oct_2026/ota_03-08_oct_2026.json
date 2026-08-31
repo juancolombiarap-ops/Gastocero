@@ -62,6 +62,24 @@
    "monto": "NA",
    "cargado": "31/08/2026",
    "nota": "cotizado sin disponibilidad ni tarifa. NA, no N/D: el canal si se consulto"
+  },
+  {
+   "destino": "SMR",
+   "hotel": "DECAMERON GALEON",
+   "seccion": "ALOJAMIENTO",
+   "canal": "VIAJES FALABELLA",
+   "monto": 1682,
+   "precio_lista": 1734,
+   "descuento": "-3%",
+   "regimen": "All Inclusive",
+   "incluye": "impuestos incluidos",
+   "habitacion": null,
+   "puntaje_sitio": 8.2,
+   "resenas": 16,
+   "cargado": "31/08/2026",
+   "alerta_inventario": "la tarjeta dice \"Solo queda 1\": es tarifa de ultima habitacion, no la tarifa normal del hotel",
+   "nota": "el canal directo cotiza el mismo hotel y fechas en 1.245 USD, 437 mas barato",
+   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
   }
  ],
  "tipo_cambio": {
