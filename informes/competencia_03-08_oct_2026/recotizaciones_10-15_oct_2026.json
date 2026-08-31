@@ -1,7 +1,15 @@
 {
- "periodo": {"check_in": "2026-10-10", "check_out": "2026-10-15", "noches": 5, "pax": 2},
+ "periodo": {
+  "check_in": "2026-10-10",
+  "check_out": "2026-10-15",
+  "noches": 5,
+  "pax": 2
+ },
  "moneda": "USD",
- "tipo_cambio": {"CLP_por_USD": 943, "fuente": "el mismo del informe"},
+ "tipo_cambio": {
+  "CLP_por_USD": 943,
+  "fuente": "el mismo del informe"
+ },
  "proposito": "recotizaciones sobre el periodo del informe, para contrastar contra lo publicado",
  "cotizaciones": [
   {
@@ -20,7 +28,26 @@
    "cargado": "31/08/2026",
    "publicado_en_el_informe": 2559,
    "diferencia": 469,
-   "alerta": "la celda publicada dice 2.559 y hoy el mismo canal y fechas dan 3.028. O la tarifa subio desde el 27/08, o la cifra publicada salio de otra habitacion o regimen. Revisar antes de emitir."
+   "alerta": "corregir la celda de V. Falabella en la fila de DECAMERON BARU del benchmark de paqueteria: 2.559 -> 3.028",
+   "estado": "CONFIRMADO POR JUAN: 3.028 es el valor correcto; la celda publicada (2.559) esta mal",
+   "efecto_en_el_informe": {
+    "tabla": "BENCHMARK paqueteria, fila DECAMERON BARU (CTG)",
+    "fila_publicada": {
+     "falabella": 2559,
+     "despegar": 2636,
+     "cocha": 2605,
+     "expedia": 3479,
+     "mejor": 2559
+    },
+    "fila_corregida": {
+     "falabella": 3028,
+     "despegar": 2636,
+     "cocha": 2605,
+     "expedia": 3479,
+     "mejor": 2605
+    },
+    "cambia": "el MEJOR pasa de 2.559 (Falabella) a 2.605 (Cocha)"
+   }
   }
  ]
 }
