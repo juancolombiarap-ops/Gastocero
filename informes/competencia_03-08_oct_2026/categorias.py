@@ -16,8 +16,21 @@ import re
 import dchile
 
 HAB_RE = re.compile(r'Habitaci[oó]n\s*<!-- -->([^<]{1,80})</h3>')
-# 'Estándar' a secas, con o sin tilde. 'Estándar vista al mar Plus' NO es la básica.
-BASICA_RE = re.compile(r'^est[áa]ndar$', re.I)
+# Palabras que suben de categoría: si acompañan a 'Estándar', ya no es la básica.
+# 'Estándar vista al mar Plus' no lo es; 'Estándar Twin/king' sí —eso es tipo de
+# cama, no categoría— y 'Estándar / Junior Suite' también, porque el sitio ofrece
+# las dos en la misma ficha y la tarifa que se toma es la de la Estándar.
+UPGRADE_RE = re.compile(r'vista|mar|plus|superior|deluxe|premium|familiar|villa|'
+                        r'bungalow|ocean|garden|suite', re.I)
+
+
+def es_basica(nombre):
+    """True si la habitación es la Standard a secas (admite tipo de cama)."""
+    n = nombre.split('/')[0].strip()
+    if not re.match(r'^est[áa]ndar\b', n, re.I):
+        return False
+    resto = re.sub(r'^est[áa]ndar\b', '', n, flags=re.I)
+    return not UPGRADE_RE.search(resto)
 
 
 def _tokens(html):
@@ -75,6 +88,6 @@ def cotizar(slug, fecha_in, fecha_out):
         'NR': elegida['NR'],
         'FLEX': elegida['FLEX'],
         'modalidad_rotulada': elegida['modalidad_rotulada'],
-        'es_standard': bool(BASICA_RE.match(elegida['habitacion'])),
+        'es_standard': es_basica(elegida['habitacion']),
         'categorias_ofrecidas': [f['habitacion'] for f in filas],
     }

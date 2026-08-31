@@ -1,0 +1,122 @@
+{
+ "cotizado": "31/08/2026 11:47",
+ "check_in": "2026-10-03",
+ "check_out": "2026-10-08",
+ "noches": 5,
+ "pax": 2,
+ "fuente": "decameronchile.cl (canal directo)",
+ "caracter": "valor referencial",
+ "hoteles": {
+  "DECAMERON ISLEÑO": {
+   "habitacion": "Estándar Twin/king",
+   "NR": 1331,
+   "FLEX": 1476,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar Twin/king",
+    "Estándar vista al mar Twin/king"
+   ],
+   "NR_noche": 266
+  },
+  "DECAMERON SAN LUIS": {
+   "habitacion": "Estándar",
+   "NR": 748,
+   "FLEX": 829,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar"
+   ],
+   "NR_noche": 150
+  },
+  "DECAMERON MARAZUL": {
+   "habitacion": "Estándar",
+   "NR": 830,
+   "FLEX": 920,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar"
+   ],
+   "NR_noche": 166
+  },
+  "DECAMERON LOS DELFINES": {
+   "habitacion": "Estándar / Junior Suite",
+   "NR": 1083,
+   "FLEX": 1201,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar / Junior Suite"
+   ],
+   "NR_noche": 217
+  },
+  "DECAMERON MARYLAND": {
+   "habitacion": null,
+   "NR": "NA",
+   "FLEX": "NA",
+   "es_standard": null,
+   "categorias_ofrecidas": [],
+   "NR_noche": "NA"
+  },
+  "DECAMERON BARÚ": {
+   "habitacion": "Estándar",
+   "NR": 1506,
+   "FLEX": 1671,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar",
+    "Estándar Plus"
+   ],
+   "NR_noche": 301
+  },
+  "DECAMERON CARTAGENA": {
+   "habitacion": "Estándar",
+   "NR": 979,
+   "FLEX": 1085,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar"
+   ],
+   "NR_noche": 196
+  },
+  "DECAMERON GALEON": {
+   "habitacion": "Estándar",
+   "NR": 1245,
+   "FLEX": 1381,
+   "modalidad_rotulada": true,
+   "es_standard": true,
+   "categorias_ofrecidas": [
+    "Estándar",
+    "Villa"
+   ],
+   "NR_noche": 249
+  },
+  "ROYAL DECAMERON PUNTA SAL": {
+   "habitacion": "Superior Plus",
+   "NR": 1524,
+   "FLEX": "NA",
+   "modalidad_rotulada": false,
+   "es_standard": false,
+   "categorias_ofrecidas": [
+    "Superior Plus"
+   ],
+   "NR_noche": 305
+  },
+  "GRAND DECAMERON PANAMÁ (7.2)": {
+   "habitacion": "Garden View",
+   "NR": 875,
+   "FLEX": "NA",
+   "modalidad_rotulada": false,
+   "es_standard": false,
+   "categorias_ofrecidas": [
+    "Garden View",
+    "Ocean View Plus"
+   ],
+   "NR_noche": 175
+  }
+ }
+}

@@ -61,32 +61,33 @@ Para que ese NA no quede como un vacío, el estimado del 3 al 8 se deja como not
 pie de las seis tablas: las cuatro de alojamiento y las cuatro de paquetería.
 
 Misma base que el resto del informe: 2 adultos, habitación Standard, tarifa más
-económica de esa categoría, total de la estadía en USD. Canal directo, cotizado el
-29/08/2026 21:56:
+económica de esa categoría, total de la estadía en USD. Canal directo, verificado
+con tres muestras idénticas el 31/08/2026:
 
 | Hotel | Habitación | No Reemb. | Flex | Por noche |
 |---|---|---|---|---|
-| Decameron Cartagena | Estándar | $1,063 | $1,179 | $213 |
+| Decameron Cartagena | Estándar | $979 | $1,085 | $196 |
 | Decameron Galeón | Estándar | $1,245 | $1,381 | $249 |
-| Royal Decameron Punta Sal | Estándar vista al mar Plus | $1,567 (sin rótulo) | — | $313 |
+| Royal Decameron Punta Sal | Superior Plus | $1,524 (sin rótulo) | — | $305 |
 | Grand Decameron Panamá | Garden View | $875 (sin rótulo) | — | $175 |
 
 Todo esto va rotulado en las notas como **valor referencial**: es de otro periodo y
 de un canal distinto de los cuatro operadores, así que no reemplaza la cotización de
 las tablas ni entra en el cálculo de MEJOR.
 
-Dos cosas de Punta Sal, que son justamente el caso de la regla: **no ofrece Standard
-a secas** en esas fechas, así que la cifra es de la categoría siguiente disponible
-—Estándar vista al mar Plus— y queda declarado en la nota; la de más arriba,
-Superior Plus, sale $1,615. Y su ficha no rotula modalidad, así que el monto no se
-puede presentar como No Reembolsable ni como Flex. En Galeón la categoría siguiente
-es Villa, $1,428, pero ahí Standard sí está disponible.
+**La tarifa del canal directo se mueve.** Entre el 29/08 y el 31/08 Cartagena bajó de
+$1,063 a $979, y Punta Sal dejó de publicar la Estándar vista al mar Plus ($1,567):
+hoy su única categoría es Superior Plus ($1,524). Por eso cada nota lleva su fecha de
+cotización y conviene volver a correr `cotizar_directo.py` justo antes de emitir. Las
+cifras del 29/08 quedan superadas por estas.
 
-Panamá está en el mismo caso: el canal directo no publica Standard a secas del 3 al
-8, la más económica es Garden View ($875) y la siguiente Ocean View Plus. Aparte, la
-carga de banco de camas de Panamá figura sin tarifa en Cocha y Expedia en el 10–15:
-**queda pendiente reconfirmarla en el motor de Cocha antes de emitir** — desde este
-entorno Cocha no responde a ninguna consulta con fechas.
+Punta Sal y Panamá son el caso de la regla de categoría: **ninguno publica Standard**
+en esas fechas, así que la cifra es de la categoría disponible —Superior Plus y Garden
+View— y queda declarada en la nota. En Galeón la Standard sí está disponible.
+
+Aparte, la carga de banco de camas de Panamá figura sin tarifa en Cocha y Expedia en
+el 10–15: **queda pendiente reconfirmarla en el motor de Cocha antes de emitir** —
+desde este entorno Cocha no responde a ninguna consulta con fechas.
 
 `categorias.py` es lo que resuelve esto: `dchile.cotizar_modalidades()` devuelve la
 tarifa más barata pero no dice de qué habitación es, y una cifra sin categoría no es

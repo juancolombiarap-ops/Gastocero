@@ -24,16 +24,22 @@ Cuando el hotel no tiene Standard en esas fechas se toma la categoría siguiente
 y se declara en la nota, que es lo que pasa con Punta Sal. Cifras del canal
 directo (decameronchile.cl), cotizadas el 29/08/2026 21:56 con categorias.py.
 
-  Cartagena   Estándar                    1.063 No Reemb. / 1.179 Flex  (213/noche)
+  Cartagena   Estándar                      979 No Reemb. / 1.085 Flex  (196/noche)
   Galeón      Estándar                    1.245 No Reemb. / 1.381 Flex  (249/noche)
-              (la siguiente, Villa, 1.428 / 1.585)
-  Punta Sal   Estándar vista al mar Plus  1.567                         (313/noche)
-              NO hay Standard a secas; la siguiente es Superior Plus, 1.615.
-              La ficha no rotula modalidad, así que el monto no se puede
-              declarar como No Reembolsable ni como Flex.
+              (la otra categoría de la ficha es Villa)
+  Punta Sal   Superior Plus               1.524                         (305/noche)
+              Es la ÚNICA categoría que publica: no hay Standard. Sin rótulo
+              de modalidad, así que el monto no se declara ni No Reembolsable
+              ni Flex.
   Panamá      Garden View                   875                         (175/noche)
-              Tampoco publica Standard a secas; la siguiente es Ocean View
-              Plus. Sin rótulo de modalidad.
+              Tampoco publica Standard; la otra es Ocean View Plus. Sin
+              rótulo de modalidad.
+
+LA TARIFA DEL CANAL DIRECTO SE MUEVE. Entre el 29/08 y el 31/08 cambiaron
+Cartagena (1.063 -> 979) y Punta Sal, que además dejó de publicar la Estándar
+vista al mar Plus y hoy solo ofrece Superior Plus (1.567 -> 1.524). Por eso cada
+nota lleva su fecha de cotización: sin ese sello la cifra no se puede auditar.
+Antes de emitir conviene volver a correr cotizar_directo.py y actualizar.
 
 PAQUETERÍA: no hay estimado propio del 3-8. El canal directo no vende paquetes con
 aéreo —informe.py mismo le pone NA a esa columna— y las cuatro OTA no se pudieron
@@ -50,18 +56,18 @@ _SIN_PAQUETE = ('Para esas fechas no se cotizó paquete: el canal directo no ven
                 'esta tabla.')
 
 # Referencia de alojamiento del 3 al 8 de octubre, con la categoría declarada.
-_CTG = ('habitación Estándar, US$ 1.063 No Reembolsable y US$ 1.179 Flex por la '
-        'estadía (US$ 213 por noche)')
+_CTG = ('habitación Estándar, US$ 979 No Reembolsable y US$ 1.085 Flex por la '
+        'estadía (US$ 196 por noche)')
 _SMR = ('habitación Estándar, US$ 1.245 No Reembolsable y US$ 1.381 Flex por la '
         'estadía (US$ 249 por noche)')
 _PTY = ('US$ 875 por la estadía (US$ 175 por noche) en Garden View: el hotel no '
         'publica Standard a secas en esas fechas, así que se toma la categoría '
         'siguiente disponible, Garden View, y se declara. Sin rótulo de modalidad')
-_TBP = ('US$ 1.567 por la estadía (US$ 313 por noche) en Estándar vista al mar Plus: '
-        'el hotel no ofrece Standard a secas en esas fechas, así que se toma la '
-        'categoría siguiente disponible, y la de más arriba, Superior Plus, sale '
-        'US$ 1.615. La ficha no rotula la modalidad, de modo que el monto no se '
-        'declara como No Reembolsable ni como Flex')
+_TBP = ('US$ 1.524 por la estadía (US$ 305 por noche) en Superior Plus, única '
+        'categoría que el hotel publica para esas fechas: no ofrece Standard, así '
+        'que la cifra corresponde a una categoría superior y queda declarada. La '
+        'ficha no rotula la modalidad, de modo que el monto no se declara como No '
+        'Reembolsable ni como Flex')
 
 NOTAS_10_15_OCT = {
     ('2026-10-10', '2026-10-15'): {
@@ -69,7 +75,7 @@ NOTAS_10_15_OCT = {
             'DECAMERON CARTAGENA figura NA porque está sin cupo para estas fechas en '
             'los cuatro operadores y también en la venta web directa. Como VALOR REFERENCIAL —otro periodo, otro canal—, '
             f'del 3 al 8 de octubre sí hay tarifa en el canal directo: {_CTG}. '
-            'Cotizado el 29/08/2026.',
+            'Cotizado el 31/08/2026.',
         ],
         ('PAQUETERÍA', 'CTG'): [
             'DECAMERON CARTAGENA figura sin disponibilidad en los cuatro operadores '
@@ -79,8 +85,7 @@ NOTAS_10_15_OCT = {
         ('ALOJAMIENTO', 'SMR'): [
             'DECAMERON GALEÓN figura NA porque está sin cupo para estas fechas en los '
             'cuatro operadores y también en la venta web directa. Como VALOR REFERENCIAL —otro periodo, otro canal—, del '
-            f'3 al 8 de octubre sí hay tarifa en el canal directo: {_SMR}; la categoría '
-            'siguiente, Villa, sale US$ 1.428. Cotizado el 29/08/2026.',
+            f'3 al 8 de octubre sí hay tarifa en el canal directo: {_SMR}. Cotizado el 31/08/2026.',
         ],
         ('PAQUETERÍA', 'SMR'): [
             'DECAMERON GALEÓN sí tiene paquete para estas fechas (Cocha), aunque en '
@@ -104,9 +109,10 @@ NOTAS_10_15_OCT = {
             # a NOTAS_DESTINO_BASE en lugar de sumarse.
             _ZONA_TBP,
             'ROYAL DECAMERON PUNTA SAL figura NA porque está sin cupo para estas fechas '
-            'en los cuatro operadores y también en la venta web directa. Como '
-            f'referencia, del 3 al 8 de octubre el canal directo sí lo vende: {_TBP}. '
-            'Cotizado el 29/08/2026.',
+            'en los cuatro operadores y también en la venta web directa. Como VALOR '
+            f'REFERENCIAL —otro periodo, otro canal—, del 3 al 8 de octubre el canal '
+            f'directo sí lo vende: {_TBP}. '
+            'Cotizado el 31/08/2026.',
         ],
         ('PAQUETERÍA', 'TBP'): [
             _ZONA_TBP,

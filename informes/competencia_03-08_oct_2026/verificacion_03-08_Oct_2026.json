@@ -1,0 +1,141 @@
+{
+ "cotizado": "31/08/2026 11:51",
+ "check_in": "2026-10-03",
+ "check_out": "2026-10-08",
+ "muestras": {
+  "DECAMERON CARTAGENA": {
+   "estable": true,
+   "muestras": [
+    {
+     "habitacion": "Estándar",
+     "NR": 979,
+     "FLEX": 1085,
+     "es_standard": true,
+     "ofrecidas": [
+      "Estándar"
+     ]
+    },
+    {
+     "habitacion": "Estándar",
+     "NR": 979,
+     "FLEX": 1085,
+     "es_standard": true,
+     "ofrecidas": [
+      "Estándar"
+     ]
+    },
+    {
+     "habitacion": "Estándar",
+     "NR": 979,
+     "FLEX": 1085,
+     "es_standard": true,
+     "ofrecidas": [
+      "Estándar"
+     ]
+    }
+   ]
+  },
+  "DECAMERON GALEON": {
+   "estable": true,
+   "muestras": [
+    {
+     "habitacion": "Estándar",
+     "NR": 1245,
+     "FLEX": 1381,
+     "es_standard": true,
+     "ofrecidas": [
+      "Estándar",
+      "Villa"
+     ]
+    },
+    {
+     "habitacion": "Estándar",
+     "NR": 1245,
+     "FLEX": 1381,
+     "es_standard": true,
+     "ofrecidas": [
+      "Estándar",
+      "Villa"
+     ]
+    },
+    {
+     "habitacion": "Estándar",
+     "NR": 1245,
+     "FLEX": 1381,
+     "es_standard": true,
+     "ofrecidas": [
+      "Estándar",
+      "Villa"
+     ]
+    }
+   ]
+  },
+  "ROYAL DECAMERON PUNTA SAL": {
+   "estable": true,
+   "muestras": [
+    {
+     "habitacion": "Superior Plus",
+     "NR": 1524,
+     "FLEX": "NA",
+     "es_standard": false,
+     "ofrecidas": [
+      "Superior Plus"
+     ]
+    },
+    {
+     "habitacion": "Superior Plus",
+     "NR": 1524,
+     "FLEX": "NA",
+     "es_standard": false,
+     "ofrecidas": [
+      "Superior Plus"
+     ]
+    },
+    {
+     "habitacion": "Superior Plus",
+     "NR": 1524,
+     "FLEX": "NA",
+     "es_standard": false,
+     "ofrecidas": [
+      "Superior Plus"
+     ]
+    }
+   ]
+  },
+  "GRAND DECAMERON PANAMÁ (7.2)": {
+   "estable": true,
+   "muestras": [
+    {
+     "habitacion": "Garden View",
+     "NR": 875,
+     "FLEX": "NA",
+     "es_standard": false,
+     "ofrecidas": [
+      "Garden View",
+      "Ocean View Plus"
+     ]
+    },
+    {
+     "habitacion": "Garden View",
+     "NR": 875,
+     "FLEX": "NA",
+     "es_standard": false,
+     "ofrecidas": [
+      "Garden View",
+      "Ocean View Plus"
+     ]
+    },
+    {
+     "habitacion": "Garden View",
+     "NR": 875,
+     "FLEX": "NA",
+     "es_standard": false,
+     "ofrecidas": [
+      "Garden View",
+      "Ocean View Plus"
+     ]
+    }
+   ]
+  }
+ }
+}
