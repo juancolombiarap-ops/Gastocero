@@ -114,6 +114,31 @@
    "nota": "Despegar tampoco ofrece paquete: la fila de paqueteria sigue en NA",
    "periodo": "10-15 oct, confirmado por Juan",
    "publicado_en_el_informe": "NA"
+  },
+  {
+   "destino": "PTY",
+   "hotel": "GRAND DECAMERON PANAMA",
+   "seccion": "ALOJAMIENTO",
+   "canal": "COCHA",
+   "monto": 963,
+   "monto_original_clp": 908113,
+   "moneda_publicada": "CLP",
+   "noches": 5,
+   "pax": 2,
+   "regimen": "Todo incluido",
+   "habitacion": "Habitacion estandar con vista al jardin",
+   "categoria_es_basica": false,
+   "cama": "tipo de cama segun disponibilidad del alojamiento",
+   "politica": "Cancelacion gratuita hasta el 6 oct 2026",
+   "incluye": "precio final incluye impuestos",
+   "periodo": "10-15 oct, confirmado por Juan",
+   "cargado": "31/08/2026",
+   "publicado_en_el_informe": 956,
+   "diferencia": 7,
+   "hallazgo_visibilidad": "EL HOTEL NO APARECE EN LA BUSQUEDA DE COCHA, ni por alojamiento ni por paqueteria. La tarifa solo se llega a ver entrando por hotel y fecha. Un cliente que busca Panama en Cocha no encuentra el hotel: no es un problema de precio sino de exhibicion.",
+   "alerta_coincidencia": "el informe publica 956 en la celda de Cocha y ademas 956 en la columna '10-15 Oct' de la tabla de verificacion, que se rotula como canal directo. Son el mismo numero. O es coincidencia o una de las dos celdas tomo el dato de la otra. El control dchile_10-15 no trae Panama, asi que no hay respaldo de que 956 sea del canal directo. Hay que rehacer las dos.",
+   "alerta_categoria": "vista al jardin no es la Standard a secas: es la categoria siguiente, la misma Garden View que publica el canal directo. Dos canales independientes coinciden en que el hotel no ofrece Standard para estas fechas.",
+   "alerta_condicion": "la tarifa es cancelable hasta el 6 oct. No es comparable sin mas contra una No Reembolsable: parte de la diferencia de precio es la flexibilidad."
   }
  ]
 }
