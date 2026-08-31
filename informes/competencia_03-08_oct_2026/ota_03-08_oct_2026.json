@@ -82,6 +82,31 @@
    "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
   },
   {
+   "destino": "SMR",
+   "hotel": "DECAMERON GALEON",
+   "seccion": "ALOJAMIENTO",
+   "canal": "DESPEGAR",
+   "monto": 1660,
+   "monto_original_clp": 1565022,
+   "precio_lista_clp": 1565022,
+   "regimen": "All Inclusive",
+   "incluye": "impuestos incluidos",
+   "habitacion": null,
+   "estrellas": 3,
+   "puntaje_sitio": 8.2,
+   "resenas": 16,
+   "cargado": "31/08/2026",
+   "tarifa_condicionada": {
+    "etiqueta": "Con Cencosud",
+    "monto": 1628,
+    "monto_original_clp": 1535022,
+    "nota": "no se carga en la tabla: es tarifa atada a un medio de pago y no compara con las demas celdas. Queda solo como mencion, igual criterio que se uso en Punta Sal"
+   },
+   "alerta_inventario": "la tarjeta dice \"Solo queda 1\": es tarifa de ultima habitacion, no la tarifa normal del hotel",
+   "nota": "convertido a 943 CLP por USD sobre el total de 5 noches y 2 personas. Contraste mismas fechas: Viajes Falabella 1.682 y canal directo 1.245",
+   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
+  },
+  {
    "destino": "TBP",
    "hotel": "ROYAL DECAMERON PUNTA SAL",
    "canal": "VIAJES FALABELLA",
@@ -104,5 +129,5 @@
   "CLP_por_USD": 943,
   "fuente": "el mismo del informe V.2"
  },
- "canal_confirmado": "Viajes Falabella (la tarjeta muestra el sello \"Mejor en Viajes Falabella\")"
+ "canal_confirmado": "Viajes Falabella (sello \"Mejor en Viajes Falabella\") y Despegar (captura del motor de Despegar)"
 }

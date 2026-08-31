@@ -142,6 +142,38 @@ Para rehacerlo o extenderlo a otros hoteles:
 
 Datos crudos en `estimado_03-08_Oct_2026_CTG_SMR_TBP.json`.
 
+## Referencias del 3–8 que aportaron los operadores
+
+Estas son las cotizaciones que Juan levantó a mano en cada motor, porque desde este
+entorno las cuatro OTA no responden. Van al pie de las tablas del 10–15 como valor
+referencial, igual que las del canal directo: **no** reemplazan la celda NA ni entran
+en MEJOR.
+
+| Destino | Hotel | Sección | Canal | USD | Observación |
+|---|---|---|---|---|---|
+| PTY | Grand Decameron Panamá | Alojamiento | V. Falabella | $1,480 | falta categoría |
+| PTY | Grand Decameron Panamá | Paquetería | V. Falabella | $2,555 | $2.409.546 CLP |
+| CTG | Decameron Cartagena | Alojamiento | V. Falabella | $1,136 | promocional −35% |
+| CTG | Decameron Cartagena | Paquetería | V. Falabella | NA | cotizado, sin cupo |
+| SMR | Decameron Galeón | Alojamiento | V. Falabella | $1,682 | «Solo queda 1» |
+| SMR | Decameron Galeón | Alojamiento | Despegar | $1,660 | «Solo queda 1» |
+| TBP | Royal Decameron Punta Sal | Alojamiento | V. Falabella | NA | cotizado, sin cupo |
+| TBP | Royal Decameron Punta Sal | Paquetería | V. Falabella | NA | cotizado, sin cupo |
+
+Del Galeón hay tres precios para las mismas fechas y el mismo producto: Despegar
+$1,660, V. Falabella $1,682 y canal directo $1,245. La brecha contra el directo —más
+de $400— hay que leerla con cuidado, porque las dos tarjetas de OTA dicen **«Solo
+queda 1»**: es precio de última habitación, no la tarifa corriente del hotel.
+
+**Tarifas atadas a un medio de pago.** Despegar publica el Galeón en $1.535.022
+«Con Cencosud», o sea $1,628. Ese monto **no** se carga en la tabla: una tarifa que
+depende de una tarjeta no compara con el resto de las celdas. Queda solo como
+mención, mismo criterio que se aplicó a Punta Sal.
+
+Lo que todavía falta de referencias: Santa Marta paquetería en Falabella, y todo
+Despegar, Cocha y Expedia para Cartagena, Santa Marta y Punta Sal. Detalle crudo en
+`ota_03-08_oct_2026.json`.
+
 ## Moneda: todo en dólares
 
 Todas las cifras del informe van en **USD**, sin excepción. Cuando el operador
@@ -153,10 +185,14 @@ Conversiones hechas hasta ahora:
 
 | Origen | CLP | USD |
 |---|---|---|
-| Panamá, paquetería, V. Falabella | $2.855.740 … ver detalle | |
-| Panamá, paquetería | $2.409.546 | $2.555 |
+| Panamá, paquetería, V. Falabella | $2.409.546 | $2.555 |
 | Barú, paquetería | $2.855.740 | $3.028 |
-| Punta Sal, alojamiento, Despegar | $1.501.980 | $1.593 |
+| Galeón, alojamiento 3–8, Despegar | $1.565.022 | $1,660 |
+| Galeón, alojamiento 3–8, Despegar «Con Cencosud» | $1.535.022 | $1,628 |
+| ~~Punta Sal, alojamiento, Despegar~~ | ~~$1.501.980~~ | ~~$1,593~~ |
+
+La última fila queda **descartada**: esa búsqueda salió con fechas de septiembre, así
+que Punta Sal sigue en NA. Se deja tachada para que no se vuelva a cargar por error.
 
 ## Sobre la planilla del 3–8
 
