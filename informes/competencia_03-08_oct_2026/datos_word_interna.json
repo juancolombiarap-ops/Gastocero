@@ -1,0 +1,1367 @@
+{
+ "version": "interna",
+ "aloj": [
+  {
+   "destino": "SAN ANDRÉS",
+   "cod": "ADZ",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON ISLEÑO",
+     "vals": [
+      "$1,642",
+      "$1,642",
+      "$1,467",
+      "$2,687"
+     ],
+     "mejor": "$1,467",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON SAN LUIS",
+     "vals": [
+      "$954",
+      "$954",
+      "$852",
+      "$1,046"
+     ],
+     "mejor": "$852 ▼",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON MARAZUL",
+     "vals": [
+      "$1,066",
+      "$1,066",
+      "$951",
+      "$1,748"
+     ],
+     "mejor": "$951",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON MARYLAND",
+     "vals": [
+      "$1,246",
+      "$1,246",
+      "$1,114",
+      "$1,810"
+     ],
+     "mejor": "$1,114",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON LOS DELFINES",
+     "vals": [
+      "$1,344",
+      "$1,344",
+      "$1,196",
+      "$1,515"
+     ],
+     "mejor": "$1,196",
+     "propio": true
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "SOL CARIBE SAN ANDRES",
+     "vals": [
+      "$1,476",
+      "$1,476",
+      "$1,138",
+      "$1,500"
+     ],
+     "mejor": "$1,138",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "SOL CARIBE CAMPO",
+     "vals": [
+      "$1,636",
+      "$1,636",
+      "$1,138",
+      "NA"
+     ],
+     "mejor": "$1,138",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "EL DORADO",
+     "vals": [
+      "$2,272",
+      "$2,272",
+      "NA",
+      "$1,683"
+     ],
+     "mejor": "$1,683",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "GRAND SIRENIS SAN ANDRÉS",
+     "vals": [
+      "$2,248",
+      "$2,248",
+      "$1,942",
+      "$2,274"
+     ],
+     "mejor": "$1,942 ▲",
+     "propio": false
+    }
+   ],
+   "notas": []
+  },
+  {
+   "destino": "CARTAGENA",
+   "cod": "CTG",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON CARTAGENA",
+     "vals": [
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+     ],
+     "mejor": "—",
+     "propio": true
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "DORADO PLAZA BOCAGRANDE",
+     "vals": [
+      "$1,132",
+      "$1,132",
+      "$967",
+      "$1,162"
+     ],
+     "mejor": "$967 ▲",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "HOTEL DUBAI CARTAGENA",
+     "vals": [
+      "$587",
+      "$587",
+      "$588",
+      "$628"
+     ],
+     "mejor": "$587",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "HOTEL LA GRAN VÍA",
+     "vals": [
+      "$580",
+      "$580",
+      "NA",
+      "NA"
+     ],
+     "mejor": "$580 ▼",
+     "propio": false
+    }
+   ],
+   "notas": [
+    "Sin disponibilidad en ningún canal para estas fechas: CARTAGENA PLAZA (Expedia exige mínimo 7 noches). DECAMERON CARTAGENA figura NA en los cuatro operadores; su celda de Cocha se verificó el 31/08/2026 entrando por hotel y fecha —no por búsqueda de destino— y el hotel efectivamente no tiene cupo. VALOR REFERENCIAL del 3 al 8 de octubre: V. Falabella lo cotiza en US$ 1,136 (tarifa promocional −35%, impuestos incluidos). También está sin cupo en la venta web directa; del 3 al 8 el canal directo (decameronchile.cl) lo cotiza en habitación Estándar US$ 979 No Reembolsable y US$ 1,085 Flex. Cotizado el 31/08/2026."
+   ]
+  },
+  {
+   "destino": "PUNTA SAL",
+   "cod": "TBP",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "ROYAL DECAMERON PUNTA SAL",
+     "vals": [
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+     ],
+     "mejor": "—",
+     "propio": true
+    }
+   ],
+   "notas": [
+    "Sin oferta All Inclusive comparable en la zona; el contraste se realiza entre operadores sobre el mismo producto Decameron.",
+    "ROYAL DECAMERON PUNTA SAL figura NA porque está sin cupo para estas fechas en los cuatro operadores; su celda de Cocha se verificó el 31/08/2026 entrando por hotel y fecha y el hotel efectivamente no tiene cupo. VALOR REFERENCIAL del 3 al 8 de octubre: Despegar sí lo vende, en US$ 1,593 por la estadía (All Inclusive, impuestos incluidos, 5 noches y 2 personas). V. Falabella, en cambio, también sale sin disponibilidad para esas fechas: de los operadores consultados, Despegar es el único con tarifa. En la venta web directa está igualmente sin cupo; del 3 al 8 el canal directo lo vende en US$ 1,524 (Superior Plus, única categoría publicada, sin rótulo de modalidad). Cotizado el 31/08/2026."
+   ]
+  },
+  {
+   "destino": "PANAMÁ",
+   "cod": "PTY",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "GRAND DECAMERON PANAMÁ",
+     "vals": [
+      "$1,008",
+      "$1,008",
+      "$963",
+      "$1,213"
+     ],
+     "mejor": "$963",
+     "propio": true
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "RIU PLAYA BLANCA ALL INCLUSIVE",
+     "vals": [
+      "$1,110",
+      "$1,110",
+      "$1,087",
+      "$1,059"
+     ],
+     "mejor": "$1,059",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "GRAN EVENIA BIJAO",
+     "vals": [
+      "$810",
+      "$810",
+      "$788",
+      "$956"
+     ],
+     "mejor": "$788 ▼",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "DREAMS PLAYA BONITA PANAMA",
+     "vals": [
+      "$1,367",
+      "$1,367",
+      "$1,207",
+      "$1,392"
+     ],
+     "mejor": "$1,207 ▲",
+     "propio": false
+    }
+   ],
+   "notas": [
+    "El operador tiene este hotel cargado dos veces con tarifas distintas. Se publica la más baja; la otra quedaba en $1,177. El origen de cada carga no está verificado con el operador, por eso no se rotula.",
+    "Celda de Cocha recotizada el 31/08/2026 entrando por hotel y fecha: $963 (habitación estándar con vista al jardín, cancelación gratuita hasta el 6 de octubre). IMPORTANTE: en Cocha, TODOS los hoteles Decameron de este informe debieron buscarse por nombre de hotel; ninguno se obtuvo desde la búsqueda de destino, ni en alojamiento ni en paquetería. Las celdas de Cocha son correctas, pero un cliente que busca por destino no llega a estos hoteles.",
+    "VALOR REFERENCIAL del 3 al 8 de octubre: V. Falabella cotiza el hotel en US$ 1,480 (alojamiento, All Inclusive). El canal directo lo cotiza en US$ 875 (Garden View: no publica Standard en esas fechas, se declara la categoría). Cotizado el 31/08/2026."
+   ]
+  },
+  {
+   "destino": "SANTA MARTA",
+   "cod": "SMR",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON GALEÓN",
+     "vals": [
+      "NA",
+      "NA",
+      "$1,461",
+      "NA"
+     ],
+     "mejor": "$1,461 ▼",
+     "propio": true
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "HOTEL PORTO HORIZONTE",
+     "vals": [
+      "$1,758",
+      "$1,758",
+      "NA",
+      "$1,756"
+     ],
+     "mejor": "$1,756 ▲",
+     "propio": false
+    }
+   ],
+   "notas": [
+    "Celda de Cocha REHECHA el 31/08/2026 entrando por hotel y fecha: US$ 1,461 en habitación Estándar, todo incluido, sin cambio ni devolución (la misma Estándar con cancelación gratuita hasta el 29/09: US$ 1,624). El NA anterior no era falta de cupo: el hotel no aparece en la búsqueda de destino de Cocha. V. Falabella, Despegar y Expedia siguen sin tarifa; VALOR REFERENCIAL del 3 al 8: V. Falabella US$ 1,682 y Despegar US$ 1,660, ambas con aviso «Solo queda 1» (tarifa de última habitación).",
+    "Sin disponibilidad en ningún canal para estas fechas: IROTAMA DEL SOL."
+   ]
+  },
+  {
+   "destino": "MÉXICO",
+   "cod": "MEX",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "GRAND DECAMERON COMPLEX",
+     "vals": [
+      "$1,304",
+      "$1,304",
+      "$1,163",
+      "$1,357"
+     ],
+     "mejor": "$1,163 ▼",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "GRAND DECAMERON LOS CABOS",
+     "vals": [
+      "$2,174",
+      "$2,174",
+      "$1,479",
+      "$1,479"
+     ],
+     "mejor": "$1,479 ▲",
+     "propio": true
+    }
+   ],
+   "notas": []
+  }
+ ],
+ "paq": [
+  {
+   "destino": "SAN ANDRÉS",
+   "cod": "ADZ",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON ISLEÑO",
+     "vals": [
+      "$2,074",
+      "$2,229",
+      "$2,316",
+      "$3,117"
+     ],
+     "mejor": "$2,074",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON SAN LUIS",
+     "vals": [
+      "$1,697",
+      "$1,807",
+      "$1,701",
+      "$2,191"
+     ],
+     "mejor": "$1,697 ▼",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON MARAZUL",
+     "vals": [
+      "$1,737",
+      "$1,848",
+      "$1,801",
+      "$2,726"
+     ],
+     "mejor": "$1,737",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON MARYLAND",
+     "vals": [
+      "$1,894",
+      "$2,035",
+      "$1,963",
+      "$2,508"
+     ],
+     "mejor": "$1,894",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON LOS DELFINES",
+     "vals": [
+      "$1,886",
+      "$2,065",
+      "$2,046",
+      "$2,311"
+     ],
+     "mejor": "$1,886",
+     "propio": true
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "SOL CARIBE SAN ANDRES",
+     "vals": [
+      "$1,952",
+      "$2,174",
+      "$1,967",
+      "$2,236"
+     ],
+     "mejor": "$1,952",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "SOL CARIBE CAMPO",
+     "vals": [
+      "$1,952",
+      "$2,174",
+      "$1,967",
+      "NA"
+     ],
+     "mejor": "$1,952",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "EL DORADO",
+     "vals": [
+      "NA",
+      "NA",
+      "NA",
+      "$2,481"
+     ],
+     "mejor": "$2,481 ▲",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "GRAND SIRENIS SAN ANDRÉS",
+     "vals": [
+      "$2,448",
+      "$2,718",
+      "$2,713",
+      "$2,882"
+     ],
+     "mejor": "$2,448",
+     "propio": false
+    }
+   ],
+   "notas": []
+  },
+  {
+   "destino": "CARTAGENA",
+   "cod": "CTG",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON CARTAGENA",
+     "vals": [
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+     ],
+     "mejor": "—",
+     "propio": true
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "DORADO PLAZA BOCAGRANDE",
+     "vals": [
+      "$1,960",
+      "$1,954",
+      "$1,976",
+      "N/D"
+     ],
+     "mejor": "$1,954 ▲",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "HOTEL DUBAI CARTAGENA",
+     "vals": [
+      "$1,615",
+      "$1,564",
+      "NA",
+      "N/D"
+     ],
+     "mejor": "$1,564",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "HOTEL LA GRAN VÍA",
+     "vals": [
+      "$1,574",
+      "$1,542",
+      "NA",
+      "N/D"
+     ],
+     "mejor": "$1,542 ▼",
+     "propio": false
+    }
+   ],
+   "notas": [
+    "DECAMERON CARTAGENA y CARTAGENA PLAZA sin disponibilidad en ningún canal para estas fechas; la celda de Cocha del Decameron se verificó por hotel y fecha el 31/08/2026 y confirma que no hay cupo. Del 3 al 8 de octubre V. Falabella también cotiza el paquete del Decameron Cartagena sin disponibilidad (NA)."
+   ]
+  },
+  {
+   "destino": "PUNTA SAL",
+   "cod": "TBP",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "ROYAL DECAMERON PUNTA SAL",
+     "vals": [
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+     ],
+     "mejor": "—",
+     "propio": true
+    }
+   ],
+   "notas": [
+    "Sin oferta All Inclusive comparable en la zona; el contraste se realiza entre operadores sobre el mismo producto Decameron.",
+    "ROYAL DECAMERON PUNTA SAL figura sin disponibilidad en los cuatro operadores, con la celda de Cocha verificada por hotel y fecha el 31/08/2026; del 3 al 8 de octubre también aparece sin cupo en V. Falabella. La referencia de Despegar para esas fechas (US$ 1,593) es solo alojamiento y no es comparable con esta tabla: la columna de paquetería es el paquete que arma el operador, otro producto. La referencia de alojamiento del canal directo (US$ 1,524) no es comparable con esta tabla: la columna de paquetería es el paquete que arma el operador, otro producto."
+   ]
+  },
+  {
+   "destino": "PANAMÁ",
+   "cod": "PTY",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "GRAND DECAMERON PANAMÁ",
+     "vals": [
+      "$2,514",
+      "$2,588",
+      "$2,273",
+      "N/D"
+     ],
+     "mejor": "$2,273",
+     "propio": true
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "RIU PLAYA BLANCA ALL INCLUSIVE",
+     "vals": [
+      "$2,576",
+      "$2,650",
+      "$2,366",
+      "N/D"
+     ],
+     "mejor": "$2,366",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "GRAN EVENIA BIJAO",
+     "vals": [
+      "$2,346",
+      "$2,438",
+      "$2,105",
+      "N/D"
+     ],
+     "mejor": "$2,105 ▼",
+     "propio": false
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "DREAMS PLAYA BONITA PANAMA",
+     "vals": [
+      "$2,772",
+      "$2,863",
+      "$2,496",
+      "N/D"
+     ],
+     "mejor": "$2,496 ▲",
+     "propio": false
+    }
+   ],
+   "notas": [
+    "El operador tiene este hotel cargado dos veces; se publica la más baja y la otra quedaba en $2,756. El origen de cada carga no está verificado, por eso no se rotula.",
+    "En la re-cotización del 28/08 Expedia bloqueó la consulta automática; su columna de paquetería queda sin cotizar (N/D).",
+    "VALOR REFERENCIAL del 3 al 8 de octubre: V. Falabella cotiza el paquete (vuelo + alojamiento, impuestos y tasas incluidos) en US$ 2,555 para 2 personas ($2.409.546 CLP al cambio de $943)."
+   ]
+  },
+  {
+   "destino": "SANTA MARTA",
+   "cod": "SMR",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "DECAMERON GALEÓN",
+     "vals": [
+      "NA",
+      "NA",
+      "$3,357",
+      "NA"
+     ],
+     "mejor": "$3,357 ▲",
+     "propio": true
+    },
+    {
+     "tipo": "COMPETENCIA",
+     "hotel": "HOTEL PORTO HORIZONTE",
+     "vals": [
+      "$2,267",
+      "$3,163",
+      "$2,459",
+      "$2,610"
+     ],
+     "mejor": "$2,267 ▼",
+     "propio": false
+    }
+   ],
+   "notas": [
+    "El paquete del Galeón existe solo en Cocha ($3,357). La contradicción que traía el informe —paquete disponible con alojamiento «sin cupo»— quedó resuelta: la celda equivocada era la de alojamiento, ya corregida (US$ 1,461). VALOR REFERENCIAL del 3 al 8: Despegar cotiza el paquete en US$ 2,651 para 2 personas, vuelo con escalas SCL↔SMR, impuestos incluidos.",
+    "Sin disponibilidad en ningún canal para estas fechas: IROTAMA DEL SOL."
+   ]
+  },
+  {
+   "destino": "MÉXICO",
+   "cod": "MEX",
+   "filas": [
+    {
+     "tipo": "DECAMERON",
+     "hotel": "GRAND DECAMERON COMPLEX",
+     "vals": [
+      "NA",
+      "NA",
+      "$3,097",
+      "$3,364"
+     ],
+     "mejor": "$3,097 ▼",
+     "propio": true
+    },
+    {
+     "tipo": "DECAMERON",
+     "hotel": "GRAND DECAMERON LOS CABOS",
+     "vals": [
+      "$3,946",
+      "$4,306",
+      "$3,108",
+      "$3,155"
+     ],
+     "mejor": "$3,108 ▲",
+     "propio": true
+    }
+   ],
+   "notas": []
+  }
+ ],
+ "bench_aloj": [
+  {
+   "cat": "DECAMERON",
+   "hotel": "DECAMERON ISLEÑO",
+   "dest": "ADZ",
+   "vals": [
+    "$1,642",
+    "$1,642",
+    "$1,467",
+    "$2,687"
+   ],
+   "mejor": "$1,467 ★ REF",
+   "vs": "—",
+   "propio": true
+  },
+  {
+   "cat": "DECAMERON",
+   "hotel": "DECAMERON BARÚ",
+   "dest": "CTG",
+   "vals": [
+    "$2,142",
+    "$1,928",
+    "$1,712",
+    "$2,440"
+   ],
+   "mejor": "$1,712",
+   "vs": "—",
+   "propio": true
+  },
+  {
+   "cat": "PUNTA CANA",
+   "hotel": "BARCELO BAVARO PALACE",
+   "dest": "PUJ",
+   "vals": [
+    "$1,126",
+    "$1,126",
+    "$1,102",
+    "$1,143"
+   ],
+   "mejor": "$1,102",
+   "vs": "Isleño +33%",
+   "propio": false
+  },
+  {
+   "cat": "PUNTA CANA",
+   "hotel": "SERENADE CARIBE CLUB FAMILY",
+   "dest": "PUJ",
+   "vals": [
+    "$1,222",
+    "$1,222",
+    "$1,002",
+    "$1,221"
+   ],
+   "mejor": "$1,002",
+   "vs": "Isleño +46%",
+   "propio": false
+  },
+  {
+   "cat": "PUNTA CANA",
+   "hotel": "GRAND SIRENIS PUNTA CANA",
+   "dest": "PUJ",
+   "vals": [
+    "$1,304",
+    "$1,304",
+    "$891",
+    "$1,304"
+   ],
+   "mejor": "$891",
+   "vs": "Isleño +65%",
+   "propio": false
+  },
+  {
+   "cat": "PUNTA CANA",
+   "hotel": "VIK HOTEL CAYENA",
+   "dest": "PUJ",
+   "vals": [
+    "$1,424",
+    "$1,424",
+    "$1,204",
+    "$1,422"
+   ],
+   "mejor": "$1,204",
+   "vs": "Isleño +22%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "RIU DUNAMAR",
+   "dest": "CUN",
+   "vals": [
+    "$1,046",
+    "NA",
+    "$1,004",
+    "$1,197"
+   ],
+   "mejor": "$1,004",
+   "vs": "Isleño +46%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "FLAMINGO CANCUN",
+   "dest": "CUN",
+   "vals": [
+    "$1,090",
+    "$1,090",
+    "$1,004",
+    "$1,202"
+   ],
+   "mejor": "$1,004",
+   "vs": "Isleño +46%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "SUNSET MARINA RESORT",
+   "dest": "CUN",
+   "vals": [
+    "$958",
+    "$958",
+    "$859",
+    "$1,293"
+   ],
+   "mejor": "$859 ▼",
+   "vs": "Isleño +71%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "DREAMS RIVIERA",
+   "dest": "CUN",
+   "vals": [
+    "NA",
+    "NA",
+    "$1,204",
+    "$1,377"
+   ],
+   "mejor": "$1,204",
+   "vs": "Isleño +22%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "HYATT VIVID CANCUN",
+   "dest": "CUN",
+   "vals": [
+    "$1,426",
+    "$1,426",
+    "NA",
+    "$1,429"
+   ],
+   "mejor": "$1,426",
+   "vs": "Isleño +3%",
+   "propio": false
+  },
+  {
+   "cat": "CURAZAO",
+   "hotel": "ZOËTRY CURAÇAO RESORT & SPA",
+   "dest": "CUR",
+   "vals": [
+    "$2,784",
+    "$2,784",
+    "$2,266",
+    "$2,780"
+   ],
+   "mejor": "$2,266",
+   "vs": "Isleño −35%",
+   "propio": false
+  },
+  {
+   "cat": "CURAZAO",
+   "hotel": "MANGROVE BEACH CORENDON CURAÇAO",
+   "dest": "CUR",
+   "vals": [
+    "$2,004",
+    "$2,004",
+    "$1,831",
+    "$2,004"
+   ],
+   "mejor": "$1,831",
+   "vs": "Isleño −20%",
+   "propio": false
+  },
+  {
+   "cat": "CURAZAO",
+   "hotel": "DREAMS CURACAO",
+   "dest": "CUR",
+   "vals": [
+    "$2,238",
+    "$2,238",
+    "$1,864",
+    "$2,237"
+   ],
+   "mejor": "$1,864",
+   "vs": "Isleño −21%",
+   "propio": false
+  }
+ ],
+ "bench_paq": [
+  {
+   "cat": "DECAMERON",
+   "hotel": "DECAMERON ISLEÑO",
+   "dest": "ADZ",
+   "vals": [
+    "$2,074",
+    "$2,229",
+    "$2,316",
+    "$3,117"
+   ],
+   "mejor": "$2,074 ★ REF",
+   "vs": "—",
+   "propio": true
+  },
+  {
+   "cat": "DECAMERON",
+   "hotel": "DECAMERON BARÚ",
+   "dest": "CTG",
+   "vals": [
+    "$3,028",
+    "$2,636",
+    "$2,605",
+    "$3,479"
+   ],
+   "mejor": "$2,605",
+   "vs": "—",
+   "propio": true
+  },
+  {
+   "cat": "PUNTA CANA",
+   "hotel": "BARCELO BAVARO PALACE",
+   "dest": "PUJ",
+   "vals": [
+    "$2,296",
+    "$2,393",
+    "$2,327",
+    "$2,329"
+   ],
+   "mejor": "$2,296",
+   "vs": "Isleño −10%",
+   "propio": false
+  },
+  {
+   "cat": "PUNTA CANA",
+   "hotel": "SERENADE CARIBE CLUB FAMILY",
+   "dest": "PUJ",
+   "vals": [
+    "$2,232",
+    "$2,391",
+    "$2,351",
+    "$2,413"
+   ],
+   "mejor": "$2,232",
+   "vs": "Isleño −7%",
+   "propio": false
+  },
+  {
+   "cat": "PUNTA CANA",
+   "hotel": "GRAND SIRENIS PUNTA CANA",
+   "dest": "PUJ",
+   "vals": [
+    "$2,119",
+    "$2,282",
+    "$2,218",
+    "$2,681"
+   ],
+   "mejor": "$2,119 ▼",
+   "vs": "Isleño −2%",
+   "propio": false
+  },
+  {
+   "cat": "PUNTA CANA",
+   "hotel": "VIK HOTEL CAYENA",
+   "dest": "PUJ",
+   "vals": [
+    "$2,475",
+    "$2,596",
+    "NA",
+    "NA"
+   ],
+   "mejor": "$2,475",
+   "vs": "Isleño −16%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "RIU DUNAMAR",
+   "dest": "CUN",
+   "vals": [
+    "$2,371",
+    "$2,512",
+    "$2,349",
+    "$2,503"
+   ],
+   "mejor": "$2,349",
+   "vs": "Isleño −12%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "FLAMINGO CANCUN",
+   "dest": "CUN",
+   "vals": [
+    "$2,400",
+    "$2,609",
+    "$2,375",
+    "$2,317"
+   ],
+   "mejor": "$2,317",
+   "vs": "Isleño −10%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "SUNSET MARINA RESORT",
+   "dest": "CUN",
+   "vals": [
+    "$2,274",
+    "$2,500",
+    "$2,225",
+    "$2,332"
+   ],
+   "mejor": "$2,225",
+   "vs": "Isleño −7%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "DREAMS RIVIERA",
+   "dest": "CUN",
+   "vals": [
+    "NA",
+    "NA",
+    "NA",
+    "$2,714"
+   ],
+   "mejor": "$2,714",
+   "vs": "Isleño −24%",
+   "propio": false
+  },
+  {
+   "cat": "CANCÚN",
+   "hotel": "HYATT VIVID CANCUN",
+   "dest": "CUN",
+   "vals": [
+    "$2,666",
+    "$2,890",
+    "NA",
+    "$2,817"
+   ],
+   "mejor": "$2,666",
+   "vs": "Isleño −22%",
+   "propio": false
+  },
+  {
+   "cat": "CURAZAO",
+   "hotel": "ZOËTRY CURAÇAO RESORT & SPA",
+   "dest": "CUR",
+   "vals": [
+    "$3,653",
+    "$3,913",
+    "$3,490",
+    "$3,767"
+   ],
+   "mejor": "$3,490",
+   "vs": "Isleño −41%",
+   "propio": false
+  },
+  {
+   "cat": "CURAZAO",
+   "hotel": "MANGROVE BEACH CORENDON CURAÇAO",
+   "dest": "CUR",
+   "vals": [
+    "NA",
+    "NA",
+    "$3,042",
+    "$3,029"
+   ],
+   "mejor": "$3,029",
+   "vs": "Isleño −32%",
+   "propio": false
+  },
+  {
+   "cat": "CURAZAO",
+   "hotel": "DREAMS CURACAO",
+   "dest": "CUR",
+   "vals": [
+    "NA",
+    "NA",
+    "$3,095",
+    "$3,248"
+   ],
+   "mejor": "$3,095",
+   "vs": "Isleño −33%",
+   "propio": false
+  }
+ ],
+ "aereos": [
+  {
+   "ruta": "SCL → ADZ",
+   "vals": [
+    "$384",
+    "$535",
+    "$744",
+    "NA",
+    "$591",
+    "NA"
+   ],
+   "min": 384,
+   "max": 744,
+   "raw": [
+    384,
+    535,
+    744,
+    "NA",
+    591,
+    "NA"
+   ]
+  },
+  {
+   "ruta": "SCL → CTG",
+   "vals": [
+    "$404",
+    "$569",
+    "$1,006",
+    "NA",
+    "$430",
+    "NA"
+   ],
+   "min": 404,
+   "max": 1006,
+   "raw": [
+    404,
+    569,
+    1006,
+    "NA",
+    430,
+    "NA"
+   ]
+  },
+  {
+   "ruta": "SCL → TBP",
+   "vals": [
+    "$422",
+    "NA",
+    "NA",
+    "$567",
+    "NA",
+    "NA"
+   ],
+   "min": 422,
+   "max": 567,
+   "raw": [
+    422,
+    "NA",
+    "NA",
+    567,
+    "NA",
+    "NA"
+   ]
+  },
+  {
+   "ruta": "SCL → PUJ",
+   "vals": [
+    "$667",
+    "$715",
+    "$858",
+    "$846",
+    "NA",
+    "$606"
+   ],
+   "min": 606,
+   "max": 858,
+   "raw": [
+    667,
+    715,
+    858,
+    846,
+    "NA",
+    606
+   ]
+  },
+  {
+   "ruta": "SCL → CUN",
+   "vals": [
+    "$706",
+    "$872",
+    "$720",
+    "NA",
+    "NA",
+    "$772"
+   ],
+   "min": 706,
+   "max": 872,
+   "raw": [
+    706,
+    872,
+    720,
+    "NA",
+    "NA",
+    772
+   ]
+  },
+  {
+   "ruta": "SCL → SMR",
+   "vals": [
+    "$507",
+    "$742",
+    "$600",
+    "NA",
+    "$434",
+    "NA"
+   ],
+   "min": 434,
+   "max": 742,
+   "raw": [
+    507,
+    742,
+    600,
+    "NA",
+    434,
+    "NA"
+   ]
+  },
+  {
+   "ruta": "SCL → PTY",
+   "vals": [
+    "NA",
+    "$580",
+    "$650",
+    "NA",
+    "NA",
+    "NA"
+   ],
+   "min": 580,
+   "max": 650,
+   "raw": [
+    "NA",
+    580,
+    650,
+    "NA",
+    "NA",
+    "NA"
+   ]
+  }
+ ],
+ "mejor_op": [
+  [
+   "DECAMERON ISLEÑO",
+   "COCHA",
+   "$1,467",
+   "DESPEGAR",
+   "$1,642",
+   "−11%"
+  ],
+  [
+   "DECAMERON SAN LUIS",
+   "COCHA",
+   "$852",
+   "DESPEGAR",
+   "$954",
+   "−11%"
+  ],
+  [
+   "DECAMERON MARAZUL",
+   "COCHA",
+   "$951",
+   "DESPEGAR",
+   "$1,066",
+   "−11%"
+  ],
+  [
+   "DECAMERON MARYLAND",
+   "COCHA",
+   "$1,114",
+   "DESPEGAR",
+   "$1,246",
+   "−11%"
+  ],
+  [
+   "DECAMERON LOS DELFINES",
+   "COCHA",
+   "$1,196",
+   "DESPEGAR",
+   "$1,344",
+   "−11%"
+  ],
+  [
+   "DECAMERON BARÚ",
+   "COCHA",
+   "$1,712",
+   "DESPEGAR",
+   "$1,928",
+   "−11%"
+  ],
+  [
+   "GRAND DECAMERON PANAMÁ",
+   "COCHA",
+   "$963",
+   "V. FALABELLA",
+   "$1,008",
+   "−4%"
+  ],
+  [
+   "DECAMERON GALEÓN",
+   "COCHA",
+   "$1,461",
+   "único canal con tarifa",
+   "",
+   "—"
+  ],
+  [
+   "GRAND DECAMERON COMPLEX",
+   "COCHA",
+   "$1,163",
+   "DESPEGAR",
+   "$1,304",
+   "−11%"
+  ],
+  [
+   "GRAND DECAMERON LOS CABOS",
+   "COCHA",
+   "$1,479",
+   "EXPEDIA",
+   "$1,479",
+   "0%"
+  ]
+ ],
+ "bench_res": [
+  [
+   "SUNSET MARINA RESORT",
+   "CANCÚN",
+   "$859",
+   "−$608",
+   "Isleño +71%"
+  ],
+  [
+   "GRAND SIRENIS PUNTA CANA",
+   "PUNTA CANA",
+   "$891",
+   "−$576",
+   "Isleño +65%"
+  ],
+  [
+   "SERENADE CARIBE CLUB FAMILY",
+   "PUNTA CANA",
+   "$1,002",
+   "−$465",
+   "Isleño +46%"
+  ],
+  [
+   "RIU DUNAMAR",
+   "CANCÚN",
+   "$1,004",
+   "−$463",
+   "Isleño +46%"
+  ],
+  [
+   "FLAMINGO CANCUN",
+   "CANCÚN",
+   "$1,004",
+   "−$463",
+   "Isleño +46%"
+  ]
+ ],
+ "mejor_aer": [
+  [
+   "SCL-ADZ",
+   "LATAM",
+   "$384",
+   "AVIANCA",
+   "$535",
+   "+39%"
+  ],
+  [
+   "SCL-CTG",
+   "LATAM",
+   "$404",
+   "JETSMART",
+   "$430",
+   "+6%"
+  ],
+  [
+   "SCL-TBP",
+   "LATAM",
+   "$422",
+   "SKY",
+   "$567",
+   "+34%"
+  ],
+  [
+   "SCL-PUJ",
+   "ARAJET",
+   "$606",
+   "LATAM",
+   "$667",
+   "+10%"
+  ],
+  [
+   "SCL-CUN",
+   "LATAM",
+   "$706",
+   "COPA",
+   "$720",
+   "+2%"
+  ],
+  [
+   "SCL-SMR",
+   "JETSMART",
+   "$434",
+   "LATAM",
+   "$507",
+   "+17%"
+  ],
+  [
+   "SCL-PTY",
+   "AVIANCA",
+   "$580",
+   "COPA",
+   "$650",
+   "+12%"
+  ]
+ ],
+ "leyenda": "▼ Más económico de la tabla  |  ▲ Más caro  |  NA = cotizado sin disponibilidad o sin tarifa  |  N/D = canal no cotizado para ese hotel  |  Todos los precios de esta tabla son del 10 al 15 de octubre",
+ "metodo_extra": " DECAMERON CARTAGENA y ROYAL DECAMERON PUNTA SAL verificados también sin cupo en la venta web directa (motor de decameronchile.cl)."
+}

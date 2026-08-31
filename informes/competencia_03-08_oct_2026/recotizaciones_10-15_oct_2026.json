@@ -1,0 +1,211 @@
+{
+ "periodo": {
+  "check_in": "2026-10-10",
+  "check_out": "2026-10-15",
+  "noches": 5,
+  "pax": 2
+ },
+ "moneda": "USD",
+ "tipo_cambio": {
+  "CLP_por_USD": 943,
+  "fuente": "el mismo del informe"
+ },
+ "proposito": "recotizaciones sobre el periodo del informe, para contrastar contra lo publicado",
+ "cotizaciones": [
+  {
+   "destino": "CTG",
+   "hotel": "DECAMERON BARU",
+   "seccion": "PAQUETERIA",
+   "canal": "VIAJES FALABELLA",
+   "monto": 3028,
+   "monto_original_clp": 2855740,
+   "clp_por_persona": 1427870,
+   "precio_lista_clp_por_persona": 1526271,
+   "regimen": "All Inclusive, vuelo + alojamiento",
+   "incluye": "impuestos, tasas y cargos",
+   "puntaje_sitio": 7.5,
+   "resenas": 91,
+   "cargado": "31/08/2026",
+   "publicado_en_el_informe": 2559,
+   "diferencia": 469,
+   "alerta": "corregir la celda de V. Falabella en la fila de DECAMERON BARU del benchmark de paqueteria: 2.559 -> 3.028",
+   "estado": "CONFIRMADO POR JUAN: 3.028 es el valor correcto; la celda publicada (2.559) esta mal",
+   "efecto_en_el_informe": {
+    "tabla": "BENCHMARK paqueteria, fila DECAMERON BARU (CTG)",
+    "fila_publicada": {
+     "falabella": 2559,
+     "despegar": 2636,
+     "cocha": 2605,
+     "expedia": 3479,
+     "mejor": 2559
+    },
+    "fila_corregida": {
+     "falabella": 3028,
+     "despegar": 2636,
+     "cocha": 2605,
+     "expedia": 3479,
+     "mejor": 2605
+    },
+    "cambia": "el MEJOR pasa de 2.559 (Falabella) a 2.605 (Cocha)"
+   }
+  },
+  {
+   "destino": "CTG",
+   "hotel": "DECAMERON BARU",
+   "seccion": "ALOJAMIENTO",
+   "canal": "VIAJES FALABELLA",
+   "monto": 2142,
+   "precio_lista": 3150,
+   "descuento": "-32%",
+   "regimen": "All Inclusive",
+   "incluye": "impuestos incluidos",
+   "puntaje_sitio": 7.5,
+   "resenas": 91,
+   "cargado": "31/08/2026",
+   "publicado_en_el_informe": 1928,
+   "diferencia": 214,
+   "alerta": "corregir la celda de V. Falabella en la fila de DECAMERON BARU del benchmark de alojamiento: 1.928 -> 2.142",
+   "periodo": "10-15 oct, CONFIRMADO",
+   "moneda_publicada": "USD",
+   "sin_conversion": true,
+   "evidencia": "captura del 31/08: US$ 2.142 sobre lista US$ 3.150, -32%, 5 noches 2 personas, impuestos incluidos, cancelacion gratis y reserva sin pagar ahora. Sello \"Mejor en Viajes Falabella\". El periodo lo respalda una segunda captura del calendario de Falabella: Santiago -> Isla de Baru, ida sab 10 oct 2026, vuelta jue 15 oct 2026, 2 personas",
+   "estrellas": 4,
+   "ojo_paridad": "la celda de Despegar (1.928) es de la cotizacion del 27/08 y esta de Falabella es del 31/08: la fila queda con dos fechas distintas y por eso rompe la paridad Falabella=Despegar que se observa en el resto del informe. No prueba que los canales difieran, solo que la tarifa se movio entre esas dos fechas",
+   "efecto_en_el_informe": {
+    "tabla": "BENCHMARK alojamiento, fila DECAMERON BARU (CTG)",
+    "fila_publicada": {
+     "falabella": 1928,
+     "despegar": 1928,
+     "cocha": 1712,
+     "expedia": 2440,
+     "mejor": 1712
+    },
+    "fila_corregida": {
+     "falabella": 2142,
+     "despegar": 1928,
+     "cocha": 1712,
+     "expedia": 2440,
+     "mejor": 1712
+    },
+    "cambia": "el MEJOR no cambia, sigue siendo Cocha con 1.712"
+   }
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "canal": "VIAJES FALABELLA",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "cotizado sin disponibilidad ni tarifa; coincide con lo publicado en el informe, que ya trae NA en los cuatro operadores",
+   "seccion": "ALOJAMIENTO",
+   "publicado_en_el_informe": "NA"
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "canal": "VIAJES FALABELLA",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "cotizado sin disponibilidad ni tarifa; coincide con lo publicado en el informe, que ya trae NA en los cuatro operadores",
+   "seccion": "PAQUETERIA",
+   "publicado_en_el_informe": "NA"
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "seccion": "PAQUETERIA",
+   "canal": "DESPEGAR",
+   "monto": "NA",
+   "cargado": "31/08/2026",
+   "nota": "Despegar tampoco ofrece paquete: la fila de paqueteria sigue en NA",
+   "periodo": "10-15 oct, confirmado por Juan",
+   "publicado_en_el_informe": "NA"
+  },
+  {
+   "destino": "PTY",
+   "hotel": "GRAND DECAMERON PANAMA",
+   "seccion": "ALOJAMIENTO",
+   "canal": "COCHA",
+   "monto": 963,
+   "monto_original_clp": 908113,
+   "moneda_publicada": "CLP",
+   "noches": 5,
+   "pax": 2,
+   "regimen": "Todo incluido",
+   "habitacion": "Habitacion estandar con vista al jardin",
+   "categoria_es_basica": false,
+   "cama": "tipo de cama segun disponibilidad del alojamiento",
+   "politica": "Cancelacion gratuita hasta el 6 oct 2026",
+   "incluye": "precio final incluye impuestos",
+   "periodo": "10-15 oct, confirmado por Juan",
+   "cargado": "31/08/2026",
+   "publicado_en_el_informe": 956,
+   "diferencia": 7,
+   "hallazgo_visibilidad": "EL HOTEL NO APARECE EN LA BUSQUEDA DE COCHA, ni por alojamiento ni por paqueteria. La tarifa solo se llega a ver entrando por hotel y fecha. Un cliente que busca Panama en Cocha no encuentra el hotel: no es un problema de precio sino de exhibicion.",
+   "alerta_coincidencia": "el informe publica 956 en la celda de Cocha y ademas 956 en la columna '10-15 Oct' de la tabla de verificacion, que se rotula como canal directo. Son el mismo numero. O es coincidencia o una de las dos celdas tomo el dato de la otra. El control dchile_10-15 no trae Panama, asi que no hay respaldo de que 956 sea del canal directo. Hay que rehacer las dos.",
+   "alerta_categoria": "vista al jardin no es la Standard a secas: es la categoria siguiente, la misma Garden View que publica el canal directo. Dos canales independientes coinciden en que el hotel no ofrece Standard para estas fechas.",
+   "alerta_condicion": "la tarifa es cancelable hasta el 6 oct. No es comparable sin mas contra una No Reembolsable: parte de la diferencia de precio es la flexibilidad."
+  },
+  {
+   "destino": "SMR",
+   "hotel": "DECAMERON GALEON",
+   "seccion": "ALOJAMIENTO",
+   "canal": "COCHA",
+   "monto": 1461,
+   "monto_original_clp": 1378140,
+   "moneda_publicada": "CLP",
+   "noches": 5,
+   "pax": 2,
+   "regimen": "Todo incluido",
+   "habitacion": "Estandar",
+   "categoria_es_basica": true,
+   "cama": "tipo de cama segun disponibilidad del alojamiento",
+   "modalidad": "No Reembolsable",
+   "politica": "No permite cambio ni devolucion",
+   "incluye": "precio final incluye impuestos",
+   "modalidad_flex": {
+    "monto": 1624,
+    "monto_original_clp": 1531152,
+    "habitacion": "Estandar",
+    "politica": "Cancelacion gratuita hasta el 29 sept 2026",
+    "nota": "misma categoria Estandar, la brecha de 163 USD es el costo de la flexibilidad"
+   },
+   "descartada_por_categoria": {
+    "habitacion": "Villa",
+    "monto": 1578,
+    "monto_original_clp": 1488519,
+    "politica": "No permite cambio ni devolucion",
+    "motivo": "categoria superior. La regla del informe manda tomar Standard cuando existe, y aca existe, asi que la Villa no entra"
+   },
+   "periodo": "10-15 oct, RECONFIRMADO POR JUAN el 31/08/2026",
+   "busqueda": "por hotel y fecha, NO por busqueda de destino",
+   "cargado": "31/08/2026",
+   "publicado_en_el_informe": "NA",
+   "hallazgo": "SEGUNDO CASO CONFIRMADO DEL PROBLEMA DE EXHIBICION EN COCHA. El informe daba NA en los cuatro operadores para el Galeon en alojamiento, y Cocha si tiene tarifa: 1.461 USD. Entrando por hotel y fecha aparece; por busqueda de destino no. Es exactamente lo mismo que paso con Panama.",
+   "resuelve": "queda resuelta la contradiccion que el informe traia como hallazgo: el Galeon tenia paquete en Cocha a 3.357 y NA en alojamiento. No estaba sin cupo, no se exhibia.",
+   "efecto_en_el_informe": {
+    "tabla": "ALOJAMIENTO, Santa Marta (SMR), fila DECAMERON GALEON",
+    "fila_publicada": {
+     "falabella": "NA",
+     "despegar": "NA",
+     "cocha": "NA",
+     "expedia": "NA",
+     "mejor": "—"
+    },
+    "fila_corregida": {
+     "falabella": "NA",
+     "despegar": "NA",
+     "cocha": 1461,
+     "expedia": "NA",
+     "mejor": 1461
+    },
+    "cambia": "el Galeon deja de ser NA y pasa a ser el mas economico de la tabla de Santa Marta, por debajo del Porto Horizonte (1.756). La marca de mas barato pasa al Galeon y la de mas caro al Porto Horizonte."
+   },
+   "consecuencia": "todos los NA de Cocha del informe quedan en duda: dos de dos se cayeron al buscar por hotel. Faltan por rehacer Cartagena alojamiento y Punta Sal en las dos secciones.",
+   "confirmado_por_juan": "«el cocha santa marta excluye villas»: se toma la Estandar y la Villa (US$ 1.578) no entra, que es lo que ya se habia aplicado",
+   "verificacion": "Se le consulto expresamente porque la misma captura se menciono una vez como Punta Sal del 3 al 8. Juan confirma: es el GALEON y es del 10 al 15. La celda de Cocha en Santa Marta se mantiene en US$ 1.461.",
+   "regla_villas": "Confirmada dos veces: la Villa se excluye por la regla de categoria del informe, que manda tomar la Standard cuando existe. Aplica igual en cualquier otro hotel donde Cocha ofrezca Villa junto a Estandar."
+  }
+ ],
+ "nota_punta_sal": "La cotizacion de Punta Sal en Despegar (1.501.980 CLP) NO es del 10 al 15: Juan confirma el 31/08 que corresponde al 3 al 8 de octubre. Se traslada a ota_03-08_oct_2026.json como referencia. En el periodo del informe el hotel sigue NA en los cuatro operadores."
+}

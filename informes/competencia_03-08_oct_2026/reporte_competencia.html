@@ -1,0 +1,467 @@
+<title>Competencia Decameron Octubre 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --tinta:#0E1B2A;        /* texto principal */
+    --tinta-2:#4A5C6E;      /* texto secundario, gris con sesgo azul */
+    --linea:#D6DFE7;
+    --fondo:#F5F8FA;
+    --papel:#FFFFFF;
+    --marca:#003A70;        /* azul institucional Decameron */
+    --marca-suave:#E8F1F7;
+    --acento:#00819E;       /* cian profundo, legible sobre papel */
+    --barato:#17703C;
+    --caro:#B3402C;
+    --alerta:#8A5A00;
+    --alerta-fondo:#FBF2DF;
+    --sombra:0 1px 2px rgba(14,27,42,.06), 0 6px 18px rgba(14,27,42,.05);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --tinta:#E6EDF3; --tinta-2:#9AACBC; --linea:#25384B;
+      --fondo:#0B1520; --papel:#111E2B;
+      --marca:#7FB6DE; --marca-suave:#16293B;
+      --acento:#4FC3DC; --barato:#59C98A; --caro:#F08B76;
+      --alerta:#E0B762; --alerta-fondo:#2A2213;
+      --sombra:0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.3);
+    }
+  }
+  :root[data-theme="dark"]{
+    --tinta:#E6EDF3; --tinta-2:#9AACBC; --linea:#25384B;
+    --fondo:#0B1520; --papel:#111E2B;
+    --marca:#7FB6DE; --marca-suave:#16293B;
+    --acento:#4FC3DC; --barato:#59C98A; --caro:#F08B76;
+    --alerta:#E0B762; --alerta-fondo:#2A2213;
+    --sombra:0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.3);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    background:var(--fondo); color:var(--tinta);
+    font-family:'Source Sans 3','Segoe UI',system-ui,sans-serif;
+    font-size:16px; line-height:1.55; margin:0;
+  }
+  .hoja{max-width:1080px; margin:0 auto; padding:40px 24px 96px; display:flex; flex-direction:column; gap:44px}
+
+  header.tapa{display:flex; flex-direction:column; gap:14px; border-bottom:3px solid var(--marca); padding-bottom:22px}
+  .marca-linea{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--acento)}
+  h1{font-family:'Archivo',sans-serif; font-weight:700; font-size:clamp(28px,4.4vw,42px); line-height:1.1; margin:0; color:var(--marca); text-wrap:balance}
+  .bajada{font-size:17px; color:var(--tinta-2); max-width:62ch; margin:0}
+  .meta{display:flex; flex-wrap:wrap; gap:8px 22px; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--tinta-2)}
+  .meta b{color:var(--tinta); font-weight:500}
+
+  h2{font-family:'Archivo',sans-serif; font-weight:600; font-size:22px; margin:0 0 4px; color:var(--marca); text-wrap:balance}
+  h3{font-family:'Archivo',sans-serif; font-weight:600; font-size:15px; margin:0; color:var(--tinta);
+     letter-spacing:.02em}
+  .sec{display:flex; flex-direction:column; gap:20px}
+  .sub{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--tinta-2); letter-spacing:.04em; margin:0}
+
+  .hallazgos{display:grid; gap:14px}
+  @media(min-width:700px){ .hallazgos{grid-template-columns:repeat(2,1fr)} }
+  @media(min-width:1000px){ .hallazgos{grid-template-columns:repeat(4,1fr)} }
+  .hallazgo{background:var(--papel); border:1px solid var(--linea); border-radius:6px; padding:18px; box-shadow:var(--sombra);
+            display:flex; flex-direction:column; gap:9px}
+  .hallazgo .destino{font-family:'Archivo',sans-serif; font-weight:700; font-size:17px; color:var(--marca)}
+  .hallazgo p{margin:0; font-size:14.5px; color:var(--tinta-2)}
+  .chip{align-self:flex-start; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.1em;
+        text-transform:uppercase; padding:3px 9px; border-radius:3px; background:var(--alerta-fondo); color:var(--alerta);
+        border:1px solid color-mix(in srgb, var(--alerta) 30%, transparent)}
+  .num{font-family:'IBM Plex Mono',monospace; font-variant-numeric:tabular-nums; color:var(--tinta); font-weight:500}
+
+  .tabla-caja{background:var(--papel); border:1px solid var(--linea); border-radius:6px; box-shadow:var(--sombra); overflow:hidden}
+  .tabla-cab{padding:14px 18px; border-bottom:1px solid var(--linea); display:flex; flex-wrap:wrap; gap:4px 14px; align-items:baseline}
+  .tabla-cab .cod{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--acento); letter-spacing:.1em}
+  .scroll{overflow-x:auto}
+  table{border-collapse:collapse; width:100%; min-width:640px; font-size:14px}
+  th{background:transparent; text-align:right; font-family:'IBM Plex Mono',monospace; font-weight:500; font-size:10.5px;
+     letter-spacing:.09em; text-transform:uppercase; color:var(--tinta-2); padding:10px 12px; border-bottom:1px solid var(--linea); white-space:nowrap}
+  th:first-child, th:nth-child(2){text-align:left}
+  td{padding:9px 12px; border-bottom:1px solid var(--linea); text-align:right;
+     font-family:'IBM Plex Mono',monospace; font-variant-numeric:tabular-nums; white-space:nowrap}
+  td:first-child, td:nth-child(2){text-align:left; font-family:'Source Sans 3',sans-serif}
+  tbody tr:last-child td{border-bottom:none}
+  td.hotel{font-weight:600; color:var(--tinta)}
+  td.hotel small{display:block; font-weight:400; font-size:11px; color:var(--tinta-2); font-family:'IBM Plex Mono',monospace;
+                 letter-spacing:.06em; text-transform:uppercase}
+  td.tipo{font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.08em; color:var(--tinta-2)}
+  tr.propio td.tipo{color:var(--acento)}
+  td.mejor{background:var(--marca-suave); font-weight:600; color:var(--marca)}
+  .na{color:var(--tinta-2); opacity:.65}
+  .abajo{color:var(--barato)} .arriba{color:var(--caro)}
+  .pie{padding:12px 18px; border-top:1px solid var(--linea); display:flex; flex-direction:column; gap:8px}
+  .pie p{margin:0; font-size:12.5px; color:var(--tinta-2)}
+  .pie .ref{border-left:3px solid var(--acento); padding-left:11px}
+  .pie .ref b{color:var(--tinta)}
+
+  .verif{background:var(--papel); border:1px solid var(--linea); border-radius:6px; box-shadow:var(--sombra); overflow:hidden}
+  .aviso{background:var(--alerta-fondo); border:1px solid color-mix(in srgb, var(--alerta) 28%, transparent);
+         border-radius:6px; padding:15px 18px; font-size:14.5px; color:var(--tinta)}
+  .aviso b{color:var(--alerta)}
+  .leyenda{font-size:12.5px; color:var(--tinta-2); margin:0}
+  footer{border-top:1px solid var(--linea); padding-top:18px; font-size:12.5px; color:var(--tinta-2)}
+  ul{margin:0; padding-left:1.1em; display:flex; flex-direction:column; gap:6px}
+  li{font-size:14.5px; color:var(--tinta-2)}
+  li b{color:var(--tinta)}
+</style>
+
+<div class="hoja">
+
+  <header class="tapa">
+    <div class="marca-linea">Hoteles Decameron Chile · Reporte de competencia</div>
+    <h1>10 – 15 Octubre 2026</h1>
+    <p class="bajada">Comparativo de alojamiento, paquetería y aéreos entre V. Falabella, Despegar, Cocha y Expedia. Precios en USD, total de la estadía para 2 adultos, habitación Standard, tarifa más económica de esa categoría, régimen All Inclusive donde aplica.</p>
+    <p class="bajada"><b>Las tarifas de las tablas se cotizaron el 27 de agosto</b> (Cartagena, Punta Sal y Panamá se re-cotizaron el 28). Al recotizar el lunes 31 varias se habían movido —Barú subió $214 en alojamiento y $469 en paquetería—, así que conviene refrescar antes de emitir.</p>
+    <div class="meta">
+      <span>Cotización original <b>27/08</b></span>
+      <span>Re-cotización y verificación <b>lun 31/08</b></span>
+      <span>Conversión CLP→USD <b>$943</b></span>
+    </div>
+  </header>
+
+  <section class="sec">
+    <div>
+      <h2>Lectura ejecutiva para el equipo de producto</h2>
+      <p class="sub">Cuentas V. Falabella y Despegar · lo que las tablas muestran al cruzarlas · cotización 26/08, verificación 31/08</p>
+    </div>
+    <div class="hallazgos">
+      <article class="hallazgo">
+        <span class="chip">19 filas de 19</span>
+        <div class="destino">Una carga, dos vitrinas</div>
+        <p>V. Falabella y Despegar publican <b>exactamente el mismo precio de alojamiento en las 19 filas</b> del informe, sin una sola excepción; solo difieren en paquetería, por el aéreo. Las dos cuentas no tienen ninguna diferenciación de tarifa hotelera entre sí — y toda corrección de carga aplica a ambas a la vez.</p>
+      </article>
+      <article class="hallazgo">
+        <span class="chip">−10,7% mecánico</span>
+        <div class="destino">Cocha vende lo nuestro más barato</div>
+        <p>En los 5 Decameron de San Andrés, Cocha está entre <span class="num">−10,6%</span> y <span class="num">−11,0%</span> bajo Falabella/Despegar. Esa regularidad no es una promoción: es estructura — comisión o tarifa neta distinta. En los 8 hoteles propios comparables el promedio es <span class="num">−12,6%</span> (Los Cabos llega a −32%). El producto propio está sistemáticamente más caro en las vitrinas que administra el equipo.</p>
+      </article>
+      <article class="hallazgo">
+        <span class="chip">+23,5% solo en Decameron</span>
+        <div class="destino">Expedia castiga la carga propia</div>
+        <p>Hoteles Decameron en Expedia: <span class="num">+23,5%</span> promedio sobre Falabella (Isleño +64%, Marazul +64%, Maryland +45%). La competencia en las mismas tablas: <span class="num">+0,2%</span>. Expedia no es cara — <b>Decameron está mal cargado en Expedia</b>. Reenviar a quien maneje esa cuenta.</p>
+      </article>
+    </div>
+    <div class="aviso">
+      <b>Góndola vacía en las cuentas propias.</b> Decameron Cartagena, el Galeón (alojamiento) y Punta Sal figuran NA en Falabella y en Despegar — y el cupo existe: el Galeón se vende en Cocha a <span class="num">US$ 1,461</span> para las mismas fechas. Cada uno de esos NA es venta que las dos cuentas están dejando en el mostrador del competidor. En fechas vecinas (3–8 oct) el Galeón sí aparece en ambas, pero con «Solo queda 1»: inventario de última habitación.
+    </div>
+    <ul>
+      <li><b>Pedido 1 — cargas faltantes:</b> reponer Decameron Cartagena, Decameron Galeón y Royal Decameron Punta Sal en Falabella y Despegar para el 10–15 de octubre. Hoy la fila del Galeón la sostiene solo Cocha.</li>
+      <li><b>Pedido 2 — paridad y brecha:</b> confirmar si la paridad total Falabella=Despegar es intencional, y si el ~11% de ventaja de Cocha corresponde a condiciones comerciales pactadas o a un desvío de carga.</li>
+      <li><b>Pedido 3 — Expedia:</b> derivar la revisión de la carga propia a la cuenta correspondiente, con los tres casos de +45% a +64% como evidencia.</li>
+      <li><b>Pedido 4 — Panamá:</b> confirmar la doble carga del hotel y de qué proveedor viene cada una; la segunda sigue sin tarifa en Cocha y Expedia. Este informe no rotula el origen porque nadie lo ha verificado.</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <div>
+      <h2>Qué salió de la verificación</h2>
+      <p class="sub">Cuatro puntos detectados al contrastar y recotizar</p>
+    </div>
+    <div class="hallazgos">
+      <article class="hallazgo">
+        <span class="chip">No se exhibe</span>
+        <div class="destino">Cocha · los 10</div>
+        <p><b>Ningún hotel Decameron se obtuvo desde la búsqueda de destino de Cocha.</b> Los diez hubo que encontrarlos escribiendo el nombre del hotel, ni en alojamiento ni en paquetería. Las celdas son correctas, pero <b>en la práctica no estamos en esa góndola</b> para quien no nos busca por nombre. Aparte: de los cuatro NA, dos tenían tarifa (Panamá $963, Galeón $1,461) y dos están sin cupo de verdad.</p>
+      </article>
+      <article class="hallazgo">
+        <span class="chip">Número no cuadra</span>
+        <div class="destino">Panamá</div>
+        <p>El V.1 publicaba <span class="num">$969</span> como MEJOR en la fila de «nuestra tarifa», pero el mínimo de esa fila era <span class="num">$1,026</span>: el número no salía de ninguna celda. El V.2 lo cerró en <span class="num">$956</span>, que sí era el mínimo. Con la recotización de Cocha del 31/08 la fila queda en <span class="num">$963</span>, que sigue siendo el mínimo. Corregido.</p>
+      </article>
+      <article class="hallazgo">
+        <span class="chip">NA que no era NA</span>
+        <div class="destino">Santa Marta</div>
+        <p>El Galeón figuraba sin cupo en los cuatro operadores. Buscando en Cocha por hotel y fecha aparece a <span class="num">$1,461</span> en Estándar. No estaba sin cupo: no se exhibía. Con eso pasa a ser el más económico de su tabla y se cierra la contradicción con su propio paquete.</p>
+      </article>
+      <article class="hallazgo">
+        <span class="chip">Tarifa movida</span>
+        <div class="destino">Barú</div>
+        <p>Cinco días después, Viajes Falabella da <span class="num">$2,142</span> en alojamiento y <span class="num">$3,028</span> en paquetería, contra <span class="num">$1,928</span> y <span class="num">$2,559</span> del miércoles. En paquetería el mejor de la fila pasa de Falabella a Cocha.</p>
+      </article>
+      <article class="hallazgo">
+        <span class="chip">Salto sin explicar</span>
+        <div class="destino">Cartagena</div>
+        <p>Dubai pasó de <span class="num">$1,156</span> a <span class="num">$587</span> entre versiones y La Gran Vía pasó de «sin disponibilidad» a ser el más barato. Reconfirmar categoría y régimen cotizados.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div>
+      <h2>Alojamiento</h2>
+      <p class="sub">10 – 15 Octubre 2026 · 2 PAX · Precios en USD</p>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>San Andrés</h3><span class="cod">ADZ</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Isleño</td><td>$1,642</td><td>$1,642</td><td>$1,467</td><td>$2,687</td><td class="mejor">$1,467</td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron San Luis</td><td>$954</td><td>$954</td><td>$852</td><td>$1,046</td><td class="mejor">$852 <span class="abajo">▼</span></td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Marazul</td><td>$1,066</td><td>$1,066</td><td>$951</td><td>$1,748</td><td class="mejor">$951</td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Maryland</td><td>$1,246</td><td>$1,246</td><td>$1,114</td><td>$1,810</td><td class="mejor">$1,114</td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Los Delfines</td><td>$1,344</td><td>$1,344</td><td>$1,196</td><td>$1,515</td><td class="mejor">$1,196</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Sol Caribe San Andrés</td><td>$1,476</td><td>$1,476</td><td>$1,138</td><td>$1,500</td><td class="mejor">$1,138</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Sol Caribe Campo</td><td>$1,636</td><td>$1,636</td><td>$1,138</td><td class="na">NA</td><td class="mejor">$1,138</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">El Dorado</td><td>$2,272</td><td>$2,272</td><td class="na">NA</td><td>$1,683</td><td class="mejor">$1,683</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Grand Sirenis San Andrés</td><td>$2,248</td><td>$2,248</td><td>$1,942</td><td>$2,274</td><td class="mejor">$1,942 <span class="arriba">▲</span></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>Cartagena</h3><span class="cod">CTG</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Cartagena</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td class="mejor">—</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Dorado Plaza Bocagrande</td><td>$1,132</td><td>$1,132</td><td>$967</td><td>$1,162</td><td class="mejor">$967 <span class="arriba">▲</span></td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Hotel Dubai Cartagena</td><td>$587</td><td>$587</td><td>$588</td><td>$628</td><td class="mejor">$587</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Hotel La Gran Vía</td><td>$580</td><td>$580</td><td class="na">NA</td><td class="na">NA</td><td class="mejor">$580 <span class="abajo">▼</span></td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p>Sin disponibilidad en ningún canal para estas fechas: Cartagena Plaza (Expedia exige mínimo 7 noches).</p>
+        <p class="ref"><b>Decameron Cartagena figura NA</b> porque está sin cupo en los cuatro operadores y también en la venta web directa. Como <b>valor referencial</b> —otro periodo, otro canal—, del 3 al 8 de octubre sí hay tarifa en el canal directo: habitación Estándar, <span class="num">US$ 979</span> No Reembolsable y <span class="num">US$ 1,085</span> Flex por la estadía (US$ 196 por noche). Cotizado el 31/08/2026.</p>
+      </div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>Punta Sal</h3><span class="cod">TBP</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Royal Decameron Punta Sal</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td class="mejor">—</td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p>Sin oferta All Inclusive comparable en la zona; el contraste se realiza entre operadores sobre el mismo producto Decameron.</p>
+        <p class="ref"><b>Sin cupo</b> en los cuatro operadores y en la venta web directa. Como <b>valor referencial</b>, del 3 al 8 de octubre el canal directo sí lo vende: <span class="num">US$ 1,524</span> por la estadía (US$ 305 por noche) en <b>Superior Plus</b>, única categoría que el hotel publica para esas fechas — no ofrece Standard, así que la cifra es de una categoría superior. La ficha no rotula modalidad, de modo que el monto no se declara No Reembolsable ni Flex. Cotizado el 31/08/2026.</p>
+      </div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>Panamá</h3><span class="cod">PTY</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Grand Decameron Panamá<small>Carga más baja del operador</small></td><td>$1,008</td><td>$1,008</td><td>$963</td><td>$1,213</td><td class="mejor">$963</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Riu Playa Blanca All Inclusive</td><td>$1,110</td><td>$1,110</td><td>$1,087</td><td>$1,059</td><td class="mejor">$1,059</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Gran Evenia Bijao</td><td>$810</td><td>$810</td><td>$788</td><td>$956</td><td class="mejor">$788 <span class="abajo">▼</span></td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Dreams Playa Bonita Panamá</td><td>$1,367</td><td>$1,367</td><td>$1,207</td><td>$1,392</td><td class="mejor">$1,207 <span class="arriba">▲</span></td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p>El operador tiene este hotel <b>cargado dos veces</b>, con tarifas distintas. Se publica la más baja, que es la que la representación mantiene en el mercado; la otra quedaba en $1,177. <b>No está verificado de qué proveedor viene cada carga</b>, así que no se rotulan.</p>
+        <p class="ref"><b>Cocha, recotizado el 31/08:</b> $908.113 por 5 noches y 2 personas, o sea <span class="num">$963</span>, en <b>habitación estándar con vista al jardín</b> —Garden View, no la Standard a secas— y con <b>cancelación gratuita hasta el 6 de octubre</b>. El informe traía $956; la celda queda en $963 y el MEJOR con ella. Ojo: es una tarifa cancelable, así que no compara de igual a igual contra una No Reembolsable.</p>
+        <p class="ref"><b>Y no se exhibe:</b> el hotel no sale en la búsqueda de Cocha ni en alojamiento ni en paquetería. Solo aparece entrando por hotel y fecha.</p>
+        <p class="ref"><b>Pendiente:</b> la segunda carga del hotel, la más cara, figura sin tarifa en Cocha y Expedia. Como <b>valor referencial</b>, del 3 al 8 de octubre el canal directo cotiza el hotel en <span class="num">US$ 875</span> por la estadía (US$ 175 por noche) en <b>Garden View</b>: tampoco publica Standard en esas fechas. Sin rótulo de modalidad. Cotizado el 31/08/2026.</p>
+      </div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>Santa Marta</h3><span class="cod">SMR</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Galeón</td><td class="na">NA</td><td class="na">NA</td><td>$1,461</td><td class="na">NA</td><td class="mejor">$1,461 <span class="abajo">▼</span></td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Hotel Porto Horizonte</td><td>$1,758</td><td>$1,758</td><td class="na">NA</td><td>$1,756</td><td class="mejor">$1,756 <span class="arriba">▲</span></td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p>Sin disponibilidad en ningún canal para estas fechas: Irotama del Sol.</p>
+        <p class="ref"><b>Esta celda estaba mal y ya está corregida.</b> El informe daba NA en los cuatro operadores. Al buscar en Cocha <b>por hotel y fecha</b> —no por búsqueda de destino— el hotel sí tiene tarifa para el 10 al 15: $1.378.140 por 5 noches y 2 personas, o sea <span class="num">US$ 1,461</span>, habitación <b>Estándar</b>, todo incluido, sin cambio ni devolución. La misma Estándar con cancelación gratuita hasta el 29 de septiembre queda en <span class="num">US$ 1,624</span>: los <span class="num">US$ 163</span> de diferencia son el costo de la flexibilidad. Hay además una Villa a US$ 1,578, que no se toma porque la regla del informe manda usar la Standard cuando existe. Recotizado el 31/08/2026.</p>
+        <p class="ref"><b>Falabella, Despegar y Expedia siguen en NA</b>, así que la fila la sostiene un solo canal. Ya no lleva referencia del 3 al 8: la celda tiene cifra propia del periodo del informe, que es mejor dato que una tarifa de otras fechas.</p>
+      </div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>México</h3><span class="cod">MEX</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Grand Decameron Complex</td><td>$1,304</td><td>$1,304</td><td>$1,163</td><td>$1,357</td><td class="mejor">$1,163 <span class="abajo">▼</span></td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Grand Decameron Los Cabos</td><td>$2,174</td><td>$2,174</td><td>$1,479</td><td>$1,479</td><td class="mejor">$1,479 <span class="arriba">▲</span></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <p class="leyenda">▼ más económico de la tabla · ▲ más caro · NA = cotizado sin disponibilidad o sin tarifa · N/D = canal no cotizado para ese hotel</p>
+  </section>
+
+  <section class="sec">
+    <div>
+      <h2>Paquetería</h2>
+      <p class="sub">Hotel + Aéreo · 10 – 15 Octubre 2026 · 2 PAX · Precios en USD</p>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>San Andrés</h3><span class="cod">ADZ</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Isleño</td><td>$2,074</td><td>$2,229</td><td>$2,316</td><td>$3,117</td><td class="mejor">$2,074</td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron San Luis</td><td>$1,697</td><td>$1,807</td><td>$1,701</td><td>$2,191</td><td class="mejor">$1,697 <span class="abajo">▼</span></td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Marazul</td><td>$1,737</td><td>$1,848</td><td>$1,801</td><td>$2,726</td><td class="mejor">$1,737</td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Maryland</td><td>$1,894</td><td>$2,035</td><td>$1,963</td><td>$2,508</td><td class="mejor">$1,894</td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Los Delfines</td><td>$1,886</td><td>$2,065</td><td>$2,046</td><td>$2,311</td><td class="mejor">$1,886</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Sol Caribe San Andrés</td><td>$1,952</td><td>$2,174</td><td>$1,967</td><td>$2,236</td><td class="mejor">$1,952</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Sol Caribe Campo</td><td>$1,952</td><td>$2,174</td><td>$1,967</td><td class="na">NA</td><td class="mejor">$1,952</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">El Dorado</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td>$2,481</td><td class="mejor">$2,481 <span class="arriba">▲</span></td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Grand Sirenis San Andrés</td><td>$2,448</td><td>$2,718</td><td>$2,713</td><td>$2,882</td><td class="mejor">$2,448</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>Cartagena</h3><span class="cod">CTG</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Dorado Plaza Bocagrande</td><td>$1,960</td><td>$1,954</td><td>$1,976</td><td class="na">N/D</td><td class="mejor">$1,954 <span class="arriba">▲</span></td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Hotel Dubai Cartagena</td><td>$1,615</td><td>$1,564</td><td class="na">NA</td><td class="na">N/D</td><td class="mejor">$1,564</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Hotel La Gran Vía</td><td>$1,574</td><td>$1,542</td><td class="na">NA</td><td class="na">N/D</td><td class="mejor">$1,542 <span class="abajo">▼</span></td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p>Sin disponibilidad en ningún canal para estas fechas: Decameron Cartagena, Cartagena Plaza.</p>
+        <p class="ref">Del 3 al 8 de octubre el Decameron Cartagena sí se vende: el canal directo lo cotiza en habitación Estándar, <span class="num">US$ 979</span> / <span class="num">US$ 1,085</span>, <b>solo alojamiento</b>. No hay estimado de paquete para esas fechas — el canal directo no vende hotel más aéreo y los operadores no se pudieron consultar, así que esa referencia no es comparable con esta tabla.</p>
+      </div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>Punta Sal</h3><span class="cod">TBP</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Royal Decameron Punta Sal</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td class="mejor">—</td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p>Sin oferta All Inclusive comparable en la zona; el contraste se realiza entre operadores sobre el mismo producto Decameron.</p>
+        <p class="ref">Del 3 al 8 de octubre el hotel sí se vende: <span class="num">US$ 1,524</span> en Superior Plus, <b>solo alojamiento</b> y como valor referencial. El paquete de esas fechas queda pendiente de cotizar.</p>
+      </div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>Panamá</h3><span class="cod">PTY</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Grand Decameron Panamá<small>Carga más baja del operador</small></td><td>$2,514</td><td>$2,588</td><td>$2,273</td><td class="na">N/D</td><td class="mejor">$2,273</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Riu Playa Blanca All Inclusive</td><td>$2,576</td><td>$2,650</td><td>$2,366</td><td class="na">N/D</td><td class="mejor">$2,366</td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Gran Evenia Bijao</td><td>$2,346</td><td>$2,438</td><td>$2,105</td><td class="na">N/D</td><td class="mejor">$2,105 <span class="abajo">▼</span></td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Dreams Playa Bonita Panamá</td><td>$2,772</td><td>$2,863</td><td>$2,496</td><td class="na">N/D</td><td class="mejor">$2,496 <span class="arriba">▲</span></td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p>El operador tiene este hotel cargado dos veces: se publica la más baja y la otra quedaba en $2,756. No está verificado de qué proveedor viene cada carga.</p>
+        <p>En la re-cotización del 28/08 Expedia bloqueó la consulta automática, por eso su columna de paquetería queda sin cotizar (N/D).</p>
+      </div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>Santa Marta</h3><span class="cod">SMR</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Galeón</td><td class="na">NA</td><td class="na">NA</td><td>$3,357</td><td class="na">NA</td><td class="mejor">$3,357 <span class="arriba">▲</span></td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Hotel Porto Horizonte</td><td>$2,267</td><td>$3,163</td><td>$2,459</td><td>$2,610</td><td class="mejor">$2,267 <span class="abajo">▼</span></td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p>Sin disponibilidad en ningún canal para estas fechas: Irotama del Sol.</p>
+        <p class="ref"><b>La contradicción quedó resuelta.</b> El informe marcaba que el Galeón tenía paquete en Cocha a US$ 3,357 y a la vez NA en alojamiento. La celda mala era la de alojamiento: el hotel sí tiene habitaciones en Cocha para estas fechas —US$ 1,461— y lo que fallaba era que no aparecía en la búsqueda de destino. Corregido en la tabla de alojamiento.</p>
+      </div>
+    </div>
+
+    <div class="tabla-caja">
+      <div class="tabla-cab"><h3>México</h3><span class="cod">MEX</span></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
+        <tbody>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Grand Decameron Complex</td><td class="na">NA</td><td class="na">NA</td><td>$3,097</td><td>$3,364</td><td class="mejor">$3,097 <span class="abajo">▼</span></td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Grand Decameron Los Cabos</td><td>$3,946</td><td>$4,306</td><td>$3,108</td><td>$3,155</td><td class="mejor">$3,108 <span class="arriba">▲</span></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div>
+      <h2>Tarifas aéreas desde Santiago</h2>
+      <p class="sub">SCL · 10 – 15 Octubre 2026 · por persona, ida y vuelta, USD</p>
+    </div>
+    <div class="tabla-caja">
+      <div class="scroll"><table>
+        <thead><tr><th>Ruta</th><th>Latam</th><th>Avianca</th><th>Copa</th><th>Sky</th><th>JetSmart</th><th>Arajet</th></tr></thead>
+        <tbody>
+          <tr><td class="hotel">SCL → ADZ</td><td class="abajo">$384</td><td>$535</td><td class="arriba">$744</td><td class="na">NA</td><td>$591</td><td class="na">NA</td></tr>
+          <tr><td class="hotel">SCL → CTG</td><td class="abajo">$404</td><td>$569</td><td class="arriba">$1,006</td><td class="na">NA</td><td>$430</td><td class="na">NA</td></tr>
+          <tr><td class="hotel">SCL → TBP</td><td class="abajo">$422</td><td class="na">NA</td><td class="na">NA</td><td class="arriba">$567</td><td class="na">NA</td><td class="na">NA</td></tr>
+          <tr><td class="hotel">SCL → PUJ</td><td>$667</td><td>$715</td><td class="arriba">$858</td><td>$846</td><td class="na">NA</td><td class="abajo">$606</td></tr>
+          <tr><td class="hotel">SCL → CUN</td><td class="abajo">$706</td><td class="arriba">$872</td><td>$720</td><td class="na">NA</td><td class="na">NA</td><td>$772</td></tr>
+          <tr><td class="hotel">SCL → SMR</td><td>$507</td><td class="arriba">$742</td><td>$600</td><td class="na">NA</td><td class="abajo">$434</td><td class="na">NA</td></tr>
+          <tr><td class="hotel">SCL → PTY</td><td class="na">NA</td><td class="abajo">$580</td><td class="arriba">$650</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie"><p>Verde = más barato por ruta · Rojo = más caro · NA = aerolínea sin vuelo en la ruta</p></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div>
+      <h2>Verificación del 3 al 8 de octubre</h2>
+      <p class="sub">Canal directo decameronchile.cl · 5 noches · 2 adultos · total de la estadía en USD</p>
+    </div>
+
+    <div class="aviso">
+      <b>Estas cifras son referenciales.</b> Son de otro periodo y de un canal distinto de los cuatro operadores: no reemplazan la cotización de las tablas ni entran en el cálculo de MEJOR. Van solo como nota al pie, para que el NA del 10–15 se lea con una referencia al lado.
+    </div>
+
+    <div class="verif">
+      <div class="scroll"><table>
+        <thead><tr><th>Hotel</th><th>Habitación</th><th>No Reemb.</th><th>Flex</th><th>Por noche</th><th>10–15 Oct</th></tr></thead>
+        <tbody>
+          <tr><td class="hotel">Decameron Cartagena</td><td>Estándar</td><td>$979</td><td>$1,085</td><td>$196</td><td class="na">NA</td></tr>
+          <tr><td class="hotel">Decameron Galeón</td><td>Estándar</td><td>$1,245</td><td>$1,381</td><td>$249</td><td class="na">NA</td></tr>
+          <tr><td class="hotel">Royal Decameron Punta Sal</td><td>Superior Plus</td><td>$1,524</td><td class="na">—</td><td>$305</td><td class="na">NA</td></tr>
+          <tr><td class="hotel">Grand Decameron Panamá</td><td>Garden View</td><td>$875</td><td class="na">—</td><td>$175</td><td>$956 <span class="arriba">?</span></td></tr>
+        </tbody>
+      </table></div>
+      <div class="pie">
+        <p><b>No Reembolsable y Flex son dos tarifas distintas</b>, no dos precios de lo mismo. Cada una queda sujeta a sus propias condiciones de cambio y cancelación, que se describen al momento de reservar. Por eso van en columnas separadas y no se promedian: la diferencia entre ambas es el costo de la flexibilidad, no un descuento. Y al contrastarlas contra las celdas de los operadores hay que tener presente que de esas tarifas no conocemos la condición: la comparación es de precio, no de producto.</p>
+        <p><b>Punta Sal y Panamá no publican Standard</b> en esas fechas. La cifra es de la categoría disponible —Superior Plus y Garden View— y queda declarada, como manda la regla del reporte. Sus fichas tampoco rotulan modalidad, así que el monto no se declara No Reembolsable ni Flex.</p>
+        <p><b>El $956 de Panamá está sin respaldo.</b> Es el único 10–15 con cifra en esta tabla, y coincide exactamente con lo que el informe publicaba en la celda de Cocha. El archivo de control del canal directo no incluye Panamá, así que no hay de dónde verificarlo. Puede ser que se haya arrastrado desde la celda del operador. Hay que recotizarlo antes de emitir.</p>
+        <p><b>La tarifa del canal directo se mueve.</b> Entre el 29 y el 31 de agosto Cartagena bajó de US$ 1,063 a US$ 979, y Punta Sal dejó de publicar la Estándar vista al mar Plus (US$ 1,567): hoy su única categoría es Superior Plus. Por eso cada nota lleva su fecha de cotización. Verificado con tres muestras idénticas el 31/08/2026.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div>
+      <h2>Antes de emitir</h2>
+      <p class="sub">Lo que falta cerrar</p>
+    </div>
+    <ul>
+      <li><b>Los hoteles no se exhiben en Cocha.</b> Panamá y el Galeón no aparecen en la búsqueda de destino, y sin embargo tienen tarifa cargada y disponible: solo se llega a ella entrando por hotel y fecha. Dos de dos. Es lo más grave de esta corrida y no se refleja en ninguna tabla, porque las tablas comparan precios y esto es visibilidad. Conviene levantarlo con Cocha.</li>
+      <li><b>Panamá, celda de Cocha.</b> Recotizada en $963 contra los $956 publicados. Y ese $956 es el mismo número que la tabla de verificación muestra como canal directo del 10–15: o es casualidad o una celda tomó el dato de la otra. El control del canal directo no incluye Panamá, así que no hay respaldo. Rehacer las dos.</li>
+      <li><b>Panamá, segunda carga.</b> Sigue sin tarifa en Cocha y Expedia, en alojamiento y paquetería.</li>
+      <li><b>Santa Marta, corregido.</b> El Galeón figuraba NA en los cuatro y en Cocha tiene US$ 1,461 en Estándar para el 10–15. La celda ya está rehecha y con eso el hotel pasa a ser el más económico de su tabla. Queda cerrada la contradicción con su paquete.</li>
+      <li><b>Cocha: preguntar por la exhibición de las diez fichas.</b> Ningún hotel Decameron aparece en la búsqueda de destino —tampoco los de San Andrés y México, que sí tienen cupo y tarifa—: todos hubo que buscarlos por nombre. Es una conversación técnica de indexación, no una negociación de tarifa. Aparte, la disponibilidad quedó verificada hotel por hotel: Cartagena y Punta Sal están sin cupo de verdad; Panamá y el Galeón sí tenían tarifa y ya se corrigieron.</li>
+      <li><b>Cartagena en paquetería.</b> Decameron Cartagena no tiene fila en esa tabla: están solo los tres competidores. O se cotiza y se agrega, o se pone la fila en NA, pero no puede faltar el hotel propio del destino.</li>
+      <li><b>Cartagena.</b> Reconfirmar categoría y régimen de Dubai y La Gran Vía; el salto entre versiones es demasiado grande para darlo por bueno.</li>
+      <li><b>Puntajes de Panamá.</b> Pasaron de (7.2)/(6.6) a (7.5)/(7.8) entre versiones, y con eso el rótulo «nuestra tarifa» cambió de fila. Confirmar que las dos cargas no se cruzaron.</li>
+      <li><b>Decameron Barú.</b> Recotizado el 31/08 en Viajes Falabella: alojamiento $2,142 contra $1,928 publicado, y paquetería $3,028 contra $2,559. En paquetería el mejor de la fila deja de ser Falabella y pasa a Cocha con $2,605. Ambas tarifas son promocionales.</li>
+      <li><b>Origen de las cargas dobles.</b> Hoy el informe deduce cuál carga es de la representación y cuál de un banco de camas comparando precios: asume que la más barata es la propia. Nadie lo ha verificado con el operador. Mientras no se confirme, las filas van sin rótulo de origen.</li>
+      <li><b>Decameron Barú, destino.</b> Definir con cuál queda: hoy aparece solo en el benchmark, no en la tabla de Cartagena.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Comparativo entre V. Falabella, Despegar, Cocha y Expedia. Datos del informe V.2 (28/08/2026); en esa re-cotización Expedia bloqueó la consulta automática y su columna de alojamiento se obtuvo vía Hoteles.com, mismo grupo e inventario. Verificación del canal directo y revisión de consistencia: 31/08/2026.
+  </footer>
+
+</div>

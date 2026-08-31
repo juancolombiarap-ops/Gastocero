@@ -1,0 +1,665 @@
+{
+ "aereo_implicito": [
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Isleño",
+   "canal": "FAL",
+   "paq": 2074,
+   "aloj": 1642,
+   "aereo_2pax": 432,
+   "aereo_pax": 216
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Isleño",
+   "canal": "DES",
+   "paq": 2229,
+   "aloj": 1642,
+   "aereo_2pax": 587,
+   "aereo_pax": 294
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Isleño",
+   "canal": "COC",
+   "paq": 2316,
+   "aloj": 1467,
+   "aereo_2pax": 849,
+   "aereo_pax": 424
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Isleño",
+   "canal": "EXP",
+   "paq": 3117,
+   "aloj": 2687,
+   "aereo_2pax": 430,
+   "aereo_pax": 215
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron San Luis",
+   "canal": "FAL",
+   "paq": 1697,
+   "aloj": 954,
+   "aereo_2pax": 743,
+   "aereo_pax": 372
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron San Luis",
+   "canal": "DES",
+   "paq": 1807,
+   "aloj": 954,
+   "aereo_2pax": 853,
+   "aereo_pax": 426
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron San Luis",
+   "canal": "COC",
+   "paq": 1701,
+   "aloj": 852,
+   "aereo_2pax": 849,
+   "aereo_pax": 424
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron San Luis",
+   "canal": "EXP",
+   "paq": 2191,
+   "aloj": 1046,
+   "aereo_2pax": 1145,
+   "aereo_pax": 572
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Marazul",
+   "canal": "FAL",
+   "paq": 1737,
+   "aloj": 1066,
+   "aereo_2pax": 671,
+   "aereo_pax": 336
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Marazul",
+   "canal": "DES",
+   "paq": 1848,
+   "aloj": 1066,
+   "aereo_2pax": 782,
+   "aereo_pax": 391
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Marazul",
+   "canal": "COC",
+   "paq": 1801,
+   "aloj": 951,
+   "aereo_2pax": 850,
+   "aereo_pax": 425
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Marazul",
+   "canal": "EXP",
+   "paq": 2726,
+   "aloj": 1748,
+   "aereo_2pax": 978,
+   "aereo_pax": 489
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Maryland",
+   "canal": "FAL",
+   "paq": 1894,
+   "aloj": 1246,
+   "aereo_2pax": 648,
+   "aereo_pax": 324
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Maryland",
+   "canal": "DES",
+   "paq": 2035,
+   "aloj": 1246,
+   "aereo_2pax": 789,
+   "aereo_pax": 394
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Maryland",
+   "canal": "COC",
+   "paq": 1963,
+   "aloj": 1114,
+   "aereo_2pax": 849,
+   "aereo_pax": 424
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Maryland",
+   "canal": "EXP",
+   "paq": 2508,
+   "aloj": 1810,
+   "aereo_2pax": 698,
+   "aereo_pax": 349
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Los Delfines",
+   "canal": "FAL",
+   "paq": 1886,
+   "aloj": 1344,
+   "aereo_2pax": 542,
+   "aereo_pax": 271
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Los Delfines",
+   "canal": "DES",
+   "paq": 2065,
+   "aloj": 1344,
+   "aereo_2pax": 721,
+   "aereo_pax": 360
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Los Delfines",
+   "canal": "COC",
+   "paq": 2046,
+   "aloj": 1196,
+   "aereo_2pax": 850,
+   "aereo_pax": 425
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Los Delfines",
+   "canal": "EXP",
+   "paq": 2311,
+   "aloj": 1515,
+   "aereo_2pax": 796,
+   "aereo_pax": 398
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Sol Caribe San Andrés",
+   "canal": "FAL",
+   "paq": 1952,
+   "aloj": 1476,
+   "aereo_2pax": 476,
+   "aereo_pax": 238
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Sol Caribe San Andrés",
+   "canal": "DES",
+   "paq": 2174,
+   "aloj": 1476,
+   "aereo_2pax": 698,
+   "aereo_pax": 349
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Sol Caribe San Andrés",
+   "canal": "COC",
+   "paq": 1967,
+   "aloj": 1138,
+   "aereo_2pax": 829,
+   "aereo_pax": 414
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Sol Caribe San Andrés",
+   "canal": "EXP",
+   "paq": 2236,
+   "aloj": 1500,
+   "aereo_2pax": 736,
+   "aereo_pax": 368
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Sol Caribe Campo",
+   "canal": "FAL",
+   "paq": 1952,
+   "aloj": 1636,
+   "aereo_2pax": 316,
+   "aereo_pax": 158
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Sol Caribe Campo",
+   "canal": "DES",
+   "paq": 2174,
+   "aloj": 1636,
+   "aereo_2pax": 538,
+   "aereo_pax": 269
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Sol Caribe Campo",
+   "canal": "COC",
+   "paq": 1967,
+   "aloj": 1138,
+   "aereo_2pax": 829,
+   "aereo_pax": 414
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "El Dorado",
+   "canal": "EXP",
+   "paq": 2481,
+   "aloj": 1683,
+   "aereo_2pax": 798,
+   "aereo_pax": 399
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Grand Sirenis San Andrés",
+   "canal": "FAL",
+   "paq": 2448,
+   "aloj": 2248,
+   "aereo_2pax": 200,
+   "aereo_pax": 100
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Grand Sirenis San Andrés",
+   "canal": "DES",
+   "paq": 2718,
+   "aloj": 2248,
+   "aereo_2pax": 470,
+   "aereo_pax": 235
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Grand Sirenis San Andrés",
+   "canal": "COC",
+   "paq": 2713,
+   "aloj": 1942,
+   "aereo_2pax": 771,
+   "aereo_pax": 386
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Grand Sirenis San Andrés",
+   "canal": "EXP",
+   "paq": 2882,
+   "aloj": 2274,
+   "aereo_2pax": 608,
+   "aereo_pax": 304
+  },
+  {
+   "dest": "Cartagena",
+   "hotel": "Dorado Plaza Bocagrande",
+   "canal": "FAL",
+   "paq": 1960,
+   "aloj": 1132,
+   "aereo_2pax": 828,
+   "aereo_pax": 414
+  },
+  {
+   "dest": "Cartagena",
+   "hotel": "Dorado Plaza Bocagrande",
+   "canal": "DES",
+   "paq": 1954,
+   "aloj": 1132,
+   "aereo_2pax": 822,
+   "aereo_pax": 411
+  },
+  {
+   "dest": "Cartagena",
+   "hotel": "Dorado Plaza Bocagrande",
+   "canal": "COC",
+   "paq": 1976,
+   "aloj": 967,
+   "aereo_2pax": 1009,
+   "aereo_pax": 504
+  },
+  {
+   "dest": "Cartagena",
+   "hotel": "Hotel Dubai Cartagena",
+   "canal": "FAL",
+   "paq": 1615,
+   "aloj": 587,
+   "aereo_2pax": 1028,
+   "aereo_pax": 514
+  },
+  {
+   "dest": "Cartagena",
+   "hotel": "Hotel Dubai Cartagena",
+   "canal": "DES",
+   "paq": 1564,
+   "aloj": 587,
+   "aereo_2pax": 977,
+   "aereo_pax": 488
+  },
+  {
+   "dest": "Cartagena",
+   "hotel": "Hotel La Gran Vía",
+   "canal": "FAL",
+   "paq": 1574,
+   "aloj": 580,
+   "aereo_2pax": 994,
+   "aereo_pax": 497
+  },
+  {
+   "dest": "Cartagena",
+   "hotel": "Hotel La Gran Vía",
+   "canal": "DES",
+   "paq": 1542,
+   "aloj": 580,
+   "aereo_2pax": 962,
+   "aereo_pax": 481
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Grand Decameron Panamá",
+   "canal": "FAL",
+   "paq": 2514,
+   "aloj": 1008,
+   "aereo_2pax": 1506,
+   "aereo_pax": 753
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Grand Decameron Panamá",
+   "canal": "DES",
+   "paq": 2588,
+   "aloj": 1008,
+   "aereo_2pax": 1580,
+   "aereo_pax": 790
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Grand Decameron Panamá",
+   "canal": "COC",
+   "paq": 2273,
+   "aloj": 963,
+   "aereo_2pax": 1310,
+   "aereo_pax": 655
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Riu Playa Blanca All Inclusive",
+   "canal": "FAL",
+   "paq": 2576,
+   "aloj": 1110,
+   "aereo_2pax": 1466,
+   "aereo_pax": 733
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Riu Playa Blanca All Inclusive",
+   "canal": "DES",
+   "paq": 2650,
+   "aloj": 1110,
+   "aereo_2pax": 1540,
+   "aereo_pax": 770
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Riu Playa Blanca All Inclusive",
+   "canal": "COC",
+   "paq": 2366,
+   "aloj": 1087,
+   "aereo_2pax": 1279,
+   "aereo_pax": 640
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Gran Evenia Bijao",
+   "canal": "FAL",
+   "paq": 2346,
+   "aloj": 810,
+   "aereo_2pax": 1536,
+   "aereo_pax": 768
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Gran Evenia Bijao",
+   "canal": "DES",
+   "paq": 2438,
+   "aloj": 810,
+   "aereo_2pax": 1628,
+   "aereo_pax": 814
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Gran Evenia Bijao",
+   "canal": "COC",
+   "paq": 2105,
+   "aloj": 788,
+   "aereo_2pax": 1317,
+   "aereo_pax": 658
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Dreams Playa Bonita Panamá",
+   "canal": "FAL",
+   "paq": 2772,
+   "aloj": 1367,
+   "aereo_2pax": 1405,
+   "aereo_pax": 702
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Dreams Playa Bonita Panamá",
+   "canal": "DES",
+   "paq": 2863,
+   "aloj": 1367,
+   "aereo_2pax": 1496,
+   "aereo_pax": 748
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Dreams Playa Bonita Panamá",
+   "canal": "COC",
+   "paq": 2496,
+   "aloj": 1207,
+   "aereo_2pax": 1289,
+   "aereo_pax": 644
+  },
+  {
+   "dest": "Santa Marta",
+   "hotel": "Decameron Galeón",
+   "canal": "COC",
+   "paq": 3357,
+   "aloj": 1461,
+   "aereo_2pax": 1896,
+   "aereo_pax": 948
+  },
+  {
+   "dest": "Santa Marta",
+   "hotel": "Hotel Porto Horizonte",
+   "canal": "FAL",
+   "paq": 2267,
+   "aloj": 1758,
+   "aereo_2pax": 509,
+   "aereo_pax": 254
+  },
+  {
+   "dest": "Santa Marta",
+   "hotel": "Hotel Porto Horizonte",
+   "canal": "DES",
+   "paq": 3163,
+   "aloj": 1758,
+   "aereo_2pax": 1405,
+   "aereo_pax": 702
+  },
+  {
+   "dest": "Santa Marta",
+   "hotel": "Hotel Porto Horizonte",
+   "canal": "EXP",
+   "paq": 2610,
+   "aloj": 1756,
+   "aereo_2pax": 854,
+   "aereo_pax": 427
+  },
+  {
+   "dest": "México",
+   "hotel": "Grand Decameron Complex",
+   "canal": "COC",
+   "paq": 3097,
+   "aloj": 1163,
+   "aereo_2pax": 1934,
+   "aereo_pax": 967
+  },
+  {
+   "dest": "México",
+   "hotel": "Grand Decameron Complex",
+   "canal": "EXP",
+   "paq": 3364,
+   "aloj": 1357,
+   "aereo_2pax": 2007,
+   "aereo_pax": 1004
+  },
+  {
+   "dest": "México",
+   "hotel": "Grand Decameron Los Cabos",
+   "canal": "FAL",
+   "paq": 3946,
+   "aloj": 2174,
+   "aereo_2pax": 1772,
+   "aereo_pax": 886
+  },
+  {
+   "dest": "México",
+   "hotel": "Grand Decameron Los Cabos",
+   "canal": "DES",
+   "paq": 4306,
+   "aloj": 2174,
+   "aereo_2pax": 2132,
+   "aereo_pax": 1066
+  },
+  {
+   "dest": "México",
+   "hotel": "Grand Decameron Los Cabos",
+   "canal": "COC",
+   "paq": 3108,
+   "aloj": 1479,
+   "aereo_2pax": 1629,
+   "aereo_pax": 814
+  },
+  {
+   "dest": "México",
+   "hotel": "Grand Decameron Los Cabos",
+   "canal": "EXP",
+   "paq": 3155,
+   "aloj": 1479,
+   "aereo_2pax": 1676,
+   "aereo_pax": 838
+  }
+ ],
+ "diy_vs_paquete": [
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Isleño",
+   "aloj_min": 1467,
+   "vuelo_pax": 384,
+   "aerolinea": "Latam",
+   "diy": 2235,
+   "paquete": 2074,
+   "dif": -161
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron San Luis",
+   "aloj_min": 852,
+   "vuelo_pax": 384,
+   "aerolinea": "Latam",
+   "diy": 1620,
+   "paquete": 1697,
+   "dif": 77
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Marazul",
+   "aloj_min": 951,
+   "vuelo_pax": 384,
+   "aerolinea": "Latam",
+   "diy": 1719,
+   "paquete": 1737,
+   "dif": 18
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Maryland",
+   "aloj_min": 1114,
+   "vuelo_pax": 384,
+   "aerolinea": "Latam",
+   "diy": 1882,
+   "paquete": 1894,
+   "dif": 12
+  },
+  {
+   "dest": "San Andrés",
+   "hotel": "Decameron Los Delfines",
+   "aloj_min": 1196,
+   "vuelo_pax": 384,
+   "aerolinea": "Latam",
+   "diy": 1964,
+   "paquete": 1886,
+   "dif": -78
+  },
+  {
+   "dest": "Panamá",
+   "hotel": "Grand Decameron Panamá",
+   "aloj_min": 963,
+   "vuelo_pax": 580,
+   "aerolinea": "Avianca",
+   "diy": 2123,
+   "paquete": 2273,
+   "dif": 150
+  },
+  {
+   "dest": "Santa Marta",
+   "hotel": "Decameron Galeón",
+   "aloj_min": 1461,
+   "vuelo_pax": 434,
+   "aerolinea": "JetSmart",
+   "diy": 2329,
+   "paquete": 3357,
+   "dif": 1028
+  },
+  {
+   "dest": "México",
+   "hotel": "Grand Decameron Complex",
+   "aloj_min": 1163,
+   "vuelo_pax": 706,
+   "aerolinea": "Latam",
+   "diy": 2575,
+   "paquete": 3097,
+   "dif": 522
+  }
+ ],
+ "tarifa_min_pax": {
+  "ADZ": [
+   "Latam",
+   384
+  ],
+  "CTG": [
+   "Latam",
+   404
+  ],
+  "TBP": [
+   "Latam",
+   422
+  ],
+  "PUJ": [
+   "Arajet",
+   606
+  ],
+  "CUN": [
+   "Latam",
+   706
+  ],
+  "SMR": [
+   "JetSmart",
+   434
+  ],
+  "PTY": [
+   "Avianca",
+   580
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "reporte-competencia-oct-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generadores del Reporte de Competencia 10-15 Oct 2026 en Word y PowerPoint. Nada de esto es dependencia de la app Gastocero: son herramientas del informe y por eso viven en su propio package.json.",
+  "scripts": {
+    "word": "node generar_word_reporte.js colombia && node generar_word_reporte.js interna",
+    "ppt": "node generar_ppt_reporte.js colombia && node generar_ppt_reporte.js interna"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "pptxgenjs": "^4.0.1"
+  }
+}

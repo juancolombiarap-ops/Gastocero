@@ -1,0 +1,888 @@
+{
+ "rutas": [
+  {
+   "ruta": "SCL (Santiago de Chile) → ADZ (San Andrés, Colombia), 10-15 oct 2026. No existe vuelo directo: todas las opciones conectan vía Bogotá (LATAM, Avianca, JetSmart) o vía Ciudad de Panamá (Copa). Distancia ~5.247 km; mejor itinerario típico ~10 h 55 min según Google Flights. Ojo: Colombia va 2 h detrás de Chile en octubre (UTC-5 vs UTC-3), y San Andrés exige tarjeta de turismo que se paga aparte (monto no verificado).",
+   "opciones": [
+    {
+     "aerolinea": "LATAM",
+     "escalas": "1 escala vía Bogotá (BOG)",
+     "duracion_total": "~10 h 55 min mejor caso (SCL-BOG ~6 h + conexión ≥90 min + BOG-ADZ ~2 h 15 min)",
+     "horarios": "SCL-BOG diario con salidas diurnas y de madrugada; conexión en Bogotá de ~90 min o más; BOG-ADZ diurno. Itinerario típico: salida matinal desde SCL, llegada a la isla por la tarde. Sin pernocte.",
+     "nota_familia": "La tarifa más baja del informe ($384 pp i/v) con un solo transbordo y ambos tramos operados por el mismo grupo (equipaje chequeado hasta destino). Opción de mejor relación precio/comodidad para 4 pasajeros."
+    },
+    {
+     "aerolinea": "Avianca",
+     "escalas": "1 escala vía Bogotá (BOG)",
+     "duracion_total": "~9 h 30 min - 10 h 30 min mejor caso",
+     "horarios": "SCL-BOG diario y con múltiples frecuencias (hay salida de madrugada 00:30 que llega a BOG 05:45); BOG-ADZ tiene varias frecuencias diarias (~2 h 10 min el tramo), lo que da conexiones cortas y flexibles. Itinerario nocturno posible: salir 00:30, llegar a San Andrés a media mañana y ganar el día en la isla. Sin pernocte.",
+     "nota_familia": "La opción más flexible y robusta: si se pierde una conexión hay varios BOG-ADZ el mismo día. La salida 00:30 es dura para niños de 6 y 11 años, pero también existen combinaciones diurnas. Cuesta +$151 pp sobre LATAM."
+    },
+    {
+     "aerolinea": "Copa",
+     "escalas": "1 escala vía Ciudad de Panamá (PTY)",
+     "duracion_total": "~10 h 30 min - 11 h 30 min en el mejor caso, SOLO los días en que opera PTY-ADZ",
+     "horarios": "SCL-PTY con salida típica de madrugada (~00:00-01:00, ~6 h 50 min) llegando a PTY al amanecer; PTY-ADZ es matinal (salidas 09:09-10:25, ~1 h 16 min) pero de baja frecuencia: flightconnections (ago 2026) indica 2 vuelos/semana; una fuente de Copa mencionaba mar/jue/vie/dom. Días exactos para octubre 2026: no verificado. Si la fecha no calza, implica pernocte en Panamá o cambiar el día de viaje.",
+     "nota_familia": "La más cara ($744 pp) y la de mayor riesgo de calendario: el 10-oct-2026 es sábado y el tramo PTY-ADZ probablemente no opera ese día, lo que forzaría pernocte o mover fechas. Solo tiene sentido si se quiere evitar Bogotá o aprovechar el hub de Copa."
+    },
+    {
+     "aerolinea": "JetSmart",
+     "escalas": "1 escala vía Bogotá (BOG) — SCL-BOG con JetSmart Chile y BOG-ADZ directo diario con JetSmart Colombia (A320)",
+     "duracion_total": "~10-12 h según la conexión que arme el buscador; horarios exactos SCL-BOG para octubre 2026 no verificados",
+     "horarios": "SCL-BOG opera con frecuencia diaria o casi diaria según temporada; BOG-ADZ es un vuelo diario directo. Al ser low-cost punto a punto, la conexión puede resultar larga (varias horas en El Dorado) y en algunos canales se vende como autoconexión.",
+     "nota_familia": "Más barata que Avianca ($591 pp) pero tarifa base sin equipaje facturado ni selección de asiento (costo de maleta: no verificado); para 4 personas con maletas la diferencia real con LATAM/Avianca se achica. Menor protección ante conexión perdida — con niños es la de mayor fricción operativa entre las opciones vía Bogotá."
+    }
+   ],
+   "transfer_hotel": "La isla es pequeña (~13 km de largo); ningún Decameron queda a más de ~25 min del aeropuerto Gustavo Rojas Pinilla (ADZ). Por hotel: Decameron Isleño ~1 km, taxi ~5 min (~USD 6-8 según Rome2Rio; casi caminable con poco equipaje). Decameron Maryland y Los Delfines están en el centro/North End, ~1,5-2 km, taxi ~5-10 min (aprox., no verificado con fuente exacta). Decameron Marazul a ~15 min del aeropuerto. Decameron San Luis a ~9 km en la costa este, taxi ~15-20 min. Opciones: taxi en el aeropuerto (se paga en pesos colombianos o USD, conviene acordar tarifa antes) y el traslado que Decameron suele incluir en sus paquetes todo incluido (incluido/no según canal de venta: no verificado para esta reserva). No se necesita bus ni transporte especial con niños.",
+   "veredicto_familia": "Para 2 adultos + 2 niños (6 y 11 años) la mejor combinación es LATAM vía Bogotá: la tarifa más baja del informe ($384 pp, ~$1.500+ el grupo), un solo transbordo con conexión de ~90 min, equipaje hasta destino y jornada total de ~11 h — larga pero manejable en horario mayormente diurno. Avianca es el plan B premium: sus múltiples frecuencias BOG-ADZ dan margen si algo falla, y su salida de madrugada permite llegar a la isla a media mañana, aunque volar a las 00:30 con niños cansa. Copa se descarta salvo necesidad: es la más cara y el tramo PTY-ADZ vuela pocos días a la semana, con alta probabilidad de que el sábado 10-oct no opere. JetSmart solo si el presupuesto manda y se viaja liviano; con 4 maletas y niños, el ahorro frente a LATAM no compensa el riesgo de conexión low-cost. Al llegar, el traslado al hotel es trivial (5-20 min según Decameron elegido).",
+   "riesgos": "1) Copa: días de operación PTY-ADZ para octubre 2026 no verificados; fuentes discrepan (2x/semana según flightconnections ago-2026 vs mar/jue/vie/dom según una página de Copa). El 10-oct-2026 (sábado) probablemente no hay conexión mismo día → pernocte en Panamá o cambio de fecha. 2) JetSmart: horarios exactos SCL-BOG y continuidad de la frecuencia diaria BOG-ADZ para oct-2026 no verificados; costo de equipaje facturado no verificado. 3) Todas las duraciones son del mejor itinerario; combinaciones con conexión larga pueden superar 14-16 h. 4) Las tarifas del informe son dinámicas y pueden haber cambiado. 5) Tarjeta de turismo de San Andrés obligatoria (se paga aparte, por persona; monto 2026 no verificado). 6) Diferencia horaria de 2 h con Chile: revisar horas locales al comparar itinerarios nocturnos.",
+   "fuentes": [
+    "https://www.google.com/travel/flights/flights-from-santiago-to-san-andres.html?gl=CL&hl=es-419",
+    "https://www.momondo.cl/vuelos/santiago-de-chile/san-andres",
+    "https://www.flightconnections.com/flights-from-pty-to-adz",
+    "https://destinationsguide.copaair.com/en/flights-from-panama-city-to-san-andres-island",
+    "https://www.flightconnections.com/flights-from-scl-to-pty",
+    "https://www.flightconnections.com/flights-from-scl-to-bog",
+    "https://www.avianca.com/us/es/vuelos-desde-santiago-a-san-andres",
+    "https://www.flightconnections.com/flights-from-bog-to-adz",
+    "https://www.valoraanalitik.com/jetsmart-lanza-vuelo-diario-directo-san-andres/",
+    "https://www.elespectador.com/turismo/jetsmart-inaugura-ruta-bogotasan-andres-y-refuerza-la-conectividad-aerea/",
+    "https://www.aviacionline.com/jetsmart-aumentara-frecuencias-a-bogota-y-cali-desde-santiago-de-chile",
+    "https://www.eluniversal.com.co/economica/2026/03/01/jetsmart-completa-10-destinos-en-colombia-y-habra-nueva-ruta-en-la-costa/",
+    "https://www.rome2rio.com/es/s/Aeropuerto-San-Andres-Island-ADZ/Decameron-Isle%C3%B1o-All-Inclusive-San-Andr%C3%A9s",
+    "https://multivacaciones.com/destinos/decameron-marazul/",
+    "https://city-airport-taxis.com/airporttransfers/reservations/taxi-from-San-Andres-Gustavo-Rojas-Pinilla-Airport-to-Decameron-San-Luis"
+   ],
+   "confianza": "media"
+  },
+  {
+   "ruta": "SCL (Santiago de Chile) → CTG (Cartagena de Indias, Colombia), 10-15 octubre 2026. En octubre NO existe vuelo directo: el único directo de la ruta (Avianca AV132, 6h40, 3 frecuencias semanales) es estacional y opera solo enero-febrero. Todas las opciones para estas fechas implican 1 escala, típicamente vía Bogotá (SCL-BOG ~6h, BOG-CTG ~1h30 con más de 30 vuelos diarios entre todas las aerolíneas) o vía Panamá con Copa.",
+   "opciones": [
+    {
+     "aerolinea": "LATAM",
+     "escalas": "1 escala vía Bogotá (BOG)",
+     "duracion_total": "~9h30-10h (SCL-BOG ~6h11 + conexión ~1h30-2h + BOG-CTG ~1h30)",
+     "horarios": "diurno: verificado LA575 SCL-BOG saliendo 07:10 a diario, llegando a CTG a media tarde; LATAM Colombia opera decenas de frecuencias diarias BOG-CTG (59 directos/semana), lo que da conexiones cortas y respaldo ante retrasos",
+     "nota_familia": "la mejor relación precio/itinerario del informe ($404 pp): patrón diurno sin trasnochar, conexión doméstica sencilla en El Dorado, equipaje y asientos juntos gestionables en un solo ticket"
+    },
+    {
+     "aerolinea": "Avianca",
+     "escalas": "1 escala vía Bogotá (BOG) — su directo SCL-CTG es estacional solo enero-febrero, no aplica en octubre",
+     "duracion_total": "~9h-9h30 en el mejor itinerario",
+     "horarios": "máxima flexibilidad: varias frecuencias diarias SCL-BOG (incluye nocturno que llega a CTG por la mañana y opciones diurnas); Avianca es la aerolínea dominante en BOG-CTG, con conexiones cada pocas horas",
+     "nota_familia": "opción más robusta operacionalmente (hub propio en BOG, reacomodo fácil si algo falla), pero cuesta $165 pp más que LATAM por un itinerario casi idéntico; el nocturno es duro para niños de 6 y 11 años"
+    },
+    {
+     "aerolinea": "Copa",
+     "escalas": "1 escala vía Ciudad de Panamá (PTY)",
+     "duracion_total": "~9h30-10h30 (SCL-PTY ~6h54 + conexión + PTY-CTG ~1h20)",
+     "horarios": "salidas de SCL entre 00:01 y 12:28 — patrón típico con madrugada/red-eye llegando a PTY temprano y CTG a media mañana; ~5 vuelos diarios SCL-PTY dan respaldo",
+     "nota_familia": "a $1.006 pp duplica con creces a LATAM sin ahorrar tiempo (la ruta por Panamá es geográficamente desviada); solo tendría sentido si todo lo demás está agotado; la salida de madrugada es el peor patrón para niños"
+    },
+    {
+     "aerolinea": "JetSmart",
+     "escalas": "1 escala vía Bogotá, Medellín o Lima según temporada — su SCL-BOG fue suspendido en marzo 2025 y reactivado solo estacionalmente dic 2025-mar 2026; operación en octubre 2026 NO verificada",
+     "duracion_total": "~10-13h según conexión disponible (no verificado el mejor itinerario para octubre)",
+     "horarios": "riesgo de conexión larga o mal calzada: LIM-CTG opera solo ~3 frecuencias semanales; desde SCL las conexiones sugeridas por la propia aerolínea son vía Medellín o Cali hacia CTG (5-7 vuelos diarios MDE-CTG/BOG-CTG)",
+     "nota_familia": "la tarifa $430 pp es engañosa para una familia: modelo ultra low-cost (equipaje, asiento, comida aparte), frecuencias bajas en los tramos internacionales que calzan mal con fechas fijas 10-15 oct, y conexiones con poca protección; alto riesgo con niños"
+    }
+   ],
+   "transfer_hotel": "Decameron Cartagena (Bocagrande): ~8 km del aeropuerto Rafael Núñez, 15-25 min en taxi según tráfico; taxi oficial con kiosco de tickets en llegadas (tarifa regulada del orden de COP 25.000-35.000 según tarifarios publicados, cifra exacta 2026 no verificada); también operan apps (Uber/InDrive) y traslados de agencia. Muy simple incluso llegando de noche. Decameron Barú: ~41 km por carretera, ~1h10-1h30 en vehículo según tráfico de salida de Cartagena; opciones: traslado privado/compartido (referencias de USD 30-45 por trayecto, no verificado exacto), taxi o traslado contratado vía Decameron/agencia; conviene programarlo de día — la carretera a Barú de noche con niños y equipaje no es ideal.",
+   "veredicto_familia": "Para 2 adultos y 2 niños (6 y 11 años) la opción recomendada es LATAM vía Bogotá a $404 pp: itinerario diurno (salida ~07:10, llegada a Cartagena a media tarde), una sola conexión corta en un hub con altísima frecuencia hacia CTG, y llegada con luz para el traslado — crítico si el hotel es Decameron Barú (+1h15 de carretera). Avianca es la alternativa premium ($569) si se quiere más flexibilidad horaria o el respaldo del hub dominante en Bogotá, pero no justifica +$660 totales para la familia frente a un itinerario casi idéntico. Copa ($1.006) queda descartada por precio sin ganancia de tiempo, y JetSmart ($430) es un ahorro ilusorio: su ruta desde Santiago es estacional/no verificada para octubre, las frecuencias de conexión son bajas y los extras low-cost para 4 pasajeros con maletas erosionan la diferencia con LATAM asumiendo mucho más riesgo operacional.",
+   "riesgos": "1) Horarios exactos de octubre 2026 no confirmados vuelo a vuelo (los itinerarios publicados llegan con menos anticipación); duraciones y patrones se basan en operación actual/2026 verificada. 2) JetSmart: la existencia misma de un itinerario SCL-CTG vendible para el 10-15 oct 2026 no está verificada — la tarifa $430 del informe podría corresponder a una conexión vía Lima (solo ~3 vuelos/semana, mal calce con fechas fijas) o a una ruta estacional no activa en octubre; verificar antes de citarla como opción real. 3) Toda opción implica conexión: un retraso en SCL-BOG puede perder el tramo a CTG — en un solo ticket la aerolínea reacomoda (LATAM/Avianca tienen frecuencia sobrada BOG-CTG; JetSmart no). 4) Octubre es temporada de lluvias en el Caribe colombiano: tormentas vespertinas pueden retrasar llegadas y el traslado por carretera a Barú. 5) Tarifas del informe: no se pudo verificar si incluyen equipaje facturado; en JetSmart y tarifas básicas de LATAM/Avianca el equipaje de bodega se paga aparte (montos no verificados).",
+   "confianza": "media",
+   "fuentes": [
+    "https://infoaviacion.com.mx/vuela/comercial/avianca-reactiva-su-ruta-estacional-cartagena-santiago-de-chile/",
+    "https://www.buenosviajes.co/2026/01/avianca-reactiva-la-ruta-santiago-de-chile-cartagena-para-inicio-de-ano/",
+    "https://www.turiweb.pe/avianca-reactiva-la-ruta-cartagena-santiago-de-chile-para-la-temporada-de-inicio-de-ano/",
+    "https://www.eluniversal.com.co/economica/2026/03/01/jetsmart-completa-10-destinos-en-colombia-y-habra-nueva-ruta-en-la-costa/",
+    "https://aviationclubcenter.com/es/2025/09/25/jetsmart-reactiva-dos-rutas-internacionales/",
+    "https://assets-us-01.kc-usercontent.com/b2956330-c34f-0064-2c6f-27bd5c0147fc/8389bf18-9a84-4431-b0a6-7226a4b2e09f/Aviso%20prensa%20suspensi%C3%B3n%20ruta%20BOGSCL%20marzo%202025%20(002).pdf",
+    "https://colombia.ladevi.info/jetsmart/jetsmart-sumara-frecuencias-la-ruta-lima-cartagena-n77229",
+    "https://elcomercio.pe/vamos/jetsmart-inaugura-ruta-directa-de-lima-a-cartagena-vuelo-directo-aerolinea-colombia-viaje-a-colombia-noticia/",
+    "https://www.flightconnections.com/flights-from-scl-to-pty",
+    "https://www.flightsfrom.com/SCL-PTY",
+    "https://www.copaair.com/en/flights-from-santiago-to-panama-city",
+    "https://es.trip.com/hot/tiempo-de-vuelo-santiago-bogot%C3%A1/",
+    "https://www.wego.com/schedules/scl/bog/flight-schedules-from-santiago-6522-to-bogota",
+    "https://www.omio.es/vuelos/santafe-de-bogota/cartagena-de-indias-kp9d0",
+    "https://www.latamairlines.com/cl/es/destinos/colombia/vuelos-desde-santiago-a-cartagena-de-indias",
+    "https://www.rome2rio.com/es/s/Aeropuerto-Cartagena-CTG/Decameron-Bar%C3%BA-All-Inclusive-Playa-Blanca",
+    "https://www.transfeero.com/en/cartagena-nunez-airport-transfers-ctg/transfer-from-cartagena-nunez-airport-to-bocagrande-beach/",
+    "https://aeropuertocartagena.com.co/wp-content/uploads/2022/05/Tarifas-taxis-desde-aeropuerto-2022.pdf",
+    "https://miviajeporcolombia.com/transporte-desplazarse-cartagena-aeropuerto/"
+   ]
+  },
+  {
+   "ruta": "SCL → TBP (Tumbes, Perú) vía LIM, 10-15 octubre 2026. OJO: el informe etiqueta TBP como \"Talara\", pero TBP es el aeropuerto de Tumbes (Cap. FAP Pedro Canga Rodríguez); Talara es TYL. Tumbes (TBP) es el aeropuerto correcto y habitual para el Royal Decameron Punta Sal (el balneario queda entre ambos: ~90 km al sur de Tumbes y ~95 km al norte de Talara). No existe vuelo directo Santiago–Tumbes: toda opción conecta en Lima (SCL–LIM ~3h45-3h55 de vuelo + LIM–TBP ~1h50-2h).",
+   "opciones": [
+    {
+     "aerolinea": "Latam ($422 p/p ida y vuelta según informe)",
+     "escalas": "1 escala vía Lima (LIM)",
+     "duracion_total": "~8-9 h en el mejor caso (3h50 SCL-LIM + conexión 1h30-3h + ~1h50 LIM-TBP); puede llegar a 10-12 h según conexión",
+     "horarios": "SCL-LIM con ~10-11 salidas diarias repartidas todo el día (madrugada 04:35/05:15, mañana 06:40/08:10, tarde-noche 18:30/22:15). LIM-TBP con salidas entre ~09:15 y ~18:45 (frecuencia casi diaria de Latam). Itinerario típico ida: salida SCL en la mañana (06:40-08:10), llegada a Tumbes entre mediodía y media tarde — viaje diurno, sin pernocte. Regreso: TBP-LIM entre ~11:50 y ~21:35 y LIM-SCL vespertino/nocturno el mismo día, llegando a Santiago en la noche",
+     "nota_familia": "La opción más robusta para la familia: mayor frecuencia en ambos tramos, tarifa más baja del informe, equipaje chequeado hasta destino en un solo ticket y más alternativas de reprotección si se pierde la conexión en Lima. Evitar los vuelos de madrugada (04:35) con niños; el itinerario matinal permite llegar al hotel el mismo día con luz"
+    },
+    {
+     "aerolinea": "Sky Airline ($567 p/p ida y vuelta según informe)",
+     "escalas": "1 escala vía Lima (LIM), operada por Sky Chile + Sky Perú en un mismo grupo",
+     "duracion_total": "~8-10 h en el mejor caso; mayor probabilidad de conexión larga por baja frecuencia del tramo LIM-TBP",
+     "horarios": "SCL-LIM con varias frecuencias diarias (~4h de vuelo según Sky). El tramo LIM-TBP de Sky opera solo unas 2-4 veces por semana (la ruta LIM-TBP suma ~9 vuelos semanales entre Latam y Sky, la mayoría de Latam), con salidas en la franja 09:15-18:45. Riesgo de conexión larga en Lima o de que el día exacto (sábado 10 y jueves 15 de octubre) no coincida con día de operación de Sky a Tumbes — verificar al cotizar",
+     "nota_familia": "Viable pero menos conveniente: más cara según el informe ($145 más p/p, ~$580 extra para 4 pasajeros aplicando la tarifa de niño como adulto no verificada), menor frecuencia a Tumbes y menos margen de reprotección con niños si algo falla. Solo tendría sentido si su horario específico calza mejor o si la tarifa cambia"
+    }
+   ],
+   "transfer_hotel": "Del aeropuerto de Tumbes (TBP) al Royal Decameron Punta Sal: ~90 km al sur por la Panamericana Norte, entre 1h15 y 1h45 por carretera (el propio Decameron indica ~1h45). Opciones: (1) traslado contratado con Decameron o con el paquete/agencia — lo recomendable con niños, lo esperan en el aeropuerto; (2) agencias locales de traslado privado en van (p. ej. Aquarium Travel y similares ofrecen el trayecto ida y vuelta; precio exacto no verificado); (3) taxi/auto por cuenta propia (estimaciones de agregadores en torno a $13-20 USD por tramo, no verificado y probablemente corresponde a servicio compartido/colectivo); (4) bus interprovincial hasta Punta Sal/Canoas, ~2h10, poco práctico con equipaje y niños. Conviene reservar el traslado por anticipado: la oferta en el aeropuerto de Tumbes es limitada y los vuelos llegan concentrados en pocas franjas.",
+   "veredicto_familia": "Para 2 adultos y niños de 6 y 11 años es un viaje de día completo pero perfectamente manejable: ~8-9 h de aeropuerto a aeropuerto más 1h30 de carretera, es decir ~10-11 h puerta a puerta si la conexión en Lima calza bien. La recomendación clara es Latam con salida matinal desde Santiago (06:40-08:10): se llega al hotel la misma tarde, sin madrugadas extremas ni pernocte, con equipaje chequeado hasta Tumbes y con frecuencia diaria que protege ante imprevistos. Reservar conexión de al menos 2 h en Lima (el traspaso internacional-doméstico en el nuevo Jorge Chávez toma tiempo con niños) y dejar el traslado terrestre contratado de antemano; llevar snacks y entretención para el tramo largo SCL-LIM.",
+   "riesgos": "1) Error de nomenclatura en el informe: TBP no es Talara sino Tumbes; si el paquete cotizado realmente vuela a Talara (TYL), el traslado terrestre cambia (~95 km desde el sur, 1h30-2h) y las frecuencias son menores (~20-25 vuelos semanales LIM-TYL, solo desde Lima). 2) Toda la ruta depende de la conexión en Lima: el tramo LIM-TBP tiene ~9 vuelos semanales en total y 1-2 salidas diarias como máximo, por lo que una conexión perdida puede significar pernocte en Lima; contratar todo en un solo ticket. 3) Sky vuela a Tumbes solo algunos días de la semana — confirmar que opere el sábado 10 y el jueves 15 de octubre antes de comparar tarifas. 4) Horarios citados son los vigentes a agosto 2026 según agregadores (FlightConnections, Wego); los itinerarios exactos de octubre 2026 pueden variar — no verificado vuelo a vuelo. 5) Tarifas del informe ($422 Latam, $567 Sky) no fueron re-verificadas en esta consulta; tampoco costos de equipaje ni tarifa infantil.",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.flightconnections.com/flights-from-lim-to-tbp",
+    "https://www.flightconnections.com/flights-from-scl-to-lim",
+    "https://www.latamairlines.com/us/en/destinations/peru/flights-from-lima-to-tumbes",
+    "https://www.skyairline.com/flights/en/flights-from-lima-to-tumbes",
+    "https://www.wego.com/schedules/scl/lim/flight-schedules-from-santiago-6522-to-lima-4151",
+    "https://www.decameron.com/en/hotels/tumbes/royal-decameron-punta-sal/",
+    "https://www.rome2rio.com/es/s/Aeropuerto-Tumbes-TBP/Royal-Decameron-Punta-Sal-ALL-INCLUSIVE-Canoas-De-Punta-Sal",
+    "https://www.aquariumtravel.com.pe/paquetes-traslados-desde-tumbes-al-hotel-decameron-punta-sal-pid-3354.html",
+    "https://www.peru-retail.com/sky-amplia-sus-rutas-desde-peru-hacia-chile-y-brasil-con-nuevas-conexiones-a-santiago-y-rio-de-janeiro/",
+    "https://www.flightsfrom.com/LIM-TYL"
+   ]
+  },
+  {
+   "ruta": "SCL (Santiago de Chile) → PTY (Tocumen, Ciudad de Panamá), 10–15 octubre 2026, 5 noches. Ojo: el hotel Grand Decameron Panamá NO está en Ciudad de Panamá, sino en Playa Blanca / El Farallón del Chirú (Coclé), a ~140 km del aeropuerto de Tocumen — el traslado terrestre de ~2 h es parte inseparable del viaje.",
+   "opciones": [
+    {
+     "aerolinea": "Copa Airlines ($650 p/p i/v según informe)",
+     "escalas": "directo",
+     "duracion_total": "~7 h de vuelo (el más rápido citado: 6 h 54 min); puerta a hotel ~9,5–10 h sumando traslado terrestre de ~2 h",
+     "horarios": "Hasta ~4 vuelos diarios (~26 semanales, según horario actual verificado). Banda de salidas 00:01–12:28: hay opción de madrugada (00:01 → 05:55, vuelo nocturno que se duerme a bordo) y opciones diurnas (la última 12:28 → 17:11). Equipos B737-800 / 737 MAX 9. Horario exacto de octubre 2026 no verificado vuelo a vuelo.",
+     "nota_familia": "La opción diurna (salida ~12:28, llegada 17:11) permite llegar al hotel ~19:30–20:00 el mismo día sin trasnochar a los niños; la de madrugada llega a las 05:55 y regala casi el día completo en el resort, a cambio de una noche corta. Sin conexiones = sin riesgo de perder vuelos con niños y maletas."
+    },
+    {
+     "aerolinea": "Avianca ($580 p/p i/v según informe)",
+     "escalas": "1 escala vía Bogotá (BOG) — no vuela directo SCL–PTY",
+     "duracion_total": "~9,5–11 h en el mejor caso (SCL–BOG ~5 h 50 min + conexión mínima ~1,5 h + BOG–PTY ~1 h 40–50 min); puerta a hotel ~12–13 h con el traslado de ~2 h",
+     "horarios": "SCL–BOG opera con vuelos diurnos (ej. salida ~15:20, llegada ~19:51 a BOG) y frecuencias varias por semana; BOG–PTY tiene ~28 vuelos directos semanales de Avianca. Los itinerarios combinados suelen implicar llegada nocturna a PTY o salida muy temprana desde SCL; según la combinación, la conexión puede alargarse varias horas. Itinerario exacto octubre 2026 no verificado.",
+     "nota_familia": "Para la familia implica dos embarques/desembarques, riesgo de conexión en BOG y, con llegada nocturna a PTY, un traslado de 2 h por carretera de noche o incluso pernocte/llegada al hotel de madrugada con los niños de 6 y 11 años despiertos a deshora."
+    }
+   ],
+   "transfer_hotel": "El Grand Decameron Panamá está en Playa Blanca (El Farallón del Chirú, Coclé), a ~140 km por carretera del aeropuerto de Tocumen (PTY): ~1 h 55 min–2 h en auto/taxi/transfer privado; shuttle compartido ~2 h 50 min; bus (Tica Bus desde terminal en la ciudad) ~4 h 20 min, no práctico con niños y maletas. Decameron ofrece traslado aeropuerto–hotel–aeropuerto a través de su operador Decameron Explorer Panamá (conviene contratarlo con la reserva). Precios de referencia según agregadores (taxi ~$40–55, shuttle ~$120): no verificados con proveedores; para un transfer privado de 140 km conviene presupuestar más y confirmar tarifa exacta.",
+   "veredicto_familia": "Para 2 adultos con niños de 6 y 11 años, Copa es claramente la mejor opción pese a costar ~$70 más por persona: vuelo directo de ~7 h contra ~10–11 h con cambio de avión en Bogotá, y con un traslado terrestre de 2 h esperando al final, cada hora de vuelo ahorrada cuenta. El itinerario ideal es el Copa diurno (salida mediodía, llegada ~17:11) para hacer el traslado a Playa Blanca con luz y acostar a los niños a hora normal; la salida de madrugada de Copa (00:01 → 05:55) es una alternativa válida si los niños duermen bien a bordo, porque regala el primer día completo de resort. Avianca vía Bogotá solo se justifica si el ahorro de ~$280 para la familia es determinante, asumiendo un día de viaje de ~13 h puerta a puerta y riesgo de conexión.",
+   "riesgos": "1) Confusión de hotel: si el informe asumía un hotel en Ciudad de Panamá, está mal — el Grand Decameron Panamá es el resort de Playa Blanca (ex Royal Decameron Panamá), a ~2 h del aeropuerto; el traslado añade tiempo y costo no menor para 4 personas. 2) Horarios exactos de octubre 2026 no verificados vuelo a vuelo (se verificaron rutas, frecuencias y bandas horarias actuales); Copa ajusta frecuencias por temporada. 3) Diferencia horaria en octubre: Chile estará en horario de verano (UTC-3) y Panamá en UTC-5 — 2 h de diferencia, jet lag leve pero afecta la percepción de duración de itinerarios. 4) Precios de traslado terrestre no verificados con proveedores; el traslado oficial de Decameron Explorer debe cotizarse aparte. 5) Con Avianca, una demora en el tramo SCL–BOG puede hacer perder la conexión a PTY y convertir el viaje en pernocte en Bogotá con los niños.",
+   "confianza": "alta",
+   "fuentes": [
+    "https://www.flightsfrom.com/SCL-PTY",
+    "https://www.flightconnections.com/flights-from-scl-to-pty",
+    "https://www.avianca.com/us/en/flights-from-santiago-to-panama-city",
+    "https://www.avianca.com/us/es/vuelos-desde-bogota-a-ciudad-de-panama",
+    "https://www.avianca.com/us/es/vuelos-desde-santiago-a-bogota",
+    "https://www.rome2rio.com/es/s/Aeropuerto-Internacional-de-Tocumen/Grand-Decameron-Panama-A-Trademark-All-Inclusive-Resort-Playa-Blanca",
+    "https://www.tripadvisor.com/Hotel_Review-g2539283-d301154-Reviews-Grand_Decameron_Panama_A_Trademark_All_inclusive_Resort-El_Farallon_del_Chiru_Cocle_Pr.html",
+    "https://www.decameron.com/es/ceca-promociones/desde-honduras/decameron-panama-especial",
+    "https://www.suntransfers.com/panama-tocumen-airport-to-decameron"
+   ]
+  },
+  {
+   "ruta": "SCL (Santiago de Chile) → SMR (Santa Marta, aeropuerto Simón Bolívar), 10-15 octubre 2026. No existe vuelo directo en ninguna aerolínea: toda la oferta conecta vía Bogotá (BOG), salvo Copa que conecta vía Ciudad de Panamá (PTY). Tramo SCL-BOG ~6h05-6h10 de vuelo; BOG-SMR ~1h30 con ~9 vuelos diarios entre todas las aerolíneas (Avianca, LATAM, JetSMART, Wingo).",
+   "opciones": [
+    {
+     "aerolinea": "LATAM ($507 pp i/v según informe)",
+     "escalas": "1 escala vía Bogotá (BOG)",
+     "duracion_total": "~10-11 h mejor caso ida (SCL 00:30 → BOG 05:45 + conexión ~2h + BOG-SMR 1h30, llegada a Santa Marta media mañana)",
+     "horarios": "Nocturno/madrugada: el vuelo típico SCL-BOG sale ~00:30 y llega 05:45; conexión matinal en Bogotá (~125 min según metabuscadores). Regreso con tramo BOG-SCL nocturno (último sale ~23:10, llega SCL ~05:55 del día siguiente). ~165 conexiones semanales SCL-SMR ofrecidas.",
+     "nota_familia": "Ticket único con equipaje protegido en conexión. Red-eye de ida: los niños duermen en el avión y llegan al hotel al mediodía; regreso también nocturno. Buena combinación de precio y solidez operacional."
+    },
+    {
+     "aerolinea": "Avianca ($742 pp i/v según informe)",
+     "escalas": "1 escala vía Bogotá (BOG), su hub — la conexión más corta y con más alternativas",
+     "duracion_total": "~9,5-10,5 h mejor caso ida (conexiones en BOG desde ~79 min; BOG-SMR con múltiples frecuencias diarias)",
+     "horarios": "Varias salidas diarias SCL-BOG (31 frecuencias semanales BOG-SCL), incluye opción nocturna; permite elegir itinerario diurno o nocturno. Regreso típico con BOG-SCL 23:10 → 05:55. ~267 conexiones semanales SCL-SMR, la mayor oferta de la ruta.",
+     "nota_familia": "La opción más flexible si un vuelo se cae: reacomodo fácil en su hub de Bogotá con ~9 vuelos diarios BOG-SMR entre aerolíneas. Es la tarifa más cara del informe ($235 más que LATAM por persona); se paga flexibilidad y horarios."
+    },
+    {
+     "aerolinea": "Copa Airlines ($600 pp i/v según informe)",
+     "escalas": "1 escala vía Ciudad de Panamá (PTY)",
+     "duracion_total": "~14-16 h ida en el mejor caso (SCL ~00:01 → PTY ~05:55, espera larga, PTY 12:15 → SMR ~13:45)",
+     "horarios": "SCL-PTY nocturno de madrugada (primer vuelo 00:01, 26 frecuencias semanales, ~4 diarias). El tramo PTY-SMR opera solo 3-4 veces por semana, todos con salida 12:15 de Panamá → conexión larga (~6 h) en Tocumen a la ida; al regreso el SMR-PTY de primera hora de la tarde conecta con los PTY-SCL de la tarde/noche (último llega SCL 06:10). Días exactos de operación PTY-SMR para el 10 y 15 de octubre 2026: no verificados.",
+     "nota_familia": "Poco recomendable con niños: madrugón + ~6 h de espera en Tocumen y riesgo de que el vuelo a Santa Marta no opere justo el sábado 10 o el jueves 15 (solo 3-4 frecuencias semanales), lo que obligaría a mover fechas o pernoctar. Punto a favor: SMR es el destino final sin pasar por Bogotá."
+    },
+    {
+     "aerolinea": "JetSMART ($434 pp i/v según informe)",
+     "escalas": "1 escala vía Bogotá (BOG), con conexión a su filial JetSMART Colombia",
+     "duracion_total": "~10-12 h estimadas (SCL-BOG ~6h10 + conexión + BOG-SMR ~1h30); horarios exactos del tramo internacional no verificados",
+     "horarios": "SCL-BOG opera solo ~3 frecuencias semanales (no verificado si incluye sábado 10 y jueves/viernes de regreso); BOG-SMR es ruta doméstica de JetSMART Colombia con vuelos diarios. Patrón horario del tramo internacional: no verificado.",
+     "nota_familia": "La tarifa más baja ($434, $73 menos que LATAM pp), pero modelo ultra low cost: equipaje de bodega, asientos juntos y comida a bordo se pagan aparte (precios no verificados) — para 4 pasajeros con maletas el ahorro real frente a LATAM puede reducirse mucho o desaparecer. Solo 3 frecuencias semanales SCL-BOG: si las fechas 10 y 15 de octubre no coinciden con sus días de operación, la opción no existe; ante cancelación, reacomodo lento. Verificar días de vuelo antes de decidir."
+    }
+   ],
+   "transfer_hotel": "Excelente: el Decameron Galeón está en Pozos Colorados (sector Gaira), a solo ~5-6 km del aeropuerto Simón Bolívar de Santa Marta — 10-15 minutos en auto; es de los hoteles más cercanos al aeropuerto de todo el destino. Opciones: traslado prepagado de Decameron (vendible con el paquete), taxi en el aeropuerto (trayecto corto y económico; tarifa exacta no verificada) o transfer privado de agencia. No se requiere cruzar Santa Marta ciudad ni El Rodadero.",
+   "veredicto_familia": "Para 2 adultos + niños de 6 y 11 años la ruta es viable pero siempre con 1 escala y componente nocturno: lo razonable es LATAM o Avianca vía Bogotá — un solo red-eye de ida (salida ~00:30, llegada al hotel hacia el mediodía con niños cansados pero con la tarde de piscina por delante) y regreso nocturno el día 15 llegando a Santiago la madrugada del 16. LATAM ofrece el mejor equilibrio precio/solidez ($507 pp, ~$2.028 los 4); Avianca es la más resiliente ante imprevistos pero cuesta ~$940 más por familia. JetSMART solo conviene si sus 3 frecuencias semanales calzan con las fechas y tras sumar maletas y asientos para 4; Copa se descarta por la espera de ~6 h en Panamá y sus 3-4 frecuencias semanales a Santa Marta. El gran punto a favor del destino: el traslado al Decameron Galeón es de apenas 10-15 minutos, ideal tras un vuelo nocturno con niños.",
+   "riesgos": "1) Días de operación no verificados para las fechas exactas (10 y 15 oct 2026): Copa PTY-SMR (3-4x/semana) y JetSMART SCL-BOG (3x/semana) — ambas pueden no operar el día requerido; confirmar en el buscador de cada aerolínea antes de cotizar. 2) Todos los itinerarios competitivos implican vuelo nocturno/madrugada en al menos un sentido; el regreso llega a Santiago la madrugada del 16 de octubre (día extra de cansancio, relevante si hay colegio el viernes 16). 3) Con JetSMART, costos de equipaje/asiento por 4 pasajeros no verificados y pueden anular la ventaja de $73 pp frente a LATAM; conexión con reacomodo limitado ante cancelación. 4) Octubre es temporada de lluvias en el Caribe colombiano: riesgo moderado de demoras por clima en SMR. 5) Las tarifas citadas ($507/$742/$600/$434) provienen del informe base y no fueron re-verificadas en esta consulta; los precios de metabuscadores vistos (~CLP 404.000-427.000 i/v) son consistentes en orden de magnitud con LATAM/Avianca.",
+   "confianza": "alta",
+   "fuentes": [
+    "https://www.momondo.cl/vuelos/santiago-de-chile/santa-marta",
+    "https://www.kayak.cl/vuelos/Santiago-de-Chile-Aeropuerto-Internacional-Comodoro-Arturo-Merino-Benitez-SCL/Santa-Marta-Simon-Bolivar-SMR",
+    "https://www.flightconnections.com/flights-from-bog-to-smr",
+    "https://www.flightconnections.com/flights-from-scl-to-pty",
+    "https://www.flightconnections.com/flights-from-pty-to-smr",
+    "https://www.flightsfrom.com/SMR-PTY",
+    "https://www.copaair.com/en/flights-from-panama-city-to-santa-marta-colombia",
+    "https://www.aeroermo.com/home/jetsmart-inicio-sus-vuelos-directos-entre-bogota-y-santiago-de-chile/",
+    "https://www.flightconnections.com/flights-from-scl-to-bog",
+    "https://www.flightconnections.com/flights-from-bog-to-scl",
+    "https://www.wego.com/schedules/scl/bog/flight-schedules-from-santiago-6522-to-bogota",
+    "https://www.rome2rio.com/s/Santa-Marta-Airport-SMR/Decameron-Galeon-All-Inclusive-Santa-Marta",
+    "https://www.calcularruta.com/aeropuerto-internacional-simon-bolivar-santa-marta-smr-pozos-colorados.html"
+   ]
+  },
+  {
+   "ruta": "SCL (Santiago de Chile) → CUN (Cancún, México), 10-15 octubre 2026, 5 noches",
+   "opciones": [
+    {
+     "aerolinea": "LATAM ($706 p/p i/v)",
+     "escalas": "directo",
+     "duracion_total": "~8 h 15 min sin escala (verificado)",
+     "horarios": "diurno: salidas de SCL entre 09:15 y 10:15, llegada a CUN ~15:35-16:35 hora local; regreso también diurno",
+     "nota_familia": "La mejor opción con niños: único vuelo sin escala de la ruta, horario diurno completo y wide-body (787). OJO: es servicio de baja frecuencia (histórico: 1-2 vuelos/semana, viernes y domingo en temporadas previas); no está verificado que opere exactamente el sábado 10 y el jueves 15 de octubre de 2026 — hay que confirmar días de operación antes de cerrar tarifa."
+    },
+    {
+     "aerolinea": "Copa Airlines ($720 p/p i/v)",
+     "escalas": "1 escala vía Ciudad de Panamá (PTY)",
+     "duracion_total": "~10-11 h en el mejor itinerario (SCL-PTY ~6h30 + conexión + PTY-CUN ~2-2.5 h); duración exacta no verificada",
+     "horarios": "patrón típico: salida nocturna/madrugada desde SCL (red-eye) con llegada a PTY temprano y arribo a CUN hacia el mediodía, o salida matinal con llegada por la tarde; conexiones en PTY suelen ser cortas (1-2 h) por el modelo hub de Copa",
+     "nota_familia": "Alternativa sólida si el directo de LATAM no opera en las fechas: conexión corta y bien engranada en un hub compacto, y varias frecuencias diarias SCL-PTY. El tramo en madrugada es el costo: niños durmiendo a bordo y familia cansada al llegar."
+    },
+    {
+     "aerolinea": "Arajet ($772 p/p i/v)",
+     "escalas": "1 escala vía Santo Domingo (SDQ)",
+     "duracion_total": "~12-15 h estimadas según conexión (SCL-SDQ ~7.5 h + espera + SDQ-CUN ~2h50); no verificado el itinerario exacto de octubre 2026",
+     "horarios": "patrón histórico verificado en SDQ-CUN: salidas vespertinas/nocturnas desde Santo Domingo (frecuencia limitada, no diaria en datos previos), lo que implica riesgo de conexión larga o llegada nocturna a Cancún; horarios SCL no verificados",
+     "nota_familia": "La opción menos recomendable para esta familia pese a no ser la más cara: low-cost (equipaje y asientos se pagan aparte — no verificado el monto), conexión potencialmente larga en SDQ y frecuencias bajas que complican cualquier reacomodo si algo falla con niños."
+    },
+    {
+     "aerolinea": "Avianca ($872 p/p i/v)",
+     "escalas": "1 escala vía Bogotá (BOG)",
+     "duracion_total": "~11-13 h en el mejor itinerario (SCL-BOG ~6 h + conexión + BOG-CUN ~4 h); duración exacta no verificada",
+     "horarios": "patrón típico: salida de SCL en madrugada o primera mañana para conectar en BOG y llegar a CUN por la tarde/noche; existen combinaciones con conexión larga en El Dorado",
+     "nota_familia": "Es la tarifa más cara del informe y además la conexión más larga en vuelo total (Bogotá queda menos en ruta que Panamá). Solo tiene sentido si ofrece horario o equipaje claramente mejor; para la familia implica día completo de viaje. Modelo tipo low-cost en tarifas básicas: verificar qué incluye la tarifa de $872."
+    }
+   ],
+   "transfer_hotel": "ALERTA DE INCONSISTENCIA VERIFICADA: el hotel del informe, \"Grand Decameron Complex\" (unidades Flamingos, Tropical y Royal), está en Bucerías, Riviera Nayarit — costa del Pacífico, a ~20 minutos del aeropuerto de Puerto Vallarta (PVR) — NO en Cancún. Desde CUN quedaría a más de 2.000 km, cruzando todo México (exigiría otro vuelo doméstico vía CDMX). Si el destino aéreo es realmente CUN, la propiedad Decameron del Caribe mexicano es el Grand Decameron Cozumel: traslado CUN → terminal de ferry de Playa del Carmen (~55-60 km, ~1 h en shuttle; referencia de mercado: shuttle compartido desde ~USD 25 p/p, paquete completo aeropuerto+ferry+hotel ~USD 63 p/p por trayecto — precios de operadores, sujetos a cambio) + ferry a Cozumel (~45 min, salidas aproximadamente cada hora entre ~07:30 y ~22:00; ~USD 15 adulto / ~USD 12 niño por tramo) + taxi corto al hotel; total puerta a puerta ~2.5-3 h. Con niños y una llegada vespertina, el riesgo es perder el último ferry cómodo del día. El informe debe corregir el par aeropuerto-hotel antes de comparar tarifas.",
+   "veredicto_familia": "Para 2 adultos + 2 niños (6 y 11 años) la jerarquía es clara: LATAM directo diurno de ~8 h 15 es la opción a asegurar — además es la tarifa más baja ($706) — condicionada a confirmar que opere el 10 y el 15 de octubre, porque es ruta de baja frecuencia; Copa vía Panamá es el plan B razonable (~10-11 h, conexión corta) aceptando un tramo nocturno. Arajet y Avianca añaden horas, madrugadas o costos ocultos sin beneficio para esta familia. Punto crítico previo a todo: el hotel nombrado (Grand Decameron Complex) está en Riviera Nayarit y se sirve desde PVR, no desde CUN — si la familia vuela a Cancún, el destino Decameron real sería Grand Decameron Cozumel, que suma ~2.5-3 h de traslado terrestre + ferry en cada sentido, un factor de cansancio importante con niños que debe entrar en la comparación de competencia.",
+   "riesgos": "1) Descalce hotel/aeropuerto: Grand Decameron Complex está en Bucerías (PVR, Pacífico); analizar tarifas SCL-CUN contra ese hotel invalida la comparación — corregir a PVR o cambiar el hotel de referencia a Grand Decameron Cozumel. 2) Frecuencia del directo LATAM: histórico de 1-2 vuelos semanales (viernes/domingo) y servicio estacional (una fuente indica reinicio en septiembre); días de operación para el 10 y 15 de octubre de 2026 no verificados — si no calzan, toda la ventaja de LATAM desaparece y las fechas del viaje deberían moverse 1 día. 3) Arajet: frecuencias bajas en SDQ-CUN según datos históricos (3/semana en su lanzamiento; actuales no verificadas) — riesgo de conexión larga, pernocte o reacomodo difícil ante cancelación. 4) Duraciones de Copa/Avianca/Arajet son estimaciones por tramos, no itinerarios confirmados de octubre 2026. 5) Tarifas low-cost (Arajet, básicas de Avianca): costo real de equipaje facturado para 4 personas no verificado y puede alterar el ranking de precios. 6) Si el destino final fuera Cozumel, llegada nocturna (Copa/Avianca/Arajet) puede obligar a pernoctar en Playa del Carmen por horario del ferry.",
+   "fuentes": [
+    "https://www.flightconnections.com/flights-from-scl-to-cun",
+    "https://www.latamairlines.com/cl/es/destinos/mexico/vuelos-desde-santiago-a-cancun",
+    "https://www.copaair.com/en/flights-from-santiago-to-panama-city",
+    "https://www.copaair.com/en/flights-from-panama-city-to-cancun",
+    "https://www.avianca.com/us/es/vuelos-desde-santiago-a-cancun",
+    "https://mexico.ladevi.info/actualidad/arajet-une-cancun-y-santo-domingo-tres-vuelos-semanales-n44989",
+    "https://promos.arajet.com/en-cl/flights-from-santiago-to-santo-domingo",
+    "https://www.decameron.com/en/hotels/bucerias/decameron-complex/",
+    "https://www.tripadvisor.com/Hotel_Review-g657267-d264910-Reviews-Grand_Decameron_Complex_Bucerias_A_Trademark_All_Inclusive-Bucerias_Pacific_Coast.html",
+    "https://www.cancun-discounts.com/cozumel-ferry.htm",
+    "https://www.cancun-discounts.com/cozumel-airport-shuttle.htm",
+    "https://www.xcaret.com/en/xailing/ferry-cozumel/"
+   ],
+   "confianza": "media"
+  },
+  {
+   "ruta": "SCL (Santiago de Chile) → PUJ (Punta Cana, Rep. Dominicana), 10-15 octubre 2026 (5 noches). Diferencia horaria en octubre: 1 hora (Chile UTC-3 con horario de verano; Punta Cana UTC-4). Vuelo directo ~7h40-8h20.",
+   "opciones": [
+    {
+     "aerolinea": "Latam ($667 p/p i/v)",
+     "escalas": "directo (también vende opciones vía Lima)",
+     "duracion_total": "~7h45 el directo (ej. salida 08:25-08:40, llegada 15:10-16:20)",
+     "horarios": "diurno, ideal: sale media mañana y llega media tarde; Boeing 787. OJO: el directo opera solo ~2-3 veces por semana (datos de marzo 2026: lunes y sábado). El 10-oct-2026 es sábado (calza con el directo); el regreso 15-oct es jueves, día en que probablemente NO hay directo y el regreso sería vía Lima (~11-12h) — días exactos de octubre no verificados",
+     "nota_familia": "La mejor opción para niños: vuelo diurno, sin escalas, avión de fuselaje ancho. Verificar que ambos tramos (ida y vuelta) caigan en día de operación del directo antes de comprar"
+    },
+    {
+     "aerolinea": "Avianca ($715 p/p i/v)",
+     "escalas": "1 escala vía Bogotá (BOG)",
+     "duracion_total": "~11-13h mejor caso (SCL-BOG ~5h50 + conexión 2-3h + BOG-PUJ ~2h50-3h40)",
+     "horarios": "típicamente salida nocturna/madrugada desde SCL para conectar con el BOG-PUJ de 07:00 (llega 10:40), o salida matinal conectando con el de 16:30 (llega 20:21); BOG-PUJ tiene varias frecuencias diarias",
+     "nota_familia": "Conexión razonable y aeropuerto de Bogotá manejable, pero suma 4-5 horas y suele implicar madrugón o llegada de noche con los niños"
+    },
+    {
+     "aerolinea": "Copa ($858 p/p i/v)",
+     "escalas": "1 escala vía Ciudad de Panamá (PTY)",
+     "duracion_total": "~11-13h mejor caso (SCL-PTY ~6h55 + conexión ~1h30-3h + PTY-PUJ ~2h-2h40)",
+     "horarios": "salidas desde SCL entre 00:01 y ~12:28 (varias son nocturnas/madrugada, tipo red-eye llegando a Panamá al amanecer y a Punta Cana cerca del mediodía); PTY-PUJ opera a diario con varias frecuencias, lo que da flexibilidad total de fechas",
+     "nota_familia": "El hub de Tocumen es eficiente y las conexiones cortas; opción confiable cualquier día de la semana, pero es la tarifa más cara y el red-eye con niños de 6 y 11 años es cansador"
+    },
+    {
+     "aerolinea": "Sky ($846 p/p i/v)",
+     "escalas": "1 escala vía Lima (LIM) en octubre — el directo SCL-PUJ de Sky recién arranca el 29-dic-2026 (4 frecuencias semanales con A321XLR)",
+     "duracion_total": "~11-12h estimado (SCL-LIM ~3h50 + conexión + LIM-PUJ ~5h; horarios del tramo LIM-PUJ de Sky no verificados en detalle)",
+     "horarios": "patrón no verificado para octubre; en fechas del informe obliga a conexión en Lima",
+     "nota_familia": "Mala relación precio/producto para estas fechas: casi el precio de Copa, con escala, low-cost (todo se paga aparte) y sin el directo que solo existirá desde fin de diciembre 2026"
+    },
+    {
+     "aerolinea": "Arajet ($606 p/p i/v)",
+     "escalas": "directo (Boeing 737 MAX 8, clase única; ~3 frecuencias semanales en oct-2026, días exactos no verificados)",
+     "duracion_total": "~8h20 la ida (SCL 03:45 → PUJ 11:04); regreso ~7h50 (PUJ 20:07 → SCL 04:55+1)",
+     "horarios": "madrugada extrema a la ida (embarque ~01:30-02:30 am) y regreso nocturno que aterriza en SCL a las 04:55; retomó la ruta el 10-sep-2026 tras suspenderla del 1-ago al 9-sep",
+     "nota_familia": "La más barata y directa, pero los horarios son los más duros para niños: despertar a medianoche a la ida y llegar de madrugada al regreso; equipaje facturado y comida se pagan aparte (tarifas exactas no verificadas)"
+    }
+   ],
+   "veredicto_familia": "Para 2 adultos + niños de 6 y 11 años, la ruta es cómoda solo si se consigue el directo: LATAM ($667) es el claro ganador si ambos sentidos caen en día de operación — vuelo diurno de ~7h45 que llega a media tarde, sin escalas ni trasnoche. Arajet ($606) ahorra ~$244 por familia de 4 pero cobra ese ahorro en sueño: salida 03:45 am y regreso aterrizando 04:55 am, duro con niños en edad escolar. Si las fechas 10-15 oct no calzan con los directos (el regreso en jueves es el punto débil de LATAM), Copa vía Panamá es la conexión más fiable y flexible aunque la más cara; Avianca vía Bogotá es alternativa similar algo más barata. Sky no tiene sentido en octubre: su directo empieza el 29 de diciembre de 2026.",
+   "riesgos": "1) Frecuencias limitadas del directo: LATAM opera SCL-PUJ solo ~2-3 días/semana (marzo 2026: lunes y sábado) — la ida del sábado 10-oct calza, pero el regreso del jueves 15-oct probablemente exige conexión vía Lima o mover la fecha; días exactos de octubre 2026 no verificados. 2) Arajet suspendió la ruta del 1-ago al 9-sep-2026 (\\\"temporalmente\\\") — historial de inestabilidad; reconfirmar operación y días antes de comprar; sus horarios de madrugada implican además trasnochar con los niños. 3) Sky no vuela directo hasta el 29-dic-2026; su tarifa de $846 en octubre implica escala en Lima con producto low-cost. 4) Octubre es plena temporada de huracanes en el Caribe (pico ago-oct): riesgo de retrasos/cambios, conviene seguro de viaje y tarifas flexibles. 5) Las tarifas del informe no indican si incluyen equipaje facturado; en Arajet y Sky (low-cost) la maleta de bodega casi seguro se paga aparte (montos no verificados), lo que puede cerrar la brecha de precio con LATAM para una familia de 4 con maletas.",
+   "transfer_hotel": "El informe no fija hotel; la zona hotelera principal (Bávaro/corredor Punta Cana) está a ~20-25 km del aeropuerto PUJ por el Boulevard Turístico del Este. Taxi/traslado privado: 20-30 min, ~US$30-40 por vehículo (hasta 4 pasajeros — sirve justo para la familia). Shuttle compartido: 30-40 min con paradas, algo más barato por persona. No hay transporte público práctico con maletas y niños (la guagua local tarda ~60 min y no es directa). La mayoría de los resorts todo incluido ofrece traslado concertado; muchos paquetes de agencia lo incluyen. Recomendado: traslado privado prebooking (Welcome Pickups, SunTransfers, Civitatis o el del propio hotel).",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.kayak.cl/vuelos/LATAM-Airlines-Santiago-de-Chile-Internacional-Comodoro-Arturo-Merino-Benitez-SCL/Internacional-de-Punta-Cana-PUJ.b.LA.ksp",
+    "https://www.flightconnections.com/flights-from-scl-to-puj",
+    "https://www.arecoa.com/aerolineas/2026/08/25/sky-airline-pondra-en-marcha-vuelo-directo-entre-santiago-de-chile-y-punta-cana/",
+    "https://chocale.cl/2026/08/punta-cana-sera-el-primer-destino-de-largo-alcance-del-nuevo-airbus-a321xlr-de-sky/",
+    "https://www.arecoa.com/aerolineas/2026/07/14/arajet-suspendera-temporalmente-sus-vuelos-entre-santiago-de-chile-y-punta-cana/",
+    "https://aviationclubcenter.com/es/2026/06/08/arajet-amplia-vuelos-entre-punta-cana-y-santiago-de-chile/",
+    "https://www.meganoticias.cl/amp/nacional/526983-aerolinea-dejara-de-operar-vuelos-a-chile-durante-un-mes-suspension-temporal-santiago-punta-cana-arajet-15-07-2026.html",
+    "https://www.avianca.com/us/es/vuelos-desde-bogota-a-punta-cana",
+    "https://www.flightconnections.com/flights-from-bog-to-puj",
+    "https://www.copaair.com/en/flights-from-santiago-to-panama-city",
+    "https://www.flightconnections.com/flights-from-scl-to-pty",
+    "https://www.kayak.com/flight-routes/Lima-J-Chavez-Intl-LIM/Punta-Cana-PUJ",
+    "https://www.traveltradecaribbean.es/latam-incrementara-sus-vuelos-a-punta-cana-desde-lima-miami-y-chile/",
+    "https://www.welcomepickups.com/punta-cana/airport-to-bavaro/",
+    "https://www.taxibavaro.com/aeropuerto-punta-cana-a-bavaro/"
+   ]
+  }
+ ],
+ "aerolineas": [
+  {
+   "aerolinea": "LATAM Airlines",
+   "modelo": "híbrido (full service de red que vende tarifas desagregadas tipo low cost en la base; la que alimenta los comparadores es la más pelada)",
+   "tarifa_base_incluye": "En rutas internacionales regionales desde Chile (Sudamérica y Caribe, ej. SCL–Bogotá, SCL–Punta Cana, SCL–Cancún) la tarifa más barata que ven las OTA es \"Basic\": SOLO 1 artículo personal bajo el asiento (mochila pequeña/cartera), asiento ALEATORIO (sin selección) y acumulación de millas. NO incluye equipaje de mano de 10-12 kg (y en Basic LATAM no vende el equipaje de mano como add-on: hay que subir a tarifa Light), NO incluye maleta de bodega, NO incluye asiento asignado. En largo radio fuera de Sudamérica (Norteamérica/Europa) la familia tarifaria cambia (Light/Standard/Full) y la Light sí incluye artículo personal + equipaje de mano ~12 kg combinado, pero tampoco maleta de bodega. La bodega de 23 kg recién viene incluida desde Plus/Standard según ruta.",
+   "extra_familia_usd": "Maletas de bodega 23 kg: precio dinámico por ruta/fecha; referencias verificadas: USD 30-65 por maleta por tramo en internacional regional comprando online anticipado (Light internacional: USD 50-65 según UpgradedPoints), y USD 70-100 online / 90-120 en aeropuerto en rutas largas; comprar online ahorra hasta ~40% vs aeropuerto. Para 2-3 maletas ida+vuelta: USD 120-390 aprox online anticipado. Asientos juntos: USD 0 si la familia acepta la asignación automática (ver política niños); si pagan selección estándar (~USD 10-40 por pasajero por tramo): +USD 80-320 los 4 ida+vuelta. Rango honesto total sobre la tarifa base: USD 120-400 típico; hasta USD 600-700 en el peor caso (3 maletas compradas tarde/aeropuerto + selección pagada). Precio exacto para SCL en octubre 2026: no verificado (LATAM lo cotiza dinámicamente en Mis Viajes).",
+   "ninos": "Infante <2 años en regazo: 10% de la tarifa adulto + impuestos en internacional. Niños desde 2 años (aplica a los de 6 y 11 de la familia de referencia): asiento propio pagando tarifa de niño, cuyo descuento varía por ruta y cabina — no hay % estándar garantizado en internacional (frecuentemente cercana a tarifa adulto); no verificado un descuento fijo. Asientos juntos: SÍ, LATAM declara oficialmente que a menores de 14 años les asigna sin costo asiento adyacente a al menos un adulto acompañante, siempre que estén en la MISMA reserva — no es necesario pagar selección para que un niño quede junto a un adulto (no garantiza a los 4 juntos en bloque, solo cada niño con un adulto).",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.latamairlines.com/us/en/help-center/faq/purchases/asistance/ticket-fares",
+    "https://www.latamairlines.com/cl/es/centro-ayuda/preguntas/compras/asistencia/tarifas-pasaje-internacional",
+    "https://www.latamairlines.com/cl/es/centro-ayuda/preguntas/asientos/compra-seleccion-asignacion-asientos/asiento-infante",
+    "https://www.latamairlines.com/pe/es/centro-ayuda/preguntas/necesidades-especiales/bebes-ninos/viaje-infantes-menores",
+    "https://www.latamairlines.com/us/es/centro-ayuda/preguntas/equipaje/comprar/costo-adicional",
+    "https://resumenturismo.com/latam-incluye-tarifa-basic-en-suramerica-y-el-caribe/",
+    "https://www.latercera.com/pulso/noticia/latam-cambia-estructura-tarifarias-agrega-pasaje-sin-opcion-equipaje-mano/769895/",
+    "https://www.cnnchile.com/pais/que-cabe-bolso-basic-latam_20190808/",
+    "https://upgradedpoints.com/travel/airlines/latam-review/",
+    "https://deeparrival.com/airlines/latam/baggage-fees/",
+    "https://www.cabinzero.com/blogs/air-travel-tips/latam-airlines-baggage-allowance"
+   ],
+   "nota": "Los precios de equipaje y asiento de LATAM son dinámicos (varían por ruta, fecha y anticipación); las cifras exactas para el viaje 10-15 oct 2026 desde SCL solo se cotizan en Mis Viajes de LATAM, por eso se entregan rangos y confianza media. Las páginas de precios oficiales (valores-bodega/valores-cabina) se renderizan por JavaScript y no fueron legibles vía fetch; los rangos provienen de fuentes secundarias recientes cruzadas con lo que LATAM sí publica. Relevante para el informe Decameron: en comparadores la tarifa Basic de LATAM aparece más barata que tarifas de otras aerolíneas que sí incluyen mano y/o bodega — comparar siempre con el costo total familiar (una familia de 4 con 2-3 maletas puede sumar USD 120-400+ extra ida y vuelta). Punto a favor de LATAM: política oficial de sentar gratis a menores de 14 junto a un adulto de la misma reserva."
+  },
+  {
+   "aerolinea": "Avianca",
+   "modelo": "híbrido (aerolínea legacy con modelo unbundled tipo low cost desde 2023-2024; en 2026 re-incluyó el carry-on en la tarifa mínima internacional)",
+   "tarifa_base_incluye": "Tarifa Light (la más barata internacional, la que alimenta OTAs/comparadores): para boletos comprados desde el 27-ene-2026 en rutas internacionales de las Américas incluye 1 artículo personal + 1 equipaje de mano de hasta 10 kg (55x35x25 cm) — verificado en comunicado oficial de Avianca. NO incluye maleta de bodega, NO incluye selección de asiento (se asigna asiento gratis en check-in, sin elegir ubicación), NO permite cambios ni reembolsos. Ojo: en resultados de OTA emitidos antes del 27-ene-2026 o fuera de las Américas la tarifa mínima podía ser solo artículo personal. La maleta de 23 kg recién aparece en tarifa Classic.",
+   "extra_familia_usd": "Rango honesto ida+vuelta SCL (ruta regional Sudamérica, ej. SCL-BOG, oct 2026): maletas de bodega 23 kg con precio dinámico por ruta y anticipación, estimado USD 40-80 por maleta por tramo comprada online con anticipación (bastante más cara en aeropuerto, la brecha puede superar USD 50/maleta) → 2 maletas i/v: USD 160-320; 3 maletas i/v: USD 240-480. Asientos economy estándar para ir juntos: precio dinámico, estimado USD 10-40 por persona por tramo (asientos Plus/preferentes USD 15-90 según fuente de prensa especializada) → 4 pax i/v: USD 80-320 (mitigable pagando solo 2-3 asientos ancla). TOTAL estimado sobre tarifa Light: USD 250-700 i/v para la familia con 2-3 maletas y asientos juntos; escenario típico ~USD 350-500. Cifras de extras NO verificadas al centavo (Avianca usa precios dinámicos); verificar en calculadora de equipaje de avianca.com para la ruta exacta.",
+   "ninos": "Infante <2 años en brazos: paga 10% de la tarifa adulto + tasas/impuestos en internacional (fuente oficial ayuda.avianca.com). Niños 2-11 años: pagan asiento propio; descuentos regulados solo existen en cabotaje Colombia/Ecuador — en rutas internacionales desde Chile el descuento infantil es pequeño o nulo (tarifa cercana a la de adulto; monto exacto no verificado, depende de la tarifa). Para la familia de referencia (6 y 11 años) ambos pagan prácticamente tarifa completa. Menores de hasta 14 años deben viajar acompañados de un adulto (>18) en la misma reserva (política vigente desde may-2024). Asientos juntos: NO hay garantía formal publicada de asiento adyacente gratis para familias; Avianca exige al menor asociado a un adulto en la misma reserva y en la práctica intenta sentarlos juntos en la asignación automática del check-in, pero para asegurarlo hay que pagar selección anticipada. La afirmación de terceros de que 'asigna 2 asientos juntos gratis 48h antes' no está verificada en fuente oficial. Avianca no está sujeta al dashboard de family seating del DOT de EE.UU.",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.avianca.com/es/sobre-nosotros/noticias-avianca/2026/febrero-2/ (oficial: Light internacional incluye artículo personal + carry-on 10 kg desde 27-ene-2026)",
+    "https://www.avianca.com/en/book/fare-types (oficial: Light sin bodega ni selección de asiento; Classic incluye 23 kg)",
+    "https://ayuda.avianca.com/hc/en-us/articles/13091309941403-What-is-the-cost-of-a-child-or-infant-ticket (oficial: infante 10% tarifa adulto; descuentos niños solo domésticos CO/EC)",
+    "https://www.eltiempo.com/economia/empresas/avianca-incluye-equipaje-de-mano-en-su-tarifa-mas-economica-para-vuelos-internacionales-en-las-americas-3529051 (prensa)",
+    "https://www.eltiempo.com/vida/viajar/avianca-confirma-cuales-ninos-no-pueden-viajar-solos-en-vuelos-y-desde-cuando-3342805 (prensa: menores ≤14 acompañados)",
+    "https://deeparrival.com/airlines/avianca/baggage-fees/ (tercero: bodega desde ~USD 80 en rutas largas, brecha online vs aeropuerto)",
+    "https://upgradedpoints.com/travel/airlines/avianca-review/ (tercero: asientos USD 15-40 corto/medio, 40-90 largo radio; maleta extra largo radio 125-225)",
+    "https://www.turismocity.com.co/promociones_aereas/p-cuanto_cuesta_agregar_equipaje_en_avianca-5808.html (tercero: precios dinámicos por anticipación)"
+   ],
+   "nota": "Lo incluido en la tarifa Light está verificado en fuente oficial (confianza alta en esa parte); la confianza global es media porque los costos de extras en USD para rutas desde Chile son rangos triangulados de fuentes terciarias con precios dinámicos, no tarifarios oficiales publicados. Avianca no publica tabla de precios de equipaje/asientos por ruta: remite a su calculadora de equipaje y al flujo de compra. Relevante para el informe Decameron: desde SCL Avianca compite vía conexión en Bogotá o Lima (p.ej. hacia San Andrés o Panamá no hay vuelo directo desde SCL); el cambio de enero 2026 hace que la tarifa OTA más barata de Avianca ya no penalice el equipaje de mano, a diferencia de las básicas de JetSMART/SKY que siguen vendiendo el carry-on aparte. Página de ayuda de asientos (ayuda.avianca.com) bloqueó el acceso automatizado (403), por eso el precio del asiento economy estándar queda como estimado no verificado."
+  },
+  {
+   "aerolinea": "Copa Airlines",
+   "modelo": "full service (red hub en Panamá, pero con tarifa Economy Basic desagregada estilo low cost)",
+   "tarifa_base_incluye": "La tarifa más barata que alimenta las OTA es \"Economy Basic\". Incluye: 1 artículo personal (bajo el asiento) + 1 equipaje de mano de hasta 10 kg (56x36x26 cm) gratis. NO incluye maleta de bodega (la primera maleta de 23 kg se paga aparte) y NO incluye asiento asignado anticipado: desde el 2-ago-2024 al pasajero Basic se le asigna asiento al azar en el check-in (tarjeta de embarque emitida ~4 h antes del vuelo); la preselección de asiento se cobra. Tampoco permite cambios flexibles como las tarifas Classic/Full (Classic sí incluye 1 maleta 23 kg).",
+   "extra_familia_usd": "USD 200–500 aprox ida+vuelta sobre la tarifa Basic para 2 adultos + 2 niños. Desglose: maletas de bodega — con la actualización de tarifas del 7-jul-2025, en la región Panamá↔Chile la 1ª maleta cuesta USD 70 y la 2ª USD 90 por trayecto en aeropuerto/kiosco (verificado en prensa aérea); fuentes 2026 citan ~USD 38–53 por pieza como tarifa internacional prepagada online (no verificado específicamente para Chile). Es decir: 2 maletas ida+vuelta ≈ USD 160–320; 3 maletas ≈ USD 240–480. Asientos juntos anticipados: preselección estándar ~USD 5–25 por pasajero por segmento (precio dinámico, no verificado el valor exacto para SCL-PTY); 4 pax x ida y vuelta ≈ USD 40–200, aunque puede ser USD 0 si la familia acepta la asignación en check-in (ver política de niños). Escenario típico realista (2 maletas prepagadas + asientos estándar): USD 200–400.",
+   "ninos": "Infantes (0–23 meses) en regazo pagan ~10% de la tarifa del adulto + impuestos en vuelos internacionales. Niños de 2 a 11 años pagan \"un porcentaje de la tarifa de adulto según las reglas tarifarias\" (oficial); en la práctica el descuento en tarifas Basic suele ser pequeño o nulo — no verificado un % fijo. Asientos juntos: los términos de preselección de Copa indican que a los menores de 15 años se les otorga sin costo un asiento próximo a un padre/tutor al momento del check-in, y la asignación aleatoria automática de la tarifa Basic explícitamente NO aplica a reservas con niños e infantes. Es decir: Copa garantiza que cada niño quede junto a AL MENOS un adulto sin pagar, pero no garantiza a los 4 juntos ni permite elegir ubicación sin pagar preselección.",
+   "fuentes": [
+    "https://www.news.somosaero.ar/novedades/copa-nuevos-precios-para-el-equipaje-en-bodega/ (tabla tarifas equipaje 7-jul-2025, Panamá↔Chile $70/$90)",
+    "https://upgradedpoints.com/travel/airlines/copa-airlines-baggage-fees/ (Basic sin bodega; internacional 1ª $38 / 2ª $53, guía 2026)",
+    "https://sudameriablog.com/blog/lineas-aereas/copa-airlines-actualizacion-preseleccion-de-asientos/ (asiento aleatorio en Basic desde 2-ago-2024; excepción niños/infantes)",
+    "https://www.copaair.com/es/web/gs/terminos-condiciones-preseleccion-de-asientos (menores de 15: asiento junto a padre/tutor sin costo en check-in — vía extracto de buscador)",
+    "https://www.copaair.com/es-gs/informacion-al-viajar/familias-tarifarias/ (esquema Basic/Classic/Full — vía extracto de buscador)",
+    "https://help.copaair.com/hc/en-us/articles/360051190434 (niños 2-11 pagan porcentaje de tarifa adulto — vía extracto)",
+    "https://www.flyoment.com/copa-airlines/what-is-copa-airlines-infant-policy-lap-infant-rules-baggage-stroller-guidelines/ (infante 10% en internacional)",
+    "https://www.airlinespolicyhub.com/seat-selection/copa-airlines-seat-selection/ (rangos de precio preselección, no oficial)"
+   ],
+   "nota": "Copa vuela SCL–Ciudad de Panamá (PTY) sin escalas (~6,5 h), relevante para paquetes Decameron vía Panamá o conexión a San Andrés/caribe colombiano. El sitio oficial copaair.com y help.copaair.com bloquean el acceso automatizado (DataDome, HTTP 401/403), por lo que varias afirmaciones oficiales se verificaron solo vía extractos de buscador y prensa especializada; los precios exactos de maleta prepagada online para Chile y de preselección de asiento en SCL-PTY quedan como no verificados (rangos honestos). Todos los precios de equipaje son por pieza y por trayecto. Riesgo para el comparador: la tarifa Basic de OTA subestima el costo real de una familia con equipaje en ~USD 200–500 ida+vuelta frente a aerolíneas que incluyen bodega.",
+   "confianza": "media"
+  },
+  {
+   "aerolinea": "SKY Airline",
+   "modelo": "low cost",
+   "tarifa_base_incluye": "La tarifa más barata (Zero, renombrada \"Basic\" en marzo 2025 sin cambio de beneficios) — la que alimenta OTAs y comparadores — incluye SOLO 1 artículo personal/bolso de mano (45x35x25 cm) más chaqueta o abrigo, con asiento asignado aleatoriamente (gratis recién en el check-in). NO incluye equipaje de mano de 10 kg (55x35x25 cm, es de pago), NO incluye maleta de bodega de 23 kg y NO incluye selección de asiento. Fuente oficial (canal de SKY): \"TARIFA ZERO: vuela ligero con solo un bolso de mano y una chaqueta o abrigo, con asiento asignado aleatoriamente\". Las tarifas superiores Plus (bolso + equipaje de mano 10kg + 1 maleta 23kg + asiento estándar) y Full (2 maletas 23kg + elección de asiento) sí los incluyen.",
+   "extra_familia_usd": "USD 150–350 ida+vuelta comprando online al reservar, para 2-3 maletas de bodega y asientos. Desglose: maleta bodega 23kg internacional ~USD 30–50 por tramo por maleta comprada online (2 maletas i/v = USD 120–200; 3 maletas i/v = USD 180–300); en aeropuerto sube a ~USD 60–85 por tramo (el total puede superar USD 400–600 si se agrega tarde). Selección de asiento estándar: precio dinámico por tramo, no verificado (SKY publica valores dinámicos por tramo en GDS); puede ser USD 0 si la familia se apoya en la ley chilena de asientos contiguos para menores de 14 (ver campo niños) y acepta asignación en check-in. Si además quieren equipaje de mano de 10kg (no incluido en la base), fuentes de terceros reportan ~USD 40+ por tramo internacional por pieza (no verificado oficialmente). Rangos de fuentes agregadoras; el sitio oficial no publica tabla fija.",
+   "ninos": "Niños de 2 a 13 años pagan tarifa de adulto (SKY lanza descuentos promocionales puntuales, ej. 50% para niños 2-13 en campañas \"SKY Days\", no permanente). Infantes menores de 2 años sin asiento: gratis en rutas dentro de Chile; en rutas internacionales aplica pago de impuestos, sin derecho a asiento. Menores entre 5 y 14 años deben viajar a cargo de un adulto. Asientos juntos: por la Ley 21.398 (Pro Consumidor) / art. 133 I del Código Aeronáutico chileno, la aerolínea debe tomar medidas para que menores de 14 viajen en asiento contiguo al de al menos UN adulto de la misma reserva — es una obligación de la aerolínea, no un servicio pagado, pero cubre niño+1 adulto, no garantiza a los 4 juntos; su aplicación a vuelos internacionales no está explicitada en las fuentes oficiales consultadas (JAC/SERNAC no lo aclaran). En la práctica hay reclamos de pasajeros por asignación aleatoria que separa grupos, por lo que quien quiera certeza de los 4 juntos termina pagando selección de asiento.",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.tiktok.com/@skyairline/video/7299566291667455238 (canal oficial SKY: contenido de tarifas Zero/Plus/Full)",
+    "https://chile.reportnews.la/2025/03/17/sky-renombra-sus-tarifas-de-equipaje-sin-cambios-en-beneficios/ (renombre Zero→Basic)",
+    "https://squishometer.com/es/airlines/sky-airline-carry-on-rules (Zero solo artículo personal; equipaje de mano de pago)",
+    "https://baggagepolicies.com/sky-airline-baggage-policy/ (maleta 23kg internacional USD 30–50 online / 60–80 aeropuerto)",
+    "https://boltflight.com/sky-airline-baggage-fees-a-complete-guide-to-luggage-costs-rules-and-smart-savings/ (equipaje mano internacional desde USD 42 online; bodega internacional desde USD 42 online / 67 aeropuerto)",
+    "https://agencias.skyairline.com/es/categories/ancillaries (valores de ancillaries publicados de forma dinámica por tramo en GDS)",
+    "https://derechosdelpasajero.jac.gob.cl/otrosderechos.html (JAC: menores de 14 en asientos contiguos a un adulto de la reserva)",
+    "https://www.sernac.cl/portal/604/w3-article-78707.html (SERNAC: derecho asientos contiguos menores de 14, Ley Pro Consumidor)",
+    "https://skyperu.org/ninos-y-bebes-con-sky-airline/ y https://certramit.cl/requisitos-viajar-ninos-sky-airline/ (política infantes y niños)",
+    "https://trome.com/actualidad/sky-lanza-descuentos-de-hasta-43-en-vuelos-y-50-extra-de-rebaja-para-ninos-noticia/ (descuentos promocionales niños)",
+    "https://es.travel2latam.com/news-5774-sky-airline-comenzara-a-cobrar-por-el-equipaje (inicio modelo low cost / cobro por equipaje)"
+   ],
+   "nota": "El sitio oficial skyairline.com y su contrato de transporte en S3 devolvieron 403/AccessDenied, por lo que los precios exactos de maletas y asientos NO pudieron verificarse en fuente oficial: SKY los fija dinámicamente por tramo (confirmado en su portal de agencias). Los rangos USD provienen de guías agregadoras de 2025-2026 y deben tratarse como estimaciones honestas, no cifras oficiales; la estructura de tarifas (qué incluye cada una), la política de niños/infantes y el marco legal chileno de asientos contiguos sí están respaldados por fuentes oficiales o semioficiales. Contexto informe: para la familia de referencia (2 adultos + niños de 6 y 11), el escenario realista con SKY internacional es tarifa base OTA + USD 150–350 extra i/v comprando todo online al reservar. Precios al 31-08-2026; verificar al cotizar el viaje de octubre 2026."
+  },
+  {
+   "aerolinea": "JetSmart",
+   "modelo": "low cost (ultra low cost)",
+   "tarifa_base_incluye": "La tarifa más barata (tarifa \"Smart\", la que alimenta las OTA y comparadores) incluye SOLO un bolso/mochila pequeño bajo el asiento de máx. 45x35x25 cm y hasta 10 kg (desde enero 2026 el control es por volumen total, no por cantidad de artículos). NO incluye equipaje de mano grande de cabina (trolley 10 kg: se paga aparte, desde ~USD 27,50 por tramo online en internacional; ~USD 60 en aeropuerto), NO incluye maleta de bodega (23 kg: desde ~USD 27,50 por tramo online; ~USD 60 en counter, ~USD 65 en puerta) y NO incluye asiento asignado específico: la asignación es aleatoria y gratuita, elegir asiento cuesta en internacional desde ~USD 10 (estándar) hasta ~USD 20 (primera fila) por persona por tramo. Precios \"desde\", dinámicos por ruta y fecha.",
+   "extra_familia_usd": "USD 190-400 ida+vuelta aprox. para 2 adultos + 2 niños comprando online al reservar: 2-3 maletas de bodega 23 kg (2-3 maletas x 2 tramos x USD 27,50-45 = USD 110-270) + selección de asiento estándar para ir juntos (4 pax x 2 tramos x USD 10-14 = USD 80-112). Si además necesitan trolleys de cabina de 10 kg, sumar ~USD 55-90 por trolley ida+vuelta. Comprado en aeropuerto el equipaje sube a ~USD 60-65 por pieza por tramo, con lo que el total puede superar USD 500. Precios dinámicos: en rutas largas al Caribe el extremo alto es más probable.",
+   "ninos": "Niños desde 2 años cumplidos pagan tarifa completa (sin descuento) y ocupan asiento propio; todo menor de 13 debe viajar con un adulto (18+) en la misma reserva. Infantes (<2 años) viajan en brazos sin asiento; el FAQ indica que viajan sin costo, aunque en rutas internacionales pueden aplicar tasas/cargos (monto no verificado). Asientos juntos NO garantizados gratis: la asignación aleatoria gratuita no asegura que la familia quede junta; para elegir asientos contiguos hay que pagar selección (~USD 10-14 por persona por tramo online en internacional). SERNAC sostiene que la aerolínea debe ubicar a menores de 14 junto a un adulto de su reserva, pero en la práctica JetSmart vende la selección de asiento y hay reclamos documentados de familias separadas; solo en viajes grupales de menores (delegaciones) aplica asignación en bloque. Nota Decameron: en paquetes con vuelo, el equipaje incluido depende de lo que el operador haya contratado, no de la tarifa OTA.",
+   "confianza": "media",
+   "fuentes": [
+    "https://jetsmart.com/cl/es/opcionales",
+    "https://jetsmart.com/cl/es/PreguntasFrecuentes",
+    "https://www.sernac.cl/portal/604/w3-propertyvalue-21019.html",
+    "https://www.turismocity.cl/promociones_aereas/p-cuanto_cuesta_agregar_equipaje_en_jetsmart-5799.html",
+    "https://jetsmart.com/pe/es/vuela-smart"
+   ],
+   "nota": "Verificado en la web (sitio oficial JetSmart Chile - página de opcionales y FAQ - más SERNAC) el 31-08-2026. Todos los precios son \"desde\" y dinámicos según ruta, fecha y momento de compra; los rangos en USD son estimaciones honestas para octubre 2026, no cotizaciones de la ruta específica. Confianza \"media\" porque los montos exactos para las fechas 10-15 oct 2026 no fueron cotizados; la estructura de la tarifa (solo mochila, sin bodega ni asiento) sí está verificada con confianza alta. Una fuente secundaria (Turismocity) menciona bodega internacional \"desde USD 10\", probablemente promocional o desactualizada frente al \"desde USD 27,50\" del sitio oficial."
+  },
+  {
+   "aerolinea": "Arajet",
+   "modelo": "low cost (ultra low cost dominicana; opera SCL–Punta Cana/Santo Domingo con B737 MAX 8; ruta SCL–PUJ suspendida 1 ago–9 sep 2026 por falta de aviones, reanudada desde el 10 sep 2026, por lo que en oct 2026 estaría operativa según el plan anunciado)",
+   "tarifa_base_incluye": "La tarifa más barata (antes \"Smart\", desde oct 2025 renombrada \"Basic\" — es la que alimenta las OTA/comparadores) incluye SOLO un artículo personal de 40x25x20 cm y máx 6 kg (mochila pequeña/cartera). NO incluye equipaje de mano (la maleta de cabina de 12 kg es de pago), NO incluye maleta de bodega, NO incluye asiento asignado (se asigna en check-in y puede separar al grupo). Desde oct 2025 el check-in en mostrador es gratis. Escala de tarifas: Basic (solo artículo personal) / Classic (+equipaje de mano 12 kg y selección de asiento) / Comfort (+maleta de bodega 23 kg, antes 20 kg) / Extra (todo + embarque prioritario y cambios).",
+   "extra_familia_usd": "~US$220–480 ida+vuelta para 2-3 maletas de bodega + 4 asientos juntos estándar, comprando online al reservar. Desglose: maleta de bodega ~US$25–45 por maleta/tramo online (fuente pre-reforma: US$24,99–29,99 online, US$60 en aeropuerto; en oct 2025 Arajet fijó precios y los bajó \"hasta 30%\", cifra fija exacta no verificada) → 2-3 maletas x 2 tramos = US$100–270. Asiento estándar ~US$15–25 por asiento/tramo (rango total publicado US$15–65 según fila/ruta) → 4 pax x 2 tramos = US$120–200+. En aeropuerto/puerta todo es mucho más caro (maleta US$60–90, cabina hasta US$100). Ojo: para una familia suele salir más barato comprar directamente tarifa Comfort o Extra que sumar extras a la Basic — comparadores que muestran la Basic subestiman el costo real de viajar en familia.",
+   "ninos": "Infantes (menores de 2 años) en regazo pagan 5% de la tarifa + impuestos; edad mínima 8 días; máx 2 infantes por adulto (el segundo debe ocupar asiento con silla homologada y paga tarifa completa); el infante tiene derecho a un artículo adicional de 6 kg. Niños de 2+ años (como los de 6 y 11 de la familia de referencia) pagan tarifa completa de adulto — sin descuento estándar por niño. Menores de 16 no pueden volar solos. NO garantizan por escrito asientos juntos gratis a familias: sin pagar selección, el sistema asigna asientos en el check-in \"cuando puede\" juntos (experiencias de usuarios reportan asignación adyacente gratuita en web check-in, pero también advertencias oficiales de que el grupo puede quedar separado). Arajet sí hace promos familiares agresivas (ej. \"Vamo' en familia\" dic 2025: niños hasta 16 años con 100% de descuento en tarifa base viajando hasta el 30 sep 2026 — no cubre oct 2026).",
+   "confianza": "media",
+   "fuentes": [
+    "https://arajet.zendesk.com/hc/es-do/articles/18612751265684 (tarifa Smart: solo artículo personal 40x25x20cm/6kg)",
+    "https://www.aviacionline.com/cambios-clave-en-arajet-nueva-familia-tarifaria-mas-equipaje-y-baja-de-precios (oct 2025: Basic/Classic/Comfort/Extra, precios fijos, check-in gratis)",
+    "https://www.arecoa.com/aerolineas/2025/10/16/cambios-en-arajet-reduce-precio-de-maletas-crea-nuevas-categorias-y-no-cobrara-check-in/ (detalle de paquetes)",
+    "https://valorydinero.com/2025/10/17/mas-peso-y-menos-cobros-arajet-baja-tarifas-de-equipaje-hasta-un-30-y-libera-el-check-in-presencial/ (rebaja de equipaje hasta 30%)",
+    "https://www.gatechecked.com/arajet-baggage-fees-7171 (precios: bodega US$24,99-60, cabina US$39,99-100 por tramo)",
+    "https://ratamundo.com/2025/10/17/espectacular-arajet-modifica-sus-tarifas-y-agrega-mas-cambios-en-favor-del-pasajero/ (exceso US$10/kg, maleta adicional US$90 aeropuerto)",
+    "https://princeoftravel.com/guides/what-you-need-to-know-about-arajet/ (selección de asiento US$15-65 según ruta/fila; sin selección, asignación en check-in puede separar al grupo)",
+    "https://www.arajet.com/en/ninos vía búsqueda (infante 5% + impuestos, mín 8 días, niños 2+ tarifa completa, menores de 16 no viajan solos)",
+    "https://www.diariolibre.com/usa/actualidad/2025/12/09/arajet-lanza-promocion-navidena-arajet-para-vuelos-en-familia/3371925 (promo Vamo' en familia: niños hasta 16 gratis en tarifa base, viajes hasta 30 sep 2026)",
+    "https://www.arecoa.com/aerolineas/2026/07/14/arajet-suspendera-temporalmente-sus-vuelos-entre-santiago-de-chile-y-punta-cana/ (suspensión SCL-PUJ 1 ago-9 sep 2026, reanudación 10 sep 2026)",
+    "https://www.infoviajera.com/2024/06/las-tarifas-y-precios-del-equipaje-en-arajet-la-nueva-aerolinea-ultra-low-cost/ (referencia pre-reforma: bodega US$35-45, cabina US$55-65 por tramo)"
+   ],
+   "nota": "Precios fijos exactos post-reforma de oct 2025 NO verificados (arajet.com y su helpdesk bloquean el acceso automatizado con 403); el rango US$25-45/maleta y US$15-25/asiento estándar combina cifras pre-reforma verificadas con la rebaja anunciada de hasta 30% — tratar como estimación, no como tarifa publicada. Los precios varían además según antelación de compra (online al reservar es lo más barato; aeropuerto/puerta hasta 2-4x). Riesgo operacional relevante para el informe: la ruta SCL-Punta Cana fue suspendida ago-sep 2026 por falta de flota; aunque se anunció reanudación el 10 sep 2026 con más frecuencias, conviene monitorear que la operación de oct 2026 se confirme."
+  }
+ ],
+ "reputacion": [
+  {
+   "tag": "reputacion_categoria_ADZ_decameron_san_andres",
+   "hoteles": [
+    {
+     "nombre": "Decameron Isleño",
+     "estrellas": "comercialmente 4 en OTAs (Kayak/Hotels.com); sin categoría oficial verificada — en Colombia la clasificación por estrellas no es obligatoria",
+     "puntajes": "Google 4.2 (7.347 reseñas, vía Wanderlog/Google Maps), Booking 7.1 (268 opiniones; valor/precio 6.3, wifi 4.7), TripAdvisor 3.0/5 (3.286 opiniones, puesto 10 de 85 en San Andrés)",
+     "fama": "Lo bueno que se repite: ubicación imbatible frente a la playa Spratt Bight y a pasos del aeropuerto, piscinas amplias y zonas comunes limpias. Lo malo: habitaciones anticuadas y mal mantenidas (pintura descascarada, óxido en aires), limpieza inconsistente, check-in lento, wifi deficiente y sensación de sobreprecio; es el Decameron con más volumen de reseñas y las más polarizadas.",
+     "apto_ninos": "Sin club infantil verificado; su fuerte es la playa cruzando la calle, no la infraestructura para niños. Las familias lo eligen por ubicación; las quejas de familias apuntan a habitaciones y mantenimiento, no a falta de actividades. El pase cruzado a los otros Decameron de la isla (incluida la piscina infantil de San Luis y Aquarium) compensa en parte."
+    },
+    {
+     "nombre": "Decameron San Luis",
+     "estrellas": "3 según varias OTAs (hotelesensanandres.org, fichas europeas); alguna fuente lo sube a 4. No verificado como categoría oficial",
+     "puntajes": "Google 4.1 (6.200 reseñas, vía Wanderlog), Booking 7.0 (143 opiniones), TripAdvisor 3.0/5 (2.239 opiniones, puesto 17-19 de ~85 en la zona San Luis)",
+     "fama": "Lo bueno: la mejor playa de los Decameron de la isla (nadable, snorkel a pasos de la habitación), comida variada, personal amable, entorno tranquilo y frondoso. Lo malo: complejo de ~40 años que muestra desgaste, playa con piedras (piden zapatos de agua), wifi malo en habitaciones, sistema de reservas de restaurantes engorroso y lejos del centro (30-40 min).",
+     "apto_ninos": "El más familiar de los cinco: 3 piscinas de adultos + 1 piscina infantil, zona de juegos para niños, sala de juegos, cunas y servicio de niñera según fichas de reserva, y programa diario de animación. Es el que los comparadores recomiendan para familias con niños. Queja recurrente de familias: distancia al centro y edificios viejos."
+    },
+    {
+     "nombre": "Decameron Marazul",
+     "estrellas": "3 en la mayoría de fichas, 4 en otras — inconsistente entre fuentes; no verificado como categoría oficial",
+     "puntajes": "Google 4.2 (3.708 reseñas, vía Wanderlog), TripAdvisor 3.0/5 (1.773 opiniones, puesto 19 de 85). Booking: no verificado",
+     "fama": "Lo bueno: jardines grandes, ambiente tranquilo, personal atento, buen programa de actividades desde el muelle. Lo malo y muy repetido: NO tiene playa real utilizable (mar sobre roca/coral, 'no hay playa como se anuncia'), habitaciones con humedad, aires acondicionados viejos, cortes de agua/luz y mantenimiento en deuda; algún reporte de intoxicación alimentaria en reseñas de Google.",
+     "apto_ninos": "Reseñas lo describen 'ideal para familias con niños chicos' por lo tranquilo: piscina, cancha de tenis, sala y zona de juegos infantiles. Pero sin playa nadable propia los niños dependen de la piscina o de trasladarse a San Luis/Isleño con el pase cruzado; eso es la queja típica de familias."
+    },
+    {
+     "nombre": "Decameron Maryland",
+     "estrellas": "fuentes divididas: 4 (centraldereservas, listas de familia) y 3 (comparadores locales); no verificado como categoría oficial",
+     "puntajes": "Google 4.4 (1.806 reseñas, vía Wanderlog) — el mejor puntaje Google de los cinco; TripAdvisor 4.0/5 (619 opiniones, puesto 3 de 84 en San Andrés); Booking 7.8 (~77-94 opiniones: limpieza 8.3, personal 8.3, valor 7.4)",
+     "fama": "Lo bueno: el mejor reputado de los Decameron de la isla — hotel chico (65 habitaciones), personal cálido, comida abundante y buena, sobre el mar y cerca de la playa principal, parada de bus en la puerta. Lo malo: es el que menos instalaciones tiene, playita propia mínima, habitaciones que piden actualización, y está pegado al aeropuerto (ruido para algunos).",
+     "apto_ninos": "Funciona para familias por tamaño manejable y cercanía a la playa principal, pero no tiene la infraestructura infantil de San Luis (sin zona de juegos amplia ni piscina infantil verificada). Dato del informe: el canal directo decameronchile.cl lo publica NA en ambas fechas — el Decameron mejor calificado de la isla es justamente el que Chile no está vendiendo."
+    },
+    {
+     "nombre": "Decameron Los Delfines",
+     "estrellas": "se vende como 'hotel boutique de primera categoría' (36 habitaciones); las OTAs lo listan 3-4 sin consistencia; no verificado como categoría oficial",
+     "puntajes": "Google 4.2 (1.613 reseñas, vía Wanderlog), TripAdvisor 3.0/5 (782 opiniones, puesto 13 de 86); Booking sin volumen útil (1 opinión, no representativo)",
+     "fama": "Lo bueno: íntimo y bien ubicado en plena zona rosa frente al mar, habitaciones impecables aunque chicas, personal profesional, restaurante a la carta sobre el mar. Lo malo: sin buffet propio salvo desayuno (comen en los otros Decameron), ruido nocturno de las discotecas vecinas (Coco Loco hasta las 3 AM), humedad/ventilación en habitaciones, wifi pago.",
+     "apto_ninos": "El menos pensado para niños: perfil parejas/boutique — las propias reseñas lo recomiendan justamente porque 'los otros Decameron están llenos de niños y actividades'. Sin piscina infantil ni zona de juegos verificadas y con ruido de rumba nocturna al lado; para la familia de referencia (niños de 6 y 11) es la peor opción de los cinco."
+    }
+   ],
+   "que_ve_el_que_busca": "Quien googlea \"mejor hotel todo incluido en San Andrés para familia\" sí ve Decameron: la cadena domina la oferta todo-incluido de la isla (5-6 propiedades) y en las listas de agregadores y blogs aparecen recurrentemente Decameron Maryland (\"4 estrellas\") y Decameron San Luis (cunas, niñera, sala de juegos) junto a Sol Caribe Campo y opciones como Tropical Coral; TripAdvisor mantiene una lista específica de \"All Inclusive Family Resorts\" de la isla donde los Decameron son la mayoría del inventario elegible. Una IA que sintetice reseñas probablemente recomiende San Luis para familias por playa + piscina infantil + juegos, o Maryland por reputación (el único Decameron con 4/5 en TripAdvisor y 4.4 en Google), pero con la advertencia transversal de instalaciones envejecidas y wifi malo. El contraste incómodo: el competidor que se exhibe como 5 estrellas (Grand Sirenis, Booking 8.1 con 661 opiniones) puntúa por encima de todos los Decameron en Booking, aunque sus propias reseñas digan \"hotel 5 estrellas que debería ser 3\"; y los Sol Caribe/El Dorado aparecen listados como 3 o 4 estrellas según la fuente, es decir, en la misma banda comercial que Decameron, no por encima. En síntesis: Decameron aparece y compite, pero su mejor carta reputacional (Maryland) es justo la que el canal directo chileno publica sin tarifa (NA), y su volumen de reseñas mediocres en TripAdvisor (3/5 en 4 de los 5 hoteles) lo deja detrás del relato \"4-5 estrellas\" de la competencia ante un comprador que compara puntajes.",
+   "lectura": "La premisa del representante (\"la competencia listada es de 4 y 5 estrellas\") se sostiene solo a medias en San Andrés: de los cuatro competidores de la nómina (Sol Caribe San Andrés, Sol Caribe Campo, El Dorado, Grand Sirenis), únicamente Grand Sirenis se comercializa como 5 estrellas — y sus reseñas cuestionan que lo sea (\"debería ser 3\") —, mientras los Sol Caribe y El Dorado aparecen como 3 o 4 estrellas según la fuente, la misma banda difusa en que caen los propios Decameron (Isleño 4* comercial, San Luis/Marazul 3*, Maryland 3-4*, Los Delfines boutique sin categoría clara); en la isla las estrellas son etiqueta comercial, no categoría oficial verificable. Por tanto, una diferencia de precio en el informe no puede atribuirse limpiamente a \"categoría superior\" de la competencia salvo frente a Grand Sirenis, que sí es planta más nueva y puntúa mejor (Booking 8.1 vs 7.0-7.8 de los Decameron). Donde Decameron sí queda parado débil es en reputación por desgaste: cuatro de sus cinco hoteles tienen 3/5 en TripAdvisor con miles de reseñas que repiten habitaciones viejas, mantenimiento y wifi, y su valor real — pase cruzado entre 5-6 hoteles, playas de San Luis, ubicación del Isleño, comida — no se traduce en puntaje. Coherente con los precios del canal directo del informe (San Luis $748 a Isleño $1.491 por 5 noches, 2 adultos), Decameron compite como volumen 3-4* con playa y todo incluido barato, no como par de un 5*: si el informe muestra a la competencia más cara, la explicación es mitad categoría percibida (solo Sirenis) y mitad marketing de estrellas no verificado. Nota operativa: Maryland, el Decameron mejor calificado de la isla (Google 4.4, TA 4/5, #3 del ranking), figura NA en decameronchile.cl en ambas fechas — la mejor carta reputacional de la cadena en ADZ no se está vendiendo por el canal directo chileno.",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.tripadvisor.com/Hotel_Review-g3493965-d6027565-Reviews-Decameron_Isleno-San_Andres_San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g8265024-d307534-Reviews-Decameron_San_Luis-San_Luis_San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297482-d307532-Reviews-Decameron_Marazul-San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g3493965-d307533-Reviews-Decameron_Maryland-San_Andres_San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297482-d1015760-Reviews-Decameron_Los_Delfines-San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://www.booking.com/reviews/co/hotel/el-islea-o-by-decameron.html",
+    "https://www.booking.com/reviews/co/hotel/decameron-san-luis.html",
+    "https://www.booking.com/reviews/co/hotel/decameron-maryland.es.html",
+    "https://www.booking.com/reviews/co/hotel/grand-sirenis-san-andres.html",
+    "https://wanderlog.com/place/details/1750779/decameron-isle%C3%B1o",
+    "https://wanderlog.com/place/details/1804508",
+    "https://wanderlog.com/place/details/1804438/decameron-marazul",
+    "https://wanderlog.com/es/place/details/1804030/decameron-los-delfines",
+    "https://wanderlog.com/list/geoCategory/1586325/",
+    "https://www.es.kayak.com/San-Andres-Hoteles-Decameron-Isleno.740021.ksp",
+    "https://www.hotelesensanandres.org/decameron-san-luis.es.html",
+    "https://www.centraldereservas.com/hoteles/colombia/archipielago-de-san-andres-providencia-y-san/la-loma/decameron-maryland-all-inclusive",
+    "https://www.decameron.com/en/hotels/san-andres-island/decameron-los-delfines/",
+    "https://viajasanandres.com/mejor-decameron-san-andres/",
+    "https://colombiahoteles.co/destinos/mejor-hotel-decameron-san-andres-comparativa/",
+    "https://sanandres-hotels.com/es/san-andres-family-hotels/",
+    "https://www.tripadvisor.com/HotelsList-San_Andres_Island-Family_friendly-All_Inclusive-Resort-zfp15124130.html",
+    "https://www.tripadvisor.es/ShowUserReviews-g297482-d23971801-r999781320-Grand_Sirenis_San_Andres-San_Andres_Island_San_Andres_and_Providencia_Departmen.html",
+    "https://www.centraldereservas.com/hoteles/colombia/archipielago-de-san-andres-providencia-y-san/san-andres-isla/sol-caribe-campo-all-inclusive",
+    "https://www.tripadvisor.es/ShowUserReviews-g297482-d186321858-Decameron_Marazul (reseña 'Ideal para familias con niños chicos')"
+   ]
+  },
+  {
+   "tag": "reputacion-competencia-san-andres",
+   "hoteles": [
+    {
+     "nombre": "Sol Caribe San Andrés (centro, all inclusive)",
+     "estrellas": "4 (categoría comercial verificada en listados como Central de Reservas / hotelesensanandres.org); varias reseñas dicen que 'se siente de 2-3 estrellas'",
+     "puntajes": "Booking 8.2 (145 reseñas verificadas), Kayak 8.1 'Muy bueno' (753), Atrápalo 8.6 (44). TripAdvisor: 3.0/5, puesto #26 de 85 en San Andrés (volumen exacto no verificado). Google: no verificado",
+     "fama": "Lo bueno: ubicación excelente en el centro comercial de la isla a ~600 m de la playa principal, personal atento, comida buena y abundante, buena relación precio/calidad (~US$120/noche), habitaciones limpias con buen aire acondicionado. Lo malo: instalaciones antiguas ('cuadros de los años 70'), colchones vencidos según algunas reseñas, WiFi limitado por cupones de 30 minutos, y quejas de que la categoría real no corresponde a 4 estrellas.",
+     "apto_ninos": "Limitado en el propio hotel: es un hotel urbano sin playa propia ni club infantil declarado; su propuesta familiar depende del shuttle gratuito al hotel hermano Sol Caribe Campo (piscinas y playa San Luis). 233 habitaciones dobles/triples. Concepto 'dos hoteles en uno' es su argumento para familias."
+    },
+    {
+     "nombre": "Sol Caribe Campo (San Luis, all inclusive)",
+     "estrellas": "4 según la mayoría de listados comerciales (algunos agregadores lo muestran como 3) — categoría inconsistente entre canales",
+     "puntajes": "Google 3.9 (94 reseñas, snapshot vía Wanderlog — volumen llamativamente bajo, tomar con cautela), Hoteles.com 7.3 'Bueno' (794 opiniones verificadas), un agregador muestra 8.9 (no verificado independientemente). TripAdvisor: no verificado",
+     "fama": "Lo bueno: entorno campestre frente a playa San Luis, 3 piscinas grandes, vistas con palmeras, personal de bar/restaurante atento, shows y actividades, ambiente familiar; huéspedes repetidores. Lo malo: mobiliario desgastado, paredes delgadas (ruido entre habitaciones), fallas ocasionales de agua caliente y aire acondicionado, servicio inconsistente y sensación de precio alto para lo que se recibe; una reseña grave por indiferencia del personal en emergencia médica.",
+     "apto_ninos": "El más orientado a niños del grupo Sol Caribe: piscina infantil, parque infantil, minigolf, zona deportiva (tenis, fútbol), 3 piscinas con áreas para niños y club de playa a 3 minutos. Reseñas destacan explícitamente el diseño familiar de las piscinas."
+    },
+    {
+     "nombre": "Hotel El Dorado (Av. Colombia, frente a Spratt Bight)",
+     "estrellas": "4 (categoría comercial verificada en varios canales); reseñas recurrentes dicen que opera 'como de 2 estrellas'",
+     "puntajes": "Google 4.3 (1.780 reseñas, vía Wanderlog), Booking 7.5 (148 reseñas verificadas; ubicación 9.1). TripAdvisor: 3.0/5, puesto #27 de 86 (volumen exacto no verificado)",
+     "fama": "Lo bueno: ubicación privilegiada a ~300 m de la playa Spratt Bight y cerca del comercio, personal de limpieza amable, comida rica y shows según algunos, habitaciones limpias con camas cómodas. Lo malo: instalaciones anticuadas (duchas rotas, grifería vieja), no respetan reservas (traslados tardíos a la habitación contratada), sin WiFi en habitaciones, ruido nocturno, piscina cerrada en algunos periodos, quejas de intoxicación alimentaria sin asistencia y personal grosero en casos puntuales.",
+     "apto_ninos": "Medio: ofrece habitaciones familiares amplias y piscina exterior con área de juegos para niños, pero no hay club infantil declarado y las fallas de mantenimiento e higiene reportadas pesan más en un viaje con niños. Solo 80 habitaciones; es más hotel urbano de playa que resort familiar."
+    },
+    {
+     "nombre": "Grand Sirenis San Andrés (Av. Newball, all inclusive)",
+     "estrellas": "5 (categoría comercial verificada; es el único 5 estrellas real del grupo comparado y de los pocos de la isla)",
+     "puntajes": "TripAdvisor 4.0/5 con 796 reseñas, puesto #3 de 86 hoteles en San Andrés; Booking 661 reseñas verificadas (puntaje exacto no verificado); Kayak 8.6 'Muy bueno' (295); Atrápalo 8.8 'Excelente'; Travelocity 8.8/10. Google: no verificado",
+     "fama": "Lo bueno: el mejor posicionado de la isla — buffet variado y cocina italiana muy elogiados, habitaciones amplias, áreas bien diseñadas, personal amable, 'el mejor de San Andrés' se repite. Lo malo: minoría ruidosa de reseñas dice 'es 5 estrellas pero debería ser 3': humedad y moho en baños, limpieza inconsistente, servicio de comedor desinteresado a ratos y precio alto. No está sobre la playa (Spratt Bight a ~15 min a pie; frente a marina Toninos).",
+     "apto_ninos": "Alto: kids club / miniclub gratuito, piscina infantil, habitaciones familiares, animación. Es el único del grupo con club infantil formal. Contras para familia: sin playa propia y el punto de precio más alto de la isla."
+    }
+   ],
+   "lectura": "La afirmación del representante ('la competencia es de 4 y 5 estrellas') es cierta solo en papel: Sol Caribe San Andrés, Sol Caribe Campo y El Dorado venden 4 estrellas comerciales, pero sus reseñas convergen en experiencia de 3 estrellas o menos (instalaciones viejas, mantenimiento deficiente, servicio irregular), con puntajes públicos mediocres (Booking 7.5-8.2, TripAdvisor 3/5, Google 3.9-4.3). El único competidor genuinamente premium es Grand Sirenis (5 estrellas real, #3 de 86 en TripAdvisor, 8.6-8.8 en agregadores), y aun así con quejas de humedad y limpieza. Por tanto, una diferencia de precio del informe frente a Sol Caribe o El Dorado NO se explica por un salto real de calidad — son pares o inferiores en reputación a un Decameron típico de la isla (TripAdvisor ~3/5 también: Aquarium #34 con 4.151 reseñas, Marazul #19 con 1.773) — mientras que frente a Grand Sirenis la brecha de precio sí compra una categoría y reputación superiores. Decameron queda parado como el estándar masivo de la isla: enorme volumen de reseñas, marca dominante del todo incluido, reputación funcional pero desgastada (mantenimiento, filas, habitaciones viejas), sin un producto que compita con Grand Sirenis en el segmento alto, y con la ventaja estructural de playa/ubicación en varios de sus hoteles (Isleño frente a Spratt Bight, San Luis sobre playa) que ni Grand Sirenis ni Sol Caribe centro tienen.",
+   "que_ve_el_que_busca": "Quien busca 'mejor hotel todo incluido en San Andrés para familia' en Google ve a Decameron por todas partes: la isla es prácticamente territorio Decameron (6 hoteles), y listas como 'hoteles con todo incluido y niños gratis' o los agregadores familiares destacan Decameron Maryland e Isleño (este último con Certificate of Excellence de TripAdvisor y elogios a piscinas, zonas de juego y animación). Es decir, Decameron SÍ aparece, y aparece como la opción familiar por defecto. Pero al pedir 'el mejor' a una IA o mirar rankings, el que gana es Grand Sirenis San Andrés (#3 de 86 en TripAdvisor, 4/5, kids club gratuito, 5 estrellas): se posiciona por encima de todos los Decameron, que rankean en la mitad de la tabla (~3/5, puestos #19-#34) con quejas repetidas de habitaciones viejas y mantenimiento. Sol Caribe y El Dorado no aparecen como recomendación familiar destacada — sus reseñas los penalizan. Conclusión: Decameron gana en visibilidad y en 'familiar y resuelto', pierde en percepción de calidad frente a Grand Sirenis, el único competidor que una IA describiría como claramente superior.",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.booking.com/reviews/co/hotel/sol-caribe-san-andres.html",
+    "https://www.tripadvisor.com/Hotel_Review-g3493965-d472249-Reviews-Hotel_Sol_Caribe_San_Andres-San_Andres_San_Andres_Island_San_Andres_and_Providencia_De.html",
+    "https://www.centraldereservas.com/hoteles/colombia/archipielago-de-san-andres-providencia-y-san/san-andres-isla/sol-caribe-san-andres-all-inclusive",
+    "https://www.hotelesensanandres.org/sol-caribe-san-andres-all-inclusive.es.html",
+    "https://wanderlog.com/es/place/details/10488961/hotel-sol-caribe-campo",
+    "https://co.hoteles.com/ho171707/sol-caribe-campo-san-andres-colombia/",
+    "https://www.hotelesensanandres.org/sol-caribe-campo-all-inclusive.es.html",
+    "https://wanderlog.com/place/details/1788948/hotel-el-dorado",
+    "https://www.booking.com/reviews/co/hotel/el-dorado.html",
+    "https://www.tripadvisor.com/Hotel_Review-g3493965-d1180351-Reviews-Hotel_El_Dorado-San_Andres_San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://www.hotelesensanandres.org/el-dorado.es.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297482-d23971801-Reviews-Grand_Sirenis_San_Andres-San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://www.booking.com/reviews/co/hotel/grand-sirenis-san-andres.html",
+    "https://www.sirenishotels.com/en/san-andres-hotels/grand-sirenis-san-andres/",
+    "https://www.kayak.com/San-Andres-Hotels-Grand-Sirenis-San-Andres.1070127082.ksp",
+    "https://www.atrapalo.com/hoteles/2728190-0_hotel-grand-sirenis-san-andres-all-inclusive",
+    "https://www.tripadvisor.com/Hotel_Review-g3493965-d307530-Reviews-Decameron_Aquarium-San_Andres_San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297482-d307532-Reviews-Decameron_Marazul-San_Andres_Island_San_Andres_and_Providencia_Department.html",
+    "https://daypass.com/es/blog/hotel-san-andres-con-todo-incluido-ninos-gratis",
+    "https://sanandres-hotels.com/es/san-andres-family-hotels/",
+    "https://www.tripadvisor.com/Hotels-g297482-zfb19377-San_Andres_Island_San_Andres_and_Providencia_Department-Hotels.html"
+   ]
+  },
+  {
+   "tag": "reputacion-categoria-cartagena-baru",
+   "hoteles": [
+    {
+     "nombre": "Decameron Cartagena (Bocagrande)",
+     "estrellas": "3-4 según plataforma: se comercializa como 4; Kayak lo lista 3 y Orbitz 3.5. No es un 5 estrellas",
+     "puntajes": "TripAdvisor 3.0/5 (~3.084 reseñas, puesto #69 de 284 en Cartagena), Kayak 8.2/10 (310 opiniones). Booking tiene ~159 reseñas verificadas pero el puntaje no se pudo verificar. Google: no verificado",
+     "fama": "Bueno: ubicación frente a la playa de Bocagrande, personal amable, actividades y animación. Malo: reseñas mixtas — propiedad anticuada, filas en restaurantes pequeños, piscina única y pequeña, política de una sola toalla por estadía, calidad de comida irregular.",
+     "apto_ninos": "Tiene actividades infantiles elogiadas (anfitrionas dedicadas) y un parque acuático/piscina de niños, pero con quejas: el parque acuático 'casi nunca lo prenden', piscina pequeña y fría, sensación de caos en temporada alta. Apto para familias con expectativas moderadas; no es un resort familiar amplio."
+    },
+    {
+     "nombre": "Decameron Barú (Playa Blanca, Isla Barú)",
+     "estrellas": "4 según Kayak y Google Hotels; algunas agencias lo venden como 5, pero eso no está verificado. Es el buque insignia de la cadena en la zona",
+     "puntajes": "TripAdvisor 4.0/5 (~5.300-5.600 reseñas, #3 de 10 en Isla Barú, con Certificado de Excelencia 5 años consecutivos), Kayak 7.5/10 (866 opiniones), Booking 7.5/10 (~708 opiniones según Kayak). Google: no verificado",
+     "fama": "Bueno: playa privada linda y limpia, entretenimiento y animación, naturaleza, restaurantes de especialidad incluidos, licores de marca incluidos. Malo: wifi pésimo, fallas de aire acondicionado y mantenimiento, demoras en check-in, vasos plásticos, y sensación recurrente de que el precio queda alto para la calidad.",
+     "apto_ninos": "El más apto del grupo: parque acuático infantil con toboganes y piscinas poco profundas, piscina de niños, parque infantil, guardería/cuidado de niños, menús infantiles y programa diario de actividades para niños. Las familias en general lo elogian; las quejas familiares se concentran en wifi, ruido en piscinas y demoras de habitación."
+    },
+    {
+     "nombre": "Hotel Dorado Plaza Bocagrande",
+     "estrellas": "3 (verificado en varias fuentes; NO es 4-5 como afirma el representante)",
+     "puntajes": "Booking 6.9/10 (~161-591 reseñas según la fuente), Kayak ~6.2-6.8/10 (~644-677 opiniones). TripAdvisor: puntaje no verificado. Google: no verificado",
+     "fama": "Bueno: ubicación directa sobre la playa de Bocagrande y piscina. Malo: quejas fuertes y repetidas de mantenimiento — ascensores lentos, sucios o fuera de servicio (crítico en una torre de 351 habitaciones), fugas de agua en habitaciones, atención deficiente del personal.",
+     "apto_ninos": "En papel ofrece buffet infantil, parque/zona de juegos, juguetes de piscina, guardería y habitaciones familiares, pero los puntajes bajos (6.2-6.9/10) y las quejas de mantenimiento lo hacen una apuesta arriesgada para una familia; no aparece en listas de recomendados familiares."
+    },
+    {
+     "nombre": "Hotel Cartagena Dubai (Be Live Experience)",
+     "estrellas": "4 (según Booking y Kayak; verificado)",
+     "puntajes": "TripAdvisor 3.0/5 (~888 reseñas, #97 de 284 en Cartagena), Kayak 6.1-6.3/10 (~2.450-2.490 opiniones). Booking: subpuntajes verificados flojos (limpieza 6.2, calidad-precio 5.9); puntaje global no verificado. Google: no verificado",
+     "fama": "Bueno: ubicación frente a la playa de Bocagrande, habitaciones y camas amplias, vistas al mar. Malo: es el peor reputado del grupo — quejas repetidas de limpieza, servicio y mantenimiento ('instalaciones viejas'), desayuno pobre, aglomeración, y advertencias de promesas de todo incluido incumplidas y mala relación calidad-precio.",
+     "apto_ninos": "Lista piscina infantil, comidas para niños y zona de juegos, pero las quejas de familias (aglomeración, limpieza, servicio) son frecuentes. Es 4 estrellas en categoría pero con reputación de 2-3: la categoría comercial no se traduce en experiencia familiar."
+    },
+    {
+     "nombre": "Hotel La Gran Vía",
+     "estrellas": "3 (3.5 en algunas OTAs; NO es 4-5). Hotel urbano pequeño de ~45-47 habitaciones",
+     "puntajes": "TripAdvisor 4.0/5 (~247 reseñas, #70 de 284), Hotels.com 8.0/10 (500+ reseñas). Booking y Google: no verificados",
+     "fama": "Bueno: buena relación calidad-precio, personal, piscina en azotea (piso 15) con vistas, desayuno incluido. Limitaciones: está a ~3 cuadras de la playa (no frente al mar), habitaciones sencillas de hotel de ciudad.",
+     "apto_ninos": "Admite niños y tiene habitaciones hasta 4 personas, pero NO es comparable con Decameron: no es todo incluido (solo desayuno), sin club infantil, sin piscina de niños, sin animación. No compite realmente en el segmento familia todo incluido — compararlo por precio contra Decameron es comparar productos distintos."
+    },
+    {
+     "nombre": "Hotel Cartagena Plaza",
+     "estrellas": "4 (según Kayak y sitios de reserva; verificado)",
+     "puntajes": "TripAdvisor 4.0/5 (~6.874 reseñas, puesto #13 de 285 en Cartagena — el mejor ranking del grupo), Kayak 7.9/10 (1.073 opiniones), Booking 7.7/10 (~354-548 reseñas). Google: no verificado",
+     "fama": "Bueno: ubicación frente a la playa, personal atento, desayuno, habitaciones amplias y limpias; blogs lo citan como 'el mejor valor en todo incluido de Cartagena' (el plan todo incluido es opcional, no el default). Malo: ascensores lentos, piscina pequeña y aglomerada, instalaciones algo anticuadas, cargos extra.",
+     "apto_ninos": "Ofrece club infantil, niñera (con cargo), parque infantil y 'niños se hospedan gratis'; sin parque acuático. Es el competidor real más fuerte de Decameron en reputación familiar dentro de Bocagrande."
+    }
+   ],
+   "lectura": "La afirmación del representante de que la competencia listada es \"de 4 y 5 estrellas\" NO se sostiene hotel por hotel: Dorado Plaza y La Gran Vía son 3 estrellas verificadas, Cartagena Dubai y Cartagena Plaza son 4 estrellas, y ninguno de los cuatro está verificado como 5 estrellas. Además, La Gran Vía ni siquiera es todo incluido (solo desayuno) y Cartagena Plaza vende el todo incluido como plan opcional, así que parte de la diferencia de precio del informe es diferencia de producto (habitación+desayuno vs. todo incluido con licores), no de categoría. En reputación, Decameron queda bien parado contra la mayoría: Decameron Barú (TA 4.0, ~5.500 reseñas, parque acuático infantil) supera claramente a Dubai (6.1/10 Kayak, TA 3.0) y a Dorado Plaza (6.2-6.9/10), que pese a su categoría comercial tienen la peor reputación del grupo. Decameron Cartagena es el punto débil de la marca en el destino (TA 3.0, reseñas mixtas, instalaciones anticuadas, piscina pequeña). El único competidor que gana en reputación es Hotel Cartagena Plaza (TA 4.0 con ~6.900 reseñas, #13 de la ciudad, Kayak 7.9): mismo frente de playa, 4 estrellas y mejor puntaje que ambos Decameron en las plataformas masivas. Conclusión: si el informe explica el sobreprecio de Decameron por \"competir contra 4-5 estrellas\", el argumento es falso a medias; el sobreprecio se justifica mejor por el plan todo incluido real (Barú) que por categoría, y frente a Cartagena Plaza el precio de Decameron necesita otra defensa (playa privada de Barú, parque acuático, licores incluidos).",
+   "que_ve_el_que_busca": "Quien busca \"mejor hotel todo incluido en Cartagena para familia\" en Google o le pregunta a una IA sí ve a Decameron, pero no como primera opción: las listas y respuestas destacan primero Dreams Karibana, Sofitel Barú, Hotel Almirante y Estelar Playa Manzanillo como los picks familiares premium. Decameron Barú aparece de forma consistente en el top 5 de todo incluido (n.º 2 en cartagenaexplorer.com, n.º 4 en grandgoldman.com) y se describe como \"verdadero todo incluido con licores y actividades\", con Hall of Fame de TripAdvisor — queda bien parado, aunque con la advertencia recurrente de precio alto para la calidad. Decameron Cartagena aparece más abajo (n.º 8 de 9 en las listas), con la etiqueta de \"reseñas mixtas y decoración anticuada... puede valer la pena en familia\", es decir, visible pero con reputación tibia. De la competencia del informe, solo Hotel Cartagena Plaza sale mejor parado en esas mismas listas (\"mejor valor en todo incluido\"); Dubai aparece con reputación floja, y Dorado Plaza y La Gran Vía prácticamente no figuran en las recomendaciones familiares. En síntesis: la marca Decameron domina la visibilidad del todo incluido masivo en el destino vía Barú, mientras su hotel urbano compite de mitad de tabla hacia abajo.",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.tripadvisor.com/Hotel_Review-g297476-d307529-Reviews-Decameron_Cartagena-Cartagena_Cartagena_District_Bolivar_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g1507145-d1633552-Reviews-Decameron_Baru-Isla_Baru_Cartagena_District_Bolivar_Department.html",
+    "https://www.es.kayak.com/Cartagena-de-Indias-Hoteles-Hotel-Decameron-Cartagena.72029.ksp",
+    "https://www.es.kayak.com/Baru-Hoteles-Royal-Decameron-Baru.373050.ksp",
+    "https://www.es.kayak.com/Cartagena-de-Indias-Hoteles-Hotel-Dorado-Plaza.72030.ksp",
+    "https://www.kayak.com/Cartagena-Hotels-Hotel-Cartagena-Dubai.3851133.ksp",
+    "https://www.za.kayak.com/Cartagena-Hotels-Hotel-Cartagena-Plaza.160561.ksp",
+    "https://www.booking.com/reviews/co/hotel/dorado-plaza.html",
+    "https://www.booking.com/reviews/co/hotel/cartagena-plaza.html",
+    "https://www.booking.com/reviews/co/hotel/cartagena-dubai.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297476-d13528951-Reviews-Hotel_Cartagena_Dubai-Cartagena_Cartagena_District_Bolivar_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297476-d4187790-Reviews-La_Gran_Via_Hotel-Cartagena_Cartagena_District_Bolivar_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297476-d623549-Reviews-Hotel_Cartagena_Plaza-Cartagena_Cartagena_District_Bolivar_Department.html",
+    "https://www.hotels.com/ho806837984/hotel-la-gran-via-cartagena-colombia/",
+    "https://www.decameron.com/es/hoteles/baru/decameron-baru/servicios/",
+    "https://grandgoldman.com/blogs/all-inclusive-resorts/best-cartagena-colombia",
+    "https://www.cartagenaexplorer.com/best-cartagena-hotels-all-inclusive/",
+    "https://www.tripadvisor.com/HotelsList-Cartagena_District-Family_friendly-All_Inclusive-Resort-zfp14029256.html",
+    "https://www.oyster.com/es/colombia/hotels/decameron-cartagena/",
+    "https://www.expedia.com/Cartagena-Hotels-Hotel-Dorado-Plaza-Bocagrande.h1533608.Hotel-Information"
+   ]
+  },
+  {
+   "tag": "reputacion_panama",
+   "hoteles": [
+    {
+     "nombre": "Grand Decameron Panamá, A Trademark All Inclusive Resort (ex Royal Decameron, Farallón/Playa Blanca)",
+     "estrellas": "4 (así lo listan Transat y agregadores hoteleros; opera bajo Trademark Collection by Wyndham)",
+     "puntajes": "Booking 7.6 (2.323 reseñas verificadas; subpuntajes: limpieza 8.1, ubicación 8.1, relación calidad-precio 7.4). TripAdvisor: 6.237 reseñas, ranking #2 de 2 en El Farallón; la calificación burbuja exacta no verificada (snippets muestran ~3-3.5/5). Google: no verificado",
+     "fama": "Lo bueno que se repite: variedad de comida (8-9 restaurantes, 5 a la carta), playa amplia de arena dorada, muchas piscinas (6-9 según fuente), personal amable, precio conveniente. Lo malo: resort masivo (852 habitaciones) que se siente lleno y envejecido, corrientes fuertes en el mar (días con bandera roja sin acceso a playa), poco personal que hable inglés, calidad dispar entre secciones",
+     "apto_ninos": "Sí: piscinas con toboganes, área de juegos infantiles, kids' club y servicio de niñera según listicles; los reseñistas lo describen como 'perfecto para familias con niños' aunque Transat lo posiciona más para parejas, grupos y familias con adolescentes. Queja familiar recurrente: el mar con resaca fuerte limita el baño de los niños en playa"
+    },
+    {
+     "nombre": "Hotel Riu Playa Blanca",
+     "estrellas": "5 (categoría oficial de RIU en riu.com)",
+     "puntajes": "Booking 8.4 (3.103 reseñas verificadas; limpieza/confort/personal 8.7, instalaciones 8.5, calidad-precio 8.4) — el mejor puntaje Booking de los cuatro. TripAdvisor: 5.800+ reseñas, #1 de 2 en El Farallón; burbuja exacta no verificada (snippets oscilan entre 3.5 y 4/5). Google: no verificado",
+     "fama": "Lo bueno: todo incluido 24 horas, personal y bartenders muy elogiados, instalaciones limpias y modernas, buen wifi. Lo malo que se repite: quejas puntuales de variedad/calidad del buffet, restaurantes a la carta por orden de llegada (filas), y algunos reportes de playa descuidada; la experiencia varía bastante entre huéspedes",
+     "apto_ninos": "Muy apto: club infantil RiuLand, piscinas infantiles con toboganes, programa Fun4All y entretenimiento para todas las edades; los agregadores lo listan entre los mejores hoteles familiares de Playa Blanca"
+    },
+    {
+     "nombre": "Gran Evenia Bijao - All Inclusive (ex Sheraton Bijao, Santa Clara/Playa Blanca)",
+     "estrellas": "Se comercializa como 5, pero reseñas y guías coinciden en que el producto real equivale a 3.5 por estándar norteamericano — la etiqueta de 5 estrellas no está respaldada por los huéspedes",
+     "puntajes": "Booking 8.3 (2.058 reseñas verificadas). Hotels.com 7.4. Trip.com 8.3 (~105 reseñas). TripAdvisor (listado nuevo como Gran Evenia): ~174 reseñas, #1 de 1 en Santa Clara, ~3/5 según snippets (no verificado con precisión). Google: no verificado",
+     "fama": "Lo bueno: comida, playa tranquila, personal amable y profesional, habitaciones limpias, renovación 2024, parque acuático. Lo malo que se repite en reseñas 2026: mantenimiento deficiente (olores en tuberías, desagües lentos), cobros adicionales inesperados, filas de hasta una hora para reservar restaurantes nocturnos, y la queja transversal de que 'no es un 5 estrellas'",
+     "apto_ninos": "Fuerte para niños de primaria: parque acuático con 6 toboganes para todas las edades, 4 piscinas, kids & teens lounge, todo incluido 24h. Las guías lo señalan como especialmente bueno para familias con niños pequeños pese a sus problemas de mantenimiento"
+    },
+    {
+     "nombre": "Dreams Playa Bonita Panama (Hyatt Inclusive Collection, cerca de Ciudad de Panamá — otro microdestino, no Playa Blanca)",
+     "estrellas": "4.5 (Transat); se promociona como resort de lujo 'Unlimited-Luxury' de Hyatt; algunos sitios lo listan como 4",
+     "puntajes": "Booking 7.8 (755 reseñas verificadas; ubicación 8.5, personal 8.5, calidad-precio 7.5). TripAdvisor: 4.103 reseñas, #82 de 136 hoteles de Ciudad de Panamá (~4/5 según agregador TripExpert, no verificado directo). Google 4.2 con ~3.288 reseñas según TripExpert (dato de agregador, no verificado en Google directamente)",
+     "fama": "Lo bueno: habitaciones amplias con vistas, personal amable, piscina infinita hacia el mar, entorno de selva tropical cerca de la capital. Lo malo que se repite: decoración y habitaciones anticuadas, problemas de mantenimiento, servicio inconsistente, comida floja para el precio — varios lo consideran caro para lo que entrega",
+     "apto_ninos": "Apto: Explorer's Club (club infantil con videojuegos, cine, manualidades, parque exterior con trampolín), piscina y playground exclusivos para niños, minigolf y niñera en habitación. Ojo: es playa de Pacífico junto al canal, más orientado a resort+ciudad que a playa de baño"
+    }
+   ],
+   "lectura": "La afirmación del representante ('la competencia es de 4 y 5 estrellas') se verifica solo en parte: Riu Playa Blanca sí es 5 estrellas oficial (y lo respalda con el mejor Booking de la zona, 8.4), Dreams Playa Bonita es 4.5 de gama alta (Hyatt), pero Gran Evenia Bijao se autoetiqueta 5 estrellas y los huéspedes lo bajan sistemáticamente a ~3.5, y el propio Grand Decameron es 4 estrellas. Por tanto, la diferencia de precio del informe se explica en parte por categoría real (Riu y Dreams venden un producto objetivamente superior o de marca premium), pero no del todo: Evenia cobra etiqueta de 5 estrellas con calidad cuestionada y aun así puntúa mejor que Decameron en Booking (8.3 vs 7.6). Decameron queda parado como la opción masiva y de mejor precio del corredor Playa Blanca/Farallón, con la reputación online más débil de las cuatro (Booking 7.6, el único bajo 8, y ranking #2 de 2 en su microdestino frente al Riu), sostenida por comida variada, playa y precio, pero castigada por envejecimiento, multitudes y mar con corrientes. Su ventaja competitiva es precio-valor familiar, no reputación ni categoría.",
+   "que_ve_el_que_busca": "Quien busca 'mejor hotel todo incluido en Panamá para familia' en Google ve listas de TripAdvisor (family-friendly all inclusive) y listicles 2026 donde Decameron SÍ aparece — casi siempre todavía con el nombre 'Royal Decameron Panamá' — descrito como resort enorme, activo y de buen valor para familias, pero rara vez como el número 1. Los puestos de cabecera se los llevan Dreams Playa Bonita (presentado como el 5 estrellas de lujo cerca de la capital, con kids club gratis), Riu Playa Blanca (el 5 estrellas 24h con RiuLand, primero en los rankings de Playa Blanca) y Playa Blanca Beach Resort con su parque acuático; Buenaventura aparece como opción premium. Una IA que resuma reseñas posicionaría a Decameron como 'grande, económico, buena comida y playa, pero envejecido y masificado', frente a un Riu 'más nuevo, mejor puntuado y 5 estrellas' por más dinero. En síntesis: Decameron tiene visibilidad, pero en la conversación pública juega el rol de opción de valor, no de mejor hotel familiar del destino.",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.booking.com/reviews/pa/hotel/royal-decameron-golf-beach-resort.html",
+    "https://www.booking.com/reviews/pa/hotel/riu-playa-blanca-all-inclusive.html",
+    "https://www.booking.com/reviews/pa/hotel/sheraton-bijao-beach-resort.html",
+    "https://www.booking.com/reviews/pa/hotel/intercontinental-playa-bonita-resort-amp-spa.html",
+    "https://www.tripadvisor.com/Hotel_Review-g2539283-d301154-Reviews-Grand_Decameron_Panama_A_Trademark_All_inclusive_Resort-El_Farallon_del_Chiru_Cocle_Pr.html",
+    "https://www.tripadvisor.com/Hotel_Review-g2539283-d5971448-Reviews-Hotel_Riu_Playa_Blanca-El_Farallon_del_Chiru_Cocle_Province.html",
+    "https://www.tripadvisor.com/Hotel_Review-g780122-d2309625-Reviews-Gran_Evenia_Bijao-Santa_Clara_Panama_Province.html",
+    "https://www.tripadvisor.com/Hotel_Review-g294480-d594688-Reviews-Dreams_Playa_Bonita_Panama-Panama_City_Panama_Province.html",
+    "https://www.riu.com/en/hotel/panama/playa-blanca/hotel-riu-playa-blanca",
+    "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/panama/playa-bonita-panama/",
+    "https://experience.transat.com/best-all-inclusive-resorts-in-panama/",
+    "https://www.tripadvisor.com/HotelsList-Panama-Family_friendly-All_Inclusive-Resort-zfp13656629.html",
+    "https://www.tripexpert.com/panama-city/hotels/dreams-playa-bonita-panama",
+    "https://all-inclusive-guide.com/resorts/sheraton-bijao-panama/",
+    "https://www.monarc.ca/hotel-reviews/Panama/Playa_Blanca/hotel-10567-Riu_Playa_Blanca.html",
+    "https://familydestinationsguide.com/best-all-inclusive-resorts-in-panama/"
+   ]
+  },
+  {
+   "tag": "reputacion-categoria-santa-marta",
+   "hoteles": [
+    {
+     "nombre": "Decameron Galeón (Santa Marta, todo incluido)",
+     "estrellas": "3 (verificado en Atrapalo, Kayak y portales afiliados; algunos portales lo listan como 3.5). NO es 4-5 estrellas: es el de menor categoría comercial de los tres",
+     "puntajes": "Booking 7.9 (~106-122 opiniones), Kayak agregado 8.0 'Muy bueno' (311 reseñas), Atrapalo 8.4 (48 opiniones, atención del personal 9.3, limpieza 8.9). Google y TripAdvisor: existen fichas pero puntaje no verificado (acceso bloqueado)",
+     "fama": "Lo bueno que se repite: personal y atención 'intachables', limpieza, playa privada al frente, actividades y shows todo el día, ambiente familiar. Lo malo que se repite: piscina chica para el volumen de huéspedes, habitaciones y decoración envejecidas que piden renovación, comida repetitiva y problemas con reservas de restaurantes, playa restringida después de las 6 pm.",
+     "apto_ninos": "Piscina separada para niños y shows diarios para niños y familias; actividades recreativas todo el día. La web oficial NO destaca un club infantil estructurado por edades para Galeón (no verificado). Queja puntual de un huésped: 'lleno de niños con poca supervisión'. Es apto para familias, pero el producto infantil es recreación general, no miniclub dedicado."
+    },
+    {
+     "nombre": "Hotel Porto Horizonte All Inclusive by oxoHotel (Pozos Colorados / Bello Horizonte)",
+     "estrellas": "4 (verificado en Hoteles.com y portal afiliado). Coincide con lo dicho por el representante",
+     "puntajes": "Booking 8.1 (389 reseñas verificadas; parejas 8.7), portal afiliado agregado 7.9. Google y TripAdvisor: no verificado",
+     "fama": "Lo bueno: producto renovado (operado por oxoHotel, antes comercializado por On Vacation), 3 piscinas, spa, Smart TV con Netflix, buena relación calidad-precio; puntúa especialmente bien en parejas. Lo malo/matices: no está frente al mar (a ~100 m de la playa de Bello Horizonte) y su 'todo incluido' es más acotado que el de Decameron: On Vacation lo vende como plan de comidas (desayuno+almuerzo+cena) + 5 tipos de cocteles del bar sunset, no bebidas ilimitadas en todo el hotel.",
+     "apto_ninos": "Piscina para niños y 'parque acuático familiar' según la web oficial; programa de actividades (karaoke, clases de baile, bingo, torneos). No se menciona club infantil dedicado con monitores por edades. Su mejor puntaje en Booking viene de parejas, no de familias."
+    },
+    {
+     "nombre": "Hotel Irotama del Sol (complejo Irotama Resort, Bello Horizonte, vinculado a GHL)",
+     "estrellas": "5 (categoría comercial en Expedia y portales afiliados; la web oficial no declara estrellas). Coincide con lo dicho por el representante",
+     "puntajes": "Portal afiliado agregado 9.1; reseñas en Expedia mayormente positivas (volumen no verificado). Booking, Google y TripAdvisor: fichas existen pero puntaje/volumen no verificado (acceso bloqueado)",
+     "fama": "Lo bueno que se repite: habitaciones amplias, impecables y cómodas, personal servicial, playa ancha con buena seguridad, buen desayuno, amenidades para todas las edades, complejo grande (13 restaurantes/bares en el complejo, 4 piscinas, tren interno). Lo malo que se repite: almuerzos y cenas con pocas opciones y repetitivos para estadías largas.",
+     "apto_ninos": "El más fuerte de los tres en producto infantil verificado: Miniclub oficial para niños de 3 a 12 años, piscina con tobogán y bar, múltiples piscinas, playa amplia. Niños hasta 12 años pagan tarifa reducida. Es el competidor 'familiar premium' del destino."
+    }
+   ],
+   "lectura": "La diferencia de precio del informe SÍ se explica en gran parte por categoría: el dato del representante se verifica solo a medias. Porto Horizonte es efectivamente 4 estrellas e Irotama del Sol se comercializa como 5, pero Decameron Galeón es un 3 estrellas (verificado en tres portales independientes), no un par de la misma categoría: compite desde abajo en producto físico. Su reputación, sin embargo, no es mala: 7.9-8.4 según la fuente, sostenida por personal y operación todo incluido completa (bebidas ilimitadas, shows), que es más generosa que el 'todo incluido' acotado de Porto Horizonte. Sus debilidades públicas son estructurales (habitaciones envejecidas, piscina chica, comida repetitiva), justo lo que un 4-5 estrellas vecino resuelve. Para la familia de referencia (niños de 6 y 11 años), Irotama del Sol domina en papel: miniclub 3-12 años, tobogán, complejo grande y puntaje agregado más alto (9.1 vs 7.9-8.0). Decameron queda parado como la opción 'valor': mejor precio y todo incluido real, pero producto de menor categoría; si el precio de Decameron se acerca al de Irotama, pierde el argumento de venta.",
+   "que_ve_el_que_busca": "Quien busca \"mejor hotel todo incluido en Santa Marta para familia\" sí ve a Decameron Galeón: aparece en los primeros resultados de OTAs y en listas de hoteles familiares del destino (es el todo incluido \"clásico\" de Santa Marta), con reseñas mayormente positivas centradas en el personal y las actividades. Pero en la misma página aparecen Irotama (5 estrellas comercial, miniclub, toboganes, puntaje agregado más alto) y opciones 4 estrellas como Porto Horizonte o Zuana, que lucen más nuevas y de mayor categoría. Una IA consultada tendería a recomendar Irotama Resort/Irotama del Sol como la opción familiar premium y a presentar Decameron Galeón como la alternativa económica y confiable de todo incluido, mencionando como reparos sus instalaciones envejecidas y su categoría 3 estrellas. Es decir: Decameron tiene visibilidad y buena reputación de servicio, pero en una comparación lado a lado queda posicionado como el más barato y más antiguo, no como el mejor para niños.",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.atrapalo.com.co/hoteles/108939-0_hotel-decameron-galeon",
+    "https://www.il.kayak.com/Santa-Marta-Hotels-Decameron-Galeon.72054.ksp",
+    "https://www.booking.com/reviews/co/hotel/decameron-galeon.es.html",
+    "https://www.decameron.com/en/hotels/santa-marta/decameron-galeon/",
+    "https://co.hoteles.com/ho3432861056/",
+    "https://www.booking.com/hotel/co/porto-horizonte-santa-marta.html",
+    "https://www.hotelportohorizonte.com/en/",
+    "https://www.onvacation.com/co/destinos/nacionales/santa-marta/hotel-porto-horizonte/",
+    "https://www.expedia.com/Santa-Marta-Hotels-Irotama-Torres.h4478793.Hotel-Information",
+    "https://www.irotama.com/",
+    "https://www.tripadvisor.com/Hotel_Review-g297484-d456409-Reviews-Decameron_Galeon-Santa_Marta_Santa_Marta_Municipality_Magdalena_Department.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297484-d32767291-Reviews-Hotel_Irotama_Del_Sol-Santa_Marta_Santa_Marta_Municipality_Magdalena_Department.html",
+    "https://decameron-galeon-santa-marta.hotelinsantamarta.com/en/",
+    "https://porto-horizonte-santa-marta-magdalena.hotelinsantamarta.com/en/",
+    "https://irotama-del-sol.hotelinsantamarta.com/en/"
+   ]
+  },
+  {
+   "tag": "reputacion-grand-decameron-cancun-loscabos-puntasal",
+   "hoteles": [
+    {
+     "nombre": "Grand Decameron Complex, A Trademark All-Inclusive (informe dice Cancún — OJO: el hotel está en Bucerías, Riviera Nayarit, a ~20 min del aeropuerto de Puerto Vallarta; Decameron NO tiene hotel propio en Cancún según su propio sitio de destinos de México)",
+     "estrellas": "4 según Kayak; TripAdvisor/Hoteles.com lo tratan como 3-4. No es un 5 estrellas",
+     "puntajes": "Kayak 7,6/10 (360 reseñas verificadas), Booking ~7,3 (183 reseñas), Hoteles.com 7,7 'Bueno' (298 opiniones). Google: no verificado. TripAdvisor: página bloqueada, puntaje exacto no verificado",
+     "fama": "Bueno: playa amplia en Bahía de Banderas, 5 piscinas, 7 restaurantes, actividades acuáticas gratis, personal y animación elogiados, buen valor por precio. Malo: habitaciones 'muy básicas, sin mejoras' (complejo de 3 unidades antiguas: Flamingos, Tropical, Royal), servicio inconsistente, sin minibar, percepción de declive en la comida; una reseña antigua reporta robo en habitación",
+     "apto_ninos": "Alta aptitud: 4 de las 5 piscinas diseñadas para niños, actividades infantiles guiadas, guardería/cuidado de niños, parque infantil, cunas. Es su mejor argumento familiar de los tres. No se verifica un 'kids club' formal de marca"
+    },
+    {
+     "nombre": "Grand Decameron Los Cabos, A Trademark All-Inclusive Resort (San José del Cabo)",
+     "estrellas": "3 según Trip.com (Decameron no publica categoría en su sitio); se comercializa como 4 pero eso NO se verificó — tratar como 3-4, no 5",
+     "puntajes": "TripAdvisor 4,0/5, puesto #29 de 56 hoteles en San José del Cabo (volumen exacto no verificado); Trip.com 7,5/10 (103 reseñas); Booking tiene 194 reseñas verificadas pero el puntaje no se pudo confirmar (página bloqueada). Google: no verificado",
+     "fama": "Bueno: precio conveniente ('best bang for your buck'), personal amable, ambiente animado con shows nocturnos, vista al Mar de Cortés. Malo: instalaciones y habitaciones anticuadas, comida floja para ser todo incluido, servicio inconsistente, a ~30 min del centro; reseñistas recomiendan hoteles competidores al mismo precio",
+     "apto_ninos": "Media-baja: 3 piscinas 'family-friendly', parque infantil y menú para niños, pero sin club infantil verificado ni piscina exclusiva de niños. Además, en San José del Cabo el mar generalmente no es apto para nadar (corrientes — dato conocido del destino, no verificado en esta sesión), lo que pesa para una familia con niños de 6 y 11"
+    },
+    {
+     "nombre": "Royal Decameron Punta Sal (Tumbes, norte de Perú)",
+     "estrellas": "no verificado (se vende como resort 4 estrellas en agencias, pero ni Decameron ni las OTAs consultadas muestran categoría)",
+     "puntajes": "TripAdvisor ~3,5/5 (2.599 opiniones; fuentes divergen entre 3,0 y 3,6), #2 de 9 hoteles en Punta Sal; Booking 7,2/10 (limpieza 8,1, relación calidad-precio 6,4; ~2.600 comentarios según guía citada); Expedia 7,6/10 citado por terceros. Google: no verificado",
+     "fama": "Bueno: personal amable, playa privada extensa y sin piedras, piscinas limpias y amplias, ambiente familiar. Malo: buffet con variedad limitada y repetitivo, servicio inconsistente, mantenimiento irregular, y relación calidad-precio cuestionada ('cuesta más de lo que entrega')",
+     "apto_ninos": "Buena en la práctica (piscina grande y segura para niños, playa mansa, ambiente familiar), pero sin mini club ni piscina infantil dedicada verificados. Familias lo eligen porque es prácticamente el único gran todo incluido del norte peruano, no porque gane en calidad"
+    }
+   ],
+   "lectura": "El dato del representante ('la competencia es 4 y 5 estrellas') no se sostiene tal cual para estos tres hoteles: el propio producto Decameron verificado queda en 3-4 estrellas (Bucerías 4* según Kayak, Los Cabos 3* según Trip.com, Punta Sal sin categoría verificable), con puntajes públicos de 7,2-7,7/10 — es decir, 'bueno' pero lejos del 8,5+ que exhiben los resorts familiares 4,5-5* de cada destino. La diferencia de precio del informe se explica entonces por categoría real: Decameron es el jugador económico con instalaciones envejecidas y comida repetitiva, no un par degradado en precio de los 5 estrellas. Competencia natural de precio similar (no listada en el informe; identificación por conocimiento del mercado, no verificada en esta sesión): para el Complex de Bucerías, Riu Jalisco/Riu Vallarta, Marival Emotions y Krystal (Nuevo Vallarta); para Los Cabos, Royal Solaris Los Cabos (competidor familiar directo con parque acuático infantil), Riu Santa Fe y Barceló Gran Faro; para Punta Sal casi no hay competencia de formato — las alternativas son Aranwa Vichayito, Punta Sal Suites & Bungalows y hoteles boutique de Máncora, ninguno todo incluido comparable. Error material del informe: el 'Grand Decameron Complex' NO está en Cancún sino en Bucerías (Riviera Nayarit); Decameron no opera hotel propio en Cancún, lo que obliga a revisar cualquier comparación de precio 'Cancún' del informe.",
+   "que_ve_el_que_busca": "Quien busca 'mejor hotel todo incluido para familia en Riviera Nayarit/Puerto Vallarta' en Google o le pregunta a una IA ve primero Marival Emotions, los Riu de Nuevo Vallarta o Hard Rock Vallarta; el Grand Decameron Complex aparece recién en listas de 'todo incluido barato', con la etiqueta de habitaciones básicas y comida irregular. En Los Cabos el panorama es peor para la marca: las respuestas típicas destacan Hyatt Ziva, Riu Santa Fe, Barceló Gran Faro o Royal Solaris (este último es el favorito familiar de presupuesto por su parque acuático), y el Grand Decameron Los Cabos casi no figura en listas familiares — quien lo encuentra lee 'buen precio, instalaciones viejas, mar no apto para nadar'. En Punta Sal ocurre lo contrario: Decameron domina la búsqueda porque es prácticamente el único gran todo incluido del norte de Perú, así que aparece primero y con fama de 'ideal con niños pero comida repetitiva y caro para lo que da'. En síntesis: Decameron solo gana la conversación digital donde no tiene competencia (Punta Sal); en México compite desde el segmento económico y las recomendaciones familiares de Google/IA rara vez lo incluyen. (Simulación cualitativa: el buscador agotó su cupo de sesión, así que esta parte se apoya en los resultados ya obtenidos y conocimiento general del mercado.)",
+   "confianza": "media",
+   "fuentes": [
+    "https://www.tripadvisor.com/Hotel_Review-g657267-d264910-Reviews-Grand_Decameron_Complex_Bucerias_A_Trademark_All_Inclusive-Bucerias_Pacific_Coast.html",
+    "https://www.hoteles.com/ho213983/royal-decameron-complex-all-inclusive-bucerias-mexico/",
+    "https://www.es.kayak.com/Bucerias-Hoteles-Royal-Decameron-Puerto-Vallarta.185896.ksp",
+    "https://www.decameron.com/en/hotels/bucerias/decameron-complex/",
+    "https://www.wyndhamhotels.com/trademark/bucerias-mexico/grand-decameron-complex-becerias-a-trademark-all-inclusive/overview",
+    "https://travelagents.decameron.com/es/co-destinos/mexico",
+    "https://www.tripadvisor.com/Hotel_Review-g152516-d5961003-Reviews-Grand_Decameron_Los_Cabos_A_Trademark_All_Inclusive_Resort-San_Jose_del_Cabo_Los_Cabos.html",
+    "https://us.trip.com/hotels/san-jose-del-cabo-hotel-detail-3042950/grand-decameron-los-cabos-a-trademark-all-inclusive-resort/review.html",
+    "https://www.booking.com/reviews/mx/hotel/royal-decameron-los-cabos-all-inclusive.html",
+    "https://www.decameron.com/en/hotels/san-jose-del-cabo/decameron-los-cabos/",
+    "https://www.tripadvisor.com/Hotel_Review-g3179435-d3179437-Reviews-Royal_Decameron_Punta_Sal-Punta_Sal_Tumbes_Region.html",
+    "https://tophoteles.co/guias/hotel-royal-decameron-punta-sal-guia/"
+   ]
+  }
+ ],
+ "decisiones": [
+  {
+   "perfil": "Papá de Santiago, 41 años, dos hijos de 6 y 11. Presupuesto familiar cuidado pero no mínimo: puedo gastar en torno a USD 3.000-3.500 totales por los 4 si el viaje lo vale, pero cada 100 dólares me duele y lo comparo. Viajo 10-15 de octubre 2026, 5 noches. Pago los 4 pasajes, las maletas, los asientos, la tarjeta de turismo y todos los extras de mi bolsillo, así que todo precio aéreo que veo en la góndola lo multiplico por 4 mentalmente antes de emocionarme. Prioridades en orden: que los niños lo pasen bien y estén seguros, no trasnocharlos ni arriesgar conexiones perdidas, todo incluido real para no sacar la billetera en el hotel, y que el total cierre.",
+   "proceso": "Parto por el filtro que manda: el aéreo por 4. San Andrés con LATAM a $384 pp son ~$1.536 la familia; Santa Marta $1.736-2.028; Panamá directo con Copa $2.600; Punta Cana $2.400-2.700 y Cancún $2.800+. Solo con eso, Caribe mexicano y dominicano quedan fuera de mi zona de confort — y encima el 'Decameron de Cancún' del comparador resulta que está en Riviera Nayarit, a 2.000 km del aeropuerto al que volaría: eso me mata la confianza en esa fila de la góndola. Cartagena y Punta Sal ni siquiera se pueden comprar (NA en los 4 operadores), así que la decisión real es San Andrés vs Santa Marta vs Panamá. Segundo filtro: escalas y horarios con niños. Me atrevo a UNA escala si es diurna y en un solo ticket; descarto los red-eye obligados (Santa Marta sale con LATAM a las 00:30 — con niños de 6 y 11, no) y lo low-cost de pocas frecuencias donde una cancelación me deja botado (JetSmart: su tarifa 'barata' es sin maleta ni asiento, y con 4 pasajeros y 3 maletas el ahorro se evapora). Ojo que hasta el $384 de LATAM es tarifa Basic, solo mochila: le sumo $150-300 de maletas para los 4 (rango, no verificado al centavo). Tercer filtro: googleo los hoteles, y aquí viene mi duda honesta. Decameron San Luis: TripAdvisor 3/5, Booking 7.0, reseñas que repiten 'complejo de 40 años', 'wifi malo', 'piedras en la playa'. Me frena de verdad. Alternativas en la isla: Maryland es el mejor calificado (Google 4.4, TA 4/5)... y está NA en el canal chileno. Grand Sirenis puntúa mejor (Booking 8.1) pero cuesta $1.942 vs $852 de San Luis en la parte hotel: $1.090 más, y sus propias reseñas dicen 'debería ser 3 estrellas' — no pago ese salto. Sol Caribe Campo puntúa peor (Google 3.9). Miro Panamá en serio porque el vuelo directo de 7 h con Copa vale oro con niños: pero ahí el Riu Playa Blanca (5 estrellas real, Booking 8.4, RiuLand) cuesta $1.059 contra $963 del Grand Decameron (Booking 7.6, el peor puntaje de su zona). Por $96 en toda la estadía, si voy a Panamá NO elijo Decameron: elijo Riu. O sea, en el único destino con el vuelo perfecto para mi familia, Decameron pierde contra el vecino por menos de 100 dólares. Lo que mata a Panamá completo es el total: $2.600 de aéreo + $1.059 de hotel 2 adultos + lo de los niños (nadie me lo muestra) + transfer de 2 h por tramo → sobre $4.000 fácil, fuera de presupuesto. Último paso: ¿paquete o armo aparte? En San Luis es empate técnico ($1.620 DIY vs $1.697 paquete), y el DIY está calculado con tarifa Basic sin maletas: sumando equipaje, el paquete empata o gana y trae traslado. Pero antes de confiar reviso el resto de la tabla y veo que el paquete de Galeón cuesta $1.028 MÁS que armarlo uno mismo, y que Cocha pone el mismo aéreo implícito fijo ($424-425) en los 5 hoteles de la isla: los paquetes no siempre están bien armados, así que confirmo fila por fila antes de pagar. Desconfianza ganada a pulso por el propio canal.",
+   "eleccion": "San Andrés, Decameron San Luis, comprado como paquete (Falabella o Despegar, que muestran la misma tarifa) volando LATAM vía Bogotá en horario diurno. Por qué: es el único destino donde el aéreo por 4 baja de $1.600, la escala única en Bogotá con ticket único es el riesgo máximo que acepto con niños, el traslado al hotel es de 15-20 min, y San Luis es objetivamente el Decameron familiar de la isla: piscina infantil, zona de juegos, la mejor playa nadable de la cadena ahí, animación diaria, y el pase cruzado a los otros Decameron como bonus. El todo incluido real me fija el gasto — con dos niños eso es paz mental presupuestaria. Elijo el paquete y no el DIY porque el 'ahorro' de $77 del DIY está calculado con tarifa Basic de LATAM sin ninguna maleta: sumando 2-3 maletas para 4 personas el paquete empata o gana, e incluye traslado. Acepto a sabiendas las habitaciones viejas y el wifi malo que leí en las reseñas: compro playa + piscina + niños entretenidos + precio, no compro lujo. Costo estimado total familia: los ~$1.697 del paquete de 2 adultos + tarifa de los niños (no publicada en la góndola — tuve que asumir que la cotizaré por teléfono, lo cual ya es una falla) + tarjeta de turismo de San Andrés (monto no verificado) + extras. Presupuesto mental: ~$3.000-3.400 los 4. Plan B si la tarifa de niños me dispara el total: mismo destino, armo DIY con LATAM pagando maletas.",
+   "donde_pierde_decameron": [
+    "En el momento Google: 4 de sus 5 hoteles de San Andrés tienen 3/5 en TripAdvisor con miles de reseñas que repiten 'habitaciones viejas', 'mantenimiento', 'wifi malo'. Un papá que googlea antes de pagar $3.000 duda, y esa duda es el punto exacto donde se cae la venta.",
+    "En Panamá pierde por $96: el Riu Playa Blanca (5 estrellas real, Booking 8.4, kids club RiuLand) cuesta $1.059 vs $963 del Grand Decameron (Booking 7.6, el único bajo 8 de su zona, masivo y envejecido). En el único destino con vuelo directo desde SCL —el mejor vuelo posible para una familia— Decameron entrega en bandeja al cliente que compara una fila más abajo en la góndola.",
+    "Inventario NA que regala clientes: Decameron Cartagena y Royal Decameron Punta Sal no se pueden comprar en ninguno de los 4 operadores, y Maryland —el Decameron mejor calificado de San Andrés (Google 4.4, TA 4/5)— tampoco está a la venta en el canal chileno. Su mejor carta reputacional no está en la vitrina.",
+    "Paquetes que insultan la inteligencia del cliente: el paquete de Galeón (Santa Marta) cuesta $1.028 más que armar el mismo viaje por separado, y el del Grand Decameron Panamá $150 más. Un cliente que descubre UNA de estas filas deja de confiar en TODOS los paquetes de la marca.",
+    "El aéreo implícito fijo de Cocha ($424-425 idéntico en los 5 hoteles de la isla) huele a relleno, no a tarifa real: mina la confianza del que compara.",
+    "Descalce destino-hotel: el 'Grand Decameron Complex' aparece comparado contra aéreos a Cancún cuando el hotel está en Riviera Nayarit (aeropuerto PVR). Si eso llega así a una góndola, el error es letal para la credibilidad.",
+    "El relato '3 vs 4-5 estrellas' no lo protege: la competencia 'de 4 estrellas' (Sol Caribe, El Dorado, Dorado Plaza, Dubai) tiene reseñas iguales o peores, así que la estrella extra del competidor no es real — pero el cliente que solo mira estrellitas en la góndola no lo sabe, y Decameron no se lo explica.",
+    "Precio para familia invisible: toda la góndola cotiza 2 adultos. Con 2 niños de 6 y 11 nadie me muestra el total real ni la política infantil (¿gratis? ¿50%? ¿tarifa completa?). Me obligan a cotizar por otro canal justo en el momento en que estaba listo para pagar.",
+    "Santa Marta con Galeón: hotel 3 estrellas envejecido a $1.461 la parte hotelera, con aéreo que obliga a red-eye de las 00:30 con niños, e Irotama (5 estrellas comercial con miniclub 3-12 años) al lado en la conversación de Google. Ese destino, para esta familia, Decameron lo pierde completo."
+   ],
+   "donde_gana_decameron": [
+    "San Andrés es su fortaleza estructural: domina el todo incluido de la isla (5-6 hoteles), la ruta aérea más barata del Caribe desde SCL ($384 pp LATAM, ~$1.536 los 4) juega a su favor, y el destino entero es sinónimo de la marca. El que busca 'todo incluido familiar San Andrés' aterriza en Decameron sí o sí.",
+    "San Luis gana la comparación familiar de la isla con datos: piscina infantil, zona de juegos, niñera y la mejor playa nadable, a $852 la parte hotel — Grand Sirenis cuesta $1.090 más y Sol Caribe Campo puntúa peor (Google 3.9). Para un papá con niños de 6 y 11, la cuenta cierra a favor de San Luis sin forzarla.",
+    "El pase cruzado entre hoteles de la isla es un diferenciador real que ningún competidor tiene: compro un hotel y uso seis.",
+    "El todo incluido 'de verdad' (bebidas ilimitadas, shows, buffets) contra los todo incluido acotados o inexistentes de los baratos de la góndola (La Gran Vía solo desayuno, Porto Horizonte con plan de comidas limitado): cuando el cliente entiende la diferencia de producto, el sobreprecio se justifica solo.",
+    "Traslados triviales donde importa: 15-20 min al San Luis, 10-15 min al Galeón, 5 min al Isleño. Con niños y maletas después de 11 horas de viaje, eso vale más de lo que la góndola comunica.",
+    "En Isleño y Los Delfines el paquete SÍ gana al DIY ($161 y $78): cuando el paquete está bien armado, convierte — la conveniencia de un solo pago + traslado + equipaje resuelto es exactamente lo que una familia quiere comprar.",
+    "En Punta Sal gana por walkover: es el único gran todo incluido del norte peruano. Lástima que esté NA y no se pueda comprar.",
+    "Precio de entrada imbatible en su segmento: la combinación paquete San Luis ~$1.697 (2 adultos) + aéreo familiar más barato del mapa deja a cualquier alternativa 'premium' $1.000-1.500 arriba. Para el presupuesto cuidado, Decameron es el default racional."
+   ],
+   "que_deberia_cambiar": [
+    "Mostrar precio TOTAL familia en la góndola: selector 2 adultos + 2 niños con edades, política infantil explícita ('niños gratis' o '50%') y el total de una vez. Hoy la fila de $852-1.697 es para 2 adultos y me obliga a cotizar aparte justo cuando iba a pagar.",
+    "Garantizar y comunicar que el paquete nunca pierde contra el DIY: corregir aberraciones como Galeón (+$1.028) y Panamá (+$150), y etiquetar qué incluye el paquete que el DIY no (maletas, traslado, asistencia) — porque el $384 'barato' de LATAM es tarifa Basic sin ni una maleta y nadie lo explica en la comparación.",
+    "Poner a la venta el inventario que falta: Maryland (su mejor hotel reputacional en San Andrés), Cartagena y Punta Sal en NA es regalar la venta o la comparación al competidor.",
+    "Atacar la reputación de 'habitaciones viejas' donde se decide la compra: fotos recientes de habitaciones renovadas, respuestas a reseñas, y subir los puntajes de 7.0-7.6 hacia 8+ en Booking — porque el Riu a $96 de distancia con 8.4 me lo quita todo en Panamá.",
+    "Sello 'ideal familias' con contenido verificable en la ficha (piscina infantil, juegos, niñera, pase cruzado): San Luis gana esa comparación con datos, pero la góndola no los muestra — los tuve que buscar yo.",
+    "Corregir los descalces de datos que destruyen confianza: hotel 'Cancún' que está en Riviera Nayarit, aéreos implícitos fijos e idénticos en 5 hoteles (Cocha), y puntajes ausentes o con 16 reseñas en filas donde el competidor exhibe cientos.",
+    "Empaquetar el aéreo bueno, no el barato: para familias, LATAM diurno vía Bogotá con maleta incluida como default del paquete, aunque cueste $50 más por persona que la tarifa Basic o JetSmart — es lo que un papá elegiría solo, y si el paquete ya lo trae, dejo de comparar."
+   ]
+  },
+  {
+   "perfil": "Pareja de Santiago de Chile, 30-45 años, sin hijos, doble ingreso profesional. Viaje de 5 noches (10-15 octubre 2026) con dos prioridades claras: descansar de verdad (dormir bien, cero logística estresante) y comer bien (buffet variado o gastronomía de destino; el todo incluido nos sirve solo si la comida no es un castigo). Presupuesto flexible: podemos pagar USD 2.000-2.800 el viaje completo para dos, pero odiamos sentir que pagamos de más por un hotel viejo. Compramos comparando en OTAs (Despegar/Falabella) y googleando puntajes antes de cerrar; el puntaje de Booking/TripAdvisor y las fotos de las habitaciones pesan más que la promesa de \"todo incluido\".",
+   "proceso": "Empiezo como empieza cualquiera: \"Caribe, 5 noches, octubre\" en la góndola de la OTA, ordenado por precio. Primer filtro real: el vuelo. Sin niños me atrevo a 1 escala sin problema, pero 2 escalas o un red-eye con espera de 6 horas en Tocumen (Copa a Santa Marta) lo descarto al tiro: vengo a descansar, no a coleccionar aeropuertos. Los directos me seducen: Copa a Panamá (~7 h, $650 pp), LATAM a Cancún ($706) y a Punta Cana ($667, pero con la trampa de que el regreso del jueves 15 probablemente no tiene directo y me devuelvo vía Lima — eso me mata la gracia). Segundo filtro: googleo cada hotel que me aparece barato. Y aquí Decameron se me empieza a caer solo: Isleño, San Luis, Marazul y Los Delfines marcan 3.0/5 en TripAdvisor con miles de reseñas que repiten \"habitaciones viejas\", \"óxido\", \"wifi malo\", \"filas\". San Luis a $852 las 5 noches es tentador — la mejor playa de la isla — pero es el hotel FAMILIAR de la cadena: piscina infantil, animación, niños por todas partes; exactamente lo que una pareja sin hijos evita en octubre. El Decameron \"para nosotros\" sería Los Delfines (boutique, restaurante a la carta sobre el mar, $1.196)… hasta que leo que está pegado al Coco Loco con rumba hasta las 3 AM y sin buffet propio. El hotel de parejas de Decameron falla justo en la palabra \"descanso\". Miro Cartagena como plan gastronómico (vuelo barato $404 pp, comer en la ciudad), pero el Decameron Cartagena aparece NA en las 4 OTAs — ni siquiera puedo cotizarlo — y octubre es temporada de lluvias; lo dejo como plan C con hotel boutique, no con Decameron. Tercero: comparo el duelo que me queda, Panamá. Grand Decameron Panamá $963 vs Riu Playa Blanca $1.059 en la misma playa. Diferencia: $96 en TODA la estadía — menos de $10 por noche por los dos — y el Riu es 5 estrellas oficial con Booking 8.4 (comida y barra 24 h elogiadas), contra un Decameron 4 estrellas, 852 habitaciones, Booking 7.6, descrito como \"lleno y envejecido\". Ni siquiera lo dudo. Último chequeo de persona real: ¿paquete o armo aparte? El DIY del Decameron Panamá gana al paquete por $150, y en Santa Marta el paquete de Galeón sale $1.028 MÁS caro que armarlo — o sea, aprendo a desconfiar del botón \"paquete\" de la cadena. Con Copa además la tarifa básica incluye equipaje de mano de 10 kg: para 5 noches de resort viajamos solo con cabina y no pago maletas (con la Basic de LATAM ni la mochila grande entra). Cierro: Copa directo diurno (salida 12:28, llegada 17:11), transfer privado de ~2 h a Playa Blanca contratado antes, y 5 noches de no hacer nada.",
+   "eleccion": "Panamá: Hotel Riu Playa Blanca (5 estrellas, Booking 8.4), armado por separado — Copa directo SCL-PTY ($650 pp, $1.300 los dos, vuelo diurno) + hotel $1.059 = ~$2.359 total antes del transfer. Elijo esto porque es el único combo del informe que cumple mis dos prioridades a la vez: cero escalas (descanso empieza en el aeropuerto) y el mejor puntaje de comida/servicio de toda la comparación, por apenas $96 más que el Grand Decameron Panamá de al lado en toda la estadía. Decameron pierde mi compra por menos de $10 por noche: a ese precio la diferencia entre un 7.6 masificado y un 8.4 con todo incluido 24 h no es una decisión, es un trámite. Plan B si el presupuesto se apretara: San Andrés DIY con LATAM ($768 los dos) + Grand Sirenis ($1.942) = $2.710 — y nótese que incluso ahí, con Decameron dueño de media isla, mi plata se iría al único 5 estrellas que no es suyo.",
+   "donde_pierde_decameron": [
+    "En el googleo previo a comprar: 4 de sus 5 hoteles de San Andrés marcan 3.0/5 en TripAdvisor con miles de reseñas de habitaciones viejas, wifi malo y mantenimiento; una pareja que compara puntajes lo descarta antes de mirar el precio.",
+    "No tiene producto para parejas sin hijos: toda la cadena está diseñada para familias (piscinas infantiles, animación, volumen), y su única carta 'boutique' (Los Delfines) tiene discoteca al lado hasta las 3 AM y sin buffet propio — falla en 'descanso' y en 'comida', mis dos criterios.",
+    "El duelo de Panamá lo pierde por $96 en 5 noches: Riu Playa Blanca 5* Booking 8.4 vs Grand Decameron 4* Booking 7.6 a casi el mismo precio total; cuando el premium del competidor es <$10/noche, la reputación decide sola.",
+    "El botón 'paquete' destruye confianza: Galeón en paquete cuesta $1.028 más que armarlo por separado y el Complex $522 más; un comprador que descubre eso una vez no vuelve a creerle el precio empaquetado a la marca.",
+    "Inventario fantasma en la góndola: Decameron Cartagena y Royal Decameron Punta Sal aparecen NA en las 4 OTAs — el cliente no puede comprar aunque quiera — y Maryland, su mejor hotel reputacional de San Andrés, es justo el que el canal chileno no vende.",
+    "Puntajes ausentes o anémicos en la góndola: Galeón exhibe 8.2 con apenas 16 reseñas y varios hoteles no muestran puntaje; frente a un Riu con 3.103 reseñas o un Sirenis con cientos, la ficha de Decameron se ve poco confiable.",
+    "Señales de sobreprecio interno: el Isleño a $1.467 con TripAdvisor 3.0 cuesta casi lo mismo que el Riu 5*; y el Galeón 3 estrellas a $1.461 supera al Riu — el precio no conversa con la categoría real del producto.",
+    "Confusión geográfica que espanta: el 'Grand Decameron Complex' se compara contra vuelos a Cancún cuando el hotel está en Bucerías (Puerto Vallarta); un cliente que detecta ese descalce deja de confiar en toda la ficha."
+   ],
+   "donde_gana_decameron": [
+    "Es el piso de precio del todo incluido con playa: San Luis a $852 las 5 noches para dos es imbatible como ticket de entrada al Caribe; nadie más ofrece all-inclusive real (licores incluidos) a ese nivel.",
+    "Dueño de San Andrés: 5-6 hoteles, pase cruzado entre propiedades (variedad de restaurantes y playas con una sola pulsera) y ubicaciones que la competencia no tiene (Isleño frente a Spratt Bight, San Luis sobre la mejor playa nadable); en ese destino es la opción por defecto y aparece en toda búsqueda.",
+    "Cuando el paquete está bien armado, gana de verdad: Isleño en paquete ahorra $161 y Los Delfines $78 frente al DIY — ahí la promesa 'todo resuelto en un clic' sí funciona y captura al comprador que no quiere armar nada.",
+    "Su todo incluido es más honesto que el de varios competidores: bebidas ilimitadas y restaurantes de especialidad incluidos, contra 'todo incluido' acotados (Porto Horizonte) o planes opcionales (Cartagena Plaza) — el que lee la letra chica lo valora.",
+    "Logística de llegada superior en varios destinos: Galeón a 10-15 min del aeropuerto de Santa Marta e Isleño a 1 km del de San Andrés — para un viajero cansado eso es oro frente a los 2 h de carretera de Playa Blanca o la lancha a Barú.",
+    "En destinos sin competencia de formato (Punta Sal) es literalmente la única opción de gran resort todo incluido: ahí gana por walkover si el canal lo vendiera."
+   ],
+   "que_deberia_cambiar": [
+    "Mostrar puntajes con volumen real (Booking/Google importados) en la ficha de la góndola: hoy Galeón luce 8.2 con 16 reseñas y otros hoteles sin nota; sin prueba social creíble, la pareja se va al Riu de 3.103 reseñas.",
+    "Arreglar el pricing de paquetes para que NUNCA pierdan contra el DIY visible en la misma pantalla (Galeón +$1.028 y Complex +$522 son anti-marketing): el paquete debe ganar siempre aunque sea por $20.",
+    "Poner en la góndola un producto 'solo adultos' o al menos una etiqueta de sección/piso tranquilo: hoy no existe ninguna opción Decameron comprable para una pareja que huye de piscinas infantiles, y Los Delfines necesita resolver (y comunicar) el ruido nocturno.",
+    "Restituir el inventario NA: Decameron Cartagena, Punta Sal y Maryland sin tarifa son ventas regaladas a la competencia; si no hay cupo, mostrar fechas alternativas en vez de NA seco.",
+    "Corregir el descalce destino-hotel (Complex es Bucerías/PVR, no Cancún) y transparentar el aéreo implícito: el $424-425 fijo de Cocha en los 5 hoteles huele a relleno y un comprador que compara con Google Flights lo nota.",
+    "Empaquetar el vuelo directo de Copa en la oferta de Panamá con equipaje de cabina incluido y venderlo como 'sin escalas + sin maletas que pagar': es el único argumento logístico que le ganaría al combo Riu para el segmento parejas.",
+    "Diferenciar por gastronomía en la comunicación (menús de especialidad, cena de pareja incluida, coctelería): 'descanso y buena comida' es exactamente lo que buscan las parejas 30-45 y hoy la ficha de Decameron solo comunica volumen familiar."
+   ]
+  }
+ ],
+ "contrastes": [],
+ "sintesis": null
+}
