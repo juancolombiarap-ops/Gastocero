@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """Notas al pie con el estimado del 3-8 de octubre, para el informe del 10-15.
 
-Los hoteles propios de Cartagena y Santa Marta salen NA en el periodo 10-15 de
-octubre, y Punta Sal sale NA en paquetería. Estas notas dejan asentado, debajo de cada tabla —alojamiento y
+Los hoteles propios de Cartagena, Santa Marta y Punta Sal salen NA en el periodo
+10-15 de octubre. Estas notas dejan asentado, debajo de cada tabla —alojamiento y
 paquetería—, qué pasa del 3 al 8, para que el NA se lea con una referencia al lado
 en vez de un vacío.
 
@@ -109,11 +109,22 @@ NOTAS_10_15_OCT_INTERNA = {
             'GRAND DECAMERON PANAMÁ: del 3 al 8 de octubre el canal directo cotiza el '
             f'hotel en {_PTY}, solo alojamiento y como VALOR REFERENCIAL. ' + _SIN_PAQUETE,
         ],
+        ('ALOJAMIENTO', 'TBP'): [
+            # Se repite la nota estructural de la zona: la clave del periodo reemplaza
+            # a NOTAS_DESTINO_BASE en lugar de sumarse.
+            _ZONA_TBP,
+            'ROYAL DECAMERON PUNTA SAL figura NA porque está sin cupo para estas fechas '
+            'en los cuatro operadores y también en la venta web directa. Como VALOR '
+            'REFERENCIAL —otro periodo, otro canal—, del 3 al 8 de octubre el canal '
+            f'directo sí lo vende: {_TBP}. '
+            'Cotizado el 31/08/2026. ' + _SIN_OTA,
+        ],
         ('PAQUETERÍA', 'TBP'): [
             _ZONA_TBP,
             'ROYAL DECAMERON PUNTA SAL figura sin disponibilidad en los cuatro '
-            'operadores para estas fechas en paquetería, aunque en alojamiento sí lo '
-            'vende Despegar. Ningún operador arma paquete con este hotel.',
+            'operadores para estas fechas. Del 3 al 8 de octubre el hotel sí se vende; '
+            f'a modo de VALOR REFERENCIAL, el canal directo lo cotiza en {_TBP}, solo '
+            'alojamiento. ' + _SIN_PAQUETE,
         ],
     },
 }
@@ -162,11 +173,15 @@ NOTAS_10_15_OCT_COLOMBIA = {
             'Cocha y Expedia para estas fechas; queda pendiente reconfirmarla en el '
             'motor de Cocha antes de emitir.',
         ],
+        ('ALOJAMIENTO', 'TBP'): [
+            _ZONA_TBP,
+            'ROYAL DECAMERON PUNTA SAL figura NA porque está sin cupo para estas fechas '
+            'en los cuatro operadores. ' + _SIN_REF_COL,
+        ],
         ('PAQUETERÍA', 'TBP'): [
             _ZONA_TBP,
             'ROYAL DECAMERON PUNTA SAL figura sin disponibilidad en los cuatro '
-            'operadores para estas fechas en paquetería, aunque en alojamiento sí lo '
-            'vende Despegar. Ningún operador arma paquete con este hotel.',
+            'operadores para estas fechas. ' + _SIN_REF_COL,
         ],
     },
 }
