@@ -128,8 +128,8 @@
     <div class="hallazgos">
       <article class="hallazgo">
         <span class="chip">No se exhibe</span>
-        <div class="destino">Panamá · Cocha</div>
-        <p><b>El hotel no aparece en la búsqueda de Cocha</b>, ni por alojamiento ni por paquetería. La tarifa existe —<span class="num">$963</span> por la estadía— pero solo se llega a ella entrando por hotel y fecha. Un cliente que busca Panamá en Cocha no encuentra el hotel. No es un problema de precio: es de exhibición, y no se ve en ninguna tabla de este informe.</p>
+        <div class="destino">Cocha · dos de dos</div>
+        <p><b>Los hoteles no aparecen en la búsqueda de Cocha.</b> Panamá y el Galeón tienen tarifa —<span class="num">$963</span> y <span class="num">$1,461</span>— pero solo se llega a ellas entrando por hotel y fecha. Los dos que se revisaron así se cayeron. <b>Ningún NA de Cocha en este informe es confiable</b> mientras no se rehaga hotel por hotel. Y el cliente que busca por destino no los encuentra.</p>
       </article>
       <article class="hallazgo">
         <span class="chip">Número no cuadra</span>
@@ -137,9 +137,9 @@
         <p>El V.1 publicaba <span class="num">$969</span> como MEJOR en la fila de «nuestra tarifa», pero el mínimo de esa fila era <span class="num">$1,026</span>: el número no salía de ninguna celda. El V.2 lo cerró en <span class="num">$956</span>, que sí era el mínimo. Con la recotización de Cocha del 31/08 la fila queda en <span class="num">$963</span>, que sigue siendo el mínimo. Corregido.</p>
       </article>
       <article class="hallazgo">
-        <span class="chip">Se contradice</span>
+        <span class="chip">NA que no era NA</span>
         <div class="destino">Santa Marta</div>
-        <p>El Galeón figura sin cupo en alojamiento en los cuatro operadores, pero con paquete en Cocha a <span class="num">$3,357</span>. Si Cocha vende el paquete, el hotel tiene habitaciones. Hay que rehacer esa celda.</p>
+        <p>El Galeón figuraba sin cupo en los cuatro operadores. Buscando en Cocha por hotel y fecha aparece a <span class="num">$1,461</span> en Estándar. No estaba sin cupo: no se exhibía. Con eso pasa a ser el más económico de su tabla y se cierra la contradicción con su propio paquete.</p>
       </article>
       <article class="hallazgo">
         <span class="chip">Tarifa movida</span>
@@ -233,13 +233,14 @@
       <div class="scroll"><table>
         <thead><tr><th>Tipo</th><th>Hotel</th><th>V. Falabella</th><th>Despegar</th><th>Cocha</th><th>Expedia</th><th>Mejor</th></tr></thead>
         <tbody>
-          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Galeón</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td class="na">NA</td><td class="mejor">—</td></tr>
-          <tr><td class="tipo">Competencia</td><td class="hotel">Hotel Porto Horizonte</td><td>$1,758</td><td>$1,758</td><td class="na">NA</td><td>$1,756</td><td class="mejor">$1,756</td></tr>
+          <tr class="propio"><td class="tipo">Decameron</td><td class="hotel">Decameron Galeón</td><td class="na">NA</td><td class="na">NA</td><td>$1,461</td><td class="na">NA</td><td class="mejor">$1,461 <span class="abajo">▼</span></td></tr>
+          <tr><td class="tipo">Competencia</td><td class="hotel">Hotel Porto Horizonte</td><td>$1,758</td><td>$1,758</td><td class="na">NA</td><td>$1,756</td><td class="mejor">$1,756 <span class="arriba">▲</span></td></tr>
         </tbody>
       </table></div>
       <div class="pie">
         <p>Sin disponibilidad en ningún canal para estas fechas: Irotama del Sol.</p>
-        <p class="ref"><b>Ojo con este NA:</b> el mismo hotel aparece con paquete en Cocha a US$ 3,357 en la tabla de paquetería. Si Cocha vende el paquete, hay habitaciones — la celda hay que rehacerla. Como <b>valor referencial</b>, del 3 al 8 de octubre el canal directo lo vende en habitación Estándar, <span class="num">US$ 1,245</span> No Reembolsable y <span class="num">US$ 1,381</span> Flex (US$ 249 por noche). Cotizado el 31/08/2026.</p>
+        <p class="ref"><b>Esta celda estaba mal y ya está corregida.</b> El informe daba NA en los cuatro operadores. Al buscar en Cocha <b>por hotel y fecha</b> —no por búsqueda de destino— el hotel sí tiene tarifa para el 10 al 15: $1.378.140 por 5 noches y 2 personas, o sea <span class="num">US$ 1,461</span>, habitación <b>Estándar</b>, todo incluido, sin cambio ni devolución. La misma Estándar con cancelación gratuita hasta el 29 de septiembre queda en <span class="num">US$ 1,624</span>: los <span class="num">US$ 163</span> de diferencia son el costo de la flexibilidad. Hay además una Villa a US$ 1,578, que no se toma porque la regla del informe manda usar la Standard cuando existe. Recotizado el 31/08/2026.</p>
+        <p class="ref"><b>Falabella, Despegar y Expedia siguen en NA</b>, así que la fila la sostiene un solo canal. Ya no lleva referencia del 3 al 8: la celda tiene cifra propia del periodo del informe, que es mejor dato que una tarifa de otras fechas.</p>
       </div>
     </div>
 
@@ -339,7 +340,7 @@
       </table></div>
       <div class="pie">
         <p>Sin disponibilidad en ningún canal para estas fechas: Irotama del Sol.</p>
-        <p class="ref"><b>Acá está la contradicción:</b> el Galeón tiene paquete en Cocha a US$ 3,357, pero en alojamiento figura sin cupo en los cuatro operadores. Una de las dos celdas está mal.</p>
+        <p class="ref"><b>La contradicción quedó resuelta.</b> El informe marcaba que el Galeón tenía paquete en Cocha a US$ 3,357 y a la vez NA en alojamiento. La celda mala era la de alojamiento: el hotel sí tiene habitaciones en Cocha para estas fechas —US$ 1,461— y lo que fallaba era que no aparecía en la búsqueda de destino. Corregido en la tabla de alojamiento.</p>
       </div>
     </div>
 
@@ -412,11 +413,11 @@
       <p class="sub">Lo que falta cerrar</p>
     </div>
     <ul>
-      <li><b>Panamá no se exhibe en Cocha.</b> El hotel no aparece en la búsqueda, ni por alojamiento ni por paquetería; su tarifa solo se ve entrando por hotel y fecha. Es lo más grave de esta corrida y no se refleja en ninguna tabla, porque las tablas comparan precios y esto es visibilidad.</li>
+      <li><b>Los hoteles no se exhiben en Cocha.</b> Panamá y el Galeón no aparecen en la búsqueda de destino, y sin embargo tienen tarifa cargada y disponible: solo se llega a ella entrando por hotel y fecha. Dos de dos. Es lo más grave de esta corrida y no se refleja en ninguna tabla, porque las tablas comparan precios y esto es visibilidad. Conviene levantarlo con Cocha.</li>
       <li><b>Panamá, celda de Cocha.</b> Recotizada en $963 contra los $956 publicados. Y ese $956 es el mismo número que la tabla de verificación muestra como canal directo del 10–15: o es casualidad o una celda tomó el dato de la otra. El control del canal directo no incluye Panamá, así que no hay respaldo. Rehacer las dos.</li>
       <li><b>Panamá, segunda carga.</b> Sigue sin tarifa en Cocha y Expedia, en alojamiento y paquetería.</li>
-      <li><b>Santa Marta.</b> Rehacer la celda de Cocha del Galeón en alojamiento: contradice su propia paquetería. Es el mismo patrón que Panamá —Cocha vende el paquete a $3,357 pero muestra NA en alojamiento—, así que lo más probable es que el hotel esté ahí y no se exhiba en la búsqueda. Hay que entrar por hotel y fecha.</li>
-      <li><b>Rehacer en Cocha entrando por hotel y fecha</b>, no por búsqueda de destino, todas las celdas propias que hoy salen NA: Cartagena alojamiento, Galeón alojamiento y Punta Sal en las dos secciones. Después de lo de Panamá, un NA de Cocha no prueba que no haya cupo: puede ser que el hotel no aparezca en el listado. Donde Cocha sí exhibe Decameron es San Andrés —los cinco hoteles, las dos secciones— y México.</li>
+      <li><b>Santa Marta, corregido.</b> El Galeón figuraba NA en los cuatro y en Cocha tiene US$ 1,461 en Estándar para el 10–15. La celda ya está rehecha y con eso el hotel pasa a ser el más económico de su tabla. Queda cerrada la contradicción con su paquete.</li>
+      <li><b>Faltan por rehacer en Cocha:</b> Cartagena en alojamiento y Punta Sal en las dos secciones, entrando <b>por hotel y fecha</b>. Después de Panamá y del Galeón, un NA de Cocha ya no prueba que no haya cupo. Donde Cocha sí exhibe Decameron es San Andrés —los cinco hoteles, las dos secciones— y México.</li>
       <li><b>Cartagena en paquetería.</b> Decameron Cartagena no tiene fila en esa tabla: están solo los tres competidores. O se cotiza y se agrega, o se pone la fila en NA, pero no puede faltar el hotel propio del destino.</li>
       <li><b>Cartagena.</b> Reconfirmar categoría y régimen de Dubai y La Gran Vía; el salto entre versiones es demasiado grande para darlo por bueno.</li>
       <li><b>Puntajes de Panamá.</b> Pasaron de (7.2)/(6.6) a (7.5)/(7.8) entre versiones, y con eso el rótulo «nuestra tarifa» cambió de fila. Confirmar que las dos cargas no se cruzaron.</li>

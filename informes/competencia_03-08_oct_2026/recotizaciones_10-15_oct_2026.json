@@ -139,6 +139,63 @@
    "alerta_coincidencia": "el informe publica 956 en la celda de Cocha y ademas 956 en la columna '10-15 Oct' de la tabla de verificacion, que se rotula como canal directo. Son el mismo numero. O es coincidencia o una de las dos celdas tomo el dato de la otra. El control dchile_10-15 no trae Panama, asi que no hay respaldo de que 956 sea del canal directo. Hay que rehacer las dos.",
    "alerta_categoria": "vista al jardin no es la Standard a secas: es la categoria siguiente, la misma Garden View que publica el canal directo. Dos canales independientes coinciden en que el hotel no ofrece Standard para estas fechas.",
    "alerta_condicion": "la tarifa es cancelable hasta el 6 oct. No es comparable sin mas contra una No Reembolsable: parte de la diferencia de precio es la flexibilidad."
+  },
+  {
+   "destino": "SMR",
+   "hotel": "DECAMERON GALEON",
+   "seccion": "ALOJAMIENTO",
+   "canal": "COCHA",
+   "monto": 1461,
+   "monto_original_clp": 1378140,
+   "moneda_publicada": "CLP",
+   "noches": 5,
+   "pax": 2,
+   "regimen": "Todo incluido",
+   "habitacion": "Estandar",
+   "categoria_es_basica": true,
+   "cama": "tipo de cama segun disponibilidad del alojamiento",
+   "modalidad": "No Reembolsable",
+   "politica": "No permite cambio ni devolucion",
+   "incluye": "precio final incluye impuestos",
+   "modalidad_flex": {
+    "monto": 1624,
+    "monto_original_clp": 1531152,
+    "habitacion": "Estandar",
+    "politica": "Cancelacion gratuita hasta el 29 sept 2026",
+    "nota": "misma categoria Estandar, la brecha de 163 USD es el costo de la flexibilidad"
+   },
+   "descartada_por_categoria": {
+    "habitacion": "Villa",
+    "monto": 1578,
+    "monto_original_clp": 1488519,
+    "politica": "No permite cambio ni devolucion",
+    "motivo": "categoria superior. La regla del informe manda tomar Standard cuando existe, y aca existe, asi que la Villa no entra"
+   },
+   "periodo": "10-15 oct",
+   "busqueda": "por hotel y fecha, NO por busqueda de destino",
+   "cargado": "31/08/2026",
+   "publicado_en_el_informe": "NA",
+   "hallazgo": "SEGUNDO CASO CONFIRMADO DEL PROBLEMA DE EXHIBICION EN COCHA. El informe daba NA en los cuatro operadores para el Galeon en alojamiento, y Cocha si tiene tarifa: 1.461 USD. Entrando por hotel y fecha aparece; por busqueda de destino no. Es exactamente lo mismo que paso con Panama.",
+   "resuelve": "queda resuelta la contradiccion que el informe traia como hallazgo: el Galeon tenia paquete en Cocha a 3.357 y NA en alojamiento. No estaba sin cupo, no se exhibia.",
+   "efecto_en_el_informe": {
+    "tabla": "ALOJAMIENTO, Santa Marta (SMR), fila DECAMERON GALEON",
+    "fila_publicada": {
+     "falabella": "NA",
+     "despegar": "NA",
+     "cocha": "NA",
+     "expedia": "NA",
+     "mejor": "—"
+    },
+    "fila_corregida": {
+     "falabella": "NA",
+     "despegar": "NA",
+     "cocha": 1461,
+     "expedia": "NA",
+     "mejor": 1461
+    },
+    "cambia": "el Galeon deja de ser NA y pasa a ser el mas economico de la tabla de Santa Marta, por debajo del Porto Horizonte (1.756). La marca de mas barato pasa al Galeon y la de mas caro al Porto Horizonte."
+   },
+   "consecuencia": "todos los NA de Cocha del informe quedan en duda: dos de dos se cayeron al buscar por hotel. Faltan por rehacer Cartagena alojamiento y Punta Sal en las dos secciones."
   }
  ]
 }

@@ -21,9 +21,42 @@ Las fechas cercanas que se usaron son el 3 al 8 de octubre, mismo largo de estad
 | Destino | Hotel | Sección | Estado |
 |---|---|---|---|
 | CTG | Decameron Cartagena | Alojamiento y paquetería | NA en los cuatro operadores |
-| SMR | Decameron Galeón | Alojamiento | NA en los cuatro; en paquetería sí tiene Cocha |
+| ~~SMR~~ | ~~Decameron Galeón~~ | ~~Alojamiento~~ | **resuelto**: Cocha sí tiene tarifa, $1,461. Ya no es NA |
 | TBP | Royal Decameron Punta Sal | Alojamiento y paquetería | NA en los cuatro |
 | PTY | Grand Decameron Panamá | Banco de camas, Cocha y Expedia | sin tarifa; pendiente reconfirmar en Cocha |
+
+## El NA de Cocha no es NA
+
+Buscando en Cocha **por hotel y fecha** —no por búsqueda de destino— aparecen tarifas
+donde el informe decía NA. Dos de dos:
+
+| Hotel | El informe decía | Cocha, por hotel y fecha |
+|---|---|---|
+| Grand Decameron Panamá | $956 (y sin exhibirse) | **$963** |
+| Decameron Galeón, alojamiento | NA en los cuatro | **$1,461** Estándar |
+
+El Galeón cierra además la contradicción que arrastraba el informe: tenía paquete en
+Cocha a $3,357 y a la vez NA en alojamiento. La celda mala era la de alojamiento.
+
+Cocha publica el Galeón en tres fichas para el 10–15, todas de 5 noches y 2 personas:
+
+| Categoría | Condición | CLP | USD |
+|---|---|---|---|
+| **Estándar** | no permite cambio ni devolución | $1.378.140 | **$1,461** |
+| Villa | no permite cambio ni devolución | $1.488.519 | $1,578 |
+| **Estándar** | cancelación gratuita hasta 29 sept | $1.531.152 | **$1,624** |
+
+Se carga el **$1,461**. La Villa se descarta por la regla de categoría —hay Standard
+disponible, así que se toma esa— y el $1,624 es la misma Standard en modalidad
+flexible: los **$163** de diferencia son el costo de poder cancelar.
+
+**La consecuencia es más grande que las dos celdas.** Ningún NA de Cocha en este
+informe es confiable mientras no se rehaga hotel por hotel. Faltan Cartagena en
+alojamiento y Punta Sal en las dos secciones.
+
+Y hay algo que ninguna tabla muestra: **el cliente que busca por destino no encuentra
+estos hoteles**, aunque tengan cupo y tarifa. Eso no es un problema de precio, es de
+exhibición, y pesa más que cualquiera de las diferencias de tarifa del informe.
 
 ## Qué se verificó
 

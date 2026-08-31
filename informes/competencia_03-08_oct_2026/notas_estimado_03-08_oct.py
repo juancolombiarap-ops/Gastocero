@@ -101,17 +101,20 @@ NOTAS_10_15_OCT_INTERNA = {
             f'directo lo cotiza en {_CTG}, solo alojamiento. ' + _MODALIDADES + ' ' + _SIN_PAQUETE,
         ],
         ('ALOJAMIENTO', 'SMR'): [
-            'DECAMERON GALEÓN figura NA porque está sin cupo para estas fechas en los '
-            'cuatro operadores y también en la venta web directa. Como VALOR REFERENCIAL —otro periodo, otro canal—, del '
-            f'3 al 8 de octubre sí hay tarifa en el canal directo: {_SMR}. Cotizado el '
-            '31/08/2026. ' + _MODALIDADES + ' ' + _SIN_OTA,
+            'DECAMERON GALEÓN ya no figura NA: el 31/08/2026 se recotizó en Cocha '
+            'entrando por hotel y fecha y sí tiene tarifa para el 10 al 15, US$ 1.461 '
+            'por la estadía en habitación Estándar, todo incluido, sin cambio ni '
+            'devolución. La misma Estándar con cancelación gratuita queda en US$ 1.624. '
+            'El NA anterior no era falta de cupo sino que el hotel no aparecía en la '
+            'búsqueda de destino de Cocha. Falabella, Despegar y Expedia siguen sin '
+            'tarifa, de modo que la fila la sostiene un solo operador. ' + _MODALIDADES,
         ],
         ('PAQUETERÍA', 'SMR'): [
-            'DECAMERON GALEÓN sí tiene paquete para estas fechas (Cocha), aunque en '
-            'alojamiento puro esté sin cupo en los cuatro operadores. Del 3 al 8 de '
-            f'octubre el canal directo lo cotiza en {_SMR}, solo alojamiento; el '
-            'paquete de esas fechas queda pendiente de cotizar en los operadores. '
-            + _MODALIDADES,
+            'DECAMERON GALEÓN tiene paquete en Cocha para estas fechas. La '
+            'contradicción que traía el informe —paquete sí, alojamiento NA— quedó '
+            'resuelta: la celda equivocada era la de alojamiento, que ya se corrigió '
+            'en US$ 1.461. El hotel no estaba sin cupo, no se exhibía en la búsqueda '
+            'de destino de Cocha.',
         ],
         ('ALOJAMIENTO', 'PTY'): [
             'GRAND DECAMERON PANAMÁ: la carga de banco de camas figura sin tarifa en '
@@ -176,12 +179,18 @@ NOTAS_10_15_OCT_COLOMBIA = {
             'para estas fechas. ' + _SIN_REF_COL,
         ],
         ('ALOJAMIENTO', 'SMR'): [
-            'DECAMERON GALEÓN figura NA porque está sin cupo para estas fechas en los '
-            'cuatro operadores. ' + _SIN_REF_COL,
+            'DECAMERON GALEÓN ya no figura NA: recotizado el 31/08/2026 en Cocha '
+            'entrando por hotel y fecha, tiene US$ 1.461 por la estadía en habitación '
+            'Estándar, todo incluido, sin cambio ni devolución; la misma Estándar con '
+            'cancelación gratuita queda en US$ 1.624. El NA anterior no era falta de '
+            'cupo sino que el hotel no aparecía en la búsqueda de destino. Falabella, '
+            'Despegar y Expedia siguen sin tarifa.',
         ],
         ('PAQUETERÍA', 'SMR'): [
-            'DECAMERON GALEÓN sí tiene paquete para estas fechas (Cocha), aunque en '
-            'alojamiento puro figure sin cupo en los cuatro operadores.',
+            'DECAMERON GALEÓN tiene paquete en Cocha para estas fechas. La '
+            'contradicción que traía el informe —paquete sí, alojamiento NA— quedó '
+            'resuelta: la celda equivocada era la de alojamiento, ya corregida en '
+            'US$ 1.461.',
         ],
         ('ALOJAMIENTO', 'PTY'): [
             'GRAND DECAMERON PANAMÁ: la carga de banco de camas figura sin tarifa en '
