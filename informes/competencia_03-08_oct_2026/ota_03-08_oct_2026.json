@@ -135,6 +135,36 @@
   {
    "destino": "TBP",
    "hotel": "ROYAL DECAMERON PUNTA SAL",
+   "seccion": "ALOJAMIENTO",
+   "canal": "DESPEGAR",
+   "monto": 1593,
+   "monto_original_clp": 1501980,
+   "moneda_publicada": "CLP",
+   "precio_lista_clp": 1501980,
+   "noches": 5,
+   "pax": 2,
+   "regimen": "All Inclusive",
+   "incluye": "impuestos incluidos",
+   "habitacion": null,
+   "estrellas": 3,
+   "puntaje_sitio": 7.8,
+   "resenas": 243,
+   "ubicacion": "Tumbes, a 1,60 km de Punta Sal",
+   "sello": "Mejor precio en Despegar",
+   "financiacion": "paga en hasta 24 cuotas sin interes",
+   "cargado": "31/08/2026",
+   "tarifa_condicionada": {
+    "etiqueta": "Con Cencosud",
+    "monto": 1561,
+    "monto_original_clp": 1471980,
+    "nota": "no se carga: atada a un medio de pago, no compara con las demas celdas. Mismo criterio que en el Galeon"
+   },
+   "nota": "Juan confirma el 31/08 que esta busqueda corresponde al 3 al 8 de octubre, no al 10-15 ni a septiembre como se habia supuesto. ES LA UNICA TARIFA DE PUNTA SAL EN UN OPERADOR: en V. Falabella sale NA para las mismas fechas, y en el periodo del informe (10-15) el hotel esta NA en los cuatro.",
+   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
+  },
+  {
+   "destino": "TBP",
+   "hotel": "ROYAL DECAMERON PUNTA SAL",
    "canal": "VIAJES FALABELLA",
    "monto": "NA",
    "cargado": "31/08/2026",
@@ -155,6 +185,6 @@
   "CLP_por_USD": 943,
   "fuente": "el mismo del informe V.2"
  },
- "canal_confirmado": "Viajes Falabella (sello \"Mejor en Viajes Falabella\") y Despegar (captura del motor de Despegar)",
+ "canal_confirmado": "Viajes Falabella (sello \"Mejor en Viajes Falabella\") y Despegar (sello \"Mejor precio en Despegar\")",
  "aviso_moneda": "Viajes Falabella no siempre publica en la misma moneda: el alojamiento del Galeon vino en USD y se carga tal cual, sin conversion, mientras que el paquete de Panama vino en CLP y se convirtio a 943. Cada fila lleva moneda_publicada para que se sepa cual es cual y no se convierta dos veces."
 }

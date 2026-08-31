@@ -113,37 +113,6 @@
   {
    "destino": "TBP",
    "hotel": "ROYAL DECAMERON PUNTA SAL",
-   "seccion": "ALOJAMIENTO",
-   "canal": "DESPEGAR",
-   "monto": "NA",
-   "regimen": "All Inclusive",
-   "incluye": "impuestos incluidos",
-   "puntaje_sitio": 7.8,
-   "resenas": 243,
-   "cargado": "31/08/2026",
-   "nota": "Juan avisa el 31/08 que el buscador quedo en septiembre, asi que la cifra no corresponde al periodo del informe. Punta Sal vuelve a NA en los cuatro operadores.",
-   "periodo": "10-15 oct, confirmado por Juan",
-   "publicado_en_el_informe": "NA",
-   "monto_descartado": 1593,
-   "estado": "DESCARTADA: la busqueda quedo con fechas de septiembre, no del 10 al 15 de octubre",
-   "nueva_captura_31_08": {
-    "monto_general": 1593,
-    "monto_general_clp": 1501980,
-    "monto_con_cencosud": 1561,
-    "monto_con_cencosud_clp": 1471980,
-    "puntaje_sitio": 7.8,
-    "resenas": 243,
-    "estrellas": 3,
-    "sello": "Mejor precio en Despegar",
-    "regimen": "All Inclusive",
-    "ubicacion": "Tumbes, a 1,60 km de Punta Sal",
-    "ALERTA": "el monto general de esta captura (1.501.980 CLP = US$ 1.593) es EXACTAMENTE el mismo que Juan invalido el 31/08 porque la busqueda le quedo con fechas de septiembre. La captura no muestra fechas. NO se carga hasta que se confirme que el buscador estaba en 10-15 de octubre. Si se confirma, la fila de Punta Sal deja de ser NA en los cuatro operadores.",
-    "criterio_si_se_confirma": "cargar el general US$ 1.593; el \"Con Cencosud\" US$ 1.561 queda como mencion, igual que en el Galeon: atado a un medio de pago no compara con las demas celdas"
-   }
-  },
-  {
-   "destino": "TBP",
-   "hotel": "ROYAL DECAMERON PUNTA SAL",
    "seccion": "PAQUETERIA",
    "canal": "DESPEGAR",
    "monto": "NA",
@@ -235,5 +204,6 @@
    "consecuencia": "todos los NA de Cocha del informe quedan en duda: dos de dos se cayeron al buscar por hotel. Faltan por rehacer Cartagena alojamiento y Punta Sal en las dos secciones.",
    "confirmado_por_juan": "«el cocha santa marta excluye villas»: se toma la Estandar y la Villa (US$ 1.578) no entra, que es lo que ya se habia aplicado"
   }
- ]
+ ],
+ "nota_punta_sal": "La cotizacion de Punta Sal en Despegar (1.501.980 CLP) NO es del 10 al 15: Juan confirma el 31/08 que corresponde al 3 al 8 de octubre. Se traslada a ota_03-08_oct_2026.json como referencia. En el periodo del informe el hotel sigue NA en los cuatro operadores."
 }

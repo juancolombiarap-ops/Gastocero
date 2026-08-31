@@ -205,8 +205,10 @@ def notas(version):
            '(decameronchile.cl) lo cotiza en habitación Estándar US$ 979 No Reembolsable y '
            'US$ 1,085 Flex. Cotizado el 31/08/2026.' if interna else '')),
      'nota_tbp_aloj': ('ROYAL DECAMERON PUNTA SAL figura NA porque está sin cupo para estas '
-        'fechas en los cuatro operadores; del 3 al 8 de octubre también aparece sin '
-        'disponibilidad en V. Falabella.'
+        'fechas en los cuatro operadores. VALOR REFERENCIAL del 3 al 8 de octubre: Despegar '
+        'sí lo vende, en US$ 1,593 por la estadía (All Inclusive, impuestos incluidos, 5 '
+        'noches y 2 personas). V. Falabella, en cambio, también sale sin disponibilidad para '
+        'esas fechas: de los operadores consultados, Despegar es el único con tarifa.'
         + (' En la venta web directa está igualmente sin cupo; del 3 al 8 el canal directo '
            'lo vende en US$ 1,524 (Superior Plus, única categoría publicada, sin rótulo de '
            'modalidad). Cotizado el 31/08/2026.' if interna else '')),
@@ -233,7 +235,10 @@ def notas(version):
         'canal para estas fechas. Del 3 al 8 de octubre V. Falabella también cotiza el '
         'paquete del Decameron Cartagena sin disponibilidad (NA).'),
      'nota_tbp_paq': ('ROYAL DECAMERON PUNTA SAL figura sin disponibilidad en los cuatro '
-        'operadores; del 3 al 8 de octubre también aparece sin cupo en V. Falabella.'
+        'operadores; del 3 al 8 de octubre también aparece sin cupo en V. Falabella. La '
+        'referencia de Despegar para esas fechas (US$ 1,593) es solo alojamiento y no es '
+        'comparable con esta tabla: la columna de paquetería es el paquete que arma el '
+        'operador, otro producto.'
         + (' La referencia de alojamiento del canal directo (US$ 1,524) no es comparable con '
            'esta tabla: la columna de paquetería es el paquete que arma el operador, otro '
            'producto.' if interna else '')),
