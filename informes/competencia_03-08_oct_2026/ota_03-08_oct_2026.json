@@ -35,7 +35,8 @@
    "puntaje_sitio": 7.5,
    "resenas": 1655,
    "cargado": "31/08/2026",
-   "nota": "convertido a 943 CLP por USD; el sitio publica por persona y el informe usa el total de 2 pax"
+   "nota": "convertido a 943 CLP por USD; el sitio publica por persona y el informe usa el total de 2 pax",
+   "moneda_publicada": "CLP"
   },
   {
    "destino": "CTG",
@@ -79,7 +80,10 @@
    "cargado": "31/08/2026",
    "alerta_inventario": "la tarjeta dice \"Solo queda 1\": es tarifa de ultima habitacion, no la tarifa normal del hotel",
    "nota": "el canal directo cotiza el mismo hotel y fechas en 1.245 USD, 437 mas barato",
-   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
+   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra",
+   "moneda_publicada": "USD",
+   "sin_conversion": true,
+   "reconfirmado": "31/08/2026, segunda captura identica: US$ 1.682 sobre lista US$ 1.734, -3%, 8.2 (16), 3 estrellas, All Inclusive, impuestos incluidos, \"Solo queda 1\" y sello \"Mejor en Viajes Falabella\""
   },
   {
    "destino": "SMR",
@@ -104,7 +108,8 @@
    },
    "alerta_inventario": "la tarjeta dice \"Solo queda 1\": es tarifa de ultima habitacion, no la tarifa normal del hotel",
    "nota": "convertido a 943 CLP por USD sobre el total de 5 noches y 2 personas. Contraste mismas fechas: Viajes Falabella 1.682 y canal directo 1.245",
-   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
+   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra",
+   "moneda_publicada": "CLP"
   },
   {
    "destino": "SMR",
@@ -124,7 +129,8 @@
    "cargado": "31/08/2026",
    "alerta_inventario": "la tarjeta dice \"Solo queda 1\": es tarifa de ultima habitacion, no la tarifa normal del hotel",
    "nota": "el sitio publica 1.249.753 CLP por persona y el informe usa el total de 2 pax: 2.499.506 CLP convertidos a 943 CLP por USD",
-   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra"
+   "pendiente": "confirmar categoria de habitacion: la tarjeta no la muestra",
+   "moneda_publicada": "CLP"
   },
   {
    "destino": "TBP",
@@ -149,5 +155,6 @@
   "CLP_por_USD": 943,
   "fuente": "el mismo del informe V.2"
  },
- "canal_confirmado": "Viajes Falabella (sello \"Mejor en Viajes Falabella\") y Despegar (captura del motor de Despegar)"
+ "canal_confirmado": "Viajes Falabella (sello \"Mejor en Viajes Falabella\") y Despegar (captura del motor de Despegar)",
+ "aviso_moneda": "Viajes Falabella no siempre publica en la misma moneda: el alojamiento del Galeon vino en USD y se carga tal cual, sin conversion, mientras que el paquete de Panama vino en CLP y se convirtio a 943. Cada fila lleva moneda_publicada para que se sepa cual es cual y no se convierta dos veces."
 }

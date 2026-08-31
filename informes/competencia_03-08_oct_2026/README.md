@@ -168,7 +168,7 @@ en MEJOR.
 | PTY | Grand Decameron Panamá | Paquetería | V. Falabella | $2,555 | $2.409.546 CLP |
 | CTG | Decameron Cartagena | Alojamiento | V. Falabella | $1,136 | promocional −35% |
 | CTG | Decameron Cartagena | Paquetería | V. Falabella | NA | cotizado, sin cupo |
-| SMR | Decameron Galeón | Alojamiento | V. Falabella | $1,682 | «Solo queda 1» |
+| SMR | Decameron Galeón | Alojamiento | V. Falabella | $1,682 | «Solo queda 1» · publicado en USD |
 | SMR | Decameron Galeón | Alojamiento | Despegar | $1,660 | «Solo queda 1» |
 | SMR | Decameron Galeón | Paquetería | Despegar | $2,651 | vuelo con escalas SCL↔SMR |
 | TBP | Royal Decameron Punta Sal | Alojamiento | V. Falabella | NA | cotizado, sin cupo |
@@ -178,6 +178,12 @@ Del Galeón hay tres precios para las mismas fechas y el mismo producto: Despega
 $1,660, V. Falabella $1,682 y canal directo $1,245. La brecha contra el directo —más
 de $400— hay que leerla con cuidado, porque las dos tarjetas de OTA dicen **«Solo
 queda 1»**: es precio de última habitación, no la tarifa corriente del hotel.
+
+**Ojo con la moneda de Falabella.** El operador no publica siempre en la misma:
+el alojamiento del Galeón vino en **US$ 1.682**, ya en dólares, y se carga tal cual
+sin conversión; el paquete de Panamá vino en pesos ($2.409.546) y sí se convirtió a
+943. Cada fila del JSON lleva `moneda_publicada` para que no se convierta dos veces
+una cifra que ya venía en dólares — sería un error de casi $1.500 en la celda.
 
 **Tarifas atadas a un medio de pago.** Despegar publica el Galeón en $1.535.022
 «Con Cencosud», o sea $1,628. Ese monto **no** se carga en la tabla: una tarifa que
