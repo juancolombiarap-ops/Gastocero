@@ -177,7 +177,7 @@
     "politica": "No permite cambio ni devolucion",
     "motivo": "categoria superior. La regla del informe manda tomar Standard cuando existe, y aca existe, asi que la Villa no entra"
    },
-   "periodo": "10-15 oct",
+   "periodo": "10-15 oct, RECONFIRMADO POR JUAN el 31/08/2026",
    "busqueda": "por hotel y fecha, NO por busqueda de destino",
    "cargado": "31/08/2026",
    "publicado_en_el_informe": "NA",
@@ -202,7 +202,9 @@
     "cambia": "el Galeon deja de ser NA y pasa a ser el mas economico de la tabla de Santa Marta, por debajo del Porto Horizonte (1.756). La marca de mas barato pasa al Galeon y la de mas caro al Porto Horizonte."
    },
    "consecuencia": "todos los NA de Cocha del informe quedan en duda: dos de dos se cayeron al buscar por hotel. Faltan por rehacer Cartagena alojamiento y Punta Sal en las dos secciones.",
-   "confirmado_por_juan": "«el cocha santa marta excluye villas»: se toma la Estandar y la Villa (US$ 1.578) no entra, que es lo que ya se habia aplicado"
+   "confirmado_por_juan": "«el cocha santa marta excluye villas»: se toma la Estandar y la Villa (US$ 1.578) no entra, que es lo que ya se habia aplicado",
+   "verificacion": "Se le consulto expresamente porque la misma captura se menciono una vez como Punta Sal del 3 al 8. Juan confirma: es el GALEON y es del 10 al 15. La celda de Cocha en Santa Marta se mantiene en US$ 1.461.",
+   "regla_villas": "Confirmada dos veces: la Villa se excluye por la regla de categoria del informe, que manda tomar la Standard cuando existe. Aplica igual en cualquier otro hotel donde Cocha ofrezca Villa junto a Estandar."
   }
  ],
  "nota_punta_sal": "La cotizacion de Punta Sal en Despegar (1.501.980 CLP) NO es del 10 al 15: Juan confirma el 31/08 que corresponde al 3 al 8 de octubre. Se traslada a ota_03-08_oct_2026.json como referencia. En el periodo del informe el hotel sigue NA en los cuatro operadores."

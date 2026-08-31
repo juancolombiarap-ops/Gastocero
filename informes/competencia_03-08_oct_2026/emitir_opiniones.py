@@ -243,7 +243,7 @@ P_COCHA = '''
 <div class="sec-sub">Los hoteles existen en Cocha, tienen cupo y tarifa — y no aparecen en la búsqueda</div>
 
 <div class="caja alerta">
-  <h4>Dos de dos NA se cayeron al buscar por hotel</h4>
+  <h4>Dos de los cuatro NA no eran NA</h4>
   <p>Grand Decameron Panamá y Decameron Galeón figuraban sin tarifa o desactualizados en
   Cocha. Al entrar <b>por hotel y fecha</b> —en vez de por búsqueda de destino— los dos
   tenían tarifa disponible: <b>$963</b> y <b>$1,461</b>. No estaban sin cupo. No se
@@ -253,10 +253,29 @@ P_COCHA = '''
   habitaciones. La celda equivocada era la de alojamiento.</p>
 </div>
 
-<p>La consecuencia excede las dos celdas corregidas: <b>ningún NA de Cocha en este informe
-es confiable</b> mientras no se rehaga hotel por hotel. Quedan por revisar Decameron
-Cartagena en alojamiento y Royal Decameron Punta Sal en las dos secciones — que hoy se
-reportan como «sin cupo» sin que eso esté probado.</p>
+<p>Hay que separar dos cosas que se confunden fácil, porque tienen tamaños muy distintos.</p>
+
+<div class="caja alerta">
+  <h4>La exhibición: el problema es de TODOS, no de dos</h4>
+  <p><b>Ningún hotel Decameron de este informe se obtuvo desde la búsqueda de destino de
+  Cocha.</b> Los diez, sin excepción, hubo que encontrarlos escribiendo el nombre del hotel.
+  Ni en alojamiento ni en paquetería aparecen navegando por destino, que es como busca un
+  cliente que todavía no eligió hotel.</p>
+  <p>Eso no afecta la exactitud de las celdas —los precios de Cocha en estas páginas son
+  correctos—, pero sí significa que <b>en la práctica no estamos en esa góndola</b> para
+  quien no nos busca por nombre. Y quien ya nos busca por nombre es un cliente que la marca
+  ya ganó.</p>
+</div>
+
+<div class="caja ok">
+  <h4>La disponibilidad: ahí sí se parte en dos, y hay buenas noticias</h4>
+  <p>De los cuatro hoteles que figuraban NA, <b>dos tenían tarifa</b> (Panamá $963 y el
+  Galeón $1,461) y <b>dos están genuinamente sin cupo</b> (Cartagena y Punta Sal),
+  verificados también por hotel y fecha. Con eso el informe queda con <b>todas sus celdas de
+  Cocha revisadas una por una</b>: un NA en estas páginas ya no significa «el buscador no me
+  mostró nada», significa que se entró al hotel, se pusieron las fechas y no había
+  habitaciones.</p>
+</div>
 
 <p>Y hay una lectura comercial que ninguna tabla de este informe puede mostrar, porque las
 tablas comparan precios: <b>un cliente que busca «Panamá» o «Santa Marta» en Cocha no
@@ -271,11 +290,12 @@ de estar en el canal sin recibir la exhibición.</p>
   En dos destinos verificados, no lo ve.</p>
 </div>
 
-<h3 class="blk">Dónde sí exhibe Cocha</h3>
-<p>El problema no es del canal completo: en <b>San Andrés</b> los cinco hoteles aparecen
-correctamente en ambas secciones, y en <b>México</b> también. Eso acota el diagnóstico a
-propiedades o destinos específicos, lo que lo hace más fácil de levantar con el operador:
-no es «Cocha nos oculta», es «estas fichas no están indexadas en la búsqueda de destino».</p>
+<h3 class="blk">Qué preguntarle a Cocha</h3>
+<p>La pregunta no es por qué faltan dos hoteles, sino <b>por qué ninguna de las diez fichas
+Decameron aparece en la búsqueda de destino</b> —incluidas las de San Andrés y México, que
+sí tienen tarifa y cupo—. Puede ser un tema de indexación, de cómo están clasificadas las
+fichas o de filtros por defecto del buscador. Sea cual sea, es una conversación técnica
+concreta y no una negociación de tarifa: se resuelve sin ceder un peso de margen.</p>
 
 <div class="caja ambar">
   <h4>Además: falta una fila entera</h4>
@@ -599,8 +619,9 @@ P_RECOM = '''
 <ol class="rec">
   <li><b>Levantar con Cocha el problema de exhibición</b>
     Panamá y el Galeón tienen cupo y tarifa y no aparecen en la búsqueda de destino. Es lo
-    único de esta lista donde no vendemos <i>a ningún precio</i>. Rehacer también Cartagena
-    y Punta Sal por hotel y fecha antes de darlos por «sin cupo».</li>
+    único de esta lista donde no vendemos <i>a ningún precio</i>. Son dos fichas concretas,
+    no un problema del canal completo: Cartagena y Punta Sal se revisaron igual y ahí el NA
+    es legítimo, y en San Andrés y México la exhibición funciona bien.</li>
   <li><b>Revisar la carga propia en Expedia</b>
     +23,5% en hoteles propios contra +0,2% en la competencia de las mismas tablas. El
     desvío es nuestro, no del canal. Tres casos de +45% a +64% sirven de evidencia para
@@ -611,8 +632,11 @@ P_RECOM = '''
     por poco, y decir qué incluye que el DIY no (maletas, traslado, asistencia).</li>
   <li><b>Reponer el inventario en NA</b>
     Decameron Cartagena y Punta Sal no se pueden comprar en ninguno de los cuatro
-    operadores. Si de verdad no hay cupo, mostrar fechas alternativas en vez de un NA seco
-    —el cliente que ve NA no vuelve, se va a la fila siguiente.</li>
+    operadores, y su falta de cupo ya está verificada hotel por hotel. Punta Sal es el caso
+    más claro: del 3 al 8 de octubre <b>sí se vende</b> —Despegar lo cotiza en $1,593— pero
+    V. Falabella no lo tiene ni en esas fechas. Donde no haya cupo, mostrar fechas
+    alternativas en vez de un NA seco: el cliente que ve NA no vuelve, se va a la fila
+    siguiente.</li>
   <li><b>Definir la paridad Falabella–Despegar y la brecha de Cocha</b>
     Confirmar si la identidad total entre las dos primeras es intencional, y si el ~11% de
     ventaja de Cocha responde a condiciones pactadas o a un desvío de carga. Hoy nadie en el

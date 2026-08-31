@@ -199,13 +199,15 @@ def notas(version):
         'realiza entre operadores sobre el mismo producto Decameron.'),
      'nota_ctg_aloj': ('Sin disponibilidad en ningún canal para estas fechas: CARTAGENA PLAZA '
         '(Expedia exige mínimo 7 noches). DECAMERON CARTAGENA figura NA en los cuatro '
-        'operadores. VALOR REFERENCIAL del 3 al 8 de octubre: V. Falabella lo cotiza en '
+        'operadores; su celda de Cocha se verificó el 31/08/2026 entrando por hotel y fecha '
+        '—no por búsqueda de destino— y el hotel efectivamente no tiene cupo. VALOR REFERENCIAL del 3 al 8 de octubre: V. Falabella lo cotiza en '
         'US$ 1,136 (tarifa promocional −35%, impuestos incluidos).'
         + (' También está sin cupo en la venta web directa; del 3 al 8 el canal directo '
            '(decameronchile.cl) lo cotiza en habitación Estándar US$ 979 No Reembolsable y '
            'US$ 1,085 Flex. Cotizado el 31/08/2026.' if interna else '')),
      'nota_tbp_aloj': ('ROYAL DECAMERON PUNTA SAL figura NA porque está sin cupo para estas '
-        'fechas en los cuatro operadores. VALOR REFERENCIAL del 3 al 8 de octubre: Despegar '
+        'fechas en los cuatro operadores; su celda de Cocha se verificó el 31/08/2026 '
+        'entrando por hotel y fecha y el hotel efectivamente no tiene cupo. VALOR REFERENCIAL del 3 al 8 de octubre: Despegar '
         'sí lo vende, en US$ 1,593 por la estadía (All Inclusive, impuestos incluidos, 5 '
         'noches y 2 personas). V. Falabella, en cambio, también sale sin disponibilidad para '
         'esas fechas: de los operadores consultados, Despegar es el único con tarifa.'
@@ -217,8 +219,10 @@ def notas(version):
         'carga no está verificado con el operador, por eso no se rotula.'),
      'nota_pty_cocha': ('Celda de Cocha recotizada el 31/08/2026 entrando por hotel y fecha: '
         '$963 (habitación estándar con vista al jardín, cancelación gratuita hasta el 6 de '
-        'octubre). El hotel NO aparece en la búsqueda de destino de Cocha, ni en alojamiento '
-        'ni en paquetería: la tarifa solo se encuentra buscando el hotel directamente.'),
+        'octubre). IMPORTANTE: en Cocha, TODOS los hoteles Decameron de este informe debieron '
+        'buscarse por nombre de hotel; ninguno se obtuvo desde la búsqueda de destino, ni en '
+        'alojamiento ni en paquetería. Las celdas de Cocha son correctas, pero un cliente que '
+        'busca por destino no llega a estos hoteles.'),
      'nota_pty_ref': ('VALOR REFERENCIAL del 3 al 8 de octubre: V. Falabella cotiza el hotel '
         'en US$ 1,480 (alojamiento, All Inclusive).'
         + (' El canal directo lo cotiza en US$ 875 (Garden View: no publica Standard en esas '
@@ -232,10 +236,11 @@ def notas(version):
         'habitación).'),
      'nota_smr_irotama': ('Sin disponibilidad en ningún canal para estas fechas: IROTAMA DEL SOL.'),
      'nota_ctg_paq': ('DECAMERON CARTAGENA y CARTAGENA PLAZA sin disponibilidad en ningún '
-        'canal para estas fechas. Del 3 al 8 de octubre V. Falabella también cotiza el '
+        'canal para estas fechas; la celda de Cocha del Decameron se verificó por hotel y '
+        'fecha el 31/08/2026 y confirma que no hay cupo. Del 3 al 8 de octubre V. Falabella también cotiza el '
         'paquete del Decameron Cartagena sin disponibilidad (NA).'),
      'nota_tbp_paq': ('ROYAL DECAMERON PUNTA SAL figura sin disponibilidad en los cuatro '
-        'operadores; del 3 al 8 de octubre también aparece sin cupo en V. Falabella. La '
+        'operadores, con la celda de Cocha verificada por hotel y fecha el 31/08/2026; del 3 al 8 de octubre también aparece sin cupo en V. Falabella. La '
         'referencia de Despegar para esas fechas (US$ 1,593) es solo alojamiento y no es '
         'comparable con esta tabla: la columna de paquetería es el paquete que arma el '
         'operador, otro producto.'
@@ -260,7 +265,8 @@ def notas(version):
 
 LEYENDA = ('▼ Más económico de la tabla&nbsp;&nbsp;|&nbsp;&nbsp;▲ Más caro&nbsp;&nbsp;|'
            '&nbsp;&nbsp;NA = cotizado sin disponibilidad o sin tarifa&nbsp;&nbsp;|&nbsp;&nbsp;'
-           'N/D = canal no cotizado para ese hotel')
+           'N/D = canal no cotizado para ese hotel&nbsp;&nbsp;|&nbsp;&nbsp;'
+           '<b>Todos los precios de esta tabla son del 10 al 15 de octubre</b>')
 
 # ---------------------------------------------------------------------------
 # RENDER
@@ -378,7 +384,7 @@ def tabla_resumen(titulo, cab, filas, nota=''):
 
 def pagina(cuerpo, pie, num):
     return f'''<div class="page">
-  <div class="head"><img src="{LOGO}" class="minilogo"><div class="htxt"><b>REPORTE DE COMPETENCIA</b> · Hoteles Decameron Chile · 10 – 15 Octubre 2026 · V.3</div></div>
+  <div class="head"><img src="{LOGO}" class="minilogo"><div class="htxt"><b>REPORTE DE COMPETENCIA</b> · Hoteles Decameron Chile · <b>periodo 10 – 15 Octubre 2026</b> · V.3 · las cifras del 3–8 en las notas son solo referenciales</div></div>
   {cuerpo}
   <div class="foot"><span>{pie}</span><span>{num}</span></div>
 </div>'''
@@ -410,6 +416,13 @@ def html(version):
       dobles publicadas por su tarifa más baja, sin rotular origen; celdas NA acompañadas de valor
       referencial del 3–8 de octubre.{metodo_extra} Las tarifas se mueven día a día: las cifras son la
       foto de su fecha de cotización.</p>
+    <p class="metodo aviso-fechas"><b>EL PERIODO DE ESTE REPORTE ES EL 10 AL 15 DE OCTUBRE DE 2026.</b>
+      Todas las tablas, los cálculos de MEJOR y las comparaciones corresponden únicamente a esas
+      fechas. Donde una celda queda en NA —hotel cotizado, sin cupo ni tarifa— la nota al pie puede
+      incluir una cotización del <b>3 al 8 de octubre</b>: esa cifra es <b>SOLO REFERENCIAL</b>,
+      pertenece a otro periodo, no reemplaza la celda, no entra en ningún cálculo del informe y no
+      debe compararse con las tarifas de las tablas. Va identificada en cada caso con la etiqueta
+      VALOR REFERENCIAL.</p>
     <div class="sello">{sello}</div>
   </div>
 </div>'''
@@ -464,6 +477,9 @@ h2 {{ font-size:14pt; letter-spacing:.18em; color:#0077B5; margin-top:2mm; font-
 .periodo {{ font-size:17pt; color:#003A6F; margin:6mm 0 2mm; font-weight:700; }}
 .canales {{ font-size:9.5pt; letter-spacing:.1em; color:#878787; margin-bottom:6mm; }}
 .metodo {{ font-size:8.4pt; color:#5a6b7a; text-align:justify; line-height:1.45; margin-top:3mm; }}
+.aviso-fechas {{ background:#FBF2DF; border:1.2px solid #E8CE96; border-left:4px solid #E08A1E;
+                 border-radius:1.5mm; padding:3.5mm 4.5mm; text-align:left; margin-top:5mm; }}
+.aviso-fechas b {{ color:#8A5A00; }}
 .sello {{ display:inline-block; margin-top:7mm; padding:1.6mm 6mm; border:1.5px solid #003A6F; border-radius:2mm;
           color:#003A6F; letter-spacing:.22em; font-size:9pt; font-weight:700; }}
 .head {{ display:flex; align-items:center; gap:5mm; border-bottom:2.2px solid #003A6F; padding-bottom:2.5mm; margin-bottom:5mm; }}
