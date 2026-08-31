@@ -25,6 +25,14 @@ y se declara en la nota. Cifras del canal
 directo (decameronchile.cl), cotizadas el 31/08/2026 con categorias.py y
 verificadas con tres muestras idénticas.
 
+NO REEMBOLSABLE Y FLEX SON TARIFAS DISTINTAS. No son dos precios del mismo
+producto: cada modalidad queda sujeta a sus propias condiciones de cambio y
+cancelacion, que el canal describe recien al momento de reservar. La brecha entre
+las dos es el costo de la flexibilidad, no un descuento, asi que se informan por
+separado y no se promedian. Y cuando se contrastan contra las celdas de los cuatro
+operadores hay que tener presente que de esas tarifas no conocemos la condicion:
+la comparacion es de precio, no de producto.
+
   Cartagena   Estándar                      979 No Reemb. / 1.085 Flex  (196/noche)
   Galeón      Estándar                    1.245 No Reemb. / 1.381 Flex  (249/noche)
               (la otra categoría de la ficha es Villa)
@@ -54,6 +62,12 @@ _ZONA_TBP = ('Sin oferta All Inclusive comparable en la zona; el contraste se re
 _SIN_OTA = ('Esa referencia es solo del canal directo: para el 3 al 8 los cuatro '
             'operadores no se pudieron cotizar, así que no hay comparativo de '
             'mercado para esas fechas.')
+_MODALIDADES = ('No Reembolsable y Flex son dos tarifas distintas, no dos precios '
+                'de la misma: cada una queda sujeta a sus propias condiciones de '
+                'cambio y cancelacion, que se describen al reservar. La diferencia '
+                'entre ambas es el costo de la flexibilidad, no un descuento, y por '
+                'eso se informan por separado sin promediarlas.')
+
 _SIN_PAQUETE = ('Para esas fechas no se cotizó paquete: el canal directo no vende '
                 'hotel más aéreo y los cuatro operadores no se pudieron consultar. '
                 'La referencia de arriba es solo alojamiento y no es comparable con '
@@ -79,24 +93,25 @@ NOTAS_10_15_OCT_INTERNA = {
             'DECAMERON CARTAGENA figura NA porque está sin cupo para estas fechas en '
             'los cuatro operadores y también en la venta web directa. Como VALOR REFERENCIAL —otro periodo, otro canal—, '
             f'del 3 al 8 de octubre sí hay tarifa en el canal directo: {_CTG}. '
-            'Cotizado el 31/08/2026. ' + _SIN_OTA,
+            'Cotizado el 31/08/2026. ' + _MODALIDADES + ' ' + _SIN_OTA,
         ],
         ('PAQUETERÍA', 'CTG'): [
             'DECAMERON CARTAGENA figura sin disponibilidad en los cuatro operadores '
             'para estas fechas. Del 3 al 8 de octubre el hotel sí se vende; a modo de VALOR REFERENCIAL, el canal '
-            f'directo lo cotiza en {_CTG}, solo alojamiento. ' + _SIN_PAQUETE,
+            f'directo lo cotiza en {_CTG}, solo alojamiento. ' + _MODALIDADES + ' ' + _SIN_PAQUETE,
         ],
         ('ALOJAMIENTO', 'SMR'): [
             'DECAMERON GALEÓN figura NA porque está sin cupo para estas fechas en los '
             'cuatro operadores y también en la venta web directa. Como VALOR REFERENCIAL —otro periodo, otro canal—, del '
             f'3 al 8 de octubre sí hay tarifa en el canal directo: {_SMR}. Cotizado el '
-            '31/08/2026. ' + _SIN_OTA,
+            '31/08/2026. ' + _MODALIDADES + ' ' + _SIN_OTA,
         ],
         ('PAQUETERÍA', 'SMR'): [
             'DECAMERON GALEÓN sí tiene paquete para estas fechas (Cocha), aunque en '
             'alojamiento puro esté sin cupo en los cuatro operadores. Del 3 al 8 de '
             f'octubre el canal directo lo cotiza en {_SMR}, solo alojamiento; el '
-            'paquete de esas fechas queda pendiente de cotizar en los operadores.',
+            'paquete de esas fechas queda pendiente de cotizar en los operadores. '
+            + _MODALIDADES,
         ],
         ('ALOJAMIENTO', 'PTY'): [
             'GRAND DECAMERON PANAMÁ: la carga de banco de camas figura sin tarifa en '

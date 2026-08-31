@@ -93,6 +93,19 @@ con tres muestras idénticas el 31/08/2026:
 | Royal Decameron Punta Sal | Superior Plus | $1,524 (sin rótulo) | — | $305 |
 | Grand Decameron Panamá | Garden View | $875 (sin rótulo) | — | $175 |
 
+**No Reembolsable y Flex son dos tarifas distintas**, no dos precios de lo mismo.
+Cada modalidad queda sujeta a sus propias condiciones de cambio y cancelación, y esas
+condiciones el canal las describe recién al momento de reservar. La brecha entre las
+dos —$106 en Cartagena, $136 en Galeón— es el costo de la flexibilidad, no un
+descuento: por eso van en columnas separadas y no se promedian ni se elige una como
+«la» tarifa del hotel sin decir cuál es.
+
+Eso también condiciona la comparación contra los operadores: de las celdas de las OTA
+no conocemos la condición de la tarifa. Cuando se contrasta el $979 No Reembolsable de
+Cartagena contra un $1,136 de Falabella, se están comparando **precios, no productos**.
+Punta Sal y Panamá ni siquiera rotulan modalidad en la ficha, así que de esos dos no se
+declara ninguna de las dos.
+
 Todo esto va rotulado en las notas como **valor referencial**: es de otro periodo y
 de un canal distinto de los cuatro operadores, así que no reemplaza la cotización de
 las tablas ni entra en el cálculo de MEJOR.
