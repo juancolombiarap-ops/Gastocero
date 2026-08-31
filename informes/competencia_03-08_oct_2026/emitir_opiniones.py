@@ -186,12 +186,12 @@ P_CANAL = '''
 </div>
 
 <h3 class="blk">Falabella y Despegar son la misma vitrina</h3>
-<p>En las <b>19 filas de alojamiento del informe no hay una sola diferencia</b> entre
-V. Falabella y Despegar. Ni un dólar, ni en hoteles propios ni en competencia. Solo se
-separan en paquetería, y ahí la diferencia es el componente aéreo. Eso significa que ambas
-cuentas se alimentan de la misma carga tarifaria: no hay diferenciación de precio hotelero
-entre ellas, y <b>toda corrección de carga impacta a las dos a la vez</b> —lo que es una
-ventaja operativa, no un problema, siempre que sea intencional.</p>
+<p>En las <b>19 filas con precio de las tablas de alojamiento por destino no hay una sola
+diferencia</b> entre V. Falabella y Despegar. Ni un dólar, ni en hoteles propios ni en
+competencia. Solo se separan en paquetería, y ahí la diferencia es el componente aéreo. Eso
+significa que ambas cuentas se alimentan de la misma carga tarifaria: no hay diferenciación
+de precio hotelero entre ellas, y <b>toda corrección de carga impacta a las dos a la vez</b>
+—lo que es una ventaja operativa, no un problema, siempre que sea intencional.</p>
 
 <h3 class="blk">Cocha vende lo nuestro un 11% más barato, y es estructural</h3>
 <p>En los cinco Decameron de San Andrés la ventaja de Cocha es de <b>−10,6% a −11,0%</b>.
@@ -229,6 +229,16 @@ canal: es un problema de carga tarifaria propia en ese canal.</p>
 '''
 
 P_COCHA = '''
+<div class="caja ambar">
+  <h4>La única excepción confirma la regla — y avisa algo</h4>
+  <p>Tras recotizar <b>Decameron Barú</b> el 31/08, su celda de V. Falabella quedó en
+  <b>$2,142</b> contra los <b>$1,928</b> de Despegar, que son del 27/08. Es el único caso de
+  todo el informe donde no coinciden, y no prueba que los canales difieran: prueba que
+  <b>la tarifa se movió $214 en cuatro días</b>. La paridad que se observa en el resto es de
+  una foto tomada el mismo día; conviene no leerla como una condición permanente sin
+  confirmarlo.</p>
+</div>
+
 <h2 class="sec">El hallazgo más grave no es de precio</h2>
 <div class="sec-sub">Los hoteles existen en Cocha, tienen cupo y tarifa — y no aparecen en la búsqueda</div>
 
